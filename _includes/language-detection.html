@@ -1,0 +1,66 @@
+{% if site.lang == site.languages[0] %}
+    <script>
+        // Redirect the user to his preferred language. site.lang='{{ site.lang}}'
+        // Browser behaviour: https://gist.github.com/ksol/62b489572944ca70b4ba 
+        const siteLanguages = [];
+        {% for languageCode in site.languages %}
+            siteLanguages.push('{{ languageCode }}'.split('-')[0]);
+        {% endfor %}
+
+        var lang = null;
+        if(window.navigator.language){
+            const browserLang = window.navigator.language.split('-')[0];
+            for (let j = 1; j < siteLanguages.length; j++) {
+                const siteLang = siteLanguages[j];
+                if(siteLang === browserLang){
+                    lang = siteLang;
+                    break;
+                }
+            }
+        }else if(window.navigator.languages){
+            for (let i = 0; i < window.navigator.languages.length; i++) {
+                const browserLang = window.navigator.languages[i].split('-')[0];
+                for (let j = 1; j < siteLanguages.length; j++) {
+                    const siteLang = siteLanguages[j];
+                    if(siteLang === browserLang){
+                        lang = siteLang;
+                        break;
+                    }
+                }
+                if(lang)break;
+            }
+        }else if(window.navigator.userLanguage){
+            const browserLang = window.navigator.userLanguage.split('-')[0];
+            for (let j = 1; j < siteLanguages.length; j++) {
+                const siteLang = siteLanguages[j];
+                if(siteLang === browserLang){
+                    lang = siteLang;
+                    break;
+                }
+            }
+        }else if(window.navigator.browserLanguage){
+            const browserLang = window.navigator.browserLanguage.split('-')[0];
+            for (let j = 1; j < siteLanguages.length; j++) {
+                const siteLang = siteLanguages[j];
+                if(siteLang === browserLang){
+                    lang = siteLang;
+                    break;
+                }
+            }
+        }else if(window.navigator.systemLanguage){
+            const browserLang = window.navigator.systemLanguage.split('-')[0];
+            for (let j = 1; j < siteLanguages.length; j++) {
+                const siteLang = siteLanguages[j];
+                if(siteLang === browserLang){
+                    lang = siteLang;
+                    break;
+                }
+            }
+        }
+        if(!lang)lang=siteLanguages[0];
+
+        if(lang !== siteLanguages[0]){
+            window.location.assign("/"+lang+"/");
+        }
+    </script>
+{% endif %}
