@@ -1,0 +1,37 @@
+menu:
+  -
+    title: Customer advantages
+    items:
+      -
+        title: For property managers
+        path: /customers/property-managers/
+      -
+        title: Pricing
+        path: /customers/pricing/
+  -
+    title: Product features
+    items:
+      -
+        title: Property manager application
+        path: /users/property-managers/
+      -
+        title: Tenant application
+        path: /users/tenants/
+  -
+    title: Company info
+    items:
+      -
+        title: Our Mission
+        path: /company/mission/
+      -
+        title: Team
+        path: /company/team/
+      -
+        title: Timeline
+        path: /company/timeline/
+      -
+        title: Contact us
+        path: /company/contact/
+      -
+        title: Careers
+        path: /company/careers/

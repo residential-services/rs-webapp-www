@@ -1,0 +1,37 @@
+menu:
+  -
+    title: Avantages client
+    items:
+      -
+        title: Pour régies immobilières
+        path: /customers/property-managers/
+      -
+        title: Prix
+        path: /customers/pricing/
+  -
+    title: Produit et fonctionnalités
+    items:
+      -
+        title: Application pour régies
+        path: /users/property-managers/
+      -
+        title: Application pour locataires
+        path: /users/tenants/
+  -
+    title: Entreprise
+    items:
+      -
+        title: Notre mission
+        path: /company/mission/
+      -
+        title: Equipe
+        path: /company/team/
+      -
+        title: Historique
+        path: /company/timeline/
+      -
+        title: Contact
+        path: /company/contact/
+      -
+        title: Carrières
+        path: /company/careers/

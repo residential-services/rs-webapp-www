@@ -1,0 +1,37 @@
+menu:
+  -
+    title: Kundenvorteile
+    items:
+      -
+        title: Für Immobilienverwalter
+        path: /customers/property-managers/
+      -
+        title: Preise
+        path: /customers/pricing/
+  -
+    title: Produkteigenschaften
+    items:
+      -
+        title: Anwendung für Immobilienverwalter
+        path: /users/property-managers/
+      -
+        title: Anwendung für Einwohner
+        path: /users/tenants/
+  -
+    title: Unternehmen
+    items:
+      -
+        title: Unser Mission
+        path: /company/mission/
+      -
+        title: Team
+        path: /company/team/
+      -
+        title: Timeline
+        path: /company/timeline/
+      -
+        title: Kontakt
+        path: /company/contact/
+      -
+        title: Karriere
+        path: /company/careers/

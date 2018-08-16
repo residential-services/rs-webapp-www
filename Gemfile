@@ -20,6 +20,6 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
-  gem 'jekyll-multiple-languages-plugin', "~> 1.5" # i18n
+  # gem 'jekyll-multiple-languages-plugin', "~> 1.5" # i18n
 end
 

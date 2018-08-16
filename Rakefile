@@ -13,6 +13,31 @@ namespace :local do
 	
 	desc 'Build the static website'
 	task :build do
+		require 'pathname'
+		require 'yaml'
+		site_languages = YAML.load Pathname.new('_data/languages.yml').read
+
+		# Remove files in all secondary language directories
+		for i in 1...site_languages.size do
+			secondary_language_directory = site_languages[i]['code']
+			if Pathname.new(secondary_language_directory).exist?
+				# $stderr.puts "removing contents of #{secondary_language_directory}" 
+				sh "trash #{secondary_language_directory}" # move to Trash
+			end
+			# $stderr.puts "creating #{secondary_language_directory}" 
+			sh "mkdir #{secondary_language_directory}"
+		end
+
+		# Duplicate primary language files for all secondary languages
+		primary_language_directory = site_languages.first['code']
+		for i in 1...site_languages.size do
+			secondary_language_directory = site_languages[i]['code']
+			next unless Pathname.new(secondary_language_directory).exist?
+			# $stderr.puts "copying for default lang to 2dary langs" 
+			sh "cp -R #{primary_language_directory}/ #{secondary_language_directory}" 
+		end
+
+
 		sh "bundle exec jekyll build --source . --destination ../residential-services.github.io  --incremental --verbose" 
 	end
 

@@ -13,6 +13,7 @@ destination: "./_site"
 
 # Do not touch these files & folders in the destination directory
 keep_files: [".git"]
+exclude: ["Rakefile", "Gemfile", "Gemfile.lock"]
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -35,7 +36,6 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-multiple-languages-plugin
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -49,6 +49,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Internationalisation (gem: https://github.com/Anthony-Gaudino/jekyll-multiple-languages-plugin)
-languages: ["en", "de", "fr"] 
-exclude_from_localizations: ["assets", "Rakefile", "README.md", "CNAME"]
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"

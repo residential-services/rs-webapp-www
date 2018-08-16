@@ -1,46 +1,72 @@
 <footer>
-        <div class="footer bg-dark-lighter">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h3 class="margin-bottom-10">Equa</h3>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h6 class="heading-uppercase">Useful links</h6>
-                        <ul class="list-dash">
-                            <li><a href="/customers/property-managers/">Property managers</a></li>
-                            <li><a href="/users/tenants">Tenants</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h6 class="heading-uppercase">Company</h6>
-                        <ul class="list-dash">
-                            <li><a href="/company/team/">Mission</a></li>
-                            <li><a href="/company/team/">Team</a></li>
-                            <li><a href="/company/timeline/">Timeline</a></li>
-                            <li><a href="/company/careers/">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-3">
-                        <h6 class="heading-uppercase">Contact</h6>
-                        <p><a href='{{ site.data.company.linkedin }}'>{{ site.data.company.name }}</a></p>
-                        <p><a href="https://www.google.ch/maps/place/Avenue+de+Vaudagne+31,+1217+Meyrin/@46.2336606,6.0740508,17z/data=!3m1!4b1!4m5!3m4!1s0x478c630c6a9b500d:0x822d59f9717977ab!8m2!3d46.2336606!4d6.0762395">
-                            {% for line in site.data.company.address %}
-                                {{ line }} <br>
-                            {% endfor %}
-                        </a></p>
-                        <p><a href="tel:{{ site.data.company.phone | replace: " ", "-" }}">{{ site.data.company.phone }}</a></p>
-                        <p><a href="mailto:{{ site.data.company.email }}"></a>{{ site.data.company.email }}</p>
-                    </div>
-                </div><!-- end row -->
-            </div><!-- end container -->
-        </div><!-- end footer -->
-        <div class="footer-bottom bg-dark">
-            <div class="container text-center">
+    <div class="footer bg-dark-lighter">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3 class="margin-bottom-10">Equa</h3>
+                    {% for sitelang in site.data.languages %}
+                        <p><a href="/{{ sitelang.code }}/">{{ sitelang.name }}</a></p>
+                    {% endfor %}
+                </div>
+
+                {% assign pagepath = page.url | split: "/" %}
+                {% assign pagelang = pagepath[1] %}    
+                {% for dropdown in site.data[pagelang]['menu'] %}
+                <div class="col-12 col-md-6 col-lg-3">
+                    {% assign title = dropdown.title | split: " " %}
+                    <h6 class="heading-uppercase">{{ title[0] }}</h6>
+                    <ul class="list-dash">
+                        {% for menu_item in dropdown.items %}
+                        <li><a href="/{{ pagelang }}{{ menu_item.path }}">{{ menu_item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                {% endfor %}
+
+
+
+
+
                 {% comment %}
-                <p>&copy; 2018 FlaTheme, All Rights Reserved.</p>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="heading-uppercase">Useful links</h6>
+                    <ul class="list-dash">
+                        <li><a href="/customers/property-managers/">Property managers</a></li>
+                        <li><a href="/users/tenants">Tenants</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="heading-uppercase">Company</h6>
+                    <ul class="list-dash">
+                        <li><a href="/company/team/">Mission</a></li>
+                        <li><a href="/company/team/">Team</a></li>
+                        <li><a href="/company/timeline/">Timeline</a></li>
+                        <li><a href="/company/careers/">Careers</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h6 class="heading-uppercase">Contact</h6>
+                    <p><a href='{{ site.data.company.linkedin }}'>{{ site.data.company.name }}</a></p>
+                    <p><a href="https://www.google.ch/maps/place/Avenue+de+Vaudagne+31,+1217+Meyrin/@46.2336606,6.0740508,17z/data=!3m1!4b1!4m5!3m4!1s0x478c630c6a9b500d:0x822d59f9717977ab!8m2!3d46.2336606!4d6.0762395">
+                        {% for line in site.data.company.address %}
+                            {{ line }} <br>
+                        {% endfor %}
+                    </a></p>
+                    <p><a href="tel:{{ site.data.company.phone | replace: " ", "-" }}">{{ site.data.company.phone }}</a></p>
+                    <p><a href="mailto:{{ site.data.company.email }}"></a>{{ site.data.company.email }}</p>
+                </div>
                 {% endcomment %}
-                <p>&copy; 2018 {{ site.data.company.name }}, All Rights Reserved.</p>
-            </div><!-- end container -->
-        </div><!-- end footer-bottom -->
-    </footer>
+
+
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end footer -->
+    <div class="footer-bottom bg-dark">
+        <div class="container text-center">
+            {% comment %}
+            <p>&copy; 2018 FlaTheme, All Rights Reserved.</p>
+            {% endcomment %}
+            <p>&copy; 2018 {{ site.data.company.name }}</p>
+        </div><!-- end container -->
+    </div><!-- end footer-bottom -->
+</footer>
