@@ -13,10 +13,10 @@ menu:
     items:
       -
         title: Application pour régies
-        path: /users/property-managers/
+        path: /product/property-managers/
       -
-        title: Application pour locataires
-        path: /users/tenants/
+        title: application pour locataires
+        path: /product/tenants/
   -
     title: Entreprise
     items:

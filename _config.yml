@@ -12,7 +12,9 @@ source: "."
 destination: "./_site"
 
 # Do not touch these files & folders in the destination directory
-keep_files: [".git"]
+keep_files: [".git", "CNAME"]
+
+# Do not copy these files & folders from the source directory to the destination directory
 exclude: ["Rakefile", "Gemfile", "Gemfile.lock"]
 
 # Site settings

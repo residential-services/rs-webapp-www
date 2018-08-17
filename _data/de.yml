@@ -1,27 +1,27 @@
 menu:
   -
-    title: Kundenvorteile
+    title: Customer advantages
     items:
       -
-        title: Für Immobilienverwalter
+        title: For property managers
         path: /customers/property-managers/
       -
-        title: Preise
+        title: Pricing
         path: /customers/pricing/
   -
-    title: Produkteigenschaften
+    title: Product features
     items:
       -
-        title: Anwendung für Immobilienverwalter
-        path: /users/property-managers/
+        title: Property manager application
+        path: /product/property-managers/
       -
-        title: Anwendung für Einwohner
-        path: /users/tenants/
+        title: Tenant application
+        path: /product/tenants/
   -
-    title: Unternehmen
+    title: Company info
     items:
       -
-        title: Unser Mission
+        title: Our Mission
         path: /company/mission/
       -
         title: Team
@@ -30,8 +30,51 @@ menu:
         title: Timeline
         path: /company/timeline/
       -
-        title: Kontakt
+        title: Contact us
         path: /company/contact/
       -
-        title: Karriere
+        title: Careers
         path: /company/careers/
+homepage: x
+customers:
+  pm:
+    header:
+      image: /assets/images/background.jpg
+      title: increase your operational efficiency
+      breadcrumbs:
+        - a
+        - b
+        - c
+    about:
+      -
+        title: replace paper
+        image: /assets/images/col-3.jpg
+        body: posters in hallway & laundry room, letters. documents, announcements "->features".
+      -
+        title: ERP integration
+        image: /assets/images/col-3.jpg
+        body: x
+      -
+        title: easier for tenants
+        image: /assets/images/col-3.jpg
+        body: x
+    services:
+      -
+        title: complement paper
+        body: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+    testimonials:
+      -
+        name: Johnny Doe
+        role: CEO - Company
+        image: /assets/images/img-circle-small.jpg
+        quote: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+  pricing: x
+product:
+  pm_app: x
+  tenant_app: x
+company:
+  mission: x
+  team: x
+  timeline: x
+  contact: x
+  careers: x
