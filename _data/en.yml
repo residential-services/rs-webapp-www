@@ -1,79 +1,209 @@
 menu:
   -
-    title: Customer advantages
+    title: &1_0_t Customer advantages
     items:
       -
-        title: For property managers
+        title: &1_1_t For property managers
         path: /customers/property-managers/
       -
-        title: Pricing
+        title: &1_2_t Pricing
         path: /customers/pricing/
   -
-    title: Product features
+    title: &2_0_t Product features
     items:
       -
-        title: Property manager application
+        title: &2_1_t Property manager application
         path: /product/property-managers/
       -
-        title: Tenant application
+        title: &2_2_t Tenant application
         path: /product/tenants/
   -
-    title: Company info
+    title: &3_0_t Company info
     items:
       -
-        title: Our Mission
+        title: &3_1_t Our Mission
         path: /company/mission/
       -
-        title: Team
+        title: &3_2_t Team
         path: /company/team/
       -
-        title: Timeline
+        title: &3_3_t Timeline
         path: /company/timeline/
       -
-        title: Contact us
+        title: &3_4_t Contact us
         path: /company/contact/
       -
-        title: Careers
+        title: &3_5_t Careers
         path: /company/careers/
 homepage: x
 customers:
   pm:
     header:
-      image: /assets/images/background.jpg
-      title: increase your operational efficiency
+      image: /assets/my/images/cityscape-architecture-building-new-york-city-wallpaper.jpg
+      title: Your digital interface for tenants
       breadcrumbs:
-        - a
-        - b
-        - c
+        - Home
+        - *2_0_t
+        - *2_1_t
     about:
       -
-        title: replace paper
-        image: /assets/images/col-3.jpg
-        body: posters in hallway & laundry room, letters. documents, announcements "->features".
+        title: Equa helps reduce your costs
+        image: /assets/my/images/executive.jpg
+        body: > 
+          Transitioning from paper to digital for your communication with tenants
+          will help you reduce your operating costs. 
+          Sending a single message with Equa is equivalent to putting up many posters
+          in your buildings, or sending many individual letters to tenants.
+        link: /product/property-managers/
       -
-        title: ERP integration
-        image: /assets/images/col-3.jpg
-        body: x
+        title: Single data entry
+        image: /assets/my/images/typing.jpg
+        body: >
+          With Equa, you enter data only once.
+          We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
+          This way, you can start using our value-adding features right away.
+        link: /product/property-managers/#supported-erps
       -
-        title: easier for tenants
-        image: /assets/images/col-3.jpg
-        body: x
+        title: Convenient for your tenants
+        image: /assets/my/images/04_aussen_umgebung_rendering-360x240.jpg
+        body: >
+          Equa also makes the lives of your tenants easier.
+          The advent of smartphones has changed the consumers' expectations considerably. 
+          Most of your tenants are used to organizing their lives on the internet using smartphones, 
+          and Equa is a natural fit for them.
+        link: /product/tenants/
     services:
-      title: Services we offer
+      title: Overview
       items:
         -
-          title: complement paper
-          body: Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
-    testimonials:
-      -
-        name: Johnny Doe
-        role: CEO - Company
-        image: /assets/images/img-circle-small.jpg
-        quote: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+          title: GDPR-compliant
+          icon: ti-shield
+          body: >
+            Equa is 100% compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
+            We protect your tenants' privacy, and only operate on anonymized habitant data.
+          link: /product/property-managers/#privacy
+        -
+          title: ERP-compatible
+          icon: ti-harddrives
+          body: >
+            Equa is independent from any single ERP system. 
+            This gives property managers the freedom to switch to a new ERP software if they wish.
+          link: /product/property-managers/#supported-erps
+        -
+          title: Open-ended
+          icon: ti-home
+          body: >
+            We are attentive to the needs of our property manager customers.
+            New features will be added to Equa over time, depending on customer needs and requests.
+          link: /product/property-managers/
+        -
+          title: Evolvable tenant features
+          icon: ti-user
+          body: >
+            The needs of tenants in a large sense is a big part of our focus. 
+            Depending on tenant needs and requests, we will add new tenant-facing features.
+            Some of those will possibly be unrelated to property management. 
+          link: /product/tenants/
+        -
+          title: Payable by your tenants
+          icon: ti-receipt
+          body: >
+            Given the breadth of tenant-facing features and our low cost per household, 
+            our property manager customers can justifiably forward the cost of Equa to their tenants.
+          link: /customers/pricing/
+    # testimonials:
+    #   -
+    #     name: Johnny Doe
+    #     role: CEO - Company
+    #     image: /assets/images/img-circle-small.jpg
+    #     quote: >
+    #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    #       nascetur ridiculus mus.
   pricing: x
 product:
-  pm_app: x
-  tenant_app: x
+  pm:
+    header:
+      image: /assets/my/images/La_Defense_Business_District_Paris628374288.jpg
+      title: Web app
+      breadcrumbs:
+        - Home
+        - *2_0_t
+        - *2_1_t
+    about:
+      -
+        title: Equa helps reduce your costs
+        image: /assets/my/images/executive.jpg
+        body: > 
+          Transitioning from paper to digital for your communication with tenants
+          will help you reduce your operating costs. 
+          Sending a single message with Equa is equivalent to putting up many posters
+          in your buildings, or sending many individual letters to tenants.
+        link: /product/property-managers/
+      -
+        title: Single data entry
+        image: /assets/my/images/typing.jpg
+        body: >
+          With Equa, you enter data only once.
+          We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
+          This way, you can start using our value-adding features right away.
+        link: /product/property-managers/#supported-erps
+      -
+        title: Convenient for your tenants
+        image: /assets/my/images/04_aussen_umgebung_rendering-360x240.jpg
+        body: >
+          Equa also makes the lives of your tenants easier.
+          The advent of smartphones has changed the consumers' expectations considerably. 
+          Most of your tenants are used to organizing their lives on the internet using smartphones, 
+          and Equa is a natural fit for them.
+        link: /product/tenants/
+    services:
+      title: Overview
+      items:
+        -
+          title: GDPR-compliant
+          icon: ti-shield
+          body: >
+            Equa is compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
+            We protect your tenants' privacy, and only operate on anonymized habitant data.
+          link: /product/property-managers/#privacy
+        -
+          title: ERP-compatible
+          icon: ti-harddrives
+          body: >
+            Equa is independent from any single ERP system. 
+            This gives property managers the freedom to switch to a new ERP software if they wish.
+          link: /product/property-managers/#supported-erps
+        -
+          title: Open-ended
+          icon: ti-home
+          body: >
+            We are attentive to the needs of our property manager customers.
+            New features will be added to Equa over time, depending on customer needs and requests.
+          link: /product/property-managers/
+        -
+          title: Evolvable tenant features
+          icon: ti-user
+          body: >
+            The needs of tenants in a large sense is a big part of our focus. 
+            Depending on tenant needs and requests, we will add new tenant-facing features.
+            Some of those will possibly be unrelated to property management. 
+          link: /product/tenants/
+        -
+          title: Payable by your tenants
+          icon: ti-receipt
+          body: >
+            Given the breadth of tenant-facing features and our low cost per household, 
+            our property manager customers can justifiably forward the cost of Equa to their tenants.
+          link: /customers/pricing/
+    # testimonials:
+    #   -
+    #     name: Johnny Doe
+    #     role: CEO - Company
+    #     image: /assets/images/img-circle-small.jpg
+    #     quote: >
+    #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    #       nascetur ridiculus mus.
+  tenant: x
 company:
   mission: x
   team: x
