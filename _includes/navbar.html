@@ -1,15 +1,14 @@
 <!-- navbar -->
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
 <nav class="navbar navbar-sticky"><!-- add 'navbar-dark/navbar-grey/navbar-transparent/navbar-transparent-dark' -->
     <div class="container">
-        <a class="navbar-brand" href="/">
+        <a class="navbar-brand" href="{{ site.url }}/{{ language }}/">
             <h5>
-                <span class="brand">Equa</span> <br> 
-                <!-- <span class="brand-tail">Residential Services</span> -->
+                {% include equa-logo.svg %}
             </h5>
         </a>
         <ul class="nav"><!-- add 'dropdown-dark/dropdown-grey/dropdown-transparent/dropdown-transparent-dark' -->
-            {% assign path = page.url | split: "/" %}
-            {% assign language = path[1] %}
             {% for dropdown in site.data[language]['menu'] %}
                 <li class="nav-item nav-dropdown">
                     <a class="nav-link" href="#">{{ dropdown.title }}</a>

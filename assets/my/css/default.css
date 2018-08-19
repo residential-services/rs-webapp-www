@@ -2,15 +2,3 @@ body {
     font-family: "Avenir Next Regular";
 }
 
-.navbar-brand h5 .brand {
-    font-family:"ITC Edwardian Script Regular";
-    /* font-size: 100%; */
-    /* font-weight: normal; */
-   /* color: RGB(154, 139, 95);*/
-}
-
-.navbar-brand h5 .brand-tail {
-    font-variant-caps: all-small-caps;
-   /* color: RGB(154, 139, 95);*/
-}
-

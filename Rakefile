@@ -4,11 +4,12 @@
 # 
 # TODO: check code quality
 
+# WARNING: The --incremental option seems buggy for jekyll build and jekyll serve, so don't use it. 
 
 namespace :local do 
 	desc 'Start the local web server'
 	task :serve do
-		sh "bundle exec jekyll serve --livereload --incremental" 
+		sh "bundle exec jekyll serve --livereload" 
 	end
 	
 	desc 'Build the static website'
@@ -38,7 +39,7 @@ namespace :local do
 		end
 
 
-		sh "bundle exec jekyll build --source . --destination ../residential-services.github.io  --incremental --verbose" 
+		sh "bundle exec jekyll build --source . --destination ../residential-services.github.io --verbose" 
 	end
 
 	desc 'Update gems'

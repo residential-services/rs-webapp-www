@@ -1,5 +1,4 @@
 ---
-layout: default
 ---
 {% comment %}
 Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
@@ -15,14 +14,16 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
 				<div class="page-title-lg bg-black-07 text-center">
 					<div class="container">
-						<h1 class="font-weight-light">{{c.header.title | capitalize}}</h1>
+						<h1 class="font-weight-light">{{c.header.title}}</h1>
+						{% if c.header.breadcrumbs %}
 						<nav aria-label="breadcrumb">
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[0] | capitalize}}</a></li>
-								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[1] | capitalize}}</a></li>
-								<li class="breadcrumb-item active" aria-current="page">{{c.header.breadcrumbs[2] | capitalize}}</li>
+								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[0]}}</a></li>
+								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[1]}}</a></li>
+								<li class="breadcrumb-item active" aria-current="page">{{c.header.breadcrumbs[2]}}</li>
 							</ul>
 						</nav>
+						{% endif %}
 					</div><!-- end container -->
 				</div><!-- end page-title -->
 			</div><!-- end bg-image -->
@@ -30,15 +31,20 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 		</header>
 
 		<!-- About section -->
+		{% if c.about %}
 		<div class="section">
 			<div class="container">
 				<div class="row text-center">
 					{% for about_item in c.about %}
 					<div class="col-12 col-md-4">
 						<img src="{{ about_item.image }}" alt="">
-						<h5 class="margin-top-30">{{about_item.title | capitalize}}</h5>
+						<h5 class="margin-top-30">{{about_item.title}}</h5>
 						<p>
 							{{ about_item.body }}
+							{% if about_item.link %}
+								<br>
+								<a href="/{{ language }}{{ about_item.link }}">More ➤</a>
+							{% endif %}
 						</p>
 					</div>
 					{% endfor %}
@@ -61,9 +67,11 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div>
+		{% endif %}
 		<!-- end About section -->
 
 		<!-- Services section -->
+		{% if c.services %}
 		<div class="section border-top">
 			<div class="container">
 				<div class="section-title text-center">
@@ -74,9 +82,18 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 					<!-- Icon text box 1 -->
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="icon-left-box icon-3xl">
-							<i class="ti-world text-dark"></i>
-							<h6 class="heading-uppercase">{{ item.title | capitalize }}</h6>
-							<p>{{ item.body | capitalize }}</p>
+							{% if item.icon %}
+								<i class="{{ item.icon }} text-dark"></i>
+							{% else %}
+								<i class="ti-world text-dark"></i>
+							{% endif %}
+							<h6 class="heading-uppercase">{{ item.title }}</h6>
+							<p>{{ item.body }}
+								{% if item.link %}
+									<br>
+									<a href="/{{ language }}{{ item.link }}">More ➤</a>
+								{% endif %}
+							</p>
 						</div>
 					</div>
 					{% endfor %}
@@ -125,16 +142,18 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div>
+		{% endif %}
 		<!-- end Services section -->
 
 		<!-- Testimonial -->
+		{% if c.testimonials %}
 		<div class="section border-top">
 			<div class="container">
 				<div class="owl-carousel" data-owl-nav="true" data-owl-dots="false" data-owl-items="1">
 					{% for item in c.testimonials %}
 					<!-- Testimonial box 1 -->
 					<div class="testimonial-box">
-						<p class="margin-bottom-30">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."</p>
+						<p class="margin-bottom-30">“{{ item.quote }}”</p>
 						<img class="margin-bottom-20" src="{{ item.image }}" alt="">
 						<h5 class="no-margin">{{ item.name }}</h5>
 						<span>{{ item.role }}</span>
@@ -159,4 +178,5 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 				</div><!-- end owl-carousel -->
 			</div><!-- end container -->
 		</div>
+		{% endif %}
 		<!-- end Testimonial -->

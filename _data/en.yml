@@ -91,14 +91,14 @@ customers:
           link: /product/property-managers/#supported-erps
         -
           title: Open-ended
-          icon: ti-home
+          icon: ti-gift
           body: >
             We are attentive to the needs of our property manager customers.
             New features will be added to Equa over time, depending on customer needs and requests.
           link: /product/property-managers/
         -
-          title: Evolvable tenant features
-          icon: ti-user
+          title: Evolving tenant feature set
+          icon: ti-world
           body: >
             The needs of tenants in a large sense is a big part of our focus. 
             Depending on tenant needs and requests, we will add new tenant-facing features.
@@ -124,7 +124,7 @@ product:
   pm:
     header:
       image: /assets/my/images/La_Defense_Business_District_Paris628374288.jpg
-      title: Web app
+      title: An application for communicating with your tenants
       breadcrumbs:
         - Home
         - *2_0_t
@@ -175,7 +175,7 @@ product:
           link: /product/property-managers/#supported-erps
         -
           title: Open-ended
-          icon: ti-home
+          icon: ti-gift
           body: >
             We are attentive to the needs of our property manager customers.
             New features will be added to Equa over time, depending on customer needs and requests.
