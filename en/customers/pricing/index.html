@@ -1,40 +1,50 @@
 ---
-layout: default
 ---
 {% comment %}
 Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 {% endcomment %}
 
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign i18n = site.data[language] %}
+{% assign c = i18n.customers.pricing %}
+
+
 		<header>
 			{% include navbar.html %}
 
 			<!-- Page header -->
-			<div class="bg-image parallax" style="background-image: url(../../assets/images/background.jpg)">
+			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
 				<div class="page-title-lg bg-black-07 text-center">
 					<div class="container">
-						<h1 class="font-weight-light">Prices Classic</h1>
+						<h1 class="font-weight-light">{{c.header.title}}</h1>
+						{% if c.header.breadcrumbs %}
 						<nav aria-label="breadcrumb">
 							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Home</a></li>
-								<li class="breadcrumb-item"><a href="#">Pages</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Prices</li>
+								<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
+								<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
+								<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
 							</ul>
 						</nav>
+						{% endif %}
 					</div><!-- end container -->
 				</div><!-- end page-title -->
-			</div>
-		</header>
+			</div><!-- end bg-image -->
 
+		{% if c.features %}
 		<!-- Features section -->
 		<div class="section-sm">
 			<div class="container">
 				<div class="row services-layout-1 text-center">
+					{% for item in c.features %}
 					<!-- Icon text box 1 -->
 					<div class="col-12 col-sm-4 col-lg-2 icon-3xl">
-						<i class="ti-check-box text-dark"></i>
-						<h6 class="heading-uppercase margin-top-20">Feature One</h6>
+						<i class="{{ item.icon }} text-dark"></i>
+						<h6 class="heading-uppercase margin-top-20">{{ item.title }}</h6>
 					</div>
-					<!-- Icon text box 2 -->
+					{% endfor %}
+					{% comment %}
+					 <!-- Icon text box 2 -->
 					<div class="col-12 col-sm-4 col-lg-2 icon-3xl">
 						<i class="ti-check-box text-dark"></i>
 						<h6 class="heading-uppercase margin-top-20">Feature Two</h6>
@@ -58,38 +68,47 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 					<div class="col-12 col-sm-4 col-lg-2 icon-3xl">
 						<i class="ti-check-box text-dark"></i>
 						<h6 class="heading-uppercase margin-top-20">Feature Six</h6>
-					</div>
+					</div> 
+					{% endcomment %}
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div>
 		<!-- end Features section -->
+		{% endif %}
 
+		{% if c.pricing %}
 		<!-- Prices section -->
 		<div class="section border-top">
 			<div class="container">
 				<div class="section-title text-center">
-					<h3>Pricing Table</h3>
-					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Integer tincidunt.</p>
+					<h3>{{ c.pricing.title }}</h3>
+					<p>{{ c.pricing.description }}</p>
 				</div>
 				<div class="row">
+					{% for item in c.pricing.plans %}
 					<!-- Prices box 1 -->
 					<div class="col-12 col-lg-4">
 						<div class="prices-box">
-							<h6 class="heading-uppercase">Personal</h6>
+							<h6 class="heading-uppercase">{{ item.title }}</h6>
 							<div class="price">
-								<h1>19<span>/mo</span></h1>
+								<h1>{{ item.price.amount }}<span>{{ item.price.after_amount }}</span></h1>
 							</div>
+							{% if item.features %}
 							<div class="price-features">
 								<ul>
-									<li>Unlimited User</li>
-									<li>Unlimited Storage</li>
-									<li>24/7 Support</li>
+								{% for feature in item.features %}
+									<li><span style='font-weight: bold'>{{ feature.title }}</span>: {{ feature.description }}</li>
+								{% endfor %}
 								</ul>
 							</div>
-							<a class="button button-md button-dark button-rounded" href="#">Order Now</a>
+							{% endif %}
+							{% if item.action %}
+							<a class="my-button button button-md button-dark button-rounded" href="{{item.action.link}}">{{item.action.title}}</a>
+							{% endif %}
 						</div>
 					</div>
-					<!-- Prices box 2 -->
+					{% endfor %}
+					{% comment %} <!-- Prices box 2 -->
 					<div class="col-12 col-lg-4">
 						<div class="prices-box prices-box-recommended">
 							<h6 class="heading-uppercase">Business</h6>
@@ -122,13 +141,49 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 							</div>
 							<a class="button button-md button-dark button-rounded" href="#">Order Now</a>
 						</div>
-					</div>
+					</div> {% endcomment %}
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div>
 		<!-- end Prices section -->
+		{% endif %}
 
-		<!-- Testimonial -->
+
+		<!-- Services section -->
+		{% if c.services %}
+		<div class="section border-top">
+			<div class="container">
+				<div class="section-title text-center">
+					<h3>{{ c.services.title }}</h3>
+				</div>
+				<div class="row services-layout-2">
+					{% for item in c.services.items %}
+					<!-- Icon text box 1 -->
+					<div class="col-12 col-md-6 col-lg-4">
+						<div class="icon-left-box icon-3xl">
+							{% if item.icon %}
+								<i class="{{ item.icon }} text-dark"></i>
+							{% else %}
+								<i class="ti-world text-dark"></i>
+							{% endif %}
+							<h6 class="heading-uppercase">{{ item.title }}</h6>
+							<p>{{ item.body }}
+								{% if item.link %}
+									<br>
+									<a href="/{{ language }}{{ item.link }}">More ➤</a>
+								{% endif %}
+							</p>
+						</div>
+					</div>
+					{% endfor %}
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div>
+		{% endif %}
+		<!-- end Services section -->
+
+		
+		{% comment %} <!-- Testimonial -->
 		<div class="section border-top">
 			<div class="container">
 				<div class="testimonial-grid column-2">
@@ -179,4 +234,6 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 				</div>
 			</div><!-- end container -->
 		</div>
-		<!-- end Testimonial -->
+		<!-- end Testimonial --> {% endcomment %}
+
+

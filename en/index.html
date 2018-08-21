@@ -4,6 +4,10 @@
 Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 {% endcomment %}
 
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign c = site.data[language].homepage %}
+
 
 <header>
 	{% include navbar.html %}
@@ -15,9 +19,33 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 </div>
 <!-- end Scroll to top button -->
 
+{% if c.carousel %}
 <!-- Home section -->
 <div class="owl-carousel owl-nav-overlay owl-dots-overlay" data-owl-nav="true" data-owl-dots="true" data-owl-items="1">
+	{% for item in c.carousel %}
 	<!-- Slider box 1 -->
+	<div class="bg-image" style="background-image: url({{ item.image }})">
+		<div class="section-xl bg-black-04">
+			<div class="container text-center">
+				<div class="row">
+					<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
+						<p class="lead margin-bottom-20">
+							{{ item.lead }}
+						</p>
+						<h1 class="uppercase letter-spacing-3px">
+							{{ item.title }}
+						</h1>
+						<a class="my-button button button-lg button-border-1px button-outline-white button-rounded margin-top-20" 
+						href="/{{language}}{{ item.button.link }}">
+							{{ item.button.title }}
+						</a>
+					</div>
+				</div><!-- end row -->
+			</div><!-- end container -->
+		</div>
+	</div>
+	{% endfor %}
+	{% comment %} <!-- Slider box 2 -->
 	<div class="bg-image" style="background-image: url(/assets/images/background.jpg)">
 		<div class="section-xl bg-black-04">
 			<div class="container text-center">
@@ -30,23 +58,10 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div>
-	</div>
-	<!-- Slider box 2 -->
-	<div class="bg-image" style="background-image: url(/assets/images/background.jpg)">
-		<div class="section-xl bg-black-04">
-			<div class="container text-center">
-				<div class="row">
-					<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-						<p class="lead margin-bottom-20">Property management made easy</p>
-						<h1 class="uppercase letter-spacing-3px">Your digital connection with tenants</h1>
-						<a class="button button-lg button-border-1px button-outline-white button-rounded margin-top-20" href="#">Explore</a>
-					</div>
-				</div><!-- end row -->
-			</div><!-- end container -->
-		</div>
-	</div>
+	</div> {% endcomment %}
 </div><!-- end owl-carousel -->
 <!-- end Home section -->
+{% endif %}
 
 <!-- Process section -->
 <div class="section bg-grey-lighter">

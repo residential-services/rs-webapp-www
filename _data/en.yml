@@ -35,20 +35,35 @@ menu:
       -
         title: &3_5_t Careers
         path: /company/careers/
-homepage: x
+homepage:
+  carousel:
+    -
+      lead: Property management made easy
+      title: Your digital connection with tenants
+      image: /assets/my/images/1920x1200/AdobeStock_202469234-cropped-1920x1200.jpeg
+      button:
+        title: Explore
+        link: /customers/property-managers/
+    -
+      lead: Tenants' lives made easy
+      title: The digital lifestyle for tenants
+      image: /assets/my/images/1920x1200/Fotolia_68740701_XL-modified-1920x1200.jpeg
+      button:
+        title: Explore
+        link: /product/tenants/
 customers:
   pm:
     header:
-      image: /assets/my/images/cityscape-architecture-building-new-york-city-wallpaper.jpg
-      title: Your digital interface for tenants
+      image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
+      title: Your digital connection with tenants
       breadcrumbs:
         - Home
-        - *2_0_t
-        - *2_1_t
+        - *1_0_t
+        - *1_1_t
     about:
       -
-        title: Equa helps reduce your costs
-        image: /assets/my/images/executive.jpg
+        title: Equa helps you reduce the cost of managing properties
+        image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Transitioning from paper to digital for your communication with tenants
           will help you reduce your operating costs. 
@@ -57,15 +72,14 @@ customers:
         link: /product/property-managers/
       -
         title: Single data entry
-        image: /assets/my/images/typing.jpg
+        image: /assets/my/images/360x240/digital2-360x240.jpg
         body: >
           With Equa, you enter data only once.
           We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
           This way, you can start using our value-adding features right away.
-        link: /product/property-managers/#supported-erps
       -
         title: Convenient for your tenants
-        image: /assets/my/images/04_aussen_umgebung_rendering-360x240.jpg
+        image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
         body: >
           Equa also makes the lives of your tenants easier.
           The advent of smartphones has changed the consumers' expectations considerably. 
@@ -81,21 +95,18 @@ customers:
           body: >
             Equa is 100% compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
             We protect your tenants' privacy, and only operate on anonymized habitant data.
-          link: /product/property-managers/#privacy
         -
           title: ERP-compatible
           icon: ti-harddrives
           body: >
             Equa is independent from any single ERP system. 
-            This gives property managers the freedom to switch to a new ERP software if they wish.
-          link: /product/property-managers/#supported-erps
+            This gives you the freedom to switch to a new Equa-compatible ERP software if you wish.
         -
           title: Open-ended
           icon: ti-gift
           body: >
             We are attentive to the needs of our property manager customers.
             New features will be added to Equa over time, depending on customer needs and requests.
-          link: /product/property-managers/
         -
           title: Evolving tenant feature set
           icon: ti-world
@@ -103,14 +114,19 @@ customers:
             The needs of tenants in a large sense is a big part of our focus. 
             Depending on tenant needs and requests, we will add new tenant-facing features.
             Some of those will possibly be unrelated to property management. 
-          link: /product/tenants/
         -
           title: Payable by your tenants
           icon: ti-receipt
           body: >
             Given the breadth of tenant-facing features and our low cost per household, 
             our property manager customers can justifiably forward the cost of Equa to their tenants.
-          link: /customers/pricing/
+        -
+          title: Equa can complement paper
+          icon: ti-printer
+          body: >
+            You can continue providing a paper-based user interface as before if one or more of your tenants ask for it.
+            We can even lend you a hand, for example by sending relevant electronic documents to you or your contractors 
+            so that they can be printed out by them.
     # testimonials:
     #   -
     #     name: Johnny Doe
@@ -119,81 +135,201 @@ customers:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  pricing: x
+  pricing:
+    header:
+      image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
+      title: Your digital interface for tenants
+      breadcrumbs:
+        - Home
+        - *1_0_t
+        - *1_2_t
+    features:
+      -
+        icon: ti-check-box
+        title: Your online account for messaging tenants.
+      -
+        icon: ti-check-box
+        title: One month cancellation notice.
+      -
+        icon: ti-check-box
+        title: Per household pricing.
+      -
+        icon: ti-check-box
+        title: One time fee for software installation and configuration.
+    pricing:
+      title: Pricing # inspired by Slack https://slack.com/pricing
+      description: "" 
+      plans:
+        -
+          title: ""
+          price:
+            amount: ""
+            before amount: ""
+            after_amount: ""
+          features:
+            - ""
+          # action:
+          #   title: ""
+          #   link: ""
+        -
+          title: Business
+          price:
+            amount: 6
+            before amount: ""
+            after_amount: CHF /month /household
+          features:
+            - 
+              title: Number of announcements
+              description: Unlimited
+            - 
+              title: Number of documents
+              description: Unlimited
+            - 
+              title: Property manager account
+              description: One account.
+            -
+              title: Installation fee
+              description: One-time fee, includes system installation and configuration. 
+            - 
+              title: Helpdesk
+              description: We available for your questions and suggestions.
+
+          action:
+            title: Order now
+            link: mailto:Info@Equa.Residential.Services
+        -
+          title: ""
+          price:
+            amount: ""
+            before amount: ""
+            after_amount: ""
+          features:
+            - ""
+          # action:
+          #   title: ""
+          #   link: ""
+    services:
+      title: ""
+      items:
+        -
+          title: How our service fee is calculated
+          icon: ti-receipt
+          body: >-
+            Our monthly service fee is based on the number of users each day of the month. 
+            For example, if a thousand of your households are Equa users on an average day, 
+            then our monthly fee will amount to CHF ((6/30)*1000)*30 or CHF 6K.
+            This provides you with the latitude of adding and removing households
+            any time you wish.
+        -
+          title: Installation
+          icon: ti-harddrives
+          body: >-
+            If your ERP system lacks built-in Equa compatibility, then a connector is needed for integrating your ERP system with Equa.
+            In this case, we will take care of properly installing and configuring the connector. This software is available for macOS and Windows.
+          link: /product/property-managers/#installation
+
 product:
   pm:
     header:
-      image: /assets/my/images/La_Defense_Business_District_Paris628374288.jpg
-      title: An application for communicating with your tenants
+      image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
+      title: Equa enhances your ERP system seamlessly
       breadcrumbs:
         - Home
         - *2_0_t
         - *2_1_t
-    about:
+    tiles:
       -
-        title: Equa helps reduce your costs
-        image: /assets/my/images/executive.jpg
-        body: > 
-          Transitioning from paper to digital for your communication with tenants
-          will help you reduce your operating costs. 
-          Sending a single message with Equa is equivalent to putting up many posters
-          in your buildings, or sending many individual letters to tenants.
-        link: /product/property-managers/
+        pair:
+          -
+            image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
+            lead: 01.
+            title: Sending announcements
+            description: >-
+              Your can send announcements to tenants living in a group of buildings, a building, or a habitation unit. 
+              Announcements have time information attached to them. 
+              An announcement can pertain to an event such as a repair job or a local gathering for example.
+              Tenants can read relevant announcements with their Equa app, or with 
+              the digital calendars that they are already using in their day-to-day lives.
+              Equa automatically synchronizes the tenants' Equa account with their digital calendars.
+          -
+            image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
+            lead: 02.
+            title: Sending documents
+            description: >-
+              You can send documents to tenants living in a group of buildings, a building, or a habitation unit.
+              A document can be a lease document or a house rules document for example.
       -
-        title: Single data entry
-        image: /assets/my/images/typing.jpg
-        body: >
-          With Equa, you enter data only once.
-          We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
-          This way, you can start using our value-adding features right away.
-        link: /product/property-managers/#supported-erps
+        pair:
+          -
+            image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
+            lead: 03.
+            title: Receiving feedback from tenants
+            description: >-
+              Tenants can send you messages for different reasons. For example, they can inform you of items that need repairing
+              in their unit or building.
+          -
+            image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
+            lead: 04.
+            title: Tenant groups
+            description: >-
+              You can group tenants by building or a set of buildings.
+              You can then send your announcements or documents directly to a group for efficient messaging. 
+              Equa automatically imports any groups that your may have defined from within your ERP system.
+              You can also create groups with Equa.
       -
-        title: Convenient for your tenants
-        image: /assets/my/images/04_aussen_umgebung_rendering-360x240.jpg
-        body: >
-          Equa also makes the lives of your tenants easier.
-          The advent of smartphones has changed the consumers' expectations considerably. 
-          Most of your tenants are used to organizing their lives on the internet using smartphones, 
-          and Equa is a natural fit for them.
-        link: /product/tenants/
+        pair:
+          -
+            image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
+            lead: 05.
+            title: Shared laundry facilities
+            description: >-
+              You can mark buildings that are equipped with laundry facilities that are shared amongst tenants.
+              Equa automatically imports any such indication from your ERP system. 
+              You can also add this information from within Equa.
+              Equa automatically generates laundry timetables for buildings that are equipped. 
+              Tenants can then modify their default reservations if they wish, and they can automatically see their reservations reflected in their 
+              digital calendars.
+          -
+            image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
+            lead: 06.
+            title: Up-to-date contact information.
+            description: >-
+              You can indicate the coordinates of people within your organisation or your suppliers that tenants can contact.
+              Equa automatically imports any such indication from your ERP system. 
+              You can also add this information from within Equa.
+
     services:
-      title: Overview
+      title: ""
       items:
         -
+          anchor: privacy
           title: GDPR-compliant
           icon: ti-shield
           body: >
             Equa is compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
             We protect your tenants' privacy, and only operate on anonymized habitant data.
-          link: /product/property-managers/#privacy
         -
-          title: ERP-compatible
+          anchor: installation
+          title: Installation
           icon: ti-harddrives
           body: >
-            Equa is independent from any single ERP system. 
-            This gives property managers the freedom to switch to a new ERP software if they wish.
-          link: /product/property-managers/#supported-erps
+            Equa is an extension to your existing real estate ERP software. We currently support 
+            <a href='https://www.abacus.ch/de/produkte/enterprise/immobilienbewirtschaftung/' target='_blank'>AbaImmo</a> and 
+            <a href='http://www.quorumsoftware.ch/QSSA_Website/Index.html' target='_blank'>Quorum</a>. 
+            If you are an AbaImmo user, then a separate Equa connector software will be installed and configured for you.
+            The Equa connector is available on macOS and Microsoft Windows.
+            Quorum on the other hand will have the Equa integration built-in.
         -
           title: Open-ended
           icon: ti-gift
           body: >
             We are attentive to the needs of our property manager customers.
-            New features will be added to Equa over time, depending on customer needs and requests.
-          link: /product/property-managers/
+            New features will be added to Equa over time, depending on your needs and requests.
         -
-          title: Evolvable tenant features
-          icon: ti-user
-          body: >
-            The needs of tenants in a large sense is a big part of our focus. 
-            Depending on tenant needs and requests, we will add new tenant-facing features.
-            Some of those will possibly be unrelated to property management. 
-          link: /product/tenants/
-        -
-          title: Payable by your tenants
+          title: Pricing
           icon: ti-receipt
           body: >
-            Given the breadth of tenant-facing features and our low cost per household, 
-            our property manager customers can justifiably forward the cost of Equa to their tenants.
+            Per household pricing.
           link: /customers/pricing/
     # testimonials:
     #   -
@@ -203,7 +339,84 @@ product:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  tenant: x
+  tenants:
+    header:
+      image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
+      title: The digital lifestyle for tenants
+      breadcrumbs:
+        - Home
+        - *2_0_t
+        - *2_2_t
+    tiles:
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-login-screen-550x367.png
+            lead: 01.
+            title: Receiving announcements
+            description: >-
+              The company that manages the building you live in can send you announcements that have time information attached to them. 
+              An announcement can pertain to an event such as a repair job or a local gathering  for example.
+              You can read relevant announcements with the Equa app.
+              In addition, your digital calendar that also show your announcements if you grant us access.
+              Equa currently supports 
+              <a href='https://calendar.google.com/' target='_blank'>Google Calendar</a>,
+              <a href='https://calendar.yahoo.com/' target='_blank'>Yahoo Calendar</a>,
+              and online calendar services that are <a href='https://en.wikipedia.org/wiki/CalDAV' target='_blank'>CalDAV</a>-compliant.
+          -
+            image: /assets/my/images/550x367/Fotolia_107692785_XL-550x367.jpg
+            lead: 02.
+            title: Receiving documents
+            description: >-
+              Your property manager can send you documents, and you can access them using the Aqua app.
+              A document can be a lease document or a house rules document for example.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
+            lead: 03.
+            title: Your personal laundry timetable
+            description: >-
+              Equa automatically makes reservations for you of the shared laundry facilities if your building is so equipped. 
+              You can then modify your reservations if you wish.
+              In addition, you can see your reservations automatically reflected in your digital calendar if you grant us access. 
+          -
+            image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
+            lead: 04.
+            title: Up-to-date contact information.
+            description: >-
+              Equa provides you with up-to-date coordinates of the relevant people to contact for tasks related to your home.
+              For example, you can inform the relevant person of a faulty item in your home so that it can be repaired or replaced.
+
+    services:
+      title: ""
+      items:
+        -
+          anchor: privacy
+          title: We value your privacy
+          icon: ti-shield
+          body: >
+            Equa is compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>,
+            which is an EU regulation that pertains to data privacy regarding consumers and citizens.
+            We protect your privacy, and only operate on anonymized data by default.
+            In addition, we offer you the latitude of providing Equa with as much additional data about yourself as you wish.
+            More data translates directly into a better experience for you.
+        -
+          title: Open-ended feature set
+          icon: ti-world
+          body: >
+            The needs of tenants is a big part of our focus. 
+            The mission of Equa is to make your life as pleasant as possible in your home, in the building where you live, and also
+            in your larger environment.
+            Depending on your needs and requests, we will add new features on an on-going basis.
+    # testimonials:
+    #   -
+    #     name: Johnny Doe
+    #     role: CEO - Company
+    #     image: /assets/images/img-circle-small.jpg
+    #     quote: >
+    #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    #       nascetur ridiculus mus.
 company:
   mission: x
   team: x

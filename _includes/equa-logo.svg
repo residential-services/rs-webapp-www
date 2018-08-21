@@ -1,39 +1,52 @@
-<svg class="logo" width="210" height="70" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg class="logo" width="210px" height="70px" viewBox="0 0 210 70">
+  <g fill="rgb(154,139,95)">
+    <text x="8.67%" y="66%" font-size="60.2" font-family="ITC Edwardian Script Regular">
+      Equa
+    </text>
+    <text x="41%" y="87%" font-size="9.8" font-family="Avenir Next Regular">
+      RESIDENTIAL SERVICES
+    </text>
+  </g>
+</svg> 
+
+
+
+{% comment %}
+
+<svg class="logo" width="210px" height="70px" viewBox="0 0 210 70">
 
   <text x="8.67%" y="66%" font-size="60.2" font-family="ITC Edwardian Script Regular" text-anchor="start" fill="rgb(154,139,95)">Equa</text>
   <text x="41%" y="87%" font-size="9.8" font-family="Avenir Next Regular" text-anchor="start" fill="rgb(154,139,95)">RESIDENTIAL SERVICES</text>
 
 </svg> 
 
-{% comment %}
-<!-- <svg width="150" height="50">
+<svg width="150" height="50">
 
   <rect width="100%" height="100%" style="fill:white; stroke:rgb(200,200,200); stroke-width:1px" />
 
   <text x="8.67%" y="66%" font-size="43" font-family="ITC Edwardian Script Regular" text-anchor="start" fill="rgb(154,139,95)">Equa</text>
   <text x="40%" y="86%" font-size="7" font-family="Avenir Next Regular" text-anchor="start" fill="rgb(154,139,95)">RESIDENTIAL SERVICES</text>
 
-</svg>  -->
+</svg> 
 
 
-<!-- <svg width="150" height="50">
+<svg width="150" height="50">
 
   <rect width="100%" height="100%" style="fill:white; stroke:rgb(200,200,200); stroke-width:1px" />
 
   <text x="13" y="33" font-size="43" font-family="ITC Edwardian Script Regular" text-anchor="start" fill="rgb(154,139,95)">Equa</text>
   <text x="60" y="43" font-size="7" font-family="Avenir Next Regular" text-anchor="start" fill="rgb(154,139,95)">RESIDENTIAL SERVICES</text>
 
-</svg>  -->
+</svg> 
 
 
-
-<!-- <svg width="135" height="53">
+<svg width="135" height="53">
 
   <rect width="100%" height="100%" style="fill:white; stroke:rgb(200,200,200); stroke-width:1px" />
 
   <text x="0" y="35" font-size="43" font-family="ITC Edwardian Script Regular" text-anchor="start" fill="rgb(154,139,95)">Equa</text>
   <text x="50" y="45" font-size="7" font-family="Avenir Next Regular" text-anchor="start" fill="rgb(154,139,95)">RESIDENTIAL SERVICES</text>
 
-</svg>  -->
+</svg> 
 
 {% endcomment %}

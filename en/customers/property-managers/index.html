@@ -12,22 +12,22 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 			{% include navbar.html %}
 			<!-- Page header -->
 			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
-				<div class="page-title-lg bg-black-07 text-center">
-					<div class="container">
-						<h1 class="font-weight-light">{{c.header.title}}</h1>
-						{% if c.header.breadcrumbs %}
-						<nav aria-label="breadcrumb">
-							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[0]}}</a></li>
-								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[1]}}</a></li>
-								<li class="breadcrumb-item active" aria-current="page">{{c.header.breadcrumbs[2]}}</li>
-							</ul>
-						</nav>
-						{% endif %}
-					</div><!-- end container -->
-				</div><!-- end page-title -->
-			</div><!-- end bg-image -->
-			<!-- end Page header -->
+					<div class="page-title-lg bg-black-07 text-center">
+						<div class="container">
+							<h1 class="font-weight-light">{{c.header.title}}</h1>
+							{% if c.header.breadcrumbs %}
+							<nav aria-label="breadcrumb">
+								<ul class="breadcrumb">
+									<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
+									<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
+									<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
+								</ul>
+							</nav>
+							{% endif %}
+						</div><!-- end container -->
+					</div><!-- end page-title -->
+				</div><!-- end bg-image -->
+				<!-- end Page header -->
 		</header>
 
 		<!-- About section -->
@@ -82,6 +82,9 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 					<!-- Icon text box 1 -->
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="icon-left-box icon-3xl">
+							{% if item.anchor %}
+								<a name='{{ item.anchor }}'></a>
+							{% endif %}
 							{% if item.icon %}
 								<i class="{{ item.icon }} text-dark"></i>
 							{% else %}

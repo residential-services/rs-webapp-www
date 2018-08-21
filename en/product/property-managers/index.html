@@ -1,73 +1,98 @@
 ---
 ---
 {% comment %}
-Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
+Template demo at http://mono.flatheme.net/Pages/Process/Process.html
 {% endcomment %}
 
 {% assign path = page.url | split: "/" %}
 {% assign language = path[1] %}
 {% assign c = site.data[language].product.pm %}
+
 		<header>
 			{% include navbar.html %}
+
 			<!-- Page header -->
 			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
-				<div class="page-title-lg bg-black-07 text-center">
-					<div class="container">
-						<h1 class="font-weight-light">{{c.header.title}}</h1>
-						{% if c.header.breadcrumbs %}
-						<nav aria-label="breadcrumb">
-							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[0]}}</a></li>
-								<li class="breadcrumb-item"><a href="#">{{c.header.breadcrumbs[1]}}</a></li>
-								<li class="breadcrumb-item active" aria-current="page">{{c.header.breadcrumbs[2]}}</li>
-							</ul>
-						</nav>
-						{% endif %}
-					</div><!-- end container -->
-				</div><!-- end page-title -->
-			</div><!-- end bg-image -->
-			<!-- end Page header -->
+					<div class="page-title-lg bg-black-07 text-center">
+						<div class="container">
+							<h1 class="font-weight-light">{{c.header.title}}</h1>
+							{% if c.header.breadcrumbs %}
+							<nav aria-label="breadcrumb">
+								<ul class="breadcrumb">
+									<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
+									<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
+									<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
+								</ul>
+							</nav>
+							{% endif %}
+						</div><!-- end container -->
+					</div><!-- end page-title -->
+				</div><!-- end bg-image -->
+				<!-- end Page header -->
 		</header>
 
-		<!-- About section -->
-		{% if c.about %}
-		<div class="section">
+
+		{% if c.tiles %}
+		<!-- section -->
+		<div class="section border-top">
 			<div class="container">
-				<div class="row text-center">
-					{% for about_item in c.about %}
-					<div class="col-12 col-md-4">
-						<img src="{{ about_item.image }}" alt="">
-						<h5 class="margin-top-30">{{about_item.title}}</h5>
+				{% for item in c.tiles %}
+				<!-- Process box 1 -->
+				<div class="row align-items-center col-spacing-50">
+					<div class="col-12 col-md-6">
+						<img src="{{ item.pair[0].image }}" alt="">
+					</div>
+					<div class="col-12 col-md-6">
+						<h3 class="font-weight-light">{{ item.pair[0].lead }}</h3>
+						<h4>{{ item.pair[0].title }}</h4>
 						<p>
-							{{ about_item.body }}
-							{% if about_item.link %}
-								<br>
-								<a href="/{{ language }}{{ about_item.link }}">More ➤</a>
-							{% endif %}
+						{{ item.pair[0].description }}
 						</p>
 					</div>
-					{% endfor %}
-					{% comment %}
-					<div class="col-12 col-md-4">
-						<img src="../../assets/images/col-3.jpg" alt="">
-						<h5 class="margin-top-30">easier for tenants</h5>
+				</div>
+				{% if item.pair[1] %}
+				<!-- Process box 2 -->
+				<div class="row align-item.pairs-center col-spacing-50 margin-top-50 text-md-right">
+					<div class="col-12 col-md-6 order-md-2">
+						<img src="{{ item.pair[1].image }}" alt="">
+					</div>
+					<div class="col-12 col-md-6 order-md-1">
+						<h3 class="font-weight-light">{{ item.pair[1].lead }}</h3>
+						<h4>{{ item.pair[1].title }}</h4>
 						<p>
-								 "->features". 
-							
+						{{ item.pair[1].description }}
 						</p>
-						<p>payable by tenants ->pricing</p>
 					</div>
-					<div class="col-12 col-md-4">
-						<img src="../../assets/images/col-3.jpg" alt="">
-						<h5 class="margin-top-30">Comfortable to use</h5>
-						<p>ERP integration "-> supported software"</p>
+				</div>
+				{% endif %}
+				{% endfor %}
+				{% comment %} <!-- Process box 3 -->
+				<div class="row align-items-center col-spacing-50 margin-top-50">
+					<div class="col-12 col-md-6">
+						<img src="/assets/images/col-2.jpg" alt="">
 					</div>
-					{% endcomment %}
-				</div><!-- end row -->
+					<div class="col-12 col-md-6">
+						<h3 class="font-weight-light">03.</h3>
+						<h4>Bold heading</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					</div>
+				</div>
+				<!-- Process box 4 -->
+				<div class="row align-items-center col-spacing-50 margin-top-50 text-md-right">
+					<div class="col-12 col-md-6 order-md-2">
+						<img src="/assets/images/col-2.jpg" alt="">
+					</div>
+					<div class="col-12 col-md-6 order-md-1">
+						<h3 class="font-weight-light">04.</h3>
+						<h4>Bold heading</h4>
+						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					</div>
+				</div> {% endcomment %}
 			</div><!-- end container -->
 		</div>
+		<!-- end section -->
 		{% endif %}
-		<!-- end About section -->
+
 
 		<!-- Services section -->
 		{% if c.services %}
@@ -81,6 +106,9 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 					<!-- Icon text box 1 -->
 					<div class="col-12 col-md-6 col-lg-4">
 						<div class="icon-left-box icon-3xl">
+							{% if item.anchor %}
+								<a name='{{ item.anchor }}'></a>
+							{% endif %}
 							{% if item.icon %}
 								<i class="{{ item.icon }} text-dark"></i>
 							{% else %}
@@ -143,39 +171,3 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 		</div>
 		{% endif %}
 		<!-- end Services section -->
-
-		<!-- Testimonial -->
-		{% if c.testimonials %}
-		<div class="section border-top">
-			<div class="container">
-				<div class="owl-carousel" data-owl-nav="true" data-owl-dots="false" data-owl-items="1">
-					{% for item in c.testimonials %}
-					<!-- Testimonial box 1 -->
-					<div class="testimonial-box">
-						<p class="margin-bottom-30">“{{ item.quote }}”</p>
-						<img class="margin-bottom-20" src="{{ item.image }}" alt="">
-						<h5 class="no-margin">{{ item.name }}</h5>
-						<span>{{ item.role }}</span>
-					</div>
-					{% endfor %}
-					{% comment %}
-					<!-- Testimonial box 2 -->
-					<div class="testimonial-box">
-						<p class="margin-bottom-30">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."</p>
-						<img class="margin-bottom-20" src="../../assets/images/img-circle-small.jpg" alt="">
-						<h5 class="no-margin">Johnny Doe</h5>
-						<span>CEO - Company</span>
-					</div>
-					<!-- Testimonial box 3 -->
-					<div class="testimonial-box">
-						<p class="margin-bottom-30">"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."</p>
-						<img class="margin-bottom-20" src="../../assets/images/img-circle-small.jpg" alt="">
-						<h5 class="no-margin">Johnny Doe</h5>
-						<span>CEO - Company</span>
-					</div>
-					{% endcomment %}
-				</div><!-- end owl-carousel -->
-			</div><!-- end container -->
-		</div>
-		{% endif %}
-		<!-- end Testimonial -->

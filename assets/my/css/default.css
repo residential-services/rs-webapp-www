@@ -2,3 +2,11 @@ body {
     font-family: "Avenir Next Regular";
 }
 
+.prices-box .price h1:before {
+    content: "";
+    font-family: "Avenir Next Regular";
+}
+.my-button {
+    background-color: rgba(81, 154, 233,1) !important;
+    /* background-color: rgba(154,139,95,0.8) !important; */
+}

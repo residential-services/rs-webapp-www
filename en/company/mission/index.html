@@ -1,10 +1,12 @@
 ---
-layout: default
 ---
 {% comment %}
 Template demo at http://mono.flatheme.net/Pages/Process/Process.html
 {% endcomment %}
 
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign c = site.data[language].product.pm %}
 
 		<header>
 			{% include navbar.html %}
