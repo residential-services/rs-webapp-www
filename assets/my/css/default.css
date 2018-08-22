@@ -7,6 +7,10 @@ body {
     font-family: "Avenir Next Regular";
 }
 .my-button {
-    background-color: rgba(81, 154, 233,1) !important;
+    background-color: rgba(34,	138	,230	,1) !important;
     /* background-color: rgba(154,139,95,0.8) !important; */
+}
+
+.my-text-on-image {
+    text-shadow: 0 0 0.2em beige !important;
 }

@@ -21,31 +21,25 @@ menu:
     title: &3_0_t Company info
     items:
       -
-        title: &3_1_t Our Mission
-        path: /company/mission/
+        title: &3_1_t About us
+        path: /company/about/
       -
-        title: &3_2_t Team
-        path: /company/team/
-      -
-        title: &3_3_t Timeline
-        path: /company/timeline/
-      -
-        title: &3_4_t Contact us
+        title: &3_2_t Contact
         path: /company/contact/
       -
-        title: &3_5_t Careers
+        title: &3_3_t Careers
         path: /company/careers/
 homepage:
   carousel:
     -
-      lead: Property management made easy
+      lead: "" #Property management made easy
       title: Your digital connection with tenants
       image: /assets/my/images/1920x1200/AdobeStock_202469234-cropped-1920x1200.jpeg
       button:
         title: Explore
         link: /customers/property-managers/
     -
-      lead: Tenants' lives made easy
+      lead: "" #Tenants' lives made easy
       title: The digital lifestyle for tenants
       image: /assets/my/images/1920x1200/Fotolia_68740701_XL-modified-1920x1200.jpeg
       button:
@@ -135,44 +129,24 @@ customers:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  pricing:
+  pricing: # inspired by Slack https://slack.com/pricing
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Your digital interface for tenants
+      title: Premium online service for your residential properties
       breadcrumbs:
         - Home
         - *1_0_t
         - *1_2_t
-    features:
-      -
-        icon: ti-check-box
-        title: Your online account for messaging tenants.
-      -
-        icon: ti-check-box
-        title: One month cancellation notice.
-      -
-        icon: ti-check-box
-        title: Per household pricing.
-      -
-        icon: ti-check-box
-        title: One time fee for software installation and configuration.
     pricing:
-      title: Pricing # inspired by Slack https://slack.com/pricing
-      description: "" 
+      title: Pricing 
+      description: >-
+        One plan for property management companies of all sizes wishing to offer the Equa online service
+        to tenants.
       plans:
         -
-          title: ""
-          price:
-            amount: ""
-            before amount: ""
-            after_amount: ""
-          features:
-            - ""
-          # action:
-          #   title: ""
-          #   link: ""
+          title: null
         -
-          title: Business
+          title: Equa Residential
           price:
             amount: 6
             before amount: ""
@@ -192,22 +166,13 @@ customers:
               description: One-time fee, includes system installation and configuration. 
             - 
               title: Helpdesk
-              description: We available for your questions and suggestions.
+              description: We are available for your questions and suggestions.
 
           action:
             title: Order now
             link: mailto:Info@Equa.Residential.Services
         -
-          title: ""
-          price:
-            amount: ""
-            before amount: ""
-            after_amount: ""
-          features:
-            - ""
-          # action:
-          #   title: ""
-          #   link: ""
+          title: null
     services:
       title: ""
       items:
@@ -215,11 +180,11 @@ customers:
           title: How our service fee is calculated
           icon: ti-receipt
           body: >-
-            Our monthly service fee is based on the number of users each day of the month. 
-            For example, if a thousand of your households are Equa users on an average day, 
-            then our monthly fee will amount to CHF ((6/30)*1000)*30 or CHF 6K.
-            This provides you with the latitude of adding and removing households
-            any time you wish.
+            Our service fee is based on the number of households that are Equa users during the current billing period.
+            For households that you have added or removed during this period, a reduced price will apply that depends on the
+            number of days of activity.
+            For example, if your ERP system tells us that a new tenant will be moving in 10 days before the end of a billing period, 
+            then you will be charged 10 times the daily fee for that user for that period, or CHF (6/30)*10 = CHF 2.-.
         -
           title: Installation
           icon: ti-harddrives
@@ -342,7 +307,7 @@ product:
   tenants:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
-      title: The digital lifestyle for tenants
+      title: Your digital lifestyle at home
       breadcrumbs:
         - Home
         - *2_0_t
@@ -406,7 +371,7 @@ product:
           icon: ti-world
           body: >
             The needs of tenants is a big part of our focus. 
-            The mission of Equa is to make your life as pleasant as possible in your home, in the building where you live, and also
+            The mission of Equa is to make your life as pleasant as possible in the building where you live, and also
             in your larger environment.
             Depending on your needs and requests, we will add new features on an on-going basis.
     # testimonials:
@@ -418,8 +383,21 @@ product:
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
 company:
-  mission: x
-  team: x
-  timeline: x
-  contact: x
+  about: ""
+  contact:
+    header:
+      image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
+      title: Contact
+      breadcrumbs:
+        - Home
+        - *3_0_t
+        - *3_2_t
+    email:
+      title: Email
+    phone:
+      title: Phone
+    address:
+      title: Address
+    action:
+      title: Send a message
   careers: x

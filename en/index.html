@@ -15,7 +15,7 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 
 <!-- Scroll to top button -->
 <div class="scrolltotop">
-	<a class="button-circle button-circle-sm button-circle-dark" href="#"><i class="ti-arrow-up"></i></a>
+	<a class="my-button-circle my-button-circle-dark button-circle button-circle-sm button-circle-dark" href="#"><i class="ti-arrow-up"></i></a>
 </div>
 <!-- end Scroll to top button -->
 
@@ -25,14 +25,14 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 	{% for item in c.carousel %}
 	<!-- Slider box 1 -->
 	<div class="bg-image" style="background-image: url({{ item.image }})">
-		<div class="section-xl bg-black-04">
+		<div class="section-xl bg-white-07" >
 			<div class="container text-center">
 				<div class="row">
 					<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-						<p class="lead margin-bottom-20">
+						<p class="my-text-on-image lead margin-bottom-20" style="text-shadow: 0 0 2em white">
 							{{ item.lead }}
 						</p>
-						<h1 class="uppercase letter-spacing-3px">
+						<h1 class="uppercase letter-spacing-3px" style="text-shadow: 0 0 1.8em white">
 							{{ item.title }}
 						</h1>
 						<a class="my-button button button-lg button-border-1px button-outline-white button-rounded margin-top-20" 

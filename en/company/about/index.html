@@ -5,26 +5,32 @@ layout: default
 Template demo at http://mono.flatheme.net/Pages/About/About-us-2.html
 {% endcomment %}
 
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign c = site.data[language].company.about %}
 
 		<header>
 			{% include navbar.html %}
-
 			<!-- Page header -->
-			<div class="bg-image parallax" style="background-image: url(../../assets/images/background.jpg)">
-				<div class="page-title bg-black-07 text-center">
-					<div class="container">
-						<h1 class="font-weight-light">About us 2</h1>
-						<nav>
-							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Home</a></li>
-								<li class="breadcrumb-item"><a href="#">Pages</a></li>
-								<li class="breadcrumb-item active" aria-current="page">About us</li>
-							</ul>
-						</nav>
-					</div><!-- end container -->
-				</div><!-- end page-title -->
-			</div>
+			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
+					<div class="page-title-lg bg-white-08 text-center">
+						<div class="container">
+							<h1 class="font-weight-light">{{c.header.title}}</h1>
+							{% if c.header.breadcrumbs %}
+							<nav aria-label="breadcrumb">
+								<ul class="breadcrumb">
+									<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
+									<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
+									<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
+								</ul>
+							</nav>
+							{% endif %}
+						</div><!-- end container -->
+					</div><!-- end page-title -->
+				</div><!-- end bg-image -->
+				<!-- end Page header -->
 		</header>
+
 
 		<!-- Team section -->
 		<div class="section">

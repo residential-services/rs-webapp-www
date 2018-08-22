@@ -1,9 +1,9 @@
 - # default language
   code: en
-  name: 🇬🇧 English
--
-  code: de
-  name: 🇩🇪 Deutsch
--
-  code: fr
-  name: 🇫🇷 Français
+  name: 🇬🇧 Website in english
+# -
+#   code: de
+#   name: 🇩🇪 Website auf deutsch
+# -
+#   code: fr
+#   name: 🇫🇷 Site en français

@@ -5,26 +5,32 @@ layout: default
 Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 {% endcomment %}
 
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign c = site.data[language].company.contact %}
 
 		<header>
-				{% include navbar.html %}
-
+			{% include navbar.html %}
 			<!-- Page header -->
-			<div class="bg-image parallax" style="background-image: url(../../assets/images/background.jpg)">
-				<div class="page-title-lg bg-black-07 text-center">
-					<div class="container">
-						<h1>Contact Classic</h1>
-						<nav aria-label="breadcrumb">
-							<ul class="breadcrumb">
-								<li class="breadcrumb-item"><a href="#">Home</a></li>
-								<li class="breadcrumb-item"><a href="#">Pages</a></li>
-								<li class="breadcrumb-item active" aria-current="page">Contact</li>
-							</ul>
-						</nav>
-					</div><!-- end container -->
-				</div><!-- end page-title -->
-			</div>
+			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
+					<div class="page-title-lg bg-white-08 text-center">
+						<div class="container">
+							<h1 class="font-weight-light">{{c.header.title}}</h1>
+							{% if c.header.breadcrumbs %}
+							<nav aria-label="breadcrumb">
+								<ul class="breadcrumb">
+									<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
+									<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
+									<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
+								</ul>
+							</nav>
+							{% endif %}
+						</div><!-- end container -->
+					</div><!-- end page-title -->
+				</div><!-- end bg-image -->
+				<!-- end Page header -->
 		</header>
+
 
 		<!-- Contact Info section -->
 		<div class="section">
@@ -33,32 +39,41 @@ Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 					<!-- Icon text box 1 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-email text-dark margin-bottom-20"></i>
-						<h6 class="heading-uppercase no-margin">Email</h6>
-						<p>contact@email.com</p>
+						<h6 class="heading-uppercase no-margin">{{ c.email.title }}</h6>
+						<p>
+							<a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a>
+						</p>
 					</div>
 					<!-- Icon text box 2 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-mobile text-dark margin-bottom-20"></i>
-						<h6 class="heading-uppercase no-margin">Phone</h6>
-						<p>+(987) 654 321 01</p>
+						<h6 class="heading-uppercase no-margin">{{ c.phone.title }}</h6>
+						<p>
+							{% capture phone_uri %}tel:{{ site.data.company.phone | replace: ' ', '-' }}{% endcapture %}
+							<a href="{{ phone_uri }}">{{ site.data.company.phone }}</a>
+						</p>
 					</div>
-					<!-- Icon text box 3 -->
+					{% comment %} <!-- Icon text box 3 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-skype text-dark margin-bottom-20"></i>
 						<h6 class="heading-uppercase no-margin">Skype</h6>
 						<p>contact.skype</p>
-					</div>
+					</div> {% endcomment %}
 					<!-- Icon text box 4 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-location-pin text-dark margin-bottom-20"></i>
-						<h6 class="heading-uppercase no-margin">Address</h6>
-						<p>121 King St, Melbourne VIC 3000</p>
+						<h6 class="heading-uppercase no-margin">{{ c.address.title }}</h6>
+						<p>
+							{% for line in site.data.company.address %}
+								{{ line }} <br>
+							{% endfor %}
+						</p>
 					</div>
 				</div><!-- end row -->
 			</div><!-- end container -->
 		</div>
 		<!-- end Contact Info section -->
-
+{% comment %} 
 		<!-- Contact Form section -->
 		<div class="section no-padding-top">
 			<div class="container">
@@ -84,5 +99,6 @@ Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 				</div><!-- end contact-form -->
 			</div><!-- end container -->
 		</div>
-		<!-- end Contact Form section -->
+		<!-- end Contact Form section --> {% endcomment %}
+		
 
