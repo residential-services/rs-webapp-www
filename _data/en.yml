@@ -30,28 +30,33 @@ menu:
         title: &3_3_t Careers
         path: /company/careers/
 homepage:
-  carousel:
-    -
-      lead: "" #Property management made easy
-      title: Your digital connection with tenants
-      image: /assets/my/images/1920x1200/AdobeStock_202469234-cropped-1920x1200.jpeg
-      button:
-        title: Explore
-        link: /customers/property-managers/
-    -
-      lead: "" #Tenants' lives made easy
-      title: The digital lifestyle for tenants
-      image: /assets/my/images/1920x1200/Fotolia_68740701_XL-modified-1920x1200.jpeg
-      button:
-        title: Explore
-        link: /product/tenants/
+  image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
+  text:
+    lead: Property management made easy
+    title: Your digital connection with tenants
+  button:
+    title: Explore
+    link: /customers/property-managers/
+  # carousel:
+  #   -
+  #     lead: "" #Property management made easy
+  #     title: Your digital connection with tenants
+  #     image: /assets/my/images/1920x1200/AdobeStock_202469234-cropped-1920x1200.jpeg
+  #     button:
+  #   -
+  #     lead: "" #Tenants' lives made easy
+  #     title: The digital lifestyle for tenants
+  #     image: /assets/my/images/1920x1200/Fotolia_68740701_XL-modified-1920x1200.jpeg
+  #     button:
+  #       title: Explore
+  #       link: /product/tenants/
 customers:
   pm:
     header:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
       title: Your digital connection with tenants
       breadcrumbs:
-        - Home
+        - Equa
         - *1_0_t
         - *1_1_t
     about:
@@ -65,13 +70,6 @@ customers:
           in your buildings, or sending many individual letters to tenants.
         link: /product/property-managers/
       -
-        title: Single data entry
-        image: /assets/my/images/360x240/digital2-360x240.jpg
-        body: >
-          With Equa, you enter data only once.
-          We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
-          This way, you can start using our value-adding features right away.
-      -
         title: Convenient for your tenants
         image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
         body: >
@@ -80,9 +78,22 @@ customers:
           Most of your tenants are used to organizing their lives on the internet using smartphones, 
           and Equa is a natural fit for them.
         link: /product/tenants/
+      -
+        title: Single data entry
+        image: /assets/my/images/360x240/digital2-360x240.jpg
+        body: >
+          With Equa, you enter data only once.
+          We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
+          This way, you can start using our value-adding features right away.
     services:
       title: Overview
       items:
+        -
+          title: Equa can complement paper
+          icon: ti-printer
+          body: >
+            You can continue providing a paper-based user interface to your tenants as before if one or more of them asks for it.
+            We can even lend you a hand, for example by sending laundry timetables to you or a contractor for printing.
         -
           title: GDPR-compliant
           icon: ti-shield
@@ -90,7 +101,13 @@ customers:
             Equa is 100% compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
             We protect your tenants' privacy, and only operate on anonymized habitant data.
         -
-          title: ERP-compatible
+          title: Payable by your tenants
+          icon: ti-receipt
+          body: >
+            Given the breadth of tenant-facing features and our low cost per household, 
+            our property manager customers can justifiably forward the cost of Equa to their tenants.
+        -
+          title: Multi-ERP
           icon: ti-harddrives
           body: >
             Equa is independent from any single ERP system. 
@@ -108,19 +125,6 @@ customers:
             The needs of tenants in a large sense is a big part of our focus. 
             Depending on tenant needs and requests, we will add new tenant-facing features.
             Some of those will possibly be unrelated to property management. 
-        -
-          title: Payable by your tenants
-          icon: ti-receipt
-          body: >
-            Given the breadth of tenant-facing features and our low cost per household, 
-            our property manager customers can justifiably forward the cost of Equa to their tenants.
-        -
-          title: Equa can complement paper
-          icon: ti-printer
-          body: >
-            You can continue providing a paper-based user interface as before if one or more of your tenants ask for it.
-            We can even lend you a hand, for example by sending relevant electronic documents to you or your contractors 
-            so that they can be printed out by them.
     # testimonials:
     #   -
     #     name: Johnny Doe
@@ -134,7 +138,7 @@ customers:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
       title: Premium online service for your residential properties
       breadcrumbs:
-        - Home
+        - Equa
         - *1_0_t
         - *1_2_t
     pricing:
@@ -199,7 +203,7 @@ product:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Equa enhances your ERP system seamlessly
       breadcrumbs:
-        - Home
+        - Equa
         - *2_0_t
         - *2_1_t
     tiles:
@@ -309,7 +313,7 @@ product:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: Your digital lifestyle at home
       breadcrumbs:
-        - Home
+        - Equa
         - *2_0_t
         - *2_2_t
     tiles:
@@ -389,7 +393,7 @@ company:
       image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
       title: Contact
       breadcrumbs:
-        - Home
+        - Equa
         - *3_0_t
         - *3_2_t
     email:

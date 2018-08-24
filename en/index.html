@@ -19,6 +19,28 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 </div>
 <!-- end Scroll to top button -->
 
+<!-- Slider box 1 -->
+<div class="bg-image" style="background-image: url({{ c.image }})">
+	<div class=" page-title-lg bg-white-06 text-center" style='height: 800px;' >
+		<div class="container">
+					<p class="my-text-on-image lead margin-bottom-20" style="text-shadow: 0 0 2em white">
+						{{ c.text.lead }}
+					</p>
+					<h1 class=" letter-spacing-3px" style="text-shadow: 0 0 1.8em white; font-variant: small-caps; font-weight: normal;">
+						{{ c.text.title }}
+					</h1>
+					<a class="my-button button button-lg button-border-1px button-outline-white button-rounded margin-top-20" 
+					href="/{{language}}{{ c.button.link }}">
+						{{ c.button.title }}
+					</a>
+		</div><!-- end container -->
+	</div>
+</div>
+
+
+
+
+{% comment %} 
 {% if c.carousel %}
 <!-- Home section -->
 <div class="owl-carousel owl-nav-overlay owl-dots-overlay" data-owl-nav="true" data-owl-dots="true" data-owl-items="1">
@@ -45,20 +67,6 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 		</div>
 	</div>
 	{% endfor %}
-	{% comment %} <!-- Slider box 2 -->
-	<div class="bg-image" style="background-image: url(/assets/images/background.jpg)">
-		<div class="section-xl bg-black-04">
-			<div class="container text-center">
-				<div class="row">
-					<div class="col-12 col-sm-10 offset-sm-1 col-md-8 offset-md-2">
-						<p class="lead margin-bottom-20">Property management made easy</p>
-						<h1 class="uppercase letter-spacing-3px">Your digital connection with tenants</h1>
-						<a class="button button-lg button-border-1px button-outline-white button-rounded margin-top-20" href="#">Explore</a>
-					</div>
-				</div><!-- end row -->
-			</div><!-- end container -->
-		</div>
-	</div> {% endcomment %}
 </div><!-- end owl-carousel -->
 <!-- end Home section -->
 {% endif %}
@@ -287,4 +295,4 @@ Template demo at http://mono.flatheme.net/Home/Business-Clean-2.html
 		</div><!-- end testimonial-grid -->
 	</div><!-- end row -->
 </div>
-<!-- end Testimonial section -->
+<!-- end Testimonial section --> {% endcomment %}

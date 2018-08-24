@@ -12,5 +12,8 @@ body {
 }
 
 .my-text-on-image {
-    text-shadow: 0 0 0.2em beige !important;
+}
+
+.my-capitalize {
+    text-transform: none !important;
 }
