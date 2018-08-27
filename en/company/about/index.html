@@ -37,31 +37,40 @@ Template demo at http://mono.flatheme.net/Pages/About/About-us-2.html
 			<div class="container">
 				<div class="row col-spacing-50">
 					<div class="col-12 col-lg-6">
-						<h2 class="font-weight-thin">We believe that teamwork divides the tasks and multiplies the success</h2>
+						<h2 class="font-weight-thin">
+							{{ c.team.title }}
+						</h2>
 					</div>
 					<div class="col-12 col-lg-6">
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+						<p>
+							{{ c.team.description }}
+						</p>
 					</div>
 				</div><!-- end row -->
 				<div class="margin-top-70">
 					<div class="row team-wrapper team-box-hover-2">
+						{% for member in c.team.members %}
 						<!-- Team box 1 -->
 						<div class="col-12 col-md-6 col-lg-3 team-box">
 							<div class="team-img">
-								<img src="/assets/images/col-4-square.jpg" alt=""><!-- image source -->
+								<img src="{{ member.image }}" alt=""><!-- image source -->
 								<!-- social links -->
 								<div>
 									<ul>
-										<li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-										<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-										<li><a href="#"><i class="fab fa-pinterest"></i></a></li>
+										{% if member.linkedin %}
+											<li><a href="{{ member.linkedin }}"><i class="fab fa-linkedin"></i></a></li>
+										{% endif %}
+										{% comment %} <li><a href="#"><i class="fab fa-facebook-f"></i></a></li> {% endcomment %}
+										{% comment %} <li><a href="#"><i class="fab fa-twitter"></i></a></li> {% endcomment %}
+										{% comment %} <li><a href="#"><i class="fab fa-pinterest"></i></a></li> {% endcomment %}
 									</ul>
 								</div>
 							</div>
-							<h6 class="heading-uppercase">Robert Vincent</h6>
-							<span>CEO</span>
+							<h6 class="heading-uppercase">{{ member.name }}</h6>
+							<span>{{ member.role }}</span>
 						</div>
-						<!-- Team box 2 -->
+						{% endfor %}
+						{% comment %} <!-- Team box 2 -->
 						<div class="col-12 col-md-6 col-lg-3 team-box">
 							<div class="team-img">
 								<img src="/assets/images/col-4-square.jpg" alt=""><!-- image source -->
@@ -108,14 +117,14 @@ Template demo at http://mono.flatheme.net/Pages/About/About-us-2.html
 							</div>
 							<h6 class="heading-uppercase">Michelle White</h6>
 							<span>Senior Designer</span>
-						</div>
+						</div> {% endcomment %}
 					</div><!-- end row -->
 				</div>
 			</div><!-- end container -->
 		</div>
 		<!-- end Team section -->
 
-		<!-- Testimonial -->
+		{% comment %} <!-- Testimonial -->
 		<div class="section border-top">
 			<div class="container">
 				<div class="section-title text-center">
@@ -169,4 +178,4 @@ Template demo at http://mono.flatheme.net/Pages/About/About-us-2.html
 				</div><!-- end testimonial-grid -->
 			</div><!-- end container -->
 		</div>
-		<!-- end Testimonial -->
+		<!-- end Testimonial --> {% endcomment %}

@@ -1,34 +1,31 @@
 menu:
   -
-    title: &1_0_t Customer advantages
+    title: &1_0_title Customer advantages
     items:
       -
-        title: &1_1_t For property managers
+        title: &1_1_title For property managers
         path: /customers/property-managers/
       -
-        title: &1_2_t Pricing
+        title: &1_2_title Pricing
         path: /customers/pricing/
   -
-    title: &2_0_t Product features
+    title: &2_0_title Product features
     items:
       -
-        title: &2_1_t Property manager application
+        title: &2_1_title Property manager application
         path: /product/property-managers/
       -
-        title: &2_2_t Tenant application
+        title: &2_2_title Tenant application
         path: /product/tenants/
   -
-    title: &3_0_t Company info
+    title: &3_0_title Company info
     items:
       -
-        title: &3_1_t About us
+        title: &3_1_title About us
         path: /company/about/
       -
-        title: &3_2_t Contact
+        title: &3_2_title Contact
         path: /company/contact/
-      -
-        title: &3_3_t Careers
-        path: /company/careers/
 homepage:
   image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
   text:
@@ -57,8 +54,8 @@ customers:
       title: Your digital connection with tenants
       breadcrumbs:
         - Equa
-        - *1_0_t
-        - *1_1_t
+        - *1_0_title
+        - *1_1_title
     about:
       -
         title: Equa helps you reduce the cost of managing properties
@@ -139,8 +136,8 @@ customers:
       title: Premium online service for your residential properties
       breadcrumbs:
         - Equa
-        - *1_0_t
-        - *1_2_t
+        - *1_0_title
+        - *1_2_title
     pricing:
       title: Pricing 
       description: >-
@@ -204,8 +201,8 @@ product:
       title: Equa enhances your ERP system seamlessly
       breadcrumbs:
         - Equa
-        - *2_0_t
-        - *2_1_t
+        - *2_0_title
+        - *2_1_title
     tiles:
       -
         pair:
@@ -311,11 +308,11 @@ product:
   tenants:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
-      title: Your digital lifestyle at home
+      title: Digital lifestyle at home and beyond
       breadcrumbs:
         - Equa
-        - *2_0_t
-        - *2_2_t
+        - *2_0_title
+        - *2_2_title
     tiles:
       -
         pair:
@@ -344,7 +341,7 @@ product:
           -
             image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
             lead: 03.
-            title: Your personal laundry timetable
+            title: Personal laundry timetable
             description: >-
               Equa automatically makes reservations for you of the shared laundry facilities if your building is so equipped. 
               You can then modify your reservations if you wish.
@@ -387,21 +384,51 @@ product:
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
 company:
-  about: ""
+  about:
+    header:
+      image: /assets/my/images/1920x1200/AdobeStock_80032341-cropped-1920x1200.jpg
+      title: Lean and innovative
+      breadcrumbs:
+        - Equa
+        - *3_0_title
+        - *3_1_title
+    team:
+      title: We believe that small teams can make a big difference in times of transition
+      description: >-
+        Real estate is in turmoil nowadays.
+        Unless you were hiding under a rock, you have probably heard of the proptech movement that is 
+        bringing about a whole new generation of technology startups to the sector.
+        Within this market, we are addressing a segment that is still being under-served. 
+        Namely, households that live in average to low-end residential buildings.
+        While there are some proptech companies that are already providing comparable online services
+        to high-end constructions, we have chosen the path of disruptive innovation,
+        starting lean, with laser-like focus.
+      members:
+        -
+          name: Doğa Armangil
+          role: CEO
+          image: /assets/my/images/270x270/1IMG_9898-cropped-270x270.jpg
+          linkedin: https://www.linkedin.com/in/dogaarmangil/
+        -
+          name: Outsourced software developer team
+          role: Production
+          image: /assets/my/images/270x270/user-group-270-270.png
+
   contact:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
       title: Contact
       breadcrumbs:
         - Equa
-        - *3_0_t
-        - *3_2_t
+        - *3_0_title
+        - *3_2_title
     email:
       title: Email
     phone:
       title: Phone
     address:
       title: Address
+    linkedin:
+      title: LinkedIn
     action:
       title: Send a message
-  careers: x

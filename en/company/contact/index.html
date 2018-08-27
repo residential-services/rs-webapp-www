@@ -5,6 +5,10 @@ layout: default
 Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 {% endcomment %}
 
+{% comment %} 
+WARNING: Spamming risk if I put raw email addresses and phone numbers here.
+{% endcomment %}
+
 {% assign path = page.url | split: "/" %}
 {% assign language = path[1] %}
 {% assign c = site.data[language].company.contact %}
@@ -36,15 +40,23 @@ Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 		<div class="section">
 			<div class="container">
 				<div class="row">
-					<!-- Icon text box 1 -->
+					{% comment %} <!-- Icon text box 1 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-email text-dark margin-bottom-20"></i>
 						<h6 class="heading-uppercase no-margin">{{ c.email.title }}</h6>
 						<p>
 							<a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a>
 						</p>
+					</div> {% endcomment %}
+					<!-- Icon text box 1 -->
+					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
+						<i class="ti ti-linkedin text-dark margin-bottom-20"></i>
+						<h6 class="heading-uppercase no-margin">{{ c.linkedin.title }}</h6>
+						<p>
+							<a href="{{ site.data.company.linkedin }}" target='_blank'><i class="ti ti-link text-dark margin-bottom-20"></i></a>
+						</p>
 					</div>
-					<!-- Icon text box 2 -->
+					{% comment %} <!-- Icon text box 2 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-mobile text-dark margin-bottom-20"></i>
 						<h6 class="heading-uppercase no-margin">{{ c.phone.title }}</h6>
@@ -52,7 +64,7 @@ Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 							{% capture phone_uri %}tel:{{ site.data.company.phone | replace: ' ', '-' }}{% endcapture %}
 							<a href="{{ phone_uri }}">{{ site.data.company.phone }}</a>
 						</p>
-					</div>
+					</div> {% endcomment %}
 					{% comment %} <!-- Icon text box 3 -->
 					<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 						<i class="ti ti-skype text-dark margin-bottom-20"></i>
@@ -64,9 +76,11 @@ Template demo at http://mono.flatheme.net/Pages/Contact/Contact-Classic.html
 						<i class="ti ti-location-pin text-dark margin-bottom-20"></i>
 						<h6 class="heading-uppercase no-margin">{{ c.address.title }}</h6>
 						<p>
+							<a href="{{ site.data.company.map }}" target='_blank'>
 							{% for line in site.data.company.address %}
 								{{ line }} <br>
 							{% endfor %}
+							</a>
 						</p>
 					</div>
 				</div><!-- end row -->

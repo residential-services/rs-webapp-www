@@ -17,3 +17,7 @@ body {
 .my-capitalize {
     text-transform: none !important;
 }
+
+footer {
+    /* font-size: smaller; */
+}
