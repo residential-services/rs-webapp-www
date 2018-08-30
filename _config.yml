@@ -15,7 +15,7 @@ destination: "./_site"
 keep_files: [".git", "CNAME"]
 
 # Do not copy these files & folders from the source directory to the destination directory
-exclude: ["Rakefile", "Gemfile", "Gemfile.lock"]
+exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock"]
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -24,7 +24,7 @@ exclude: ["Rakefile", "Gemfile", "Gemfile.lock"]
 # in the templates via {{ site.myvariable }}.
 title: Equa Residential Services
 email: Info@Equa.Residential.Services
-description: >- # this means to ignore newlines until "baseurl:"
+description: >- # >- ignores newlines 
   Equa is an online service used by tenants and property managers for communicating.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.Equa.Residential.Services" # the base hostname & protocol for your site, e.g. http://example.com

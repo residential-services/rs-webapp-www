@@ -1,3 +1,6 @@
+snippets:
+  more: More ➤
+  homepage_link: 🇬🇧 Website in english
 menu:
   -
     title: &1_0_title Customer advantages
@@ -83,7 +86,7 @@ customers:
           We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
           This way, you can start using our value-adding features right away.
     services:
-      title: Overview
+      title: And more ..
       items:
         -
           title: Equa can complement paper
@@ -141,8 +144,7 @@ customers:
     pricing:
       title: Pricing 
       description: >-
-        One plan for property management companies of all sizes wishing to offer the Equa online service
-        to tenants.
+        One plan for property management companies of all sizes, based on the number of households.
       plans:
         -
           title: null
@@ -198,7 +200,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Equa enhances your ERP system seamlessly
+      title: Equa enhances your ERP system with additional tenant-facing features
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -401,8 +403,7 @@ company:
         Within this market, we are addressing a segment that is still being under-served. 
         Namely, households that live in average to low-end residential buildings.
         While there are some proptech companies that are already providing comparable online services
-        to high-end constructions, we have chosen the path of disruptive innovation,
-        starting lean, with laser-like focus.
+        to high-end constructions, we have chosen the path of disruptive innovation.
       members:
         -
           name: Doğa Armangil

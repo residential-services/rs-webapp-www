@@ -1,37 +1,438 @@
+snippets:
+  more: Suite ➤
+  homepage_link: 🇫🇷 Site en français
 menu:
   -
-    title: Avantages client
+    title: &1_0_title Avantages client
     items:
       -
-        title: Pour régies immobilières
+        title: &1_1_title Pour régies immobilières
         path: /customers/property-managers/
       -
-        title: Prix
+        title: &1_2_title Nos tarifs
         path: /customers/pricing/
   -
-    title: Produit et fonctionnalités
+    title: &2_0_title Produit et fonctionnalités
     items:
       -
-        title: Application pour régies
+        title: &2_1_title Application pour régies
         path: /product/property-managers/
       -
-        title: application pour locataires
+        title: &2_2_title Application pour locataires
         path: /product/tenants/
   -
-    title: Entreprise
+    title: &3_0_title Entreprise
     items:
       -
-        title: Notre mission
-        path: /company/mission/
+        title: &3_1_title A propos
+        path: /company/about/
       -
-        title: Equipe
-        path: /company/team/
-      -
-        title: Historique
-        path: /company/timeline/
-      -
-        title: Contact
+        title: &3_2_title Contact
         path: /company/contact/
+homepage:
+  image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
+  text:
+    lead: Régie immobilière facilitée
+    title: La connexion digitale avec vos locataires
+  button:
+    title: Explorer
+    link: /customers/property-managers/
+  # carousel:
+  #   -
+  #     lead: "" #Property management made easy
+  #     title: Your digital connection with tenants
+  #     image: /assets/my/images/1920x1200/AdobeStock_202469234-cropped-1920x1200.jpeg
+  #     button:
+  #   -
+  #     lead: "" #Tenants' lives made easy
+  #     title: The digital lifestyle for tenants
+  #     image: /assets/my/images/1920x1200/Fotolia_68740701_XL-modified-1920x1200.jpeg
+  #     button:
+  #       title: Explore
+  #       link: /product/tenants/
+customers:
+  pm:
+    header:
+      image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
+      title: La connexion digitale avec vos locataires
+      breadcrumbs:
+        - Equa
+        - *1_0_title
+        - *1_1_title
+    about:
       -
-        title: Carrières
-        path: /company/careers/
+        title: Equa vous aide à réduire le coût de la gestion immobilière
+        image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
+        body: > 
+          La transition du papier vers le digital pour la communication avec vos locataires
+          permet une réduction de vos coûts opérationnels.
+          Envoyer un simple message avec Equa équivaut à afficher des posters
+          dans chaque immeuble géré, ou d'envoyer plusieurs lettres à destination des locataires.
+        link: /product/property-managers/
+      -
+        title: Pratique pour vos locataires
+        image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
+        body: >
+          Equa facilite également la vie de vos locataires.
+          L'avènement du téléphone mobile a considérablement changé les attentes des consommateurs.
+          La plupart des habitants ont désormais pris l'habitude d'organiser leurs vies sur internet,
+          et Equa est un choix naturel pour eux.
+        link: /product/tenants/
+      -
+        title: Saisie de donnée unique
+        image: /assets/my/images/360x240/digital2-360x240.jpg
+        body: >
+          Avec Equa, vous pouvez saisir vos données une seule fois.
+          Equa s'intègre avec votre système ERP, qui nous envoie périodiquement des données anonymisées concernant patrimoine immobilier et locataires.
+          Vous pouvez ainsi directement vivre l'expérience de la valeur ajoutée de notre service.
+    services:
+      title: De plus ..
+      items:
+        -
+          title: Equa peut complémenter le papier
+          icon: ti-printer
+          body: >
+            Votre régie et vos fournisseurs peuvent continuer à offrir une interface papier à vos locataires comme auparavant.
+            Equa peut même vous aider dans ce sens. 
+            Par exemple, nous pouvons périodiquement  envoyer le tableau des réservations des buanderies à vous ou à un de vos fournisseurs pour impréssion.
+        -
+          title: Conforme avec le GDPR
+          icon: ti-shield
+          body: >
+            Equa est 100% conforme au <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
+            Nous protégeons la sphère privée de vos locataires, et avons seulement accès à des données anonymisées.
+        -
+          title: Payable par vos locataires
+          icon: ti-receipt
+          body: >
+            Etant donnée la largeur de la palette de fonctionnalités que nous offrons aux locataires,
+            votre régie peut légitimement transmettre le coût du service Equa aux locataires.
+        -
+          title: Multi-ERP
+          icon: ti-harddrives
+          body: >
+            Equa est indépendant de tout logiciel ERP, de façon à vous permettre
+            de choisir le logiciel ERP qui vous convient le mieux.
+        -
+          title: Système ouvert
+          icon: ti-gift
+          body: >
+            Nous sommes attentifs aux besoins des régies.
+            De nouvelles fonctionnalités seront ajoutées à Equa selon les besoins et requêtes de nos clients.
+        -
+          title: Fonctionnalités évolutives pour vos locataires
+          icon: ti-world
+          body: >
+            Le confort des locataires constitue une grande partie de nos préoccupations.
+            De nouvelles fonctionnalités seront ajoutées à Equa selon leurs besoins et requêtes.
+            Dans cette optique, nous nous réservons la possibilité d'ajouter des fonctions
+            qui sont utiles aux locataires, même si ces fonctions n'ont aucun lien direct avec
+            votre régie.
+    # testimonials:
+    #   -
+    #     name: Johnny Doe
+    #     role: CEO - Company
+    #     image: /assets/images/img-circle-small.jpg
+    #     quote: >
+    #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    #       nascetur ridiculus mus.
+  pricing: # inspired by Slack https://slack.com/pricing
+    header:
+      image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
+      title: Service en-ligne premium pour vos immeubles résidentiels #Premium online service for your residential properties
+      breadcrumbs:
+        - Equa
+        - *1_0_title
+        - *1_2_title
+    pricing:
+      title: Nos tarifs 
+      description: >-
+        Nous pratiquons un prix unique pour régies immobilières de toute taille, basé sur le nombre de ménages gérés.
+      plans:
+        -
+          title: null
+        -
+          title: Equa Residential
+          price:
+            amount: 6
+            before amount: ""
+            after_amount: CHF /mois /ménage
+          features:
+            - 
+              title: Nombre d'annonces
+              description: Illimité.
+            - 
+              title: Nombre de documents
+              description: Illimité.
+            - 
+              title: Compte régie
+              description: Un compte.
+            -
+              title: Coût d'installation
+              description: Coût d'installation et configuration comptabilisé séparément. 
+            - 
+              title: Aide
+              description: Inclue.
+
+          action:
+            title: Commande
+            link: mailto:Info@Equa.Residential.Services
+        -
+          title: null
+    services:
+      title: ""
+      items:
+        -
+          title: Calcul du prix du service
+          icon: ti-receipt
+          body: >-
+            Le prix de notre service dépend du nombre de ménages utilisant Equa durant la période comptabilisée.
+            Pour un ménage qui est ajouté ou soustrait aux utilisateurs, un coût réduit s'applique selon le nombre de jours
+            d'utilisation durant la période.
+            Par exemple, si vous spécifiez dans votre système ERP qu'un nouveau locataire emménage 10 jour avant la fin de la période,
+            le coût pour ce locataire sera de 10 fois le prix journalier par ménage, ou CHF (6/30)*10 = CHF 2.-.
+        -
+          title: Installation
+          icon: ti-harddrives
+          body: >-
+            Si votre sytème ERP n'implémente pas la compatibilité Equa par lui-même, alors un connecteur séparé est nécessaire pour assurer 
+            l'intégration avec Equa.
+            Dans ce cas, nous prendrons soin d'installer et configurer ce logiciel, qui est disponible sur macOS et Windows.
+          link: /product/property-managers/#installation
+
+product:
+  pm:
+    header:
+      image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
+      title: Equa augmente votre système ERP avec de nouvelles fonctionnalités orientées résidents #Equa enhances your ERP system seamlessly
+      breadcrumbs:
+        - Equa
+        - *2_0_title
+        - *2_1_title
+    tiles:
+      -
+        pair:
+          -
+            image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
+            lead: 01.
+            title: Envoi d'annonces
+            description: >-
+              Vous pouvez envoyer des annonces aux habitants d'une unité d'habitation, d'un immeuble ou d'un groupe d'immeubles.
+              Une annonce peut concerner un événement tel qu'une réparation dans un immeuble, et a une période de validité.
+              Le résident peut à son tour prendre connaissance des annonces pertinentes avec l'application Equa,
+              ou directement depuis son calendrier digital habituel.
+              Equa peut automatiquement synchroniser le compte  d'un résident avec son calendrier.
+          -
+            image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
+            lead: 02.
+            title: Envoi de documents
+            description: >-
+              Vous pouvez envoyer des documents aux habitants d'une unité d'habitation, d'un immeuble ou d'un groupe d'immeubles.
+              Réglements d'immeuble et contrats de bails sont des exemples de documents.
+      -
+        pair:
+          -
+            image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
+            lead: 03.
+            title: Recevoir un feedback des locataires
+            description: >-
+              Les résidents peuvent envoyer des messages aux régies pour plusieurs raisons.
+              Par exemple, ils peuvent vous informer de réparations à effectuer dans un appartement ou un immeuble.
+          -
+            image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
+            lead: 04.
+            title: Groupes de locataires
+            description: >-
+              Vous pouvez regrouper vos locataires par immeuble ou par groupe d'immeubles,
+              et ensuite envoyer annonces et documents directement à un groupe par mesure d'efficacité.
+              Equa importe automatiquement vos groupes depuis votre système ERP.
+              Vous pouvez aussi créer des groupes avec Equa.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
+            lead: 05.
+            title: Buanderies communes
+            description: >-
+              Vous pouvez spécifier si un immeuble est équipé d'une buanderie commune.
+              Equa importe automatiquement de telles indications depuis votre système ERP, 
+              et vous pouvez aussi ajouter ces informations directement dans Equa.
+              Des tableaux de réservation de buanderie sont automatiquement générés par Equa pour vos locataires,
+              qui peuvent modifier leurs heures de réservation. 
+              Equa peut automatiquement synchroniser le tableau de réservation avec le calendrier du locataire.
+          -
+            image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
+            lead: 06.
+            title: Informations de contact
+            description: >-
+              Vous pouvez indiquer des coordonnées d'interlocuteurs parmi votre équipe ou parmi vos fournisseurs.
+              Vos locataires peuvent ainsi directement contacter la personne pertinente pour une raison donnée.
+              Equa importe automatiquement ces indications depuis votre système ERP, 
+              et vous pouvez aussi ajouter ces informations directement dans Equa.
+
+    services:
+      title: ""
+      items:
+        -
+          anchor: privacy
+          title: Confidentialité protégée
+          icon: ti-shield
+          body: >
+            Equa est conforme au <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
+            Nous protégeons la vie privée de vos locataires, et opérons uniquement sur des données anonymisées.
+        -
+          anchor: installation
+          title: Installation
+          icon: ti-harddrives
+          body: >
+            Equa est une extension de votre système ERP existant.
+            Nous sommes compatibles avec les logiciels
+            <a href='https://www.abacus.ch/de/produkte/enterprise/immobilienbewirtschaftung/' target='_blank'>AbaImmo</a> and 
+            <a href='http://www.quorumsoftware.ch/QSSA_Website/Index.html' target='_blank'>Quorum</a>. 
+            Si votre régie utilise AbaImmo, alors un connecteur Equa séparé sera installé et configuré pour vous.
+            Le connecteur Equa est disponible sur macOS et Microsoft Windows.
+            Quorum intégrera la fonctionnalité Equa, sans connecteur externe.
+        -
+          title: Offre évolutive
+          icon: ti-gift
+          body: >
+            Nous sommes attentifs aux besoins des régies immobilières, et
+            de nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins et demandes.
+        -
+          title: Nos tarifs
+          icon: ti-receipt
+          body: >
+            Nos tarifs sont basés sur le nombre de ménages dans vos immeubles qui sont utilisateurs du service Equa.
+          link: /customers/pricing/
+    # testimonials:
+    #   -
+    #     name: Johnny Doe
+    #     role: CEO - Company
+    #     image: /assets/images/img-circle-small.jpg
+    #     quote: >
+    #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    #       nascetur ridiculus mus.
+  tenants:
+    header:
+      image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
+      title: Mode de vie digitale à la maison et au-delà
+      breadcrumbs:
+        - Equa
+        - *2_0_title
+        - *2_2_title
+    tiles:
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-login-screen-550x367.png
+            lead: 01.
+            title: Recevoir des annonces
+            description: >-
+              La régie qui est responsable de l'immeuble que vous habitez peut vous envoyer des annonces qui vous concernent.
+              Une annonce a une période validité et peut par exemple se référer à une réparation dans l'immeuble ou
+              dans votre appartement.
+              Vous pouvez lire les annonces qui vous concernent directement dans l'application Equa,
+              et également dans votre calendrier digital si vous nous autorisez à le mettre à jour.
+              Equa est compatible avec
+              <a href='https://calendar.google.com/' target='_blank'>Google Calendar</a>,
+              <a href='https://calendar.yahoo.com/' target='_blank'>Yahoo Calendar</a>,
+              et tout service de calendrier qui est conforme au standard
+              <a href='https://en.wikipedia.org/wiki/CalDAV' target='_blank'>CalDAV</a>.
+          -
+            image: /assets/my/images/550x367/Fotolia_107692785_XL-550x367.jpg
+            lead: 02.
+            title: Recevoir des documents
+            description: >-
+              Votre régie peut vous envoyer des documents qui vous concernent.
+              Un document peut par exemple contenir le réglement d'immeuble ou le contrat de location.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
+            lead: 03.
+            title: Réservation de la buanderie 
+            description: >-
+              Equa réserve automatiquement pour vous des cases horaires à la buanderie commune si votre immeuble 
+              en possède une. 
+              Vous pouvez consulter et modifier vos réservations avec l'application Equa, et
+              également utiliser votre calendrier pour prendre connaissance de vos réservations
+              si vous nous autorisez à le mettre à jour.
+          -
+            image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
+            lead: 04.
+            title: Informations de contact
+            description: >-
+              Equa vous fournit une liste d'interlocuteurs qui sont à votre disposition ainsi que leurs coordonnées.
+              Vous pouvez par exemple contacter la personne responsable des réparations à propos d'un équipement défectueux dans votre domicile.
+    services:
+      title: ""
+      items:
+        -
+          anchor: privacy
+          title: Confidentialité des données
+          icon: ti-shield
+          body: >
+            Equa est conforme au
+            <a href='https://fr.wikipedia.org/wiki/R%C3%A8glement_g%C3%A9n%C3%A9ral_sur_la_protection_des_donn%C3%A9es' target='_blank'>GDPR</a>
+            qui est un texte de l'Union européenne réglementant la protection des données à caractère personnel.
+            Par défaut, Equa n'opère que sur des données anonymes,
+            tout en donnant à chaque utilisateur la liberté de  fournir des données supplémentaires qui nous aideront à améliorer la qualité du service que nous vous proposons.
+        -
+          title: Offre évolutive
+          icon: ti-world
+          body: >
+            Nous sommes attentifs aux besoins des locataires.
+            Notre mission est de vous rendre la vie aussi facile et agréable que possible, à votre domicile et au-delà.
+            De nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins et demandes.
+    # testimonials:
+    #   -
+    #     name: Johnny Doe
+    #     role: CEO - Company
+    #     image: /assets/images/img-circle-small.jpg
+    #     quote: >
+    #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
+    #       nascetur ridiculus mus.
+company:
+  about:
+    header:
+      image: /assets/my/images/1920x1200/AdobeStock_80032341-cropped-1920x1200.jpg
+      title: Innovation et efficacité
+      breadcrumbs:
+        - Equa
+        - *3_0_title
+        - *3_1_title
+    team:
+      title: >-
+        Nous pensons qu'une équipe restreinte peut faire la différence dans une période de transition économique
+      description: >-
+        L'immobilier vit actuellement une période de transformation accélérée grace au mouvement proptech qui apporte toute une nouvelle génération d'entreprises technologiques dans le secteur.
+        Pour sa part, notre entreprise s'adresse aux habitants d'immeubles résidentiels de milieu ou bas de gamme, segments encore peu représentés parmi la clientèle des startups proptech.
+      members:
+        -
+          name: Doğa Armangil
+          role: CEO
+          image: /assets/my/images/270x270/1IMG_9898-cropped-270x270.jpg
+          linkedin: https://www.linkedin.com/in/dogaarmangil/
+        -
+          name: équipe externe de développement logiciel 
+          role: Production
+          image: /assets/my/images/270x270/user-group-270-270.png
+
+  contact:
+    header:
+      image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
+      title: Contact
+      breadcrumbs:
+        - Equa
+        - *3_0_title
+        - *3_2_title
+    email:
+      title: Email
+    phone:
+      title: Téléphone
+    address:
+      title: Adresse
+    linkedin:
+      title: LinkedIn
+    action:
+      title: Envoyer un message

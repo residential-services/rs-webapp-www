@@ -6,7 +6,8 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 
 {% assign path = page.url | split: "/" %}
 {% assign language = path[1] %}
-{% assign c = site.data[language].customers.pm %}
+{% assign i18n = site.data[language] %}
+{% assign c = i18n.customers.pm %}
 
 		<header>
 			{% include navbar.html %}
@@ -43,7 +44,7 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 							{{ about_item.body }}
 							{% if about_item.link %}
 								<br>
-								<a href="/{{ language }}{{ about_item.link }}">More ➤</a>
+								<a href="/{{ language }}{{ about_item.link }}">{{ i18n.snippets.more }}</a>
 							{% endif %}
 						</p>
 					</div>
@@ -94,7 +95,7 @@ Template demo at http://mono.flatheme.net/Pages/Services/Services-Classic.html
 							<p>{{ item.body }}
 								{% if item.link %}
 									<br>
-									<a href="/{{ language }}{{ item.link }}">More ➤</a>
+									<a href="/{{ language }}{{ item.link }}">{{ i18n.snippets.more }}</a>
 								{% endif %}
 							</p>
 						</div>
