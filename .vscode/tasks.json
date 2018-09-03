@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build the static site",
+            "label": "Build the static website without removing any temporary products afterwards",
             "type": "shell",
-            "command": "rake local:build",
+            "command": "rake clean; rake build",
             "group": {
                 "kind": "build",
                 "isDefault": true
@@ -14,9 +14,9 @@
             "problemMatcher": ["$jekyll-error", "$jekyll-warning"]
         },
         {
-            "label": "Start the local web server",
+            "label": "Start the local test server",
             "type": "shell",
-            "command": "rake local:serve",
+            "command": "rake serve",
             "group": {
                 "kind": "test",
                 "isDefault": true

@@ -1,3 +1,4 @@
+{% comment %} TODO: Stay on the same page when changing languages using the footer links. {% endcomment %}
 <footer>
     <div class="footer bg-light">
         <div class="container">
@@ -14,10 +15,10 @@
                 {% for dropdown in site.data[pagelang]['menu'] %}
                 <div class="col-12 col-md-6 col-lg-3">
                     {% assign title = dropdown.title | split: " " %}
-                    <h6 class="heading-uppercase">{{ title[0] | capitalize }}</h6>
+                    <h6 class="heading-uppercase">{{ title[0] }}</h6>
                     <ul class="list-dash">
                         {% for menu_item in dropdown.items %}
-                        <li><a href="/{{ pagelang }}{{ menu_item.path }}">{{ menu_item.title | capitalize }}</a></li>
+                        <li><a href="/{{ pagelang }}{{ menu_item.path }}">{{ menu_item.title }}</a></li>
                         {% endfor %}
                     </ul>
                 </div>

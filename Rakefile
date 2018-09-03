@@ -2,129 +2,39 @@
 # (see also: the 'build' script file which provides an
 # alternative implementation of the build process)
 # 
-# TODO: check code quality
-
 # WARNING: The --incremental option seems buggy for jekyll build and jekyll serve, so don't use it. 
 
-namespace :local do 
-	desc 'Start the local web server'
-	task :serve do
-		sh "bundle exec jekyll serve --livereload" 
-	end
-	
-	desc 'Build the static website'
-	task :build do
-		require 'pathname'
-		require 'yaml'
-		site_languages = YAML.load Pathname.new('_data/languages.yml').read
+DESTINATION_DIRECTORY = '../residential-services.github.io'
 
-		# Remove files in all secondary language directories
-		for i in 1...site_languages.size do
-			secondary_language_directory = site_languages[i]['code']
-			if Pathname.new(secondary_language_directory).exist?
-				# $stderr.puts "removing contents of #{secondary_language_directory}" 
-				sh "trash #{secondary_language_directory}" # move to Trash
-			end
-			# $stderr.puts "creating #{secondary_language_directory}" 
-			sh "mkdir #{secondary_language_directory}"
-		end
-
-		# Duplicate primary language files for all secondary languages
-		primary_language_directory = site_languages.first['code']
-		for i in 1...site_languages.size do
-			secondary_language_directory = site_languages[i]['code']
-			next unless Pathname.new(secondary_language_directory).exist?
-			# $stderr.puts "copying for default lang to 2dary langs" 
-			sh "cp -R #{primary_language_directory}/ #{secondary_language_directory}" 
-		end
-
-
-		sh "bundle exec jekyll build --source . --destination ../residential-services.github.io --verbose" 
-	end
-
-	desc 'Update gems'
-	task :update_gems do
-		sh "bundle install" 
-	end
-end
-
-
-__END__
-
-desc 'See minified_site'
-task default: :minified_site
-
-
-
-# File tasks ##########################
-
+require 'pathname'
+require 'yaml'
 require "rake/clean"
 
-CLOBBER.include '3_minified_static_site'
-CLEAN.include   '2_static_site'
+SITE_LANGUAGES = YAML.load(Pathname.new('_data/languages.yml').read).collect {|lang| lang['code']}
+# Secondary language files are tempfiles
+CLEAN.include *(SITE_LANGUAGES[1..SITE_LANGUAGES.size])
 
-# group files by treatment method
-FILES = {
-	static:   {},
-	minified: {}
-}
-[:js, :css, :html, :remaining].each do |key|
-	FILES[:static][key] = FileList["2_static_site/**/*#{key == :remaining ? '' : '.'+key.to_s}"]
-# 	$stderr.puts "#{FILES[:static][key]}\n\n\n" 
-end
+task default: :build
 
-# remove directories from file lists
-FILES[:static].each_key do |key|
-	FILES[:static][key].exclude do |file|
-		next true if File.directory? file
-		false
-	end
-end
-
-# exclude some files from groups 
-FILES[:static].each_key do |key|
-	next if key == :remaining
-	FILES[:static][key].exclude '2_static_site/vendor/**/*' 
-	FILES[:static][key].exclude "2_static_site/**/*.min.#{key}"
-	FILES[:static][:remaining].exclude *FILES[:static][key]
-end
-
-# build destination file lists
-FILES[:static].each_key do |key|
-	FILES[:minified][key] = FILES[:static][key].pathmap('%{^2_static_site,3_minified_static_site}d/%f')
-end
-
-# build 'file' and 'directory' tasks
-FILES[:static].each_key do |key|
-	FILES[:static][key].zip FILES[:minified][key] do |source_target| 
-		src, dest = *source_target
-		dest_dir = dest.pathmap('%d')
-	#	puts "#{src} #{dest}" 
-		directory dest_dir
-		file dest => [dest_dir, src] do
-			sh "uglifyjs -o '#{dest}' '#{src}'" if key == :js
-			sh "cleancss -o '#{dest}' '#{src}'" if key == :css
-			sh "html-minifier --remove-comments --remove-comments-from-cdata --collapse-whitespace --minify-css -o '#{dest}' '#{src}'" if key == :html
-			cp src, dest if key == :remaining
-		end
-	end
+# Build *************************************************
+desc 'Build the static website'
+multitask build: SITE_LANGUAGES do # run dependencies in parallel
+	sh "bundle exec jekyll build --source . --destination '#{DESTINATION_DIRECTORY}' --verbose" 	
 end
 
 
+# Duplicate the primary language files for all secondary languages
+SITE_LANGUAGES.each do |lang|
+    next if lang == SITE_LANGUAGES.first
+    file lang => SITE_LANGUAGES.first do |t|
+        cp_r "#{t.source}/", t.name
+    end
+end
 
-# High-level tasks ##########################
 
-desc 'Build a minified static site from Jekyll project'
-task minified_site: [
-#	:clobber,
-	:static_site, 
-	*FILES[:minified][:js], *FILES[:minified][:css], *FILES[:minified][:html], *FILES[:minified][:remaining]
-]
-
-desc 'Build a static site from Jekyll project'
-task static_site: [
-#	:clean
-] do 
-	sh "jekyll build --source 1_jekyll_project --destination 2_static_site"
+# Test *************************************************
+desc 'Start the local test server'
+task :serve do
+	sh 'bundle exec jekyll serve --livereload'
 end
 

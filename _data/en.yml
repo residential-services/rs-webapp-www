@@ -173,7 +173,6 @@ customers:
 
           action:
             title: Order now
-            link: mailto:Info@Equa.Residential.Services
         -
           title: null
     services:

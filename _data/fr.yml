@@ -32,7 +32,7 @@ menu:
 homepage:
   image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
   text:
-    lead: Régie immobilière facilitée
+    lead: Gestion immobilière facilitée
     title: La connexion digitale avec vos locataires
   button:
     title: Explorer
@@ -176,7 +176,6 @@ customers:
 
           action:
             title: Commande
-            link: mailto:Info@Equa.Residential.Services
         -
           title: null
     services:

@@ -8,14 +8,16 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
+# Simple explanation of config options: http://simpleprimate.com/blog/configuration
+
 source: "."
 destination: "./_site"
 
 # Do not touch these files & folders in the destination directory
-keep_files: [".git", "CNAME"]
+keep_files: [".git", "CNAME", "README.md"]
 
 # Do not copy these files & folders from the source directory to the destination directory
-exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock"]
+exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock", "test"]
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
@@ -27,7 +29,7 @@ email: Info@Equa.Residential.Services
 description: >- # >- ignores newlines 
   Equa is an online service used by tenants and property managers for communicating.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.Equa.Residential.Services" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://Equa.Residential.Services" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
