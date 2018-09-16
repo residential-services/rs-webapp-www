@@ -1,6 +1,9 @@
 # residential-services
 Main website (www)
 
+## TODO
+- allow users to send lobbying messages to their property managers.
+
 ## Internationalisation
 
 Development process:

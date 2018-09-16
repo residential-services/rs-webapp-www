@@ -124,12 +124,12 @@ customers:
     pricing:
       title: *1_2_title 
       description: >-
-        Equa Residential ist geeignet für Unternehmen jeder Größenordnung, die Wohnliegenschaften verwalten.
+        Equa Home Communication ist geeignet für Unternehmen jeder Größenordnung, die Wohnliegenschaften verwalten.
       plans:
         -
           title: null
         -
-          title: Equa Residential
+          title: Equa Home Communication
           price:
             amount: 6
             before amount: ""
