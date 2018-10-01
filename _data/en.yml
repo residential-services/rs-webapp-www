@@ -430,5 +430,7 @@ company:
       title: Address
     linkedin:
       title: LinkedIn
+    facebook:
+      title: Facebook
     action:
       title: Send a message

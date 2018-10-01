@@ -113,7 +113,7 @@ customers:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  pricing: # inspired by Slack https://slack.com/pricing
+  pricing: # inspired by https://slack.com/pricing 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
       title: Premium-Onlinedienst für Ihre Wohnliegenschaften
@@ -373,5 +373,7 @@ company:
       title: Adresse
     linkedin:
       title: LinkedIn
+    facebook:
+      title: Facebook
     action:
       title: Senden

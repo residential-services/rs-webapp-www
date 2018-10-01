@@ -433,5 +433,7 @@ company:
       title: Adresse
     linkedin:
       title: LinkedIn
+    facebook:
+      title: Facebook
     action:
       title: Envoyer un message
