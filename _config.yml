@@ -17,7 +17,7 @@ destination: "./_site"
 keep_files: [".git", "CNAME", "README.md"]
 
 # Do not copy these files & folders from the source directory to the destination directory
-exclude: ["README.md", "Rakefile", "Gemfile", "Gemfile.lock", "test"]
+exclude: ["i18n", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "test"]
 
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,

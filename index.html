@@ -8,7 +8,7 @@ layout: null
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<meta name="description" content="">
 		<meta name="keywords" content="">
-		<title>Language detection - Equa</title>	
+		<title>Redirecting to localised page - Equa</title>	
 	</head>
  
 	<body>
@@ -72,7 +72,12 @@ layout: null
 			}
 			if(!lang)lang=siteLanguages[0];
 	
-			window.location.assign("/"+lang+"/");
+			window.location.assign(
+				"/"+lang+
+				window.location.pathname+
+				window.location.search+
+				window.location.hash
+			);
 		</script>
 	
 	</body>
