@@ -110,3 +110,5 @@ const my = {
     }
 }
 
+my.stitch.client = stitch.Stitch.initializeDefaultAppClient("app0-vxpqk"); 
+my.vars.query = my.ui.util.parseQuery();

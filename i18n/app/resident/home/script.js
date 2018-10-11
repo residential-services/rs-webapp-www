@@ -76,8 +76,6 @@ $( "#loginDoneDialogRetry" ).on( "click", function() {
 
 
 
-    
-my.stitch.client = stitch.Stitch.initializeDefaultAppClient("app0-vxpqk");
 // my.stitch.db = my.stitch.client
 //     .getServiceClient(stitch.RemoteMongoClient.factory, "mongodb-atlas")
 //     .db('equa');
@@ -85,7 +83,11 @@ my.stitch.client = stitch.Stitch.initializeDefaultAppClient("app0-vxpqk");
 
 if (!my.stitch.client.auth.user) {
     // not signed in
-    $('#registrationDialog').modal('show');
+    if (my.vars.query.action === 'sign-in') {
+        $('#loginDialog').modal('show');
+    }else{
+        $('#registrationDialog').modal('show');
+    }
 
 } else {
     // signed in

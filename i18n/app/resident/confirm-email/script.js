@@ -1,12 +1,7 @@
 
 
-
-my.vars.query = my.ui.util.parseQuery();
-
-my.stitch.client = stitch.Stitch.initializeDefaultAppClient("app0-vxpqk"); 
-
 $( "#dialogOk" ).on( "click", () => {
-    window.location.assign('../home/');
+    window.location.assign('../home/?action=sign-in');
 });
 
 my.stitch.account.confirmEmail(
