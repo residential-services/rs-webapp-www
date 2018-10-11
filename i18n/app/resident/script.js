@@ -90,7 +90,7 @@ const my = {
     },
     ui:{
         util: {
-            query: () => {
+            parseQuery: () => {
                 const qObject = {};
                 let q = window.location.search;
                 if(q.length<2)return qObject;
@@ -104,11 +104,11 @@ const my = {
                 });
                 return qObject;
             }
-        },
-        tmp: {
-    
         }
     
+    },
+    vars: {
+
     }
 }
 

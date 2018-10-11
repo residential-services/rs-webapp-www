@@ -1,7 +1,7 @@
 
 
 
-my.ui.tmp.query = my.ui.util.query();
+my.vars.query = my.ui.util.parseQuery();
 
 my.stitch.client = stitch.Stitch.initializeDefaultAppClient("app0-vxpqk"); 
 
@@ -10,8 +10,8 @@ $( "#dialogOk" ).on( "click", () => {
 });
 
 my.stitch.account.confirmEmail(
-    my.ui.tmp.query.token,
-    my.ui.tmp.query.tokenId 
+    my.vars.query.token,
+    my.vars.query.tokenId 
 ).then(() => {
     $('#dialogText').text('Email confirmed !');
     //$('#dialogOk').show();
