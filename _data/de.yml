@@ -377,3 +377,42 @@ company:
       title: Facebook
     action:
       title: Senden
+app:
+  resident:
+    home: 
+      headline: Bis bald!
+      registration:
+        title: Equa Residential Services - Registrieren Sie sich GRATIS
+        signIn:
+          alreadyRegistered: Schon registriert?
+          signIn: Sich anmelden
+        email: Email-Adresse
+        password: Passwort
+        password2: Passwort noch einmal eintippen
+        register: Registrieren
+      afterRegistration:
+        text: 
+          complete: Um Ihre Registrierung abzuschließen, klicken Sie bitte auf den Link in der Email, die wir Ihnen gerade geschickt haben!
+          retry: 'Bitte versuchen Sie erneut, sich zu registrieren. Fehler war:'
+          retry2: Bitte versuchen Sie erneut, sich zu registrieren. Die Passwörter müssen dasselbe sein.
+        done: Ok
+        register: Wiederholen
+      signIn:
+        title: Equa Residential Services - Loggen Sie sich ein
+        register:
+          notRegistered: Noch nicht registriert?
+          register: Registrieren
+        email: Email-Addresse
+        password: Passwort
+        signIn: Einloggen
+      afterSignIn:
+        text: 
+          success: Erfolgreich eingeloggt!
+          retry: 'Bitte versuchen Sie erneut, sich einzuloggen. Fehler war:'
+        done: Schließen
+        register: Wiederholen
+    confirmEmail: 
+        text:
+          confirmed: Email bestätigt!
+          unconfirmed: 'Email nicht bestätigt. Fehler war:'
+        signIn: Sign in

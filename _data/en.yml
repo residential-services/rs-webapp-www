@@ -465,7 +465,7 @@ app:
         text: 
           success: Successfully signed in!
           retry: 'Please retry signing in. Error was:'
-        done: Done
+        done: Close
         register: Retry
     confirmEmail: 
         text:
