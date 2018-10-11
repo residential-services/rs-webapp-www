@@ -30,7 +30,7 @@ $( "#registrationDialogRegister" ).on( "click", function() {
             $('#registrationDoneDialogOk').show();
             $('#registrationDoneDialog').modal('show');
         }).catch(err => {
-            $('#registrationDoneDialogText').text('{{c.afterRegistration.text.retry}}'+` #{err}`);
+            $('#registrationDoneDialogText').text(`{{c.afterRegistration.text.retry}} #{err}`);
             $('#registrationDoneDialogRetry').show();
             $('#registrationDoneDialogOk').hide();
             $('#registrationDoneDialog').modal('show');
@@ -69,7 +69,7 @@ $( "#loginDialogLogin" ).on( "click", function() {
         $('#loginDoneDialogOk').show();
         $('#loginDoneDialog').modal('show');
     }).catch(err => {
-        $('#loginDoneDialogText').text('{{c.afterSignIn.text.retry}}' +` ${err}`);
+        $('#loginDoneDialogText').text(`{{c.afterSignIn.text.retry}} ${err}`);
         $('#loginDoneDialogRetry').show();
         $('#loginDoneDialogOk').hide();
         $('#loginDoneDialog').modal('show');

@@ -19,7 +19,7 @@ my.stitch.account.confirmEmail(
     //$('#dialogOk').show();
     $('#dialog').modal('show');
 }).catch(err => {
-    $('#dialogText').text('{{c.text.unconfirmed}}'+ ` ${err}`);
+    $('#dialogText').text(`{{c.text.unconfirmed}} ${err}`);
     //$('#dialogOk').show();
     $('#dialog').modal('show');
 });
