@@ -94,10 +94,7 @@ const my = {
                 const qObject = {};
                 let q = window.location.search;
                 if(q.length<2)return qObject;
-                q = q.slice(1);
-                q = q.split('&');
-                q = q.map((k) => k.split('='));
-                q.forEach(kv => {
+                q.slice(1).split('&').map(k => k.split('=')).forEach(kv => {
                     qObject[kv[0]] = kv[1];
                 });
                 return qObject;
