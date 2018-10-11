@@ -437,6 +437,7 @@ company:
       title: Facebook
     action:
       title: Envoyer un message
+
 app:
   resident:
     home: 
@@ -451,11 +452,11 @@ app:
         password2: Ressaisir le mot de passe
         register: Inscription
       afterRegistration:
-        text: 
-          complete: Parfait! Pour compléter votre inscription, cliquez sur le lien que vous recevrez par email!
-          retry: 'Assayer de vous inscrire encore une fois. L'erreur était:'
-          retry2: Assayer de vous inscrire encore une fois. Le mot de passe répété doit être le même que l'original
         done: Ok
+        textAre:
+          retry2: Assayer de vous inscrire encore une fois. Le mot de passe répété doit être le même que l'original.
+          retry: "Assayer de vous inscrire encore une fois. L'erreur était:"
+          complete: 'Parfait! Pour compléter votre inscription, cliquez sur le lien que vous recevrez par email!'
         register: Réessayer
       signIn:
         title: Equa Residential Services - Connexion
@@ -468,12 +469,12 @@ app:
       afterSignIn:
         text: 
           success: Vous êtes connecté à votre compte Equa!
-          retry: 'Assayer de vous connecter encore une fois. L'erreur était:'
+          retry: "Assayer de vous connecter encore une fois. L'erreur était:"
         done: Fermer
         register: Réessayer
     confirmEmail: 
         text:
-          confirmed: Email confirmé !
-          unconfirmed: 'Email non confirmé. L'erreur était:'
+          confirmed: 'Email confirmé!'
+          unconfirmed: "Email non confirmé. L'erreur était:"
         signIn: Connectez-vous
 
