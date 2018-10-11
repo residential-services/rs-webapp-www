@@ -6,7 +6,7 @@
         {
             "label": "Build the static website without removing any temporary products afterwards",
             "type": "shell",
-            "command": "rake clean; rake build",
+            "command": "rake build",
             "group": {
                 "kind": "build",
                 "isDefault": true

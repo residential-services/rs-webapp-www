@@ -3,5 +3,4 @@
         "*.html": "jekyll",
         "*.svg": "jekyll"
     },
-    "files.autoSave": "off",
 }

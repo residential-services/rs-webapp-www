@@ -20,7 +20,7 @@ task default: :build
 
 # Build *************************************************
 desc 'Build the static website'
-multitask build: [:clean, *SITE_LANGUAGES] do # run dependencies in parallel
+task build: [:clean, *SITE_LANGUAGES] do # run dependencies in parallel
     build_redirection_pages_to_localise INTERNATIONALISED_SITE 
 	sh "bundle exec jekyll build --source . --destination '#{DESTINATION_DIRECTORY}' --verbose" 	
 end
@@ -46,7 +46,6 @@ def build_redirection_pages_to_localise path
     Dir.entries(path).each do |name|  
         next if name == '.' or name == '..'  
         path2 = path + '/' + name  
-        puts path2  
         if File.ftype(path2) == "directory"
             build_redirection_pages_to_localise path2
         elsif File.ftype(path2) == "file"
