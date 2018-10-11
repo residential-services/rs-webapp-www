@@ -96,9 +96,7 @@ const my = {
                 if(q.length<2)return qObject;
                 q = q.slice(1);
                 q = q.split('&');
-                q = q.map((k) => {
-                    k.split('=');
-                });
+                q = q.map((k) => k.split('='));
                 q.forEach(kv => {
                     qObject[kv[0]] = kv[1];
                 });
