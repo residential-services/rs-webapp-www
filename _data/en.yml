@@ -452,7 +452,7 @@ app:
           retry: 'Please retry registering. Error was:'
           retry2: Please retry registering. The two passwords must be the same.
         done: Done
-        register: Retry registering
+        register: Retry
       signIn:
         title: Equa Residential Services - Sign in
         register:
@@ -466,9 +466,9 @@ app:
           success: Successfully signed in!
           retry: 'Please retry signing in. Error was:'
         done: Done
-        register: Retry signing in
+        register: Retry
     confirmEmail: 
         text:
           confirmed: Email confirmed !
           unconfirmed: 'Email unconfirmed. Error was:'
-        done: Done
+        signIn: Sign in

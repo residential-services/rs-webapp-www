@@ -16,10 +16,10 @@ my.stitch.account.confirmEmail(
     my.vars.query.tokenId 
 ).then(() => {
     $('#dialogText').text('{{c.text.confirmed}}');
-    //$('#dialogOk').show();
+    $('#dialogOk').show();
     $('#dialog').modal('show');
 }).catch(err => {
     $('#dialogText').text(`{{c.text.unconfirmed}} ${err}`);
-    //$('#dialogOk').show();
+    $('#dialogOk').hide();
     $('#dialog').modal('show');
 });
