@@ -1,3 +1,11 @@
+---
+layout: null
+---
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign i18n = site.data[language] %}
+{% assign c = i18n.app.resident.home %}
+
 
 // TODO: Handle email confirmation link. See https://docs.mongodb.com/stitch/authentication/userpass/index.html#create-a-new-user-account
 
@@ -17,18 +25,18 @@ $( "#registrationDialogRegister" ).on( "click", function() {
             $('#registrationDialogEmail').val(),
             $('#registrationDialogPwd').val()
         ).then(() => {
-            $('#registrationDoneDialogText').text('Done! To complete your registration, please click on the link in the email we have just sent you!');
+            $('#registrationDoneDialogText').text('{{c.afterRegistration.text.complete}}');
             $('#registrationDoneDialogRetry').hide();
             $('#registrationDoneDialogOk').show();
             $('#registrationDoneDialog').modal('show');
         }).catch(err => {
-            $('#registrationDoneDialogText').text('Please retry registering. Error was:'+` #{err}`);
+            $('#registrationDoneDialogText').text('{{c.afterRegistration.text.retry}}'+` #{err}`);
             $('#registrationDoneDialogRetry').show();
             $('#registrationDoneDialogOk').hide();
             $('#registrationDoneDialog').modal('show');
         });
     } else {
-        $('#registrationDoneDialogText').text('Please retry registering. The two passwords must be the same.');
+        $('#registrationDoneDialogText').text('{{c.afterRegistration.text.retry2}}');
         $('#registrationDoneDialogRetry').show();
         $('#registrationDoneDialogOk').hide();
         $('#registrationDoneDialog').modal('show');
@@ -56,12 +64,12 @@ $( "#loginDialogLogin" ).on( "click", function() {
         $('#loginDialogEmail').val(),
         $('#loginDialogPwd').val()
     ).then(() => {
-        $('#loginDoneDialogText').text('Successfully signed in!');
+        $('#loginDoneDialogText').text('{{c.afterSignIn.text.success}}');
         $('#loginDoneDialogRetry').hide();
         $('#loginDoneDialogOk').show();
         $('#loginDoneDialog').modal('show');
     }).catch(err => {
-        $('#loginDoneDialogText').text(`Please retry signing in. Error was: ${err}`);
+        $('#loginDoneDialogText').text('{{c.afterSignIn.text.retry}}' +` ${err}`);
         $('#loginDoneDialogRetry').show();
         $('#loginDoneDialogOk').hide();
         $('#loginDoneDialog').modal('show');

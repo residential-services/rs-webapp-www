@@ -1,19 +1,28 @@
+---
+layout: null
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Equa</title>
+    <title>Equa Residential Services</title>
     <link rel="stylesheet" href="style.css"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    
+
+    {% assign path = page.url | split: "/" %}
+    {% assign language = path[1] %}
+    {% assign i18n = site.data[language] %}
+    {% assign c = i18n.app.resident.home %}
+
+
     <div class="my-bgimg-1">
         <div class="my-caption">
             <span class="my-border">
-                See you soon!
+                {{c.headline}}
             </span>
         </div>
     </div>
@@ -25,31 +34,30 @@
         <div class="modal-content">
         <div class="modal-header">
             <h5 class="modal-title">
-                Equa Residential Services - 
-                Register FREE
+                {{c.registration.title}}
             </h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
         </div>
         <div class="modal-body">
-            <p>Already registered? <a href="#" id="registrationDialogLogin">Sign in instead</a></p>
+            <p>{{c.registration.alreadyRegistered}} <a href="#" id="registrationDialogLogin">{{c.registration.signIn}}</a></p>
             <div class="form-group">
-                <label for="registrationDialogEmail">Email address</label>
-                <input type="email" class="form-control" id="registrationDialogEmail" placeholder="name@example.com">
+                <label for="registrationDialogEmail">{{c.registration.email}}</label>
+                <input type="email" class="form-control" id="registrationDialogEmail" placeholder="abc@example.com">
             </div>
             <div class="form-group">
-                <label for="registrationDialogPwd">Password</label>
+                <label for="registrationDialogPwd">{{c.registration.password}}</label>
                 <input type="password" class="form-control" id="registrationDialogPwd" placeholder="*************">
             </div>
             <div class="form-group">
-                <label for="registrationDialogPwd">Reenter password</label>
+                <label for="registrationDialogPwd">{{c.registration.password2}}</label>
                 <input type="password" class="form-control" id="registrationDialogPwd2" placeholder="*************">
             </div>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-primary" id="registrationDialogRegister">
-                Register
+                {{c.registration.register}}
             </button>
         </div>
         </div>
@@ -74,8 +82,8 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"  id="registrationDoneDialogOk" data-dismiss="modal">Done</button>
-                    <button type="button" class="btn btn-primary" id="registrationDoneDialogRetry">Retry registering</button>
+                    <button type="button" class="btn btn-secondary"  id="registrationDoneDialogOk" data-dismiss="modal">{{c.afterRegistration.done}}</button>
+                    <button type="button" class="btn btn-primary" id="registrationDoneDialogRetry">Retry {{c.afterRegistration.register}}</button>
                 </div>
             </div>
         </div>
@@ -89,27 +97,26 @@
             <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title">
-                    Equa Residential Services - 
-                    Sign in
+                    {{c.signIn.title}}
                 </h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
                 </button>
             </div>
             <div class="modal-body">
-                <p>Not yet registered? <a href="#" id="loginDialogRegister">Register instead</a></p>
+                <p>{{c.signIn.register.notRegistered}} <a href="#" id="loginDialogRegister">{{c.signIn.register.register}}</a></p>
                 <div class="form-group">
-                    <label for="loginDialogEmail">Email address</label>
+                    <label for="loginDialogEmail">{{c.signIn.email}}</label>
                     <input type="email" class="form-control" id="loginDialogEmail" placeholder="name@example.com">
                 </div>
                 <div class="form-group">
-                    <label for="loginDialogPwd">Password</label>
+                    <label for="loginDialogPwd">{{c.signIn.password}}</label>
                     <input type="password" class="form-control" id="loginDialogPwd" placeholder="*************">
                 </div>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-primary" id="loginDialogLogin">
-                    Sign in
+                    {{c.signIn.signIn}}
                 </button>
             </div>
             </div>
@@ -134,8 +141,8 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary"  id="loginDoneDialogOk" data-dismiss="modal">Done</button>
-                    <button type="button" class="btn btn-primary" id="loginDoneDialogRetry">Retry signing in</button>
+                    <button type="button" class="btn btn-secondary"  id="loginDoneDialogOk" data-dismiss="modal">{{c.afterSignIn.done}}</button>
+                    <button type="button" class="btn btn-primary" id="loginDoneDialogRetry">{{c.afterSignIn.register}}</button>
                 </div>
             </div>
         </div>

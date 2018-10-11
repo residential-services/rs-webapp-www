@@ -194,7 +194,6 @@ customers:
             If your ERP system lacks built-in Equa compatibility, then a connector is needed for integrating your ERP system with Equa.
             In this case, we will take care of properly installing and configuring the connector. This software is available for macOS and Windows.
           link: /product/property-managers/#installation
-
 product:
   pm:
     header:
@@ -434,3 +433,42 @@ company:
       title: Facebook
     action:
       title: Send a message
+app:
+  resident:
+    home: 
+      headline: See you soon!
+      registration:
+        title: Equa Residential Services - Register FREE
+        signIn:
+          alreadyRegistered: Already registered?
+          signIn: Sign in instead
+        email: Email address
+        password: Password
+        password2: Reenter password
+        register: Register
+      afterRegistration:
+        text: 
+          complete: Done! To complete your registration, please click on the link in the email we have just sent you!
+          retry: 'Please retry registering. Error was:'
+          retry2: Please retry registering. The two passwords must be the same.
+        done: Done
+        register: Retry registering
+      signIn:
+        title: Equa Residential Services - Sign in
+        register:
+          notRegistered: Not yet registered?
+          register: Register instead
+        email: Email address
+        password: Password
+        signIn: Sign in
+      afterSignIn:
+        text: 
+          success: Successfully signed in!
+          retry: 'Please retry signing in. Error was:'
+        done: Done
+        register: Retry signing in
+    confirmEmail: 
+        text:
+          confirmed: Email confirmed !
+          unconfirmed: 'Email unconfirmed. Error was:'
+        done: Done
