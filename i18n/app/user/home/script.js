@@ -37,9 +37,9 @@ $( "#registrationDialogRegister" ).on( "click", function() {
             $('#registrationDoneDialog').modal('show');
         }).catch(err => {
             if (`${err}`.match(/password/i)) {
-                $('#registrationDoneDialogText').text(`{{c.afterRegistration.text.retry}} {{c.afterRegistration.text.passwordError}}`);
+                $('#registrationDoneDialogText').text('{{c.afterRegistration.text.retry}} {{c.afterRegistration.text.passwordError}}');
             } else {
-                $('#registrationDoneDialogText').text(`{{c.afterRegistration.text.retry}} {{c.afterRegistration.text.emailError}}`);                
+                $('#registrationDoneDialogText').text('{{c.afterRegistration.text.retry}} {{c.afterRegistration.text.emailError}}');                
             }
             $('#registrationDoneDialogRetry').show();
             $('#registrationDoneDialogOk').hide();
@@ -91,7 +91,7 @@ $( "#loginDialogLogin" ).on( "click", function() {
         $('#loginDoneDialogOk').show();
         $('#loginDoneDialog').modal('show');
     }).catch(err => {
-        $('#loginDoneDialogText').text(`{{c.afterSignIn.text.retry}} ${err}`);
+        $('#loginDoneDialogText').text('{{c.afterSignIn.text.retry}}');
         $('#loginDoneDialogRetry').show();
         $('#loginDoneDialogOk').hide();
         $('#loginDoneDialog').modal('show');
