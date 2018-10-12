@@ -107,5 +107,6 @@ const my = {
     }
 }
 
+// TODO move mongodb stitch app id into a yml file
 my.stitch.client = stitch.Stitch.initializeDefaultAppClient("app0-vxpqk"); 
 my.vars.query = my.ui.util.parseQuery();
