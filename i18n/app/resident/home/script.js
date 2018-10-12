@@ -17,7 +17,13 @@ layout: null
 
 
 
-// 𝟏 Registration events
+// 𝟏 Registration
+$('#registrationDialog').modal({
+    backdrop: false,
+    keyboard: true,
+    focus: true,
+    show: false
+});
 $( "#registrationDialogRegister" ).on( "click", function() {
     $('#registrationDialog').modal('hide');
     if ($('#registrationDialogPwd').val() ===  $('#registrationDialogPwd2').val()) {
@@ -48,7 +54,13 @@ $( "#registrationDialogLogin" ).on( "click", function() {
 });
 
 
-// 𝟐 After registration events
+// 𝟐 After registration
+$('#registrationDoneDialog').modal({
+    backdrop: false,
+    keyboard: true,
+    focus: true,
+    show: false
+});
 $( "#registrationDoneDialogRetry" ).on( "click", function() {
     $('#registrationDoneDialog').modal('hide');
     $('#registrationDialogEmail').val('');
@@ -57,7 +69,13 @@ $( "#registrationDoneDialogRetry" ).on( "click", function() {
 });    
 
 
-// 𝟑 Login events
+// 𝟑 Login
+$('#loginDialog').modal({
+    backdrop: false,
+    keyboard: true,
+    focus: true,
+    show: false
+});
 $( "#loginDialogLogin" ).on( "click", function() {
     $('#loginDialog').modal('hide');
     my.stitch.account.signIn(
@@ -81,7 +99,13 @@ $( "#loginDialogRegister" ).on( "click", function() {
 });
 
 
-// 𝟒 After login events
+// 𝟒 After login
+$('#loginDoneDialog').modal({
+    backdrop: false,
+    keyboard: true,
+    focus: true,
+    show: false
+});
 $( "#loginDoneDialogRetry" ).on( "click", function() {
     $('#loginDoneDialog').modal('hide');
     $('#loginDialogEmail').val('');

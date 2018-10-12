@@ -6,7 +6,12 @@ layout: null
 {% assign i18n = site.data[language] %}
 {% assign c = i18n.app.resident.confirmEmail %}
 
-
+$('#dialog').modal({
+    backdrop: false,
+    keyboard: true,
+    focus: true,
+    show: false
+});
 $( "#dialogOk" ).on( "click", () => {
     window.location.assign('../home/?action=sign-in');
 });
