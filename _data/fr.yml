@@ -456,7 +456,7 @@ app:
         textAre:
           retry2: Assayer de vous inscrire encore une fois. Le mot de passe répété doit être le même que l'original.
           retry: "Assayer de vous inscrire encore une fois. L'erreur était:"
-          complete: 'Parfait! Pour compléter votre inscription, cliquez sur le lien que vous recevrez par email!'
+          complete: 'Pour compléter votre inscription, cliquez sur le lien que vous recevrez par email!'
         register: Réessayer
       signIn:
         title: Equa Residential Services - Connexion

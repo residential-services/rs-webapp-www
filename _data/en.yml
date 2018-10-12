@@ -448,10 +448,10 @@ app:
         register: Register
       afterRegistration:
         text: 
-          complete: Done! To complete your registration, please click on the link in the email we have just sent you!
+          complete: To complete your registration, please click on the link in the email we have just sent you!
           retry: 'Please retry registering. Error was:'
           retry2: Please retry registering. The two passwords must be the same.
-        done: Done
+        done: Ok
         register: Retry
       signIn:
         title: Equa Residential Services - Sign in
