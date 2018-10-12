@@ -449,7 +449,9 @@ app:
       afterRegistration:
         text: 
           complete: To complete your registration, please click on the link in the email we have just sent you!
-          retry: 'Please retry registering. Error was:'
+          retry: Please retry registering.
+          emailError: Email address already in use.
+          passwordError: Password must be between 6 and 128 characters.
           retry2: Please retry registering. The two passwords must be the same.
         done: Ok
         register: Retry
@@ -464,11 +466,11 @@ app:
       afterSignIn:
         text: 
           success: Successfully signed in!
-          retry: 'Please retry signing in. Error was:'
+          retry: Please retry signing in. Email and/or password unknown.
         done: Close
         register: Retry
     confirmEmail: 
         text:
-          confirmed: Email confirmed !
-          unconfirmed: 'Email unconfirmed. Error was:'
+          confirmed: Email confirmed!
+          unconfirmed: Email unconfirmed.
         signIn: Sign in

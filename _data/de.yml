@@ -393,7 +393,9 @@ app:
       afterRegistration:
         text: 
           complete: Um Ihre Registrierung abzuschließen, klicken Sie bitte auf den Link in der Email, die wir Ihnen gerade geschickt haben!
-          retry: 'Bitte versuchen Sie erneut, sich zu registrieren. Fehler war:'
+          retry: Bitte versuchen Sie erneut, sich zu registrieren.
+          emailError: Email schon vergeben.
+          passwordError: Passwort muss zwischen 6 und 128 Zeichen lang sein.
           retry2: Bitte versuchen Sie erneut, sich zu registrieren. Die Passwörter müssen dasselbe sein.
         done: Ok
         register: Wiederholen
@@ -408,11 +410,11 @@ app:
       afterSignIn:
         text: 
           success: Erfolgreich eingeloggt!
-          retry: 'Bitte versuchen Sie erneut, sich einzuloggen. Fehler war:'
+          retry: Bitte versuchen Sie erneut, sich einzuloggen. Email und/oder Passwort unbekannt.
         done: Schließen
         register: Wiederholen
     confirmEmail: 
         text:
           confirmed: Email bestätigt!
-          unconfirmed: 'Email nicht bestätigt. Fehler war:'
+          unconfirmed: Email nicht bestätigt.
         signIn: Sign in

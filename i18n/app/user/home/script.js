@@ -36,7 +36,11 @@ $( "#registrationDialogRegister" ).on( "click", function() {
             $('#registrationDoneDialogOk').show();
             $('#registrationDoneDialog').modal('show');
         }).catch(err => {
-            $('#registrationDoneDialogText').text(`{{c.afterRegistration.text.retry}} ${err}`);
+            if (`${err}`.match(/password/i)) {
+                $('#registrationDoneDialogText').text(`{{c.afterRegistration.text.retry}} {{c.afterRegistration.text.passwordError}}`);
+            } else {
+                $('#registrationDoneDialogText').text(`{{c.afterRegistration.text.retry}} {{c.afterRegistration.text.emailError}}`);                
+            }
             $('#registrationDoneDialogRetry').show();
             $('#registrationDoneDialogOk').hide();
             $('#registrationDoneDialog').modal('show');
