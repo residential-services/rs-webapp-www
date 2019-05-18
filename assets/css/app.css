@@ -1,3 +1,9 @@
+.my-header-logo {
+  overflow: visible;
+  width: 300px !important;
+  height: 88px !important;  
+}
+
 /*------------------------------------------------
 *
 * Template name: Mono

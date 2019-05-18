@@ -68,7 +68,7 @@ customers:
         image: /assets/my/images/360x240/digital2-360x240.jpg
         body: >
           Mit Equa werden Daten nur einmal eingegeben. Ihr ERP-System wird mit Equa eingebunden, so dass eine regelmässige Entsendung von Ihren Liegenschafts- und Mieterdaten automatisch erfolgt.
-          Selbstverständlich werden alle Daten  im Voraus anonymisiert. So können Sie bequem gleich anfangen, die Equa-Funktionalitäten anzuwenden.
+          Selbstverständlich werden alle Daten  im Voraus anonymisiert. 
     services:
       title: ""
       items:
@@ -88,23 +88,24 @@ customers:
           icon: ti-receipt
           body: >
             Die umfangreiche Funktionalität die wir den Mietern anbieten und unsere geringe Preise rechtfertigen, daß unser Online-Dienst letztendlich von den Mietern bezahlt wird, selbst wenn unsere eigentliche Kunden die Liegenschaftsverwalter sind.
+          link: /customers/pricing/
         -
           title: Multi-ERP
           icon: ti-harddrives
           body: >
-            Equa ist unabhängig von den einzelnen ERP-Anbietern, so dass Sie das eine oder das andere Equa-kompatible ERP-System im Betrieb einsetzen können.
-        -
-          title: Ständig in Bewegung
-          icon: ti-gift
-          body: >
-            Wir sind aufmerksam auf Ihre Bedürfnisse.
-            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen für Liegenschaftsverwalter hinzugefügt.
+            Equa ist unabhängig von den einzelnen ERP-Anbietern, so dass Sie das eine oder das andere Equa-kompatible ERP-System im Betrieb einsetzen können. Equa funktionniert auch ohne ERP.
         -
           title: Immer neue Mieterfunktionen
           icon: ti-world
           body: >
             Wir sind aufmerksam auf die Bedürfnisse Ihrer Mieter im weitesten Sinne.
             Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen hinzugefügt. Einige dieser Functionen werden möglicherweise nur die Mieter dienen, unabhängig von den Liegenschaftsverwaltern.
+        -
+          title: Ständig in Bewegung
+          icon: ti-gift
+          body: >
+            Wir sind aufmerksam auf Ihre Bedürfnisse.
+            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen für Liegenschaftsverwalter hinzugefügt.
     # testimonials:
     #   -
     #     name: Johnny Doe
@@ -124,34 +125,34 @@ customers:
     pricing:
       title: *1_2_title 
       description: >-
-        Equa Home Communication ist geeignet für Unternehmen jeder Größenordnung, die Wohnliegenschaften verwalten.
+        Equa Tenant Services ist geeignet für Unternehmen jeder Größenordnung, die Wohnliegenschaften verwalten.
       plans:
         -
           title: null
         -
-          title: Equa Home Communication
+          title: Equa Tenant Services
           price:
-            amount: 6
-            before amount: ""
-            after_amount: CHF /Monat /Mieter
-          features:
-            - 
-              title: Zahl der entsendeten Anmeldungen
-              description: Unbegrenzt.
-            - 
-              title: Zahl der entsendeten Dokumente
-              description: Unbegrenzt.
-            - 
-              title: Verwalterkonto
-              description: Eingebunden.
-            -
-              title: Installationsgebühr
-              description: Beinhaltet Hilfe bei der Installation und/oder Konfiguration vom Equa Connector und/oder Ihr ERP-System.
-            - 
-              title: Helpdesk
-              description: Beinhaltet Hilfe für Ihre Anfragen.
-          action:
-            title: Bestellen
+            amount: "3.50"
+            before_amount: CHF
+            after_amount: /Monat /Mieter
+          # features:
+          #   - 
+          #     title: Zahl der entsendeten Anmeldungen
+          #     description: Unbegrenzt.
+          #   - 
+          #     title: Zahl der entsendeten Dokumente
+          #     description: Unbegrenzt.
+          #   - 
+          #     title: Verwalterkonto
+          #     description: Eingebunden.
+          #   -
+          #     title: Installationsgebühr
+          #     description: Beinhaltet Hilfe bei der Installation und/oder Konfiguration vom Equa Connector und/oder Ihr ERP-System.
+          #   - 
+          #     title: Helpdesk
+          #     description: Beinhaltet Hilfe für Ihre Anfragen.
+          # action:
+          #   title: Bestellen
         -
           title: null
     services:
@@ -162,13 +163,6 @@ customers:
           icon: ti-receipt
           body: >-
             Ihr monatlicher Betrag wird abhängend von der Zahl der Mieter berechnet, die während des Monats Equa-Benutzer waren. 
-            Zum Beispiel, wenn Ihr ERP-System uns mitteilt, dass in neuer Mieter 10 Tage vor dem Ende des Monats eingezogen ist, dann wird für diesen Mieter genau zehnmal der Tägliche Mieterbetrag berechnet, also CHF (6/30)*10 = CHF 2.- .
-        -
-          title: Installation
-          icon: ti-harddrives
-          body: >-
-            Wie Equa bei Ihnen installiert wird, hängt von den Eigenschaften Ihres ERP-Systems. Wenn es die Equa-Integration schon out-of-the-box verfügt, dann wird es einfach konfiguriert. Sonst wird eine zusätzliche Software, gennant Equa-Connector, bei Ihnen installiert. Der Equa-Connector ist für macOS und Windows verfügbar.
-          link: /product/property-managers/#installation
 
 product:
   pm:
@@ -241,15 +235,12 @@ product:
           body: >
             Equa ist 100% konform <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a> gegenüber.
         -
-          anchor: installation
           title: Installation
           icon: ti-harddrives
-          body: >
-            Equa ergänzt Ihr bestehendes ERP-System. Zur Zeit unterstützen wir 
-            <a href='https://www.abacus.ch/de/produkte/enterprise/immobilienbewirtschaftung/' target='_blank'>AbaImmo</a> und
-            <a href='http://www.quorumsoftware.ch/QSSA_Website/Index.html' target='_blank'>Quorum</a>. 
-            Für AbaImmo-Benutzer stellen wir die Equa Connector Software zur Verfügung, die zusätzlich für Sie installiert und konfiguriert wird.
-            The Equa Connector ist für macOS und Microsoft Windows erhältlich.
+          body: >-
+            Die Equa-Anwendung für Liegenschaftsverwalter ist eine Web-Anwendung, die keine Installation
+            benötigt. Wenn Ihr ERP-System mit Equa kompatibel ist, dann können Sie die Integration mittels
+            eines Verbindung-Software tätigen, die eventuell separat installiert wird.
         -
           title: Weiter entwickelt
           icon: ti-gift

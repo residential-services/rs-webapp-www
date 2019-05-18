@@ -84,7 +84,6 @@ customers:
         body: >
           Avec Equa, vous pouvez saisir vos données une seule fois.
           Equa s'intègre avec votre système ERP, qui nous envoie périodiquement des données anonymisées concernant patrimoine immobilier et locataires.
-          Vous pouvez ainsi directement vivre l'expérience de la valeur ajoutée de notre service.
     services:
       title: De plus ..
       items:
@@ -107,27 +106,28 @@ customers:
           body: >
             Etant donnée la largeur de la palette de fonctionnalités que nous offrons aux locataires,
             votre régie peut légitimement transmettre le coût du service Equa aux locataires.
+          link: /customers/pricing/
         -
           title: Multi-ERP
           icon: ti-harddrives
           body: >
             Equa est indépendant de tout logiciel ERP, de façon à vous permettre
             de choisir le logiciel ERP qui vous convient le mieux.
-        -
-          title: Système ouvert
-          icon: ti-gift
-          body: >
-            Nous sommes attentifs aux besoins des régies.
-            De nouvelles fonctionnalités seront ajoutées à Equa selon les besoins et requêtes de nos clients.
+            Equa est aussi utilisable sans l'intégrer à un système ERP.
         -
           title: Fonctionnalités évolutives pour vos locataires
           icon: ti-world
           body: >
             Le confort des locataires constitue une grande partie de nos préoccupations.
             De nouvelles fonctionnalités seront ajoutées à Equa selon leurs besoins et requêtes.
-            Dans cette optique, nous nous réservons la possibilité d'ajouter des fonctions
-            qui sont utiles aux locataires, même si ces fonctions n'ont aucun lien direct avec
-            votre régie.
+            Dans cette optique, nous pouvons envisager la possibilité d'ajouter des fonctions
+            qui sont utiles aux locataires et sont indépendantes des besoins des régies.
+        -
+          title: Système ouvert
+          icon: ti-gift
+          body: >
+            Nous sommes attentifs aux besoins des régies.
+            De nouvelles fonctionnalités seront ajoutées à Equa selon les besoins et requêtes de nos clients.
     # testimonials:
     #   -
     #     name: Johnny Doe
@@ -152,30 +152,30 @@ customers:
         -
           title: null
         -
-          title: Equa Home Communication
+          title: Equa Tenant Services
           price:
-            amount: 6
-            before amount: ""
-            after_amount: CHF /mois /ménage
-          features:
-            - 
-              title: Nombre d'annonces
-              description: Illimité.
-            - 
-              title: Nombre de documents
-              description: Illimité.
-            - 
-              title: Compte régie
-              description: Un compte.
-            -
-              title: Coût d'installation
-              description: Coût d'installation et configuration comptabilisé séparément. 
-            - 
-              title: Aide
-              description: Inclue.
+            amount: "3.50"
+            before_amount: CHF
+            after_amount: /mois /ménage
+          # features:
+          #   - 
+          #     title: Nombre d'annonces
+          #     description: Illimité.
+          #   - 
+          #     title: Nombre de documents
+          #     description: Illimité.
+          #   - 
+          #     title: Compte régie
+          #     description: Un compte.
+          #   -
+          #     title: Coût d'installation
+          #     description: Coût d'installation et configuration comptabilisé séparément. 
+          #   - 
+          #     title: Aide
+          #     description: Inclue.
 
-          action:
-            title: Commande
+          # action:
+          #   title: Commande
         -
           title: null
     services:
@@ -186,18 +186,6 @@ customers:
           icon: ti-receipt
           body: >-
             Le prix de notre service dépend du nombre de ménages utilisant Equa durant la période comptabilisée.
-            Pour un ménage qui est ajouté ou soustrait aux utilisateurs, un coût réduit s'applique selon le nombre de jours
-            d'utilisation durant la période.
-            Par exemple, si vous spécifiez dans votre système ERP qu'un nouveau locataire emménage 10 jour avant la fin de la période,
-            le coût pour ce locataire sera de 10 fois le prix journalier par ménage, ou CHF (6/30)*10 = CHF 2.-.
-        -
-          title: Installation
-          icon: ti-harddrives
-          body: >-
-            Si votre sytème ERP n'implémente pas la compatibilité Equa par lui-même, alors un connecteur séparé est nécessaire pour assurer 
-            l'intégration avec Equa.
-            Dans ce cas, nous prendrons soin d'installer et configurer ce logiciel, qui est disponible sur macOS et Windows.
-          link: /product/property-managers/#installation
 
 product:
   pm:
@@ -280,17 +268,13 @@ product:
             Equa est conforme au <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
             Nous protégeons la vie privée de vos locataires, et opérons uniquement sur des données anonymisées.
         -
-          anchor: installation
           title: Installation
           icon: ti-harddrives
-          body: >
-            Equa est une extension de votre système ERP existant.
-            Nous sommes compatibles avec les logiciels
-            <a href='https://www.abacus.ch/de/produkte/enterprise/immobilienbewirtschaftung/' target='_blank'>AbaImmo</a> and 
-            <a href='http://www.quorumsoftware.ch/QSSA_Website/Index.html' target='_blank'>Quorum</a>. 
-            Si votre régie utilise AbaImmo, alors un connecteur Equa séparé sera installé et configuré pour vous.
-            Le connecteur Equa est disponible sur macOS et Microsoft Windows.
-            Quorum intégrera la fonctionnalité Equa, sans connecteur externe.
+          body: >-
+            L'application Equa pour régies est une application web qui est utilisable sans installation,
+            et indépendamment de tout autre logiciel.
+            Si votre système ERP est compatible avec Equa, alors vous pouvez l'intégrer avec Equa 
+            au moyen d'un connecteur, ce qui peut nécessiter une étape d'installation.
         -
           title: Offre évolutive
           icon: ti-gift

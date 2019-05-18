@@ -24,7 +24,7 @@ exclude: ["i18n", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "test"]
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Equa Home Communication Services
+title: Equa Residential Services
 email: Info@Equa.Residential.Services
 description: >- # >- ignores newlines 
   Equa is an online service used by tenants and property managers for communicating.
