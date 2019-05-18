@@ -24,12 +24,12 @@ exclude: ["i18n", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "test"]
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Equa Residential Services
-email: Info@Equa.Residential.Services
+title: Equa World
+email: info@equa.world
 description: >- # >- ignores newlines 
-  Equa is an online service used by tenants and property managers for communicating.
+  Equa World is an online service used by tenants and property managers for communicating.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://Equa.Residential.Services" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://equa.world" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 

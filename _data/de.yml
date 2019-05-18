@@ -33,7 +33,10 @@ homepage:
   image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
   text:
     lead: Liegenschaftsverwaltung vereinfacht
-    title: &hp_message Ihre digitale Verbindung mit Mietern
+    title: &hp_message >
+      Ihre digitale Verbindung mit Mietern. <br>
+      (Videos: <a href='https://vimeo.com/291590979' target='_blank'>Teaser</a>,
+      <a href='https://vimeo.com/290539315' target='_blank'>Prototyp</a>)
   button:
     title: Erkunden
     link: /customers/property-managers/

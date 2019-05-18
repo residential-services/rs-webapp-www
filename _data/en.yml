@@ -33,7 +33,10 @@ homepage:
   image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
   text:
     lead: Property management made easy
-    title: Your digital connection with tenants
+    title: >
+      Your digital connection with tenants. <br>
+      (Videos: <a href='https://vimeo.com/291464461' target='_blank'>teaser</a>,
+      <a href='https://vimeo.com/290539315' target='_blank'>prototype</a>)
   button:
     title: Explore
     link: /customers/property-managers/

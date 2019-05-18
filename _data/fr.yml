@@ -33,7 +33,10 @@ homepage:
   image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
   text:
     lead: Gestion immobilière facilitée
-    title: La connexion digitale avec vos locataires
+    title: >
+      La connexion digitale avec vos locataires. <br>
+      (Videos: <a href='https://vimeo.com/291580062' target='_blank'>teaser</a>,
+      <a href='https://vimeo.com/290539315' target='_blank'>prototype</a>)
   button:
     title: Explorer
     link: /customers/property-managers/
