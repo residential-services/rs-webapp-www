@@ -7,9 +7,9 @@ layout: default
 {% assign i18n = site.data[language] %}
 {% assign c = i18n.product.tenants.privacyPolicy %}
 
-<header>
+{%- comment -%} <header>
   {% include navbar.html %}
-</header>
+</header> {%- endcomment -%}
 
 <main class='m-5'>
 <p style='background: green; color: white'>{{c.notice}}</p>
@@ -21,7 +21,7 @@ layout: default
 Armangil Software est en mesure d’offrir une forte protection pour vos données. Notre but est de faciliter la vie de nos utilisateurs le plus possible tout en accaparant le moins possible leur temps. Ainsi, nous  avons fait le choix dès le départ de nous passer de publicité pour financer nos applications. Nous ne divulguons pas vos données aux entreprises de publicité, ni à aucune autre, exceptée à notre hébergeur Internet, qui est Google avec son Google Cloud Platform (GCP). A son tour, GCP est extrêmement respectueux des données qui leur sont confiées.
 </p>
 
-<h2>Armangil Software</h2>
+<h2>Contrôle des données</h2>
 
 <p>
 Armangil Software est l’auteur de l’application mobile Equa Phi, et le contrôleur des données qui lui sont fournies:
