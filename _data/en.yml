@@ -189,6 +189,13 @@ customers:
             Our service fee is based on the number of households that are Equa users during the current billing period.
 product:
   pm:
+    termsOfService:
+      notice: 🇫🇷 Our terms of service are currently only available in french.
+    privacyPolicy: 
+      notice: 🇫🇷 Our privacy policy is currently only available in french.
+    support: 
+      notice: 🇫🇷 Our support page is currently only available in french.
+
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Equa enhances your ERP system with additional tenant-facing features
@@ -296,6 +303,12 @@ product:
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
   tenants:
+    termsOfService:
+      notice: 🇫🇷 Our terms of service are currently only available in french.
+    privacyPolicy: 
+      notice: 🇫🇷 Our privacy policy is currently only available in french.
+    support: 
+      notice: 🇫🇷 Our support page is currently only available in french.
     header:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: Digital lifestyle at home and beyond

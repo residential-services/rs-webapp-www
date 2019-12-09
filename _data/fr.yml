@@ -192,6 +192,13 @@ customers:
 
 product:
   pm:
+    termsOfService:
+      notice: ''
+    privacyPolicy: 
+      notice: ''
+    support: 
+      notice: ''
+
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Equa augmente votre système ERP avec de nouvelles fonctionnalités orientées résidents #Equa enhances your ERP system seamlessly
@@ -299,6 +306,13 @@ product:
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
   tenants:
+    termsOfService:
+      notice: ''
+    privacyPolicy: 
+      notice: ''
+    support: 
+      notice: ''
+
     header:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: Mode de vie digitale à la maison et au-delà

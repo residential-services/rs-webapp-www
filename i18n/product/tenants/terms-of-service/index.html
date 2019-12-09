@@ -1,3 +1,12 @@
 ---
 layout: default
 ---
+
+{% assign path = page.url | split: "/" %}
+{% assign language = path[1] %}
+{% assign i18n = site.data[language] %}
+{% assign c = i18n.product.tenants.termsOfService %}
+
+<header>
+  {% include navbar.html %}
+</header>

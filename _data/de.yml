@@ -169,6 +169,13 @@ customers:
 
 product:
   pm:
+    termsOfService:
+      notice: 🇫🇷Unsere Nutzungsbedingungen sind zur Zeit nur auf französisch verfügbar.
+    privacyPolicy: 
+      notice: 🇫🇷Unsere Datenschutzbestimmungen sind zur Zeit nur auf französisch verfügbar.
+    support: 
+      notice: 🇫🇷Unsere Support-Seite ist zur Zeit nur auf französisch verfügbar.
+
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Equa ergänzt Ihr ERP-System mit mieterspezifischen Functionen
@@ -264,6 +271,12 @@ product:
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
   tenants:
+    termsOfService:
+      notice: 🇫🇷Unsere Nutzungsbedingungen sind zur Zeit nur auf französisch verfügbar.
+    privacyPolicy: 
+      notice: 🇫🇷Unsere Datenschutzbestimmungen sind zur Zeit nur auf französisch verfügbar.
+    support: 
+      notice: 🇫🇷Unsere Support-Seite ist zur Zeit nur auf französisch verfügbar.
     header:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: Digital Lifestyle zuhause und außerhalb
