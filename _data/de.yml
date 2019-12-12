@@ -34,9 +34,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: &hp_message >
-      Ihre digitale Verbindung mit Mietern. <br>
-      (Videos: <a href='https://vimeo.com/291590979' target='_blank'>Teaser</a>,
-      <a href='https://vimeo.com/290539315' target='_blank'>Prototyp</a>)
+      Ihre digitale Verbindung zu Mietern. 
   button:
     title: Erkunden
     link: /customers/property-managers/
