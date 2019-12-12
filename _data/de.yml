@@ -135,9 +135,9 @@ customers:
         -
           title: Equa Tenant Services
           price:
-            amount: "3.50"
+            amount: "0.18"
             before_amount: CHF
-            after_amount: /Monat /Mieter
+            after_amount: /Monat /Wohneinheit
           # features:
           #   - 
           #     title: Zahl der entsendeten Anmeldungen
@@ -165,8 +165,15 @@ customers:
           title: Wie Ihre Equa-Rechnung berechnet wird
           icon: ti-receipt
           body: >-
-            Ihr monatlicher Betrag wird abhängend von der Zahl der Mieter berechnet, die während des Monats Equa-Benutzer waren. 
-
+            Unsere Servicegebühr richtet sich nach der Anzahl der Wohneinheiten in den von Ihnen verwalteten Gebäuden.
+            Bei der Abrechnung werden nur "veröffentlichte" Gebäude berücksichtigt. Gebäude, die Sie im Entwurfsmodus
+            belassen, werden nicht in Rechnung gestellt.
+        -
+          title: Kostenlos testen
+          icon: ti-direction
+          body: >-
+            Sie können unseren Service mit der Equa Delta App kostenlos testen. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Mieter-App). 4) Melden Sie sich als virtueller Mieter bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Mieters zu überprüfen. 5) Veröffentlichen Sie Ihre Gebäude in Equa Delta, um unseren Service Ihren Mietern zugänglich zu machen.
+    
 product:
   pm:
     termsOfService:

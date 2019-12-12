@@ -148,16 +148,16 @@ customers:
     pricing:
       title: Pricing 
       description: >-
-        One plan for property management companies of all sizes, based on the number of households.
+        One plan for property management companies of all sizes.
       plans:
         -
           title: null
         -
           title: Equa Tenant Services
           price:
-            amount: "3.50"
+            amount: "0.18"
             before_amount: CHF
-            after_amount: /month /household
+            after_amount: /month /habitation unit
           # features:
           #   - 
           #     title: Number of announcements
@@ -186,7 +186,13 @@ customers:
           title: How our service fee is calculated
           icon: ti-receipt
           body: >-
-            Our service fee is based on the number of households that are Equa users during the current billing period.
+            Our service fee is based on the number of habitation units in the buildings you are managing.
+            Only "published" buildings are taken into account for billing. Buildings that you leave in draft mode will not be billed.
+        -
+          title: Free trial
+          icon: ti-direction
+          body: >-
+            You can try our service for free with the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing them". 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our tenant app). 4) Check into a unit in one of your buildings as a virtual tenant to verify the tenant user experience. 5) Publish your buildings in Equa Delta in order to make our service accessible to your tenants. 
 product:
   pm:
     termsOfService:
