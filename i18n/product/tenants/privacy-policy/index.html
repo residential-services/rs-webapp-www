@@ -12,62 +12,194 @@ layout: default
 </header> {%- endcomment -%}
 
 <main class='m-5'>
-<p style='background: green; color: white'>{{c.notice}}</p>
+{%- comment -%} <p style='background: green; color: white'>{{c.notice}}</p> {%- endcomment -%}
 
-<h1>Protection des données</h1>
+{% if language == 'fr' %}
 
-<p>
-Armangil Software est en mesure d’offrir une forte protection pour vos données. Nous ne divulguons pas vos données aux entreprises de publicité, ni à aucune autre, exceptée à notre hébergeur Internet, qui est Google avec son Google Cloud Platform (GCP). A son tour, GCP est extrêmement respectueux des données qui leur sont confiées.
-</p>
+  <h1>Protection des données</h1>
+  <p>
+  {%- comment -%} Armangil Software {%- endcomment -%}
+  Monsieur Doğa Armangil 
+  (ci-après la "Société")
+  est en mesure d’offrir une forte protection pour vos données. Nous ne divulguons pas vos données aux entreprises de publicité, ni à aucune autre, exceptée à notre hébergeur Internet, qui est Google avec son Google Cloud Platform (GCP). A son tour, GCP est extrêmement respectueux des données qui leur sont confiées.
+  </p>
 
-<h2>Contrôle des données</h2>
+  <h2>Contrôle des données</h2>
 
-<p>
-Armangil Software est l’auteur de l’application mobile Equa Phi, et le contrôleur des données qui lui sont fournies:
-</p>
+  <p>
+  La Société est l’auteur de l’application Equa Phi (ci-après "Application"), et le contrôleur des données qui lui sont fournies:
+  </p>
 
-<blockquote class='mt-2 ml-2'>
-Armangil Software <br>
-Avenue de Vaudagne 31 <br>
-CH-1217 Meyrin <br>
-<a href="mailto:support@equa.world">support@equa.world</a><br>
-<a href="https://equa.world">equa.world</a>  <br>
-Numéro IDE: CHE-268.664.734
-</blockquote>
+  <blockquote class='mt-2 ml-2'>
+  {%- comment -%} Armangil Software <br> {%- endcomment -%}
+  Doğa Armangil <br>
+  Avenue de Vaudagne 31 <br>
+  CH-1217 Meyrin <br>
+  <a href="mailto:support@equa.world">support@equa.world</a><br>
+  <a href="https://equa.world">equa.world</a>  
+  {%- comment -%} <br>
+  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+  </blockquote>
 
-<h2>
-Données collectées
-</h2>
+  <h2>
+  Données collectées
+  </h2>
 
-<p>
-L’application mobile Equa Phi collecte:
-</p>
+  <p>
+  L’Application collecte:
+  </p>
 
-<ul>
-  <li>Votre numéro de téléphone mobile, lors de la création d’un compte chez nous.</li>
-  <li>Si la régie de votre immeuble vous propose notre service: votre adresse, votre date d’emménagement, et la date éventuelle de votre déménagement.</li>
-</ul>
+  <ul>
+    <li>Votre numéro de téléphone mobile, lors de la création d’un compte chez nous.</li>
+    <li>Si la régie de votre immeuble vous propose notre service: votre adresse, votre date d’emménagement, et la date éventuelle de votre déménagement.</li>
+  </ul>
 
-<h2>
-Usage des données
-</h2>
+  <h2>
+  Usage des données
+  </h2>
 
-<ul>
-  <li>Votre numéro de téléphone mobile est utilisé pour vérifier votre identité lorsque vous vous connectez sur notre service au moyen de l’application mobile Equa Phi.
-</li>
-  <li>Vos adresses, dates d’emménagement et de déménagement sont utilisées pour vous fournir notre service.
-</li>
-</ul>
+  <ul>
+    <li>Votre numéro de téléphone mobile est utilisé pour vérifier votre identité lorsque vous vous connectez sur notre service au moyen de l’Application.
+  </li>
+    <li>Vos adresses, dates d’emménagement et de déménagement sont utilisées pour vous fournir notre service.
+  </li>
+  </ul>
 
-<h2>
-Transmission aux tiers
-</h2>
+  <h2>
+  Transmission aux tiers
+  </h2>
 
-<p>
-Vos données sont hébergées sur Google Cloud Platform (GCP), qui a une politique stricte concernant vos données. Voir la section 5.2 du <a href="https://cloud.google.com/terms/">Google Cloud Platform Terms of Service</a>.
-</p>
+  <p>
+  Vos données sont hébergées sur Google Cloud Platform (GCP), qui a une politique stricte concernant vos données. Voir la section 5.2 du <a href="https://cloud.google.com/terms/">Google Cloud Platform Terms of Service</a>.
+  </p>
 
-<h2>Comptes inactifs</h2>
-<p> Vous êtes libre de nous contacter pour nous demander d'effacer votre compte et données associées. </p>
+  <h2>Comptes inactifs</h2>
+  <p> Vous êtes libre de nous contacter pour nous demander d'effacer votre compte et données associées. </p>
+
+{% elsif language == 'en' %}
+
+  <h1>Data protection</h1>
+
+  <p>
+  {%- comment -%} Armangil Software {%- endcomment -%}
+  Mr. Doğa Armangil (hereinafter the "Company") is able to offer strong protection for your data. We do not disclose your data to advertising companies, or any other, except to our web host, which is Google with its Google Cloud Platform (GCP). In turn, GCP is extremely respectful of the data entrusted to them.
+  </p>
+
+  <h2>Data control</h2>
+
+  <p>
+  The Company is the author of the Equa Phi application (hereinafter "Application"), and the controller of the data provided to it:
+  </p>
+
+  <blockquote class='mt-2 ml-2'>
+  {%- comment -%} Armangil Software <br> {%- endcomment -%}
+  Doğa Armangil <br>
+  Avenue de Vaudagne 31 <br>
+  CH-1217 Meyrin <br>
+  <a href="mailto:support@equa.world">support@equa.world</a><br>
+  <a href="https://equa.world">equa.world</a>  
+  {%- comment -%} <br>
+  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+  </blockquote>
+
+  <h2>
+  Collected data
+  </h2>
+  <p>
+  The Application collects:
+  </p>
+
+  <ul>
+    <li>Your mobile phone number when creating an account with us.</li>
+    <li>If the management of your building offers our service to you: your address, your move-in date, and the possible date of your moving out.</li>
+  </ul>
+
+  <h2>
+  Use of data
+  </h2>
+
+  <ul>
+    <li>Your mobile phone number is used to verify your identity when you log into our service using the Application.
+  </li>
+    <li>Your addresses, move-in and move-out dates are used to provide our service to you.
+  </li>
+  </ul>
+
+  <h2>
+  Transmission to third parties
+  </h2>
+
+  <p>
+  Your data is hosted on Google Cloud Platform (GCP), which has a strict policy regarding your data. See section 5.2 of the <a href="https://cloud.google.com/terms/">Google Cloud Platform Terms of Service</a>.
+  </p>
+
+  <h2>Inactive accounts</h2>
+  <p> You are free to contact us to ask us to delete your account and associated data.
+  </p>
+
+{% elsif language == 'de' %}
+
+
+  <h1>Datenschutz</h1>
+
+  <p>
+  {%- comment -%} Armangil Software {%- endcomment -%}
+  Herr Doğa Armangil (im Folgenden "Unternehmen") ist in der Lage, Ihre Daten umfassend zu schützen. Wir geben Ihre Daten nicht an Werbefirmen oder andere weiter, mit Ausnahme unseres Webhosts Google mit seiner Google Cloud Platform (GCP). Im Gegenzug respektiert GCP die ihnen anvertrauten Daten außerordentlich.
+  </p>
+
+  <h2>Datenkontrolle</h2>
+
+  <p>
+  Das Unternehmen ist der Autor der Equa Phi-Anwendung (im Folgenden "Anwendung") und der für die Verarbeitung der ihm bereitgestellten Daten Verantwortliche:
+  </p>
+
+  <blockquote class='mt-2 ml-2'>
+  {%- comment -%} Armangil Software <br> {%- endcomment -%}
+  Doğa Armangil <br>
+  Avenue de Vaudagne 31 <br>
+  CH-1217 Meyrin <br>
+  <a href="mailto:support@equa.world">support@equa.world</a><br>
+  <a href="https://equa.world">equa.world</a>  
+  {%- comment -%} <br>
+  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+  </blockquote>
+
+  <h2>
+  Gesammelte Daten
+  </h2>
+
+  <p>
+  Die Anwendung sammelt:
+  </p>
+
+  <ul>
+    <li>Ihre Handynummer bei der Kontoerstellung bei uns.</li>
+    <li>Wenn die Verwaltung Ihres Gebäudes Ihnen unseren Service anbietet: Ihre Adresse, Ihr Einzugsdatum und das mögliche Datum Ihres Umzugs.</li>
+  </ul>
+
+  <h2>
+  Verwendung von Daten
+  </h2>
+
+  <ul>
+    <li>Ihre Mobiltelefonnummer wird verwendet, um Ihre Identität zu überprüfen, wenn Sie sich über die Anwendung in unseren Dienst einloggen.
+  </li>
+    <li>Ihre Adressen, Einzugs- und Auszugstermine werden verwendet, um unseren Service für Sie bereitzustellen.
+  </li>
+  </ul>
+
+  <h2>
+  Weitergabe an Dritte
+  </h2>
+
+  <p>Ihre Daten werden auf der Google Cloud Platform (GCP) gehostet, die strengen Richtlinien bezüglich Ihrer Daten unterliegt. Siehe Abschnitt 5.2 der <a href="https://cloud.google.com/terms/">Nutzungsbedingungen für Google Cloud Platform</a>.
+  </p>
+
+  <h2>Inaktive Konten</h2>
+  <p> Es steht Ihnen frei, mit uns Kontakt aufzunehmen und uns aufzufordern, Ihr Konto und die damit verbundenen Daten zu löschen.
+  </p>
+
+{% endif %}
+
 
 </main>
