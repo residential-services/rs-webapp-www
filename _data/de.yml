@@ -262,7 +262,13 @@ product:
           body: >
             Pro-Wohneinheit Berechnung.
           link: /customers/pricing/
-    # testimonials:
+        -
+          title: Support
+          icon: ti-support
+          body: >
+            Wir stehen Ihnen gerne zu Verfügung.
+          link: /company/contact/
+      # testimonials:
     #   -
     #     name: Johnny Doe
     #     role: CEO - Company
@@ -334,6 +340,12 @@ product:
           body: >
             Neue Features werden Equa zugefügt, abhängend von Ihren Bedürfnissen.
             Unser Mission ist est, das Leben der Mieter möglichst vereinfachen.
+        -
+          title: Support
+          icon: ti-support
+          body: >
+            Wir stehen Ihnen gerne zu Verfügung.
+          link: /company/contact/
 company:
   about:
     header:

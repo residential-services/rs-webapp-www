@@ -293,7 +293,13 @@ product:
           body: >
             Pricing per habitable unit.
           link: /customers/pricing/
-    # testimonials:
+        -
+          title: Support
+          icon: ti-support
+          body: >
+            Feel free to contact us.
+          link: /company/contact/
+      # testimonials:
     #   -
     #     name: Johnny Doe
     #     role: CEO - Company
@@ -313,10 +319,11 @@ product:
       -
         pair:
           -
-            # TODO add links to the apps
+            # TODO screenshot obsolete
             image: /assets/my/images/550x367/equa-login-screen-550x367.png
             lead: 01.
             title: Receiving announcements
+            # TODO add links to the apps
             description: >-
               The company that manages the building you live in can send you announcements that have time information attached to them. 
               An announcement can pertain to an event such as a repair job or a local gathering  for example.
@@ -372,7 +379,13 @@ product:
             The mission of Equa is to make your life as pleasant as possible in the building where you live, and also
             in your larger environment.
             Depending on your needs, we will add new features on an on-going basis.
-    # testimonials:
+        -
+          title: Support
+          icon: ti-support
+          body: >
+            Feel free to contact us.
+          link: /company/contact/
+        # testimonials:
     #   -
     #     name: Johnny Doe
     #     role: CEO - Company

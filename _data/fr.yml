@@ -291,7 +291,13 @@ product:
           body: >
             Nos tarifs sont basés sur le nombre d'unités habitables dans vos immeubles.
           link: /customers/pricing/
-    # testimonials:
+        -
+          title: Aide
+          icon: ti-support
+          body: >
+            N'hésitez pas à nous contacter.
+          link: /company/contact/
+      # testimonials:
     #   -
     #     name: Johnny Doe
     #     role: CEO - Company
@@ -372,7 +378,13 @@ product:
             Nous sommes attentifs aux besoins des locataires.
             Notre mission est de vous rendre la vie aussi facile et agréable que possible, à votre domicile et au-delà.
             De nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins.
-    # testimonials:
+        -
+          title: Aide
+          icon: ti-support
+          body: >
+            N'hésitez pas à nous contacter.
+          link: /company/contact/
+        # testimonials:
     #   -
     #     name: Johnny Doe
     #     role: CEO - Company
