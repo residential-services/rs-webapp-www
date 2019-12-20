@@ -64,12 +64,12 @@ customers:
           Die Mehrheit der Mieter sind gewohnt, ihr Alltag mittels Mobilgeräte im Internet zu gestalten.
           Da sind sie mit Equa gut aufgehoben.
         link: /product/tenants/
-      -
-        title: Einfache Dateneingabe
-        image: /assets/my/images/360x240/digital2-360x240.jpg
-        body: >
-          Mit Equa werden Daten nur einmal eingegeben. Ihr ERP-System wird mit Equa eingebunden, so dass eine regelmässige Entsendung von Ihren Liegenschafts- und Mieterdaten automatisch erfolgt.
-          Selbstverständlich werden alle Daten  im Voraus anonymisiert. 
+      # -
+      #   title: Einfache Dateneingabe
+      #   image: /assets/my/images/360x240/digital2-360x240.jpg
+      #   body: >
+      #     Mit Equa werden Daten nur einmal eingegeben. Ihr ERP-System wird mit Equa eingebunden, so dass eine regelmässige Entsendung von Ihren Liegenschafts- und Mieterdaten automatisch erfolgt.
+      #     Selbstverständlich werden alle Daten  im Voraus anonymisiert. 
     services:
       title: ""
       items:
@@ -78,35 +78,36 @@ customers:
           icon: ti-printer
           body: >
             Ihr Unternehmen kann nach wie vor den Mietern eine Papier-basierte Benutzerschnittstelle anbieten, wenn ein oder mehrere Einwohner sie einer digitalen Schnittstelle vorziehen.
-            Wir können Ihnen sogar dabei helfen, zum Beispiel indem wir Ihnen oder einem Ihren Lieferanten den Stundenplan der gemeinsamen Waschräume zuschicken, damit sie gedruckt und in den Gebäuden aufgehängt werden.
-        -
-          title: Equa erfüllt die GDPR-Anforderungen
-          icon: ti-shield
-          body: >
-            Equa ist dem <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a> 100% angepasst.
-        -
-          title: Equa kannt von Mietern bezahlt werden
-          icon: ti-receipt
-          body: >
-            Die umfangreiche Funktionalität die wir den Mietern anbieten und unsere geringe Preise rechtfertigen, daß unser Online-Dienst letztendlich von den Mietern bezahlt wird, selbst wenn unsere eigentliche Kunden die Liegenschaftsverwalter sind.
-          link: /customers/pricing/
-        -
-          title: Multi-ERP
-          icon: ti-harddrives
-          body: >
-            Equa ist unabhängig von den einzelnen ERP-Anbietern, so dass Sie das eine oder das andere Equa-kompatible ERP-System im Betrieb einsetzen können. Equa funktionniert auch ohne ERP.
+          # Wir können Ihnen sogar dabei helfen, zum Beispiel indem wir Ihnen oder einem Ihren Lieferanten den Stundenplan der gemeinsamen Waschräume zuschicken, damit sie gedruckt und in den Gebäuden aufgehängt werden.
+        # -
+        #   title: Equa erfüllt die GDPR-Anforderungen
+        #   icon: ti-shield
+        #   body: >
+        #     Equa ist dem <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a> 100% angepasst.
+        # -
+        #   title: Equa kannt von Mietern bezahlt werden
+        #   icon: ti-receipt
+        #   body: >
+        #     Die umfangreiche Funktionalität die wir den Mietern anbieten und unsere geringe Preise rechtfertigen, daß unser Online-Dienst letztendlich von den Mietern bezahlt wird, selbst wenn unsere eigentliche Kunden die Liegenschaftsverwalter sind.
+        #   link: /customers/pricing/
+        # -
+        #   title: Multi-ERP
+        #   icon: ti-harddrives
+        #   body: >
+        #     Equa ist unabhängig von den einzelnen ERP-Anbietern, so dass Sie das eine oder das andere Equa-kompatible ERP-System im Betrieb einsetzen können. Equa funktionniert auch ohne ERP.
         -
           title: Immer neue Mieterfunktionen
           icon: ti-world
           body: >
             Wir sind aufmerksam auf die Bedürfnisse Ihrer Mieter im weitesten Sinne.
-            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen hinzugefügt. Einige dieser Functionen werden möglicherweise nur die Mieter dienen, unabhängig von den Liegenschaftsverwaltern.
+            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen hinzugefügt. Einige dieser Functionen werden möglicherweise nur die Mieter dienen, unabhängig von den Liegenschaftsverwaltern,
+            wie eine Shoppingfunktion zum Beispiel.
         -
           title: Ständig in Bewegung
           icon: ti-gift
           body: >
             Wir sind aufmerksam auf Ihre Bedürfnisse.
-            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen für Liegenschaftsverwalter hinzugefügt.
+            Je nach Bedürfnissen werden Equa im Laufe der Zeit neue Funktionen für Liegenschaftsverwalter hinzugefügt.
     # testimonials:
     #   -
     #     name: Johnny Doe
@@ -175,16 +176,9 @@ customers:
     
 product:
   pm:
-    termsOfService:
-      notice: 🇫🇷Unsere Nutzungsbedingungen sind zur Zeit nur auf französisch verfügbar.
-    privacyPolicy: 
-      notice: 🇫🇷Unsere Datenschutzbestimmungen sind zur Zeit nur auf französisch verfügbar.
-    support: 
-      notice: 🇫🇷Unsere Support-Seite ist zur Zeit nur auf französisch verfügbar.
-
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Equa ergänzt Ihr ERP-System mit mieterspezifischen Functionen
+      title: Komfort für Sie und Ihre Mieter
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -197,76 +191,76 @@ product:
             lead: 01.
             title: Entsendung von Event-Ankündigungen
             description: >-
-              Event-Ankündigungen können den Mietern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder einer einzelnen Wohneinheit gesendet werden. 
+              Mit der Anwendung Equa Delta können Sie Event-Ankündigungen an den Mietern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude entsenden. 
               Sie beziehen sich auf zeitbegrenzte Events wie zum Beispiel eine Reparatur.
-              Mieter können dann relevante Events mittels des Equa-Apps oder einer Kalenderanwendung zur Kenntnis nehmen, da Mieterkonten mit gängigen Kalendardiensten synchronisiert werden können.
+              Mieter können dann relevante Events mittels der Anwendung Equa Phi zur Kenntnis nehmen.
           -
             image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
             lead: 02.
             title: Entsendung von Dokumenten
             description: >-
-              Dokumente können den Mietern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder einer einzelnen Wohnung gesendet werden. 
+              Dokumente können an den Mietern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude gesendet werden. 
               Ein Dokument kann zum Beispiel Hausregeln oder einen Mietvertrag enthalten.
       -
         pair:
-          -
-            image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
-            lead: 03.
-            title: Feedback von Mietern
-            description: >-
-              Mieter können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
+          # -
+          #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
+          #   lead: 03.
+          #   title: Feedback von Mietern
+          #   description: >-
+          #     Mieter können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
           -
             image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-            lead: 04.
+            lead: 03.
             title: Mietergruppen
             description: >-
               Sie können Mietergruppen erstellen und dann mit ihnen effizient kommunizieren.
-              Equa importiert die in Ihrem ERP-System enthaltenen Gruppierungdaten automatisch. Gruppen können auch innerhalb von Equa erstellt werden.
-      -
-        pair:
-          -
-            image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-            lead: 05.
-            title: Gemeiname Waschräume
-            description: >-
-              Sie können Equa darauf hinweisen, ob bestimmte Gebäuden mit Waschräumen ausgestattet sind, die
-              für Mieter zur Verfügung stehen.
-              Equa importiert die in Ihrem ERP-System enthaltenen Waschraumdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
-              Equa erzeugt Waschraumreservierungdaten automatisch für jeden einzelnen Mieter. Reservierungen können zu jeder Zeit von den Mietern auch geändert werden. 
-              Mieter können dann ihre Reservierungen mittels des Equa-Apps oder einer Kalenderanwendung zur Kenntnis nehmen, da Mieterkonten mit gängigen Kalendardiensten synchronisiert werden können.
-          -
-            image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
-            lead: 06.
-            title: Aktuelle Kontaktdaten
-            description: >-
-              Sie können Equa darauf hinweisen, welche Personen für Mieter zur Verfügung stehen.
-              Equa importiert die in Ihrem ERP-System enthaltenen Kontaktdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
+            # Equa importiert die in Ihrem ERP-System enthaltenen Gruppierungdaten automatisch. Gruppen können auch innerhalb von Equa erstellt werden.
+      # -
+      #   pair:
+      #     -
+      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
+      #       lead: 05.
+      #       title: Gemeiname Waschräume
+      #       description: >-
+      #         Sie können Equa darauf hinweisen, ob bestimmte Gebäuden mit Waschräumen ausgestattet sind, die
+      #         für Mieter zur Verfügung stehen.
+      #         Equa importiert die in Ihrem ERP-System enthaltenen Waschraumdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
+      #         Equa erzeugt Waschraumreservierungdaten automatisch für jeden einzelnen Mieter. Reservierungen können zu jeder Zeit von den Mietern auch geändert werden. 
+      #         Mieter können dann ihre Reservierungen mittels des Equa-Apps oder einer Kalenderanwendung zur Kenntnis nehmen, da Mieterkonten mit gängigen Kalendardiensten synchronisiert werden können.
+      #     -
+      #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
+      #       lead: 06.
+      #       title: Aktuelle Kontaktdaten
+      #       description: >-
+      #         Sie können Equa darauf hinweisen, welche Personen für Mieter zur Verfügung stehen.
+      #         Equa importiert die in Ihrem ERP-System enthaltenen Kontaktdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
     services:
       title: ""
       items:
+        # -
+        #   anchor: privacy
+        #   title: Datenschutz
+        #   icon: ti-shield
+        #   body: >
+        #     Equa ist 100% konform <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a> gegenüber.
+        # -
+        #   title: Installation
+        #   icon: ti-harddrives
+        #   body: >-
+        #     Die Equa-Anwendung für Liegenschaftsverwalter ist eine Web-Anwendung, die keine Installation
+        #     benötigt. Wenn Ihr ERP-System mit Equa kompatibel ist, dann können Sie die Integration mittels
+        #     eines Verbindung-Software tätigen, die eventuell separat installiert wird.
         -
-          anchor: privacy
-          title: Datenschutz
-          icon: ti-shield
-          body: >
-            Equa ist 100% konform <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a> gegenüber.
-        -
-          title: Installation
-          icon: ti-harddrives
-          body: >-
-            Die Equa-Anwendung für Liegenschaftsverwalter ist eine Web-Anwendung, die keine Installation
-            benötigt. Wenn Ihr ERP-System mit Equa kompatibel ist, dann können Sie die Integration mittels
-            eines Verbindung-Software tätigen, die eventuell separat installiert wird.
-        -
-          title: Weiter entwickelt
+          title: Immer weiter entwickelt
           icon: ti-gift
           body: >
-            Neue Features werden Equa zugefügt, abhängend von den Wünschen und Bedürfnissen unserer Kunden.
+            Neue Features werden Equa zugefügt, abhängend von den Bedürfnissen unserer Kunden.
         -
           title: Berechnung
           icon: ti-receipt
           body: >
-            Pro Mieter Berechnung.
+            Pro-Wohneinheit Berechnung.
           link: /customers/pricing/
     # testimonials:
     #   -
@@ -277,15 +271,9 @@ product:
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
   tenants:
-    termsOfService:
-      notice: 🇫🇷Unsere Nutzungsbedingungen sind zur Zeit nur auf französisch verfügbar.
-    privacyPolicy: 
-      notice: 🇫🇷Unsere Datenschutzbestimmungen sind zur Zeit nur auf französisch verfügbar.
-    support: 
-      notice: 🇫🇷Unsere Support-Seite ist zur Zeit nur auf französisch verfügbar.
     header:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
-      title: Digital Lifestyle zuhause und außerhalb
+      title: Digital Lifestyle zuhause #und außerhalb
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -300,75 +288,76 @@ product:
             description: >-
               Sie werden mitunter Event-Ankündigungen erhalten, die Ihnen vom Unternehmen gesendet wird, das Ihr Wohnhaus verwaltet. 
               Die Gültigkeit von Event-Ankündigungen ist zeitbeschränkt, wie zum Beispiel einer Reparaturverabredung.
-              Sie können relevante Events mittels des Equa-Apps oder Ihrer Kalenderanwendung zur Kenntnis nehmen, da Ihr Konto mit gängigen Kalendardiensten synchronisiert werden kann.
-              Derzeit unterstützen wir
-              <a href='https://calendar.google.com/' target='_blank'>Google Calendar</a>,
-              <a href='https://calendar.yahoo.com/' target='_blank'>Yahoo Calendar</a>,
-              und Kalendardienste die eine <a href='https://de.wikipedia.org/wiki/CalDAV' target='_blank'>CalDAV</a>-Schnittstelle vorweisen.
+              Sie können relevante Events mittels der Anwendung Equa Phi zur Kenntnis nehmen.
+            # , da Ihr Konto mit gängigen Kalendardiensten synchronisiert werden kann.
+            # Derzeit unterstützen wir
+            # <a href='https://calendar.google.com/' target='_blank'>Google Calendar</a>,
+            # <a href='https://calendar.yahoo.com/' target='_blank'>Yahoo Calendar</a>,
+            # und Kalendardienste die eine <a href='https://de.wikipedia.org/wiki/CalDAV' target='_blank'>CalDAV</a>-Schnittstelle vorweisen.
           -
             image: /assets/my/images/550x367/Fotolia_107692785_XL-550x367.jpg
             lead: 02.
             title: Dokumente
             description: >-
-              Es kann sein, dass bisweilen der Liegenschaftsverwalter Ihnen Dokumente schickt, wie zum Beispiel die Hausregeln oder Ihren Mietvertrag. Die können sie mittels des Equa-Apps lesen.
-      -
-        pair:
-          -
-            image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-            lead: 03.
-            title: Waschraumreservierungen
-            description: >-
-              Wenn das Wohnhaus mit einem gemeinsamen Waschraum ausgestattet ist, 
-              erzeugt Equa automatisch Waschraumreservierungsdaten für Sie. Reservierungen können zu jeder Zeit von Ihnen geändert werden. 
-              Sie können  im Equa-App oder in einem Kalenderanwendung nachsehen, wann die nächste Reservierung erfolgt, da Ihr Konto mit gängigen Kalendardiensten synchronisiert werden kann.
-          -
-            image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
-            lead: 04.
-            title: Aktuelle Kontaktinformationen
-            description: >-
-              Mittels einer aktuellen Liste von Kontaktpersonen finden Sie immer den richtigen Ansprechspartner.
+              Es kann sein, dass bisweilen der Liegenschaftsverwalter Ihnen Dokumente schickt, wie zum Beispiel die Hausregeln oder Ihren Mietvertrag. Die können sie mittels der Anwendung Equa Phi lesen.
+      # -
+      #   pair:
+      #     -
+      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
+      #       lead: 03.
+      #       title: Waschraumreservierungen
+      #       description: >-
+      #         Wenn das Wohnhaus mit einem gemeinsamen Waschraum ausgestattet ist, 
+      #         erzeugt Equa automatisch Waschraumreservierungsdaten für Sie. Reservierungen können zu jeder Zeit von Ihnen geändert werden. 
+      #         Sie können  im Equa-App oder in einem Kalenderanwendung nachsehen, wann die nächste Reservierung erfolgt, da Ihr Konto mit gängigen Kalendardiensten synchronisiert werden kann.
+      #     -
+      #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
+      #       lead: 04.
+      #       title: Aktuelle Kontaktinformationen
+      #       description: >-
+      #         Mittels einer aktuellen Liste von Kontaktpersonen finden Sie immer den richtigen Ansprechspartner.
 
     services:
       title: ""
       items:
+        # -
+        #   anchor: privacy
+        #   title: Privatsphere
+        #   icon: ti-shield
+        #   body: >
+        #     Equa ist 100% konform <a href='https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung' target='_blank'>GDPR</a> gegenüber.
+        #     GDPR ist eine Verordnung der Europäischen Union, die die Verarbeitung personenbezogener Daten EU-weit regelt. Wir berücksichtigen Ihre Privatsphere.
+        #     Zudem haben Sie die Möglichkeit, uns Zusatzinformationen weiterzugeben, damit wir Ihnen ein noch besseres Erlebnis beibringen können.
         -
-          anchor: privacy
-          title: Privatsphere
-          icon: ti-shield
-          body: >
-            Equa ist 100% konform <a href='https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung' target='_blank'>GDPR</a> gegenüber.
-            GDPR ist eine Verordnung der Europäischen Union, die die Verarbeitung personenbezogener Daten EU-weit regelt. Wir berücksichtigen Ihre Privatsphere.
-            Zudem haben Sie die Möglichkeit, uns Zusatzinformationen weiterzugeben, damit wir Ihnen ein noch besseres Erlebnis beibringen können.
-        -
-          title: Weiter entwickelt
+          title: Immer weiter entwickelt
           icon: ti-world
           body: >
-            Neue Features werden Equa zugefügt, abhängend von Ihren Wünschen und Bedürfnissen.
+            Neue Features werden Equa zugefügt, abhängend von Ihren Bedürfnissen.
             Unser Mission ist est, das Leben der Mieter möglichst vereinfachen.
 company:
   about:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_80032341-cropped-1920x1200.jpg
-      title: Schlank und innovativ
+      title: Die Welt ist Hi-Tech
       breadcrumbs:
         - Equa
         - *3_0_title
         - *3_1_title
     team:
-      title: In Übergangsphasen setzen wir auf kleine Teams, die Erhebliches schaffen 
+      title: Mittels modernsten Technologien bieten wir hochqualitative Produkte geschäftlichen und privaten Kunden an.
       description: >-
         Heutzutage ist die Immobilienbranche völlig in Aufruhr. Die aktuelle Welle von Proptech Startups ist dabei, die Branche schleunigst auf dem neuesten technologischen Stand zu bringen.
-        Innerhalb dieses Marktes beschäftigen wir uns mit dem Segment der Mieter, die in Mehrfamilienhäusern wohnen. Unser Aufgabe ist es, den Einwohnern das Leben zu vereinfachen.
+        In dieser Umgebung haben wir es zu unserer Aufgabe gemacht, hochwertige und massentaugliche B2B und B2C Produkte und Dienste zu entwickeln.
       members:
         -
           name: Doğa Armangil
-          role: CEO
+          role: Geschäftsführer, Technischer Direktor
           image: /assets/my/images/270x270/1IMG_9898-cropped-270x270.jpg
           linkedin: https://www.linkedin.com/in/dogaarmangil/
-        -
-          name: Verlagerte Softwareentwicklerteam
-          role: Production
-          image: /assets/my/images/270x270/user-group-270-270.png
+        # -
+        #   name: Verlagerte Softwareentwicklerteam
+        #   role: Production
+        #   image: /assets/my/images/270x270/user-group-270-270.png
 
   contact:
     header:
