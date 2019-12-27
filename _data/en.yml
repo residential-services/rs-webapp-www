@@ -1,6 +1,13 @@
 snippets:
   more: More ➤
   homepage_link: 🇬🇧 Website in english
+  pricing:
+    unit_count: Tenant Messaging for up to $unit_count habitable units.
+    renewal:
+      monthly: Each month, subscription will renew for 1 month.
+      multimonth: Subscription will renew every $months months.
+    you_save: $currency $fee_per_month per month. You save $monthly_savings_percent% per month.
+
 menu:
   -
     title: &1_0_title Customer advantages
@@ -138,45 +145,45 @@ customers:
   pricing: # inspired by Slack https://slack.com/pricing
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Premium online service for your residential properties
+      title: The right subscription for your needs
       breadcrumbs:
         - Equa
         - *1_0_title
         - *1_2_title
     pricing:
-      title: Pricing 
+      title: Equa Tenant Messaging 
       description: >-
-        One plan for property management companies of all sizes.
-      plans:
-        -
-          title: null
-        -
-          title: Equa Tenant Services
-          price:
-            amount: "0.18"
-            before_amount: CHF
-            after_amount: /month /habitation unit
-          # features:
-          #   - 
-          #     title: Number of announcements
-          #     description: Unlimited
-          #   - 
-          #     title: Number of documents
-          #     description: Unlimited
-          #   - 
-          #     title: Property manager account
-          #     description: One account.
-          #   -
-          #     title: Installation fee
-          #     description: One-time fee, includes system installation and configuration. 
-          #   - 
-          #     title: Helpdesk
-          #     description: We are available for your questions and suggestions.
+        Comfortably send announcements and documents to your tenants. Choose your the right subscription for your real estate size.
+      # plans:
+      #   -
+      #     title: null
+      #   -
+      #     title: Equa Tenant Services
+      #     price:
+      #       amount: "0.18"
+      #       before_amount: CHF
+      #       after_amount: /month /habitation unit
+      #     # features:
+      #     #   - 
+      #     #     title: Number of announcements
+      #     #     description: Unlimited
+      #     #   - 
+      #     #     title: Number of documents
+      #     #     description: Unlimited
+      #     #   - 
+      #     #     title: Property manager account
+      #     #     description: One account.
+      #     #   -
+      #     #     title: Installation fee
+      #     #     description: One-time fee, includes system installation and configuration. 
+      #     #   - 
+      #     #     title: Helpdesk
+      #     #     description: We are available for your questions and suggestions.
 
-          # action:
-          #   title: Order now
-        -
-          title: null
+      #     # action:
+      #     #   title: Order now
+      #   -
+      #     title: null
     services:
       title: ""
       items:

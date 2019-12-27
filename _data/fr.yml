@@ -1,6 +1,13 @@
 snippets:
   more: Suite ➤
   homepage_link: 🇫🇷 Site en français
+  pricing:
+    unit_count: Tenant Messaging pour jusqu'à $unit_count unités habitables.
+    renewal:
+      monthly: Abonnement renouvelé chaque mois.
+      multimonth: Abonnement renouvelé chaque $months mois.
+    you_save: $currency $fee_per_month par mois. Vous économisez $monthly_savings_percent% par mois.
+
 menu:
   -
     title: &1_0_title Avantages client
@@ -140,45 +147,45 @@ customers:
   pricing: # inspired by Slack https://slack.com/pricing
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Service en-ligne premium pour vos immeubles résidentiels #Premium online service for your residential properties
+      title: L'abonnement adapté à vos besoins
       breadcrumbs:
         - Equa
         - *1_0_title
         - *1_2_title
     pricing:
-      title: Nos tarifs 
+      title: Equa Tenant Messaging 
       description: >-
-        Nous pratiquons un prix unique pour régies immobilières de toute taille.
-      plans:
-        -
-          title: null
-        -
-          title: Equa Tenant Services
-          price:
-            amount: "0.18"
-            before_amount: CHF
-            after_amount: /mois /unité d'habitation
-          # features:
-          #   - 
-          #     title: Nombre d'annonces
-          #     description: Illimité.
-          #   - 
-          #     title: Nombre de documents
-          #     description: Illimité.
-          #   - 
-          #     title: Compte régie
-          #     description: Un compte.
-          #   -
-          #     title: Coût d'installation
-          #     description: Coût d'installation et configuration comptabilisé séparément. 
-          #   - 
-          #     title: Aide
-          #     description: Inclue.
+        Envoyez confortablement annonces et documents à vos habitants. Choisissez l'abonnement qui vous convient selon l'ordre de grandeur de votre immobilier.
+      # plans:
+      #   -
+      #     title: null
+      #   -
+      #     title: Equa Tenant Services
+      #     price:
+      #       amount: "0.18"
+      #       before_amount: CHF
+      #       after_amount: /mois /unité d'habitation
+      #     # features:
+      #     #   - 
+      #     #     title: Nombre d'annonces
+      #     #     description: Illimité.
+      #     #   - 
+      #     #     title: Nombre de documents
+      #     #     description: Illimité.
+      #     #   - 
+      #     #     title: Compte régie
+      #     #     description: Un compte.
+      #     #   -
+      #     #     title: Coût d'installation
+      #     #     description: Coût d'installation et configuration comptabilisé séparément. 
+      #     #   - 
+      #     #     title: Aide
+      #     #     description: Inclue.
 
-          # action:
-          #   title: Commande
-        -
-          title: null
+      #     # action:
+      #     #   title: Commande
+      #   -
+      #     title: null
     services:
       title: ""
       items:

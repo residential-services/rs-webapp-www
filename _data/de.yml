@@ -1,6 +1,13 @@
 snippets:
   more: Mehr ➤
   homepage_link: 🇩🇪 Website auf deutsch
+  pricing:
+    unit_count: Tenant Messaging für bis zu $unit_count Wohneinheiten.
+    renewal:
+      monthly: Das Abo wird jeden Monat um 1 Monat verlängert.
+      multimonth: Das Abo wird jeden $months. Monat um $months Monate verlängert.
+    you_save: $currency $fee_per_month pro Monat. Sie sparen $monthly_savings_percent% monatlich.
+
 menu:
   -
     title: &1_0_title Kundenvorteile
@@ -119,44 +126,44 @@ customers:
   pricing: # inspired by https://slack.com/pricing 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Premium-Onlinedienst für Ihre Wohnliegenschaften
+      title: Für jeden Wunsch das passende Abo
       breadcrumbs:
         - Equa
         - *1_0_title
         - *1_2_title
     pricing:
-      title: *1_2_title 
+      title: Equa Tenant Messaging 
       description: >-
-        Equa Tenant Services ist geeignet für Unternehmen jeder Größenordnung, die Wohnliegenschaften verwalten.
-      plans:
-        -
-          title: null
-        -
-          title: Equa Tenant Services
-          price:
-            amount: "0.18"
-            before_amount: CHF
-            after_amount: /Monat /Wohneinheit
-          # features:
-          #   - 
-          #     title: Zahl der entsendeten Anmeldungen
-          #     description: Unbegrenzt.
-          #   - 
-          #     title: Zahl der entsendeten Dokumente
-          #     description: Unbegrenzt.
-          #   - 
-          #     title: Verwalterkonto
-          #     description: Eingebunden.
-          #   -
-          #     title: Installationsgebühr
-          #     description: Beinhaltet Hilfe bei der Installation und/oder Konfiguration vom Equa Connector und/oder Ihr ERP-System.
-          #   - 
-          #     title: Helpdesk
-          #     description: Beinhaltet Hilfe für Ihre Anfragen.
-          # action:
-          #   title: Bestellen
-        -
-          title: null
+        Senden Sie bequem Ankündigungen und Dokumente an ihre Mieter. Wählen Sie Ihr Abo gemäß der Grössenordnung Ihrer Liegenschaft.
+      # plans:
+      #   -
+      #     title: null
+      #   -
+      #     title: Equa Tenant Services
+      #     price:
+      #       amount: "0.18"
+      #       before_amount: CHF
+      #       after_amount: /Monat /Wohneinheit
+      #     # features:
+      #     #   - 
+      #     #     title: Zahl der entsendeten Anmeldungen
+      #     #     description: Unbegrenzt.
+      #     #   - 
+      #     #     title: Zahl der entsendeten Dokumente
+      #     #     description: Unbegrenzt.
+      #     #   - 
+      #     #     title: Verwalterkonto
+      #     #     description: Eingebunden.
+      #     #   -
+      #     #     title: Installationsgebühr
+      #     #     description: Beinhaltet Hilfe bei der Installation und/oder Konfiguration vom Equa Connector und/oder Ihr ERP-System.
+      #     #   - 
+      #     #     title: Helpdesk
+      #     #     description: Beinhaltet Hilfe für Ihre Anfragen.
+      #     # action:
+      #     #   title: Bestellen
+      #   -
+      #     title: null
     services:
       title: ""
       items:

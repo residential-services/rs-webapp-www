@@ -2,6 +2,10 @@ body {
     font-family: "Avenir Next Regular";
 }
 
+.my-plans.row {
+    padding-top: 5em;
+}
+
 .prices-box .price h1:before {
     content: "";
     font-family: "Avenir Next Regular";
