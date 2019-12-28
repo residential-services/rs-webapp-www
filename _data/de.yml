@@ -168,24 +168,23 @@ customers:
       title: ""
       items:
         -
+          title: Wie extragroße immobilienverwalter Equa einsetzen können
+          icon: ti-help-alt
+          body: >-
+            Sie können mehrere Equa-Konten erstellen, um zwei oder mehr Abos der gleichen Sorte (sowie "Equa Tenant Messaging") zu erwerben. 
+        -
           title: Wie Ihre Equa-Rechnung berechnet wird
           icon: ti-receipt
           body: >-
             Unsere Servicegebühr richtet sich nach der Anzahl der Wohneinheiten in den von Ihnen verwalteten Gebäuden.
             Bei der Abrechnung werden nur "veröffentlichte" Gebäude berücksichtigt. Gebäude, die Sie im Entwurfsmodus
             belassen, werden nicht in Rechnung gestellt.
-        -
-          title: Kostenlos testen
-          icon: ti-direction
-          # TODO add app links (App Store, Play Store) to body
-          body: >-
-            Sie können unseren Service mit der Equa Delta App kostenlos testen. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Mieter-App). 4) Melden Sie sich als virtueller Mieter bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Mieters zu überprüfen. 5) Veröffentlichen Sie Ihre Gebäude in Equa Delta, um unseren Service Ihren Mietern zugänglich zu machen.
     
 product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Komfort für Sie und Ihre Mieter
+      title: Mehr Komfort für Sie und Ihre Mieter
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -259,16 +258,31 @@ product:
         #     benötigt. Wenn Ihr ERP-System mit Equa kompatibel ist, dann können Sie die Integration mittels
         #     eines Verbindung-Software tätigen, die eventuell separat installiert wird.
         -
-          title: Immer weiter entwickelt
-          icon: ti-gift
+          title: Für iOS
+          icon: ti-apple
           body: >
-            Neue Features werden Equa zugefügt, abhängend von den Bedürfnissen unserer Kunden.
+            Sie können die "Equa Delta"-App vom App Store herunterladen und gleich einsetzen.
+        -
+          title: Für Android
+          icon: ti-android
+          body: >
+            Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
+        -
+          title: Kostenlos testen
+          icon: ti-direction
+          body: >-
+            Sie können unseren Service mit der Equa Delta App kostenlos testen. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Mieter-App). 4) Melden Sie sich als virtueller Mieter bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Mieters zu überprüfen. 5) Um vom Konstenlos-Test zum "Produktion-Mode" umzuschalten, veröffentlichen Sie einfach Ihre Gebäude in Equa Delta. Damit wird Equa Ihren Mietern zugänglich.
         -
           title: Berechnung
           icon: ti-receipt
           body: >
             Pro-Wohneinheit Berechnung.
           link: /customers/pricing/
+        -
+          title: Immer weiter entwickelt
+          icon: ti-gift
+          body: >
+            Neue Features werden Equa zugefügt, abhängend von den Bedürfnissen unserer Kunden.
         -
           title: Support
           icon: ti-support

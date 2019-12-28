@@ -190,15 +190,15 @@ customers:
       title: ""
       items:
         -
+          title: Sie vous êtes une régie immobilière extra-large
+          icon: ti-help-alt
+          body: >-
+            Vous pouvez établir plusieurs comptes Equa, et obtenir plusieurs abonnements du même type, tel que "Equa Tenant Messaging". 
+        -
           title: Calcul du prix du service
           icon: ti-receipt
           body: >-
             Nos frais de service sont basés sur le nombre d'unités d'habitation dans les immeubles que vous gérez. Seuls les immeubles "publiés" sont pris en compte pour la facturation. Les bâtiments que vous laissez en mode brouillon ne seront pas facturés.
-        -
-          title: Essai gratuit
-          icon: ti-direction
-          body: >-
-            Vous pouvez essayer notre service gratuitement avec l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application locataire). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que locataire virtuel pour vérifier l'expérience utilisateur du locataire. 5) Publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos locataires.
 product:
   pm:
     header:
@@ -287,17 +287,32 @@ product:
         #     Si votre système ERP est compatible avec Equa, alors vous pouvez l'intégrer avec Equa 
         #     au moyen d'un connecteur, ce qui peut nécessiter une étape d'installation.
         -
-          title: Offre évolutive
-          icon: ti-gift
+          title: Pour iOS
+          icon: ti-apple
           body: >
-            Nous sommes attentifs aux besoins des régies immobilières, et
-            de nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins.
+            Vous pouvez télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
+        -
+          title: Pour Android
+          icon: ti-android
+          body: >
+            Vous pouvez télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
+        -
+          title: Essai gratuit
+          icon: ti-direction
+          body: >-
+            Vous pouvez essayer notre service gratuitement avec l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application locataire). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que locataire virtuel pour vérifier l'expérience utilisateur du locataire. 5) Pour passer de l'essai gratuit au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos locataires.
         -
           title: Nos tarifs
           icon: ti-receipt
           body: >
             Nos tarifs sont basés sur le nombre d'unités habitables dans vos immeubles.
           link: /customers/pricing/
+        -
+          title: Offre évolutive
+          icon: ti-gift
+          body: >
+            Nous sommes attentifs aux besoins des régies immobilières, et
+            de nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins.
         -
           title: Aide
           icon: ti-support
