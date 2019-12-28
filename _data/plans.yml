@@ -1,240 +1,242 @@
-- - plan: Tungsten 1-month
-    unit_count: 1000
-    fee:
-      per_period: 35
-      per_month: 35
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Tungsten 4-month
-    unit_count: 1000
-    fee:
-      per_period: 135
-      per_month: 33
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Tungsten 12-month
-    unit_count: 1000
-    fee:
-      per_period: 373
-      per_month: 31
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Vanadium 1-month
-    unit_count: 2000
-    fee:
-      per_period: 70
-      per_month: 70
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Vanadium 4-month
-    unit_count: 2000
-    fee:
-      per_period: 271
-      per_month: 67
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Vanadium 12-month
-    unit_count: 2000
-    fee:
-      per_period: 747
-      per_month: 62
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Samarium 1-month
-    unit_count: 3000
-    fee:
-      per_period: 105
-      per_month: 105
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Samarium 4-month
-    unit_count: 3000
-    fee:
-      per_period: 407
-      per_month: 101
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Samarium 12-month
-    unit_count: 3000
-    fee:
-      per_period: 1121
-      per_month: 93
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Constantan 1-month
-    unit_count: 4000
-    fee:
-      per_period: 140
-      per_month: 140
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Constantan 4-month
-    unit_count: 4000
-    fee:
-      per_period: 543
-      per_month: 135
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Constantan 12-month
-    unit_count: 4000
-    fee:
-      per_period: 1495
-      per_month: 124
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Palladium 1-month
-    unit_count: 5000
-    fee:
-      per_period: 175
-      per_month: 175
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Palladium 4-month
-    unit_count: 5000
-    fee:
-      per_period: 679
-      per_month: 169
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Palladium 12-month
-    unit_count: 5000
-    fee:
-      per_period: 1869
-      per_month: 155
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Cobalt 1-month
-    unit_count: 6000
-    fee:
-      per_period: 210
-      per_month: 210
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Cobalt 4-month
-    unit_count: 6000
-    fee:
-      per_period: 814
-      per_month: 203
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Cobalt 12-month
-    unit_count: 6000
-    fee:
-      per_period: 2242
-      per_month: 186
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Carbon 1-month
-    unit_count: 7000
-    fee:
-      per_period: 245
-      per_month: 245
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Carbon 4-month
-    unit_count: 7000
-    fee:
-      per_period: 950
-      per_month: 237
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Carbon 12-month
-    unit_count: 7000
-    fee:
-      per_period: 2616
-      per_month: 218
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Chromium 1-month
-    unit_count: 8000
-    fee:
-      per_period: 280
-      per_month: 280
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Chromium 4-month
-    unit_count: 8000
-    fee:
-      per_period: 1086
-      per_month: 271
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Chromium 12-month
-    unit_count: 8000
-    fee:
-      per_period: 2990
-      per_month: 249
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Aluminium 1-month
-    unit_count: 9000
-    fee:
-      per_period: 315
-      per_month: 315
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Aluminium 4-month
-    unit_count: 9000
-    fee:
-      per_period: 1222
-      per_month: 305
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Aluminium 12-month
-    unit_count: 9000
-    fee:
-      per_period: 3364
-      per_month: 280
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
-- - plan: Titanium 1-month
-    unit_count: 10000
-    fee:
-      per_period: 350
-      per_month: 350
-      currency: CHF
-    months: 1
-    monthly_savings_percent: 0
-  - plan: Titanium 4-month
-    unit_count: 10000
-    fee:
-      per_period: 1358
-      per_month: 339
-      currency: CHF
-    months: 4
-    monthly_savings_percent: 3
-  - plan: Titanium 12-month
-    unit_count: 10000
-    fee:
-      per_period: 3738
-      per_month: 311
-      currency: CHF
-    months: 12
-    monthly_savings_percent: 11
+---
+  - - plan: Tungsten 1-month
+      unit_count: 1000
+      fee:
+        per_period: 35
+        per_month: 35
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Tungsten 6-month
+      unit_count: 1000
+      fee:
+        per_period: 199
+        per_month: 33
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Tungsten 12-month
+      unit_count: 1000
+      fee:
+        per_period: 373
+        per_month: 31
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Vanadium 1-month
+      unit_count: 2000
+      fee:
+        per_period: 70
+        per_month: 70
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Vanadium 6-month
+      unit_count: 2000
+      fee:
+        per_period: 399
+        per_month: 66
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Vanadium 12-month
+      unit_count: 2000
+      fee:
+        per_period: 747
+        per_month: 62
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Samarium 1-month
+      unit_count: 3000
+      fee:
+        per_period: 105
+        per_month: 105
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Samarium 6-month
+      unit_count: 3000
+      fee:
+        per_period: 598
+        per_month: 99
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Samarium 12-month
+      unit_count: 3000
+      fee:
+        per_period: 1121
+        per_month: 93
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Constantan 1-month
+      unit_count: 4000
+      fee:
+        per_period: 140
+        per_month: 140
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Constantan 6-month
+      unit_count: 4000
+      fee:
+        per_period: 798
+        per_month: 133
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Constantan 12-month
+      unit_count: 4000
+      fee:
+        per_period: 1495
+        per_month: 124
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Palladium 1-month
+      unit_count: 5000
+      fee:
+        per_period: 175
+        per_month: 175
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Palladium 6-month
+      unit_count: 5000
+      fee:
+        per_period: 997
+        per_month: 166
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Palladium 12-month
+      unit_count: 5000
+      fee:
+        per_period: 1869
+        per_month: 155
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Cobalt 1-month
+      unit_count: 6000
+      fee:
+        per_period: 210
+        per_month: 210
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Cobalt 6-month
+      unit_count: 6000
+      fee:
+        per_period: 1197
+        per_month: 199
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Cobalt 12-month
+      unit_count: 6000
+      fee:
+        per_period: 2242
+        per_month: 186
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Carbon 1-month
+      unit_count: 7000
+      fee:
+        per_period: 245
+        per_month: 245
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Carbon 6-month
+      unit_count: 7000
+      fee:
+        per_period: 1396
+        per_month: 232
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Carbon 12-month
+      unit_count: 7000
+      fee:
+        per_period: 2616
+        per_month: 218
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Chromium 1-month
+      unit_count: 8000
+      fee:
+        per_period: 280
+        per_month: 280
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Chromium 6-month
+      unit_count: 8000
+      fee:
+        per_period: 1596
+        per_month: 266
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Chromium 12-month
+      unit_count: 8000
+      fee:
+        per_period: 2990
+        per_month: 249
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Aluminium 1-month
+      unit_count: 9000
+      fee:
+        per_period: 315
+        per_month: 315
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Aluminium 6-month
+      unit_count: 9000
+      fee:
+        per_period: 1795
+        per_month: 299
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Aluminium 12-month
+      unit_count: 9000
+      fee:
+        per_period: 3364
+        per_month: 280
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  - - plan: Titanium 1-month
+      unit_count: 10000
+      fee:
+        per_period: 350
+        per_month: 350
+        currency: CHF
+      months: 1
+      monthly_savings_percent: 0
+    - plan: Titanium 6-month
+      unit_count: 10000
+      fee:
+        per_period: 1995
+        per_month: 332
+        currency: CHF
+      months: 6
+      monthly_savings_percent: 5
+    - plan: Titanium 12-month
+      unit_count: 10000
+      fee:
+        per_period: 3738
+        per_month: 311
+        currency: CHF
+      months: 12
+      monthly_savings_percent: 11
+  
