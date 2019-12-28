@@ -356,6 +356,16 @@ product:
         #     GDPR ist eine Verordnung der Europäischen Union, die die Verarbeitung personenbezogener Daten EU-weit regelt. Wir berücksichtigen Ihre Privatsphere.
         #     Zudem haben Sie die Möglichkeit, uns Zusatzinformationen weiterzugeben, damit wir Ihnen ein noch besseres Erlebnis beibringen können.
         -
+          title: Für iOS
+          icon: ti-apple
+          body: >
+            Sie können die "Equa Phi"-App vom App Store herunterladen und gleich einsetzen.
+        -
+          title: Für Android
+          icon: ti-android
+          body: >
+            Sie können die "Equa Phi"-App vom Google Play Store herunterladen und gleich einsetzen.
+        -
           title: Immer weiter entwickelt
           icon: ti-world
           body: >

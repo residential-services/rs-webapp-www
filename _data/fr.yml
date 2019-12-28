@@ -394,6 +394,16 @@ product:
         #     Par défaut, Equa n'opère que sur des données anonymes,
         #     tout en donnant à chaque utilisateur la liberté de  fournir des données supplémentaires qui nous aideront à améliorer la qualité du service que nous vous proposons.
         -
+          title: Pour iOS
+          icon: ti-apple
+          body: >
+            Vous pouvez télécharger l'appli "Equa Phi" depuis le App Store et commencer à l'utiliser de suite.
+        -
+          title: Pour Android
+          icon: ti-android
+          body: >
+            Vous pouvez télécharger l'appli "Equa Phi" depuis le Google Play Store et commencer à l'utiliser de suite.
+        -
           title: Offre évolutive
           icon: ti-world
           body: >
