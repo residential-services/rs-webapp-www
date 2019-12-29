@@ -9,166 +9,169 @@ Template demo at http://mono.flatheme.net/Pages/Process/Process.html
 {% assign i18n = site.data[language] %}
 {% assign c = i18n.product.pm %}
 
-		<header>
-			{% include navbar.html %}
+<header>
+	{% include navbar.html %}
 
-			<!-- Page header -->
-			<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
-					<div class="page-title-lg bg-white-08 text-center">
-						<div class="container">
-							<h1 class="font-weight-light">{{c.header.title}}</h1>
-							{% if c.header.breadcrumbs %}
-							<nav aria-label="breadcrumb">
-								<ul class="breadcrumb">
-									<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
-									<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
-									<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
-								</ul>
-							</nav>
-							{% endif %}
-						</div><!-- end container -->
-					</div><!-- end page-title -->
-				</div><!-- end bg-image -->
-				<!-- end Page header -->
-		</header>
+	<!-- Page header -->
+	<div class="bg-image parallax" style="background-image: url({{ c.header.image }})">
+			<div class="page-title-lg bg-white-08 text-center">
+				<div class="container">
+					<h1 class="font-weight-light">{{c.header.title}}</h1>
+					{% if c.header.breadcrumbs %}
+					<nav aria-label="breadcrumb">
+						<ul class="breadcrumb">
+							<li class="breadcrumb-item"><a href="/{{ language }}/">{{c.header.breadcrumbs[0]}}</a></li>
+							<li class="breadcrumb-item">{{c.header.breadcrumbs[1]}}</li>
+							<li class="breadcrumb-item active" aria-current="page"><a href="{{ page.url }}">{{c.header.breadcrumbs[2]}}</a></li>
+						</ul>
+					</nav>
+					{% endif %}
+				</div><!-- end container -->
+			</div><!-- end page-title -->
+		</div><!-- end bg-image -->
+		<!-- end Page header -->
+</header>
 
 
-		{% if c.tiles %}
-		<!-- section -->
-		<div class="section border-top">
-			<div class="container">
-				{% for item in c.tiles %}
-				<!-- Process box 1 -->
-				<div class="row align-items-center col-spacing-50">
-					<div class="col-12 col-md-6">
-						<img src="{{ item.pair[0].image }}" alt="">
-					</div>
-					<div class="col-12 col-md-6">
-						<h3 class="font-weight-light">{{ item.pair[0].lead }}</h3>
-						<h4>{{ item.pair[0].title }}</h4>
-						<p>
-						{{ item.pair[0].description }}
-						</p>
-					</div>
-				</div>
-				{% if item.pair[1] %}
-				<!-- Process box 2 -->
-				<div class="row align-item.pairs-center col-spacing-50 margin-top-50 text-md-right">
-					<div class="col-12 col-md-6 order-md-2">
-						<img src="{{ item.pair[1].image }}" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-md-1">
-						<h3 class="font-weight-light">{{ item.pair[1].lead }}</h3>
-						<h4>{{ item.pair[1].title }}</h4>
-						<p>
-						{{ item.pair[1].description }}
-						</p>
-					</div>
-				</div>
-				{% endif %}
-				{% endfor %}
-				{% comment %} <!-- Process box 3 -->
-				<div class="row align-items-center col-spacing-50 margin-top-50">
-					<div class="col-12 col-md-6">
-						<img src="/assets/images/col-2.jpg" alt="">
-					</div>
-					<div class="col-12 col-md-6">
-						<h3 class="font-weight-light">03.</h3>
-						<h4>Bold heading</h4>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-					</div>
-				</div>
-				<!-- Process box 4 -->
-				<div class="row align-items-center col-spacing-50 margin-top-50 text-md-right">
-					<div class="col-12 col-md-6 order-md-2">
-						<img src="/assets/images/col-2.jpg" alt="">
-					</div>
-					<div class="col-12 col-md-6 order-md-1">
-						<h3 class="font-weight-light">04.</h3>
-						<h4>Bold heading</h4>
-						<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-					</div>
-				</div> {% endcomment %}
-			</div><!-- end container -->
+{% if c.tiles %}
+<!-- section -->
+<div class="section border-top">
+	<div class="container">
+		{% for item in c.tiles %}
+		<!-- Process box 1 -->
+		<div class="row align-items-center col-spacing-50">
+			<div class="col-12 col-md-6">
+				<img src="{{ item.pair[0].image }}" alt="">
+			</div>
+			<div class="col-12 col-md-6">
+				<h3 class="font-weight-light">{{ item.pair[0].lead }}</h3>
+				<h4>{{ item.pair[0].title }}</h4>
+				<p>
+				{{ item.pair[0].description }}
+				</p>
+			</div>
 		</div>
-		<!-- end section -->
-		{% endif %}
-
-
-		<!-- Services section -->
-		{% if c.services %}
-		<div class="section border-top" id='support'>
-			<div class="container">
-				<div class="section-title text-center">
-					<h3>{{ c.services.title }}</h3>
-				</div>
-				<div class="row services-layout-2">
-					{% for item in c.services.items %}
-					<!-- Icon text box 1 -->
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="icon-left-box icon-3xl">
-							{% if item.anchor %}
-								<a name='{{ item.anchor }}'></a>
-							{% endif %}
-							{% if item.icon %}
-								<i class="{{ item.icon }} text-dark"></i>
-							{% else %}
-								<i class="ti-world text-dark"></i>
-							{% endif %}
-							<h6 class="heading-uppercase">{{ item.title }}</h6>
-							<p>{{ item.body }}
-								{% if item.link %}
-									<br>
-									<a href="/{{ language }}{{ item.link }}">{{ i18n.snippets.more }}</a>
-								{% endif %}
-							</p>
-						</div>
-					</div>
-					{% endfor %}
-					{% comment %}
-					<!-- Icon text box 2 -->
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="icon-left-box icon-3xl">
-							<i class="ti-world text-dark"></i>
-							<h6 class="heading-uppercase">Heading</h6>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						</div>
-					</div>
-					<!-- Icon text box 3 -->
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="icon-left-box icon-3xl">
-							<i class="ti-world text-dark"></i>
-							<h6 class="heading-uppercase">Heading</h6>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						</div>
-					</div>
-					<!-- Icon text box 4 -->
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="icon-left-box icon-3xl">
-							<i class="ti-world text-dark"></i>
-							<h6 class="heading-uppercase">Heading</h6>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						</div>
-					</div>
-					<!-- Icon text box 5 -->
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="icon-left-box icon-3xl">
-							<i class="ti-world text-dark"></i>
-							<h6 class="heading-uppercase">Heading</h6>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						</div>
-					</div>
-					<!-- Icon text box 6 -->
-					<div class="col-12 col-md-6 col-lg-4">
-						<div class="icon-left-box icon-3xl">
-							<i class="ti-world text-dark"></i>
-							<h6 class="heading-uppercase">Heading</h6>
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-						</div>
-					</div>
-					{% endcomment %}
-				</div><!-- end row -->
-			</div><!-- end container -->
+		{% if item.pair[1] %}
+		<!-- Process box 2 -->
+		<div class="row align-item.pairs-center col-spacing-50 margin-top-50 text-md-right">
+			<div class="col-12 col-md-6 order-md-2">
+				<img src="{{ item.pair[1].image }}" alt="">
+			</div>
+			<div class="col-12 col-md-6 order-md-1">
+				<h3 class="font-weight-light">{{ item.pair[1].lead }}</h3>
+				<h4>{{ item.pair[1].title }}</h4>
+				<p>
+				{{ item.pair[1].description }}
+				</p>
+			</div>
 		</div>
 		{% endif %}
-		<!-- end Services section -->
+		{% endfor %}
+		{% comment %} <!-- Process box 3 -->
+		<div class="row align-items-center col-spacing-50 margin-top-50">
+			<div class="col-12 col-md-6">
+				<img src="/assets/images/col-2.jpg" alt="">
+			</div>
+			<div class="col-12 col-md-6">
+				<h3 class="font-weight-light">03.</h3>
+				<h4>Bold heading</h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			</div>
+		</div>
+		<!-- Process box 4 -->
+		<div class="row align-items-center col-spacing-50 margin-top-50 text-md-right">
+			<div class="col-12 col-md-6 order-md-2">
+				<img src="/assets/images/col-2.jpg" alt="">
+			</div>
+			<div class="col-12 col-md-6 order-md-1">
+				<h3 class="font-weight-light">04.</h3>
+				<h4>Bold heading</h4>
+				<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean massa.  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+			</div>
+		</div> {% endcomment %}
+	</div><!-- end container -->
+</div>
+<!-- end section -->
+{% endif %}
+
+
+<!-- Services section -->
+{% if c.services %}
+<div class="section border-top" id='support'>
+	<div class="container">
+		<div class="section-title text-center">
+			<h3>{{ c.services.title }}</h3>
+		</div>
+		<div class="row services-layout-2">
+			{% for item in c.services.items %}
+			<!-- Icon text box 1 -->
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-left-box icon-3xl">
+					{% if item.anchor %}
+						<a name='{{ item.anchor }}'></a>
+					{% endif %}
+					{% if item.icon %}
+						<i class="{{ item.icon }} text-dark"></i>
+					{% else %}
+						<i class="ti-world text-dark"></i>
+					{% endif %}
+					<h6 class="heading-uppercase">{{ item.title }}</h6>
+					<p>{{ item.body }}
+						{% if item.link %}
+							<br>
+							<a href="/{{ language }}{{ item.link }}">{{ i18n.snippets.more }}</a>
+						{% elsif item.outbound_link %}
+							<br>
+							<a href="{{ item.outbound_link }}" target='_blank'>{{ i18n.snippets.more }}</a>
+						{% endif %}
+					</p>
+				</div>
+			</div>
+			{% endfor %}
+			{% comment %}
+			<!-- Icon text box 2 -->
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-left-box icon-3xl">
+					<i class="ti-world text-dark"></i>
+					<h6 class="heading-uppercase">Heading</h6>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</div>
+			</div>
+			<!-- Icon text box 3 -->
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-left-box icon-3xl">
+					<i class="ti-world text-dark"></i>
+					<h6 class="heading-uppercase">Heading</h6>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</div>
+			</div>
+			<!-- Icon text box 4 -->
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-left-box icon-3xl">
+					<i class="ti-world text-dark"></i>
+					<h6 class="heading-uppercase">Heading</h6>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</div>
+			</div>
+			<!-- Icon text box 5 -->
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-left-box icon-3xl">
+					<i class="ti-world text-dark"></i>
+					<h6 class="heading-uppercase">Heading</h6>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</div>
+			</div>
+			<!-- Icon text box 6 -->
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="icon-left-box icon-3xl">
+					<i class="ti-world text-dark"></i>
+					<h6 class="heading-uppercase">Heading</h6>
+					<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+				</div>
+			</div>
+			{% endcomment %}
+		</div><!-- end row -->
+	</div><!-- end container -->
+</div>
+{% endif %}
+<!-- end Services section -->
