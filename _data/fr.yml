@@ -304,17 +304,17 @@ product:
           body: >-
             Vous pouvez essayer notre service gratuitement avec l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application locataire). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que locataire virtuel pour vérifier l'expérience utilisateur du locataire. 5) Pour passer de l'essai gratuit au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos locataires.
         -
+          title: Démonstration
+          icon: ti-mobile
+          body: >
+            La démonstration suivante vous montre comment vous connecter à Equa avec votre numéro de téléphone mobile, créer des bâtiments et des groupes de bâtiments et envoyer des annonces et des documents.
+          outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
+        -
           title: Nos tarifs
           icon: ti-receipt
           body: >
             Nos tarifs sont basés sur le nombre d'unités habitables dans vos immeubles.
           link: /customers/pricing/
-        -
-          title: Offre évolutive
-          icon: ti-gift
-          body: >
-            Nous sommes attentifs aux besoins des régies immobilières, et
-            de nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins.
         -
           title: Aide
           icon: ti-support
@@ -408,12 +408,11 @@ product:
             Vous pouvez télécharger l'appli "Equa Phi" depuis le Google Play Store et commencer à l'utiliser de suite.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.phi
         -
-          title: Offre évolutive
-          icon: ti-world
+          title: Démonstration
+          icon: ti-mobile
           body: >
-            Nous sommes attentifs aux besoins des locataires.
-            Notre mission est de vous rendre la vie aussi facile et agréable que possible, à votre domicile et au-delà.
-            De nouvelles fonctionnalités viendront étoffer notre offre suivant vos besoins.
+            La démonstration suivante vous montre comment vous connecter à Equa avec votre numéro de téléphone mobile, emmémager dans votre domicile, et consulter announces et documents concernant votre chez vous.
+          outbound_link: https://www.youtube.com/watch?v=BlHUfRcS4uI
         -
           title: Aide
           icon: ti-support
