@@ -295,7 +295,7 @@ product:
           body: >
             You can download the "Equa Delta" app from the App Store and start using it right away.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
-            -
+        -
           title: For Android
           icon: ti-android
           body: >
