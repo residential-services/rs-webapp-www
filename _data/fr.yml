@@ -400,7 +400,7 @@ product:
           icon: ti-apple
           body: >
             Vous pouvez télécharger l'appli "Equa Phi" depuis le App Store et commencer à l'utiliser de suite.
-          outbound_link: https://apps.apple.com/ch/app/equa-phi/id1491773605
+          outbound_link: https://apps.apple.com/app/equa-phi/id1491773605
         -
           title: Pour Android
           icon: ti-android
