@@ -281,6 +281,12 @@ product:
             Die folgende Vorführung zeigt Ihnen, wie Sie sich mit Ihrer Handynummer bei Equa anmelden, Gebäude und Gebäudegruppen erstellen und Ankündigungen und Dokumente senden.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
         -
+          title: Plakate für Ihre Gebäude
+          icon: ti-pin2
+          body: >
+            Zeigen Sie Ihnen Mietern, wo sie Equa Phi herunterladen können.
+          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
           title: Berechnung
           icon: ti-receipt
           body: >

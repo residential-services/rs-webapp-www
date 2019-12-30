@@ -313,12 +313,17 @@ product:
             The following demo shows you how to sign into Equa with your mobile phone number, create buildings and building groups, and send announcements and documents.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
         -
+          title: Posters for your buildings
+          icon: ti-pin2
+          body: >
+            Show your tenants where to download the Equa Phi app.
+          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
           title: Pricing
           icon: ti-receipt
           body: >
             Pricing per habitable unit.
           link: /customers/pricing/
-
         -
           title: Support
           icon: ti-support
