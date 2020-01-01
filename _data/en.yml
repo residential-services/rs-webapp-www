@@ -2,7 +2,7 @@ snippets:
   more: More ➤
   homepage_link: 🇬🇧 Website in english
   pricing:
-    unit_count: Tenant Messaging for up to $unit_count habitable units.
+    unit_count: Up to $unit_count habitable units.
     renewal:
       monthly: Each month, subscription will renew for 1 month.
       multimonth: Subscription will renew every $months months.
@@ -151,7 +151,7 @@ customers:
         - *1_0_title
         - *1_2_title
     pricing:
-      title: Equa Tenant Messaging 
+      title: Equa Property Manager
       description: >-
         Comfortably send announcements and documents to your tenants. Choose your the right subscription for your real estate size.
       # plans:

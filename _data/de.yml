@@ -2,7 +2,7 @@ snippets:
   more: Mehr ➤
   homepage_link: 🇩🇪 Website auf deutsch
   pricing:
-    unit_count: Tenant Messaging für bis zu $unit_count Wohneinheiten.
+    unit_count: Bis zu $unit_count Wohneinheiten.
     renewal:
       monthly: Das Abo wird jeden Monat um 1 Monat verlängert.
       multimonth: Das Abo wird jeden $months. Monat um $months Monate verlängert.
@@ -132,7 +132,7 @@ customers:
         - *1_0_title
         - *1_2_title
     pricing:
-      title: Equa Tenant Messaging 
+      title: Equa Property Manager
       description: >-
         Senden Sie bequem Ankündigungen und Dokumente an ihre Mieter. Wählen Sie Ihr Abo gemäß der Grössenordnung Ihrer Liegenschaft.
       # plans:

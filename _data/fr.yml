@@ -2,7 +2,7 @@ snippets:
   more: Suite ➤
   homepage_link: 🇫🇷 Site en français
   pricing:
-    unit_count: Tenant Messaging pour jusqu'à $unit_count unités habitables.
+    unit_count: Jusqu'à $unit_count unités habitables.
     renewal:
       monthly: Abonnement renouvelé chaque mois.
       multimonth: Abonnement renouvelé chaque $months mois.
@@ -153,7 +153,7 @@ customers:
         - *1_0_title
         - *1_2_title
     pricing:
-      title: Equa Tenant Messaging 
+      title: Equa Property Manager
       description: >-
         Envoyez confortablement annonces et documents à vos habitants. Choisissez l'abonnement qui vous convient selon l'ordre de grandeur de votre immobilier.
       # plans:
