@@ -6,7 +6,7 @@ snippets:
     renewal:
       monthly: Abonnement renouvelé chaque mois.
       multimonth: Abonnement renouvelé chaque $months mois.
-    you_save: $currency $fee_per_month par mois. Vous économisez $monthly_savings_percent% par mois.
+    you_save: $currency $fee_per_month par mois. Vous économisez $monthly_savings_percent%.
 
 menu:
   -
@@ -193,7 +193,9 @@ customers:
           title: Sie vous êtes une régie immobilière extra-large
           icon: ti-help-alt
           body: >-
-            Vous pouvez établir plusieurs comptes Equa, et obtenir plusieurs abonnements du même type, tel que "Equa Tenant Messaging". 
+            * Vous pouvez établir plusieurs comptes Equa et acheter plusieurs abonnements. 
+            * En projet: une application web qui convient pour un très grand nombre d'unités habitables.
+            * En projet: une intégration sûre des systèmes ERP avec Equa pour automatiser l'entrée des données.
         -
           title: Calcul du prix du service
           icon: ti-receipt

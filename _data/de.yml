@@ -6,7 +6,7 @@ snippets:
     renewal:
       monthly: Das Abo wird jeden Monat um 1 Monat verlängert.
       multimonth: Das Abo wird jeden $months. Monat um $months Monate verlängert.
-    you_save: $currency $fee_per_month pro Monat. Sie sparen $monthly_savings_percent% monatlich.
+    you_save: $currency $fee_per_month pro Monat. Sie sparen $monthly_savings_percent%.
 
 menu:
   -
@@ -171,7 +171,9 @@ customers:
           title: Wie extragroße immobilienverwalter Equa einsetzen können
           icon: ti-help-alt
           body: >-
-            Sie können mehrere Equa-Konten erstellen, um zwei oder mehr Abos der gleichen Sorte (sowie "Equa Tenant Messaging") zu erwerben. 
+            * Sie können mehrere Equa-Konten einrichten und mehrere Abonnements kaufen.
+            * In Planung: Eine Webanwendung, die für eine sehr große Anzahl von Wohneinheiten geeignet ist.
+            * In Planung: Eine Sichere Integration von ERP-Systemen mit Equa, um Dateneingaben zu automatisieren.
         -
           title: Wie Ihre Equa-Rechnung berechnet wird
           icon: ti-receipt

@@ -6,7 +6,7 @@ snippets:
     renewal:
       monthly: Each month, subscription will renew for 1 month.
       multimonth: Subscription will renew every $months months.
-    you_save: $currency $fee_per_month per month. You save $monthly_savings_percent% per month.
+    you_save: $currency $fee_per_month per month. You save $monthly_savings_percent%.
 
 menu:
   -
@@ -191,7 +191,9 @@ customers:
           title: If you are an extra-large property manager
           icon: ti-help-alt
           body: >-
-            You can create several Equa accounts, and purchase more than one subscription for a given subscription type such as "Equa Tenant Messaging". 
+            * You can create several Equa accounts and purchase several Equa subscriptions.
+            * Planned: a web application that is suitable for a very large number of habitable units.
+            * Planned: a safe integration of ERP systems with Equa in order to automate data input.
         -
           title: How our service fee is calculated
           icon: ti-receipt
