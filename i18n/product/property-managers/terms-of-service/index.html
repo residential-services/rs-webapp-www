@@ -19,9 +19,8 @@ layout: default
 
   <h2>1. Définitions</h2>
   <p>
-  Equa Delta (ci-après "Application") est une application mobile et un service qui sont fournis par 
-  {%- comment -%} l'entreprise Armangil Software  {%- endcomment -%}
-  Monsieur Doğa Armangil
+  {{ site.data.company.app.property_managers.name }} (ci-après "Application") est une application mobile et un service qui sont fournis par 
+  {{ site.data.company.name }} 
   (ci-après "Société"). L'utilisateur de l'Application (ci-après "Utilisateur") confirme avoir lu et compris les présentes conditions et les accepte.
   </p>
 
@@ -29,13 +28,19 @@ layout: default
   {%- comment -%} Société  {%- endcomment -%}
   Société
   responsable</h2>
+  
   <blockquote class='mt-2 ml-2'>
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Numéro IDE: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
+
 
   <h2>
   3. Responsabilité de la Société
@@ -50,7 +55,7 @@ layout: default
   L'Utilisateur peut alors: 
   </p>
   <ol>
-    <li>se connecter à l'application Equa Phi (qui est normalement utilisé par les habitants d'immeubles) en utilisant le même numéro de téléphone que celui utilisé dans l'Application,</li>
+    <li>se connecter à l'application {{ site.data.company.app.tenants.name }} (qui est normalement utilisé par les habitants d'immeubles) en utilisant le même numéro de téléphone que celui utilisé dans l'Application,</li>
     <li>s'annoncer dans ses immeubles en tant qu'habitant fictif, et</li>
     <li>vérifier que l'expérience utilisateur est conforme à ses attentes.</li>
   </ol>
@@ -125,10 +130,10 @@ layout: default
 
   <h3>4.2. L'application pour habitants</h3>
   <p>
-  L'application Equa Phi, dont la Société est également l'auteur, est destinée aux habitants des immeubles gérés par l'Utilisateur. Equa Phi est complémentaire à l'Application destinée aux régies. 
+  L'application {{ site.data.company.app.tenants.name }}, dont la Société est également l'auteur, est destinée aux habitants des immeubles gérés par l'Utilisateur. {{ site.data.company.app.tenants.name }} est complémentaire à l'Application destinée aux régies. 
   </p>
   <p>
-  L'Utilisateur s'engage à autoriser la Société à ajouter des fonctionnalités à Equa Phi qui sont indépendantes de celles proposées dans l'Application pour régies, telles une fonctionnalité "shopping" ou toute autre fonctionnalité.
+  L'Utilisateur s'engage à autoriser la Société à ajouter des fonctionnalités à {{ site.data.company.app.tenants.name }} qui sont indépendantes de celles proposées dans l'Application pour régies, telles une fonctionnalité "shopping" ou toute autre fonctionnalité.
   </p>
   {%- comment -%} 
   <h3>4.3. Paiement</h3>
@@ -152,18 +157,23 @@ layout: default
 
   <h2>1. Definitions</h2>
   <p>
-  Equa Delta (hereinafter "Application") is a mobile application and a service which are provided by Mr. Doğa Armangil (hereinafter "Company"). The user of the Application (hereinafter "User") confirms having read and understood these conditions and accepts them.
+  {{ site.data.company.app.property_managers.name }} (hereinafter "Application") is a mobile application and a service which are provided by {{ site.data.company.name }} (hereinafter "Company"). The user of the Application (hereinafter "User") confirms having read and understood these conditions and accepts them.
   </p>
 
   <h2>2. 
   {%- comment -%} Société  {%- endcomment -%}
   Responsable Company</h2>
+
   <blockquote class='mt-2 ml-2'>
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Company identifier: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
 
   <h2>
@@ -223,10 +233,10 @@ layout: default
 
   <h3>4.2. The application for residents</h3>
   <p>
-  The Equa Phi application, of which the Company is also the author, is intended for residents of buildings managed by the User. Equa Phi is complementary to the Application intended for the property managers.
+  The {{ site.data.company.app.tenants.name }} application, of which the Company is also the author, is intended for residents of buildings managed by the User. {{ site.data.company.app.tenants.name }} is complementary to the Application intended for the property managers.
   </p>
   <p>
-  The User undertakes to authorize the Company to add functionalities to Equa Phi which are independent of those offered in the Application for sales offices, such as a "shopping" functionality or any other functionality.
+  The User undertakes to authorize the Company to add functionalities to {{ site.data.company.app.tenants.name }} which are independent of those offered in the Application for sales offices, such as a "shopping" functionality or any other functionality.
   </p>
   {%- comment -%} 
   <h3>4.3. Paiement</h3>
@@ -249,19 +259,25 @@ layout: default
 
   <h2>1. Definitionen</h2>
   <p>
-  Equa Delta (im Folgenden "Anwendung") ist eine mobile Anwendung und ein Dienst, der von Herrn Doğa Armangil (im Folgenden "Unternehmen") bereitgestellt wird. Der Benutzer der Anwendung (im Folgenden "Benutzer") bestätigt, diese Bedingungen gelesen und verstanden zu haben und akzeptiert sie.
+  {{ site.data.company.app.property_managers.name }} (im Folgenden "Anwendung") ist eine mobile Anwendung und ein Dienst, der von {{ site.data.company.name }} (im Folgenden "Unternehmen") bereitgestellt wird. Der Benutzer der Anwendung (im Folgenden "Benutzer") bestätigt, diese Bedingungen gelesen und verstanden zu haben und akzeptiert sie.
   </p>
 
   <h2>2. 
   {%- comment -%} Société  {%- endcomment -%}
   Verantwortliches Unternehmen</h2>
+
   <blockquote class='mt-2 ml-2'>
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Kennung: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
+
 
   <h2>
   3. Verantwortung des Unternehmens
@@ -276,7 +292,7 @@ layout: default
   L'Utilisateur peut alors: 
   </p>
   <ol>
-    <li>se connecter à l'application Equa Phi (qui est normalement utilisé par les habitants d'immeubles) en utilisant le même numéro de téléphone que celui utilisé dans l'Application,</li>
+    <li>se connecter à l'application {{ site.data.company.app.tenants.name }} (qui est normalement utilisé par les habitants d'immeubles) en utilisant le même numéro de téléphone que celui utilisé dans l'Application,</li>
     <li>s'annoncer dans ses immeubles en tant qu'habitant fictif, et</li>
     <li>vérifier que l'expérience utilisateur est conforme à ses attentes.</li>
   </ol>
@@ -346,10 +362,10 @@ layout: default
 
   <h3>4.2. Die Bewohneranwendung</h3>
   <p>
-  Die Equa Phi-Anwendung, deren Autor das Unternehmen ist, richtet sich an Bewohner von Gebäuden, die vom Nutzer verwaltet werden. Equa Phi ergänzt die Anwendung, die für die Immobilienverwalter vorgesehen ist.
+  Die {{ site.data.company.app.tenants.name }}-Anwendung, deren Autor das Unternehmen ist, richtet sich an Bewohner von Gebäuden, die vom Nutzer verwaltet werden. {{ site.data.company.app.tenants.name }} ergänzt die Anwendung, die für die Immobilienverwalter vorgesehen ist.
   </p>
   <p>
-  Der Benutzer verpflichtet sich, das Unternehmen zu autorisieren, Funktionen zu Equa Phi hinzuzufügen, die unabhängig von den in der Anwendung angebotenen Funktionen sind, wie z. B. eine "Einkaufs" -Funktion oder eine andere Funktion.
+  Der Benutzer verpflichtet sich, das Unternehmen zu autorisieren, Funktionen zu {{ site.data.company.app.tenants.name }} hinzuzufügen, die unabhängig von den in der Anwendung angebotenen Funktionen sind, wie z. B. eine "Einkaufs" -Funktion oder eine andere Funktion.
   </p>
   {%- comment -%} 
   <h3>4.3. Paiement</h3>

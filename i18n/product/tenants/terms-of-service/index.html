@@ -19,22 +19,23 @@ layout: default
 
   <h2>1. Définitions</h2>
   <p>
-  Equa Phi (ci-après "Application") est une application mobile et un service qui sont fournis par 
-  {%- comment -%} l'entreprise Armangil Software {%- endcomment -%}
-  Monsieur Doğa Armangil
+  {{ site.data.company.app.tenants.name }} (ci-après "Application") est une application mobile et un service qui sont fournis par 
+  {{ site.data.company.name }}
   (ci-après "Société"). L'utilisateur de l'Application (ci-après "Utilisateur") confirme avoir lu et compris les présentes conditions et les accepte.
   </p>
 
   <h2>2. Société responsable</h2>
+
   <blockquote class='mt-2 ml-2'>
-  {%- comment -%} Armangil Software <br> {%- endcomment -%}
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
-  {%- comment -%} <br>
-  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Numéro IDE: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
 
 
@@ -102,20 +103,23 @@ layout: default
 
   <h2>1. Definitions</h2>
   <p>
-  Equa Phi (hereinafter "Application") is a mobile application and a service which are provided by Mr. Doğa Armangil (hereinafter "Company"). The user of the Application (hereinafter "User") confirms having read and understood these conditions and accepts them.
+  {{ site.data.company.app.tenants.name }} (hereinafter "Application") is a mobile application and a service which are provided by {{ site.data.company.name }} (hereinafter "Company"). The user of the Application (hereinafter "User") confirms having read and understood these conditions and accepts them.
   </p>
 
   <h2>2. Responsible company</h2>
+  
   <blockquote class='mt-2 ml-2'>
-  {%- comment -%} Armangil Software <br> {%- endcomment -%}
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
-  {%- comment -%} <br>
-  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Company identifier: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
+
 
 
   <h2>3.
@@ -178,20 +182,23 @@ layout: default
 
   <h2>1. Definitionen</h2>
   <p>
-  Equa Phi (im Folgenden "Anwendung") ist eine mobile Anwendung und ein Dienst, der von Herrn Doğa Armangil (im Folgenden "Unternehmen") bereitgestellt wird. Der Benutzer der Anwendung (im Folgenden "Benutzer") bestätigt, diese Bedingungen gelesen und verstanden zu haben und akzeptiert sie.
+  {{ site.data.company.app.tenants.name }} (im Folgenden "Anwendung") ist eine mobile Anwendung und ein Dienst, der von {{ site.data.company.name }} (im Folgenden "Unternehmen") bereitgestellt wird. Der Benutzer der Anwendung (im Folgenden "Benutzer") bestätigt, diese Bedingungen gelesen und verstanden zu haben und akzeptiert sie.
   </p>
 
   <h2>2. Verantwortliches Unternehmen</h2>
+
   <blockquote class='mt-2 ml-2'>
-  {%- comment -%} Armangil Software <br> {%- endcomment -%}
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
-  {%- comment -%} <br>
-  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Kennung: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
+
 
 
   <h2>3.

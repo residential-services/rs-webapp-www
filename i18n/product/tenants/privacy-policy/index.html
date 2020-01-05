@@ -17,8 +17,7 @@ layout: default
 
   <h1>Protection des données</h1>
   <p>
-  {%- comment -%} Armangil Software {%- endcomment -%}
-  Monsieur Doğa Armangil 
+  {{ site.data.company.name }}
   (ci-après la "Société")
   est en mesure d’offrir une forte protection pour vos données. Nous ne divulguons pas vos données aux entreprises de publicité, ni à aucune autre, exceptée à notre hébergeur Internet, qui est Google avec son Google Cloud Platform (GCP). A son tour, GCP est extrêmement respectueux des données qui leur sont confiées.
   </p>
@@ -26,18 +25,19 @@ layout: default
   <h2>Contrôle des données</h2>
 
   <p>
-  La Société est l’auteur de l’application Equa Phi (ci-après "Application"), et le contrôleur des données qui lui sont fournies:
+  La Société est l’auteur de l’application {{ site.data.company.app.tenants.name }} (ci-après "Application"), et le contrôleur des données qui lui sont fournies:
   </p>
 
   <blockquote class='mt-2 ml-2'>
-  {%- comment -%} Armangil Software <br> {%- endcomment -%}
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
-  {%- comment -%} <br>
-  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br> IDE: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
 
   <h2>
@@ -80,25 +80,26 @@ layout: default
   <h1>Data protection</h1>
 
   <p>
-  {%- comment -%} Armangil Software {%- endcomment -%}
-  Mr. Doğa Armangil (hereinafter the "Company") is able to offer strong protection for your data. We do not disclose your data to advertising companies, or any other, except to our web host, which is Google with its Google Cloud Platform (GCP). In turn, GCP is extremely respectful of the data entrusted to them.
+    {{ site.data.company.name }} 
+    (hereinafter the "Company") is able to offer strong protection for your data. We do not disclose your data to advertising companies, or any other, except to our web host, which is Google with its Google Cloud Platform (GCP). In turn, GCP is extremely respectful of the data entrusted to them.
   </p>
 
   <h2>Data control</h2>
 
   <p>
-  The Company is the author of the Equa Phi application (hereinafter "Application"), and the controller of the data provided to it:
+  The Company is the author of the {{ site.data.company.app.tenants.name }} application (hereinafter "Application"), and the controller of the data provided to it:
   </p>
 
   <blockquote class='mt-2 ml-2'>
-  {%- comment -%} Armangil Software <br> {%- endcomment -%}
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
-  {%- comment -%} <br>
-  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Company identifier: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
 
   <h2>
@@ -142,26 +143,28 @@ layout: default
   <h1>Datenschutz</h1>
 
   <p>
-  {%- comment -%} Armangil Software {%- endcomment -%}
-  Herr Doğa Armangil (im Folgenden "Unternehmen") ist in der Lage, Ihre Daten umfassend zu schützen. Wir geben Ihre Daten nicht an Werbefirmen oder andere weiter, mit Ausnahme unseres Webhosts Google mit seiner Google Cloud Platform (GCP). Im Gegenzug respektiert GCP die ihnen anvertrauten Daten außerordentlich.
+    {{ site.data.company.name }}
+    (im Folgenden "Unternehmen") ist in der Lage, Ihre Daten umfassend zu schützen. Wir geben Ihre Daten nicht an Werbefirmen oder andere weiter, mit Ausnahme unseres Webhosts Google mit seiner Google Cloud Platform (GCP). Im Gegenzug respektiert GCP die ihnen anvertrauten Daten außerordentlich.
   </p>
 
   <h2>Datenkontrolle</h2>
 
   <p>
-  Das Unternehmen ist der Autor der Equa Phi-Anwendung (im Folgenden "Anwendung") und der für die Verarbeitung der ihm bereitgestellten Daten Verantwortliche:
+  Das Unternehmen ist der Autor der {{ site.data.company.app.tenants.name }}-Anwendung (im Folgenden "Anwendung") und der für die Verarbeitung der ihm bereitgestellten Daten Verantwortliche:
   </p>
 
   <blockquote class='mt-2 ml-2'>
-  {%- comment -%} Armangil Software <br> {%- endcomment -%}
-  Doğa Armangil <br>
-  Avenue de Vaudagne 31 <br>
-  CH-1217 Meyrin <br>
-  <a href="mailto:support@equa.world">support@equa.world</a><br>
-  <a href="https://equa.world">equa.world</a>  
-  {%- comment -%} <br>
-  Numéro IDE: CHE-268.664.734 {%- endcomment -%}
+    {{ site.data.company.name }} <br>
+    {% for address_line in site.data.company.address %}
+      {{ address_line }} <br>
+    {% endfor %}
+    <a href="mailto:{{ site.data.company.email }}">{{ site.data.company.email }}</a><br>
+    <a href="{{ site.data.company.website }}">{{ site.data.company.website }}</a>   
+    {% if site.data.company.company_id %}
+      <br>  Kennung: {{ site.data.company.company_id }}
+    {% endif %}
   </blockquote>
+
 
   <h2>
   Gesammelte Daten
