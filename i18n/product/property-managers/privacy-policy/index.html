@@ -166,6 +166,7 @@ layout: default
   Das Unternehmen ist der Autor des {{ site.data.company.app.property_managers.name }}-Antrags (im Folgenden "Antrag") und der für die Verarbeitung der ihm anvertrauten Daten Verantwortliche:
   </p>
 
+  {%- comment -%} TODO factor this out into an "include" file? {%- endcomment -%}
   <blockquote class='mt-2 ml-2'>
     {{ site.data.company.name }} <br>
     {% for address_line in site.data.company.address %}

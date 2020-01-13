@@ -272,6 +272,12 @@ product:
             Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
+          title: Plakate für Ihre Gebäude
+          icon: ti-pin2
+          body: >
+            Zeigen Sie Ihnen Mietern, wo sie Equa Phi herunterladen können.
+          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
           title: Kostenlos testen
           icon: ti-direction
           body: >-
@@ -283,17 +289,16 @@ product:
             Die folgende Vorführung zeigt Ihnen, wie Sie sich mit Ihrer Handynummer bei Equa anmelden, Gebäude und Gebäudegruppen erstellen und Ankündigungen und Dokumente senden.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
         -
-          title: Plakate für Ihre Gebäude
-          icon: ti-pin2
-          body: >
-            Zeigen Sie Ihnen Mietern, wo sie Equa Phi herunterladen können.
-          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
-        -
           title: Berechnung
           icon: ti-receipt
           body: >
             Pro-Wohneinheit Berechnung.
           link: /customers/pricing/
+        -
+          title: ERP-Integration
+          icon: ti-cloud-up
+          body: >
+            Durch die ERP-Integration können Sie die Dateneingabe in Equa automatisieren und damit Ihren Komfort erhöhen. Kontaktieren Sie uns, um eine maßgeschneiderte Lösung zu erstellen.
         -
           title: Support
           icon: ti-support
