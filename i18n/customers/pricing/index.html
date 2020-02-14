@@ -88,10 +88,12 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 				</div>
 				{% for plan_group in plans %}
 					<div class="my-plans row">
-						<!-- Prices box 1 -->
-						{% assign plan = plan_group[0] %}
+					{% if plan_group.size < 2 %}
+						<div class="col-12 col-lg-4"></div>
+					{% endif %}
+					{% for plan in plan_group %}
 						<div class="col-12 col-lg-4">
-							<div class="prices-box">
+							<div class="prices-box {% if plan.recommended %}prices-box-recommended{% endif %}">
 								<h6 class="heading-uppercase">{{ plan.plan }}</h6>
 								<div class="price">
 									<h1>
@@ -102,17 +104,10 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 								</div>
 								<div class="price-features">
 									<ul>
-										{% if plan.monthly_savings_percent != 0 %}
-											<li style='color: green; font-weight: bold'>
-												{{ i18n.snippets.pricing.you_save | replace: '$monthly_savings_percent', plan.monthly_savings_percent | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}
-											</li>
-										{% endif %}
-										<li>{{ i18n.snippets.pricing.unit_count | replace: '$unit_count', plan.unit_count }}</li>
-										{% if plan.months == 1 %}
-											<li>{{ i18n.snippets.pricing.renewal.monthly | replace: '$monthly_savings_percent', plan.monthly_savings_percent | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}</li>
-										{% else %}
-											<li>{{ i18n.snippets.pricing.renewal.multimonth | replace: '$months', plan.months }}</li>
-										{% endif %}
+										<li>{{ i18n.snippets.pricing.renewal.multimonth | replace: '$months', plan.months }}</li>
+										<li>{{ i18n.snippets.pricing.unit_count | replace: '$count', plan.unit_count }}</li>
+										<li>{{ i18n.snippets.pricing.collaborator_count | replace: '$count', plan.collaborator_count }}</li>
+										<li>{{ i18n.snippets.pricing.feature_set[plan.feature_set] }}</li>
 									</ul>
 								</div>
 								{% if plan.action %}
@@ -120,126 +115,7 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 								{% endif %} 
 							</div>
 						</div>
-						<!-- Prices box 2 -->
-						{% assign plan = plan_group[1] %}
-						<div class="col-12 col-lg-4">
-							<div class="prices-box prices-box-recommended">
-								<h6 class="heading-uppercase">{{ plan.plan }}</h6>
-								<div class="price">
-									<h1>
-										<span>{{ plan.fee.currency }}</span>
-										{{ plan.fee.per_period }}
-										{%- comment -%} <span>{{ item.price.after_amount }}</span> {%- endcomment -%}
-									</h1>
-								</div>
-								<div class="price-features">
-									<ul>
-										{% if plan.monthly_savings_percent != 0 %}
-											<li style='color: green; font-weight: bold'>
-												{{ i18n.snippets.pricing.you_save | replace: '$monthly_savings_percent', plan.monthly_savings_percent | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}
-											</li>
-										{% endif %}
-										<li>{{ i18n.snippets.pricing.unit_count | replace: '$unit_count', plan.unit_count }}</li>
-										{% if plan.months == 1 %}
-											<li>{{ i18n.snippets.pricing.renewal.monthly | replace: '$monthly_savings_percent', plan.monthly_savings_percent | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}</li>
-										{% else %}
-											<li>{{ i18n.snippets.pricing.renewal.multimonth | replace: '$months', plan.months }}</li>
-										{% endif %}
-									</ul>
-								</div>
-								{%- comment -%} {% if plan.features %}
-								<div class="price-features">
-									<ul>
-									{% for feature in plan.features %}
-										<li><span style='font-weight: bold'>{{ feature.title }}</span>: {{ feature.description }}</li>
-									{% endfor %}
-									</ul>
-								</div>
-								{% endif %}
-								{% if plan.action %}
-								<a class="my-button button button-md button-dark button-rounded" href="{{plan.action.link}}">{{plan.action.title}}</a>
-								{% endif %} {%- endcomment -%}
-							</div>
-						</div>
-						<!-- Prices box 3 -->
-						{% assign plan = plan_group[2] %}
-						<div class="col-12 col-lg-4">
-							<div class="prices-box">
-								<h6 class="heading-uppercase">{{ plan.plan }}</h6>
-								<div class="price">
-									<h1>
-										<span>{{ plan.fee.currency }}</span>
-										{{ plan.fee.per_period }}
-										{%- comment -%} <span>{{ item.price.after_amount }}</span> {%- endcomment -%}
-									</h1>
-								</div>
-								<div class="price-features">
-									<ul>
-										{% if plan.monthly_savings_percent != 0 %}
-											<li style='color: green; font-weight: bold'>
-												{{ i18n.snippets.pricing.you_save | replace: '$monthly_savings_percent', plan.monthly_savings_percent | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}
-											</li>
-										{% endif %}
-										<li>{{ i18n.snippets.pricing.unit_count | replace: '$unit_count', plan.unit_count }}</li>
-										{% if plan.months == 1 %}
-											<li>{{ i18n.snippets.pricing.renewal.monthly | replace: '$monthly_savings_percent', plan.monthly_savings_percent | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}</li>
-										{% else %}
-											<li>{{ i18n.snippets.pricing.renewal.multimonth | replace: '$months', plan.months }}</li>
-										{% endif %}
-									</ul>
-								</div>
-								{%- comment -%} {% if plan.features %}
-								<div class="price-features">
-									<ul>
-									{% for feature in plan.features %}
-										<li><span style='font-weight: bold'>{{ feature.title }}</span>: {{ feature.description }}</li>
-									{% endfor %}
-									</ul>
-								</div>
-								{% endif %}
-								{% if plan.action %}
-								<a class="my-button button button-md button-dark button-rounded" href="{{plan.action.link}}">{{plan.action.title}}</a>
-								{% endif %} {%- endcomment -%}
-							</div>
-						</div>
-
-						{%- comment -%} {% endfor %} {%- endcomment -%}
-						{%- comment -%} 
-						<!-- Prices box 2 -->
-						<div class="col-12 col-lg-4">
-							<div class="prices-box prices-box-recommended">
-								<h6 class="heading-uppercase">Business</h6>
-								<div class="price">
-									<h1>49<span>/mo</span></h1>
-								</div>
-								<div class="price-features">
-									<ul>
-										<li>Unlimited User</li>
-										<li>Unlimited Storage</li>
-										<li>24/7 Support</li>
-									</ul>
-								</div>
-								<a class="button button-md button-dark button-rounded" href="#">Order Now</a>
-							</div>
-						</div>
-						<!-- Prices box 3 -->
-						<div class="col-12 col-lg-4">
-							<div class="prices-box">
-								<h6 class="heading-uppercase">Premium</h6>
-								<div class="price">
-									<h1>79<span>/mo</span></h1>
-								</div>
-								<div class="price-features">
-									<ul>
-										<li>Unlimited User</li>
-										<li>Unlimited Storage</li>
-										<li>24/7 Support</li>
-									</ul>
-								</div>
-								<a class="button button-md button-dark button-rounded" href="#">Order Now</a>
-							</div>
-						</div> 
-						{%- endcomment -%}
+					{% endfor %}
 					</div><!-- end row --> 
 				{% endfor %}
 			</div><!-- end container -->

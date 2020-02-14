@@ -2,11 +2,15 @@ snippets:
   more: Mehr ➤
   homepage_link: 🇩🇪 Website auf deutsch
   pricing:
-    unit_count: Bis zu $unit_count Wohneinheiten.
+    feature_set:
+      Business:   ▶ ︎Senden Sie Dokumente und Ankündigungen an die Bewohner. ▶ Einwohner können verfügbare Wäschemöglichkeiten online reservieren. ▶ ︎Einwohner können Ihnen Arbeitsaufträge senden.
+      Enterprise: ▶︎ ERP-Integration. Verwenden Sie unsere ERP-Integrationssoftware, falls für Ihre ERP-Marke verfügbar, oder entwickeln Sie Ihre eigene Integrationslösung basierend auf unserer dokumentierten API. ▶ ︎ Senden Sie Dokumente und Ankündigungen an die Bewohner. ▶ ︎ Einwohner können verfügbare Wäschemöglichkeiten online reservieren. ▶ ︎ Einwohner können Ihnen Arbeitsaufträge senden.
+    unit_count: Bis zu $count Wohneinheiten.
+    collaborator_count: Bis zu $count Mitarbeiter.
     renewal:
-      monthly: Das Abo wird jeden Monat um 1 Monat verlängert.
-      multimonth: Das Abo wird jeden $months. Monat um $months Monate verlängert.
-    you_save: $currency $fee_per_month pro Monat. Sie sparen $monthly_savings_percent%.
+      monthly: Das Abo wird jeden Monat um 1 Monat verlängert. # obsolete
+      multimonth: Abonnement für $months Monate, automatisch verlängert.
+    you_save: $currency $fee_per_month pro Monat. Sie sparen $monthly_savings_percent%. # obsolete
 
 menu:
   -
@@ -126,7 +130,7 @@ customers:
   pricing: # inspired by https://slack.com/pricing 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Für jeden Wunsch das passende Abo
+      title: Das richtige Abonnement für Ihre Bedürfnisse
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -134,7 +138,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Senden Sie bequem Ankündigungen und Dokumente an ihre Mieter. Wählen Sie Ihr Abo gemäß der Grössenordnung Ihrer Liegenschaft.
+        Wählen Sie das Abonnement, das Ihrer Immobiliengröße entspricht. Sie können Ihren Plan jederzeit ändern.
       # plans:
       #   -
       #     title: null
@@ -167,13 +171,6 @@ customers:
     services:
       title: ""
       items:
-        -
-          title: Wie extragroße immobilienverwalter Equa einsetzen können
-          icon: ti-help-alt
-          body: >-
-            * Sie können mehrere Equa-Konten einrichten und mehrere Abonnements kaufen.
-            * In Planung: Eine Webanwendung, die für eine sehr große Anzahl von Wohneinheiten geeignet ist.
-            * In Planung: Eine Sichere Integration von ERP-Systemen mit Equa, um Dateneingaben zu automatisieren.
         -
           title: Wie Ihre Equa-Rechnung berechnet wird
           icon: ti-receipt

@@ -2,11 +2,15 @@ snippets:
   more: Suite ➤
   homepage_link: 🇫🇷 Site en français
   pricing:
-    unit_count: Jusqu'à $unit_count unités habitables.
+    feature_set:
+      Business:   ▶︎ Envoyer des documents et des annonces aux résidents. ▶ ︎ Les résidents peuvent réserver une laverie disponible en ligne. ▶ ︎ Les résidents peuvent vous envoyer des bons de travail.
+      Enterprise: ▶︎ Intégration ERP. Utilisez notre logiciel d'intégration ERP s'il est disponible pour votre marque ERP, ou développez votre propre solution d'intégration basée sur notre API documentée.  ▶︎ Send documents & announcements to residents. ▶︎ Residents can reserve available laundry facilities online. ▶︎ Residents can send you work orders.
+    unit_count: Jusqu'à $count unités habitables.
+    collaborator_count: Jusqu'à $count collaborateurs.
     renewal:
-      monthly: Abonnement renouvelé chaque mois.
-      multimonth: Abonnement renouvelé chaque $months mois.
-    you_save: $currency $fee_per_month par mois. Vous économisez $monthly_savings_percent%.
+      monthly: Abonnement renouvelé chaque mois. # obsolete
+      multimonth: Abonnement de 12 mois, prolongé automatiquement.
+    you_save: $currency $fee_per_month par mois. Vous économisez $monthly_savings_percent%. # obsolete
 
 menu:
   -
@@ -155,7 +159,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Envoyez confortablement annonces et documents à vos habitants. Choisissez l'abonnement qui vous convient selon l'ordre de grandeur de votre immobilier.
+        Choisissez le plan d'abonnement qui correspond à la taille de votre bien immobilier. Vous pouvez modifier votre abonnement à tout moment.
       # plans:
       #   -
       #     title: null
@@ -189,13 +193,6 @@ customers:
     services:
       title: ""
       items:
-        -
-          title: Sie vous êtes une régie immobilière extra-large
-          icon: ti-help-alt
-          body: >-
-            * Vous pouvez établir plusieurs comptes Equa et acheter plusieurs abonnements. 
-            * En projet: une application web qui convient pour un très grand nombre d'unités habitables.
-            * En projet: une intégration sûre des systèmes ERP avec Equa pour automatiser l'entrée des données.
         -
           title: Calcul du prix du service
           icon: ti-receipt

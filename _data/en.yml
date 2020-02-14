@@ -2,11 +2,15 @@ snippets:
   more: More ➤
   homepage_link: 🇬🇧 Website in english
   pricing:
-    unit_count: Up to $unit_count habitable units.
+    feature_set:
+      Business:   ▶︎ Send documents & announcements to residents. ▶︎ Residents can reserve available laundry facilities online. ▶︎ Residents can send you work orders.
+      Enterprise: ▶︎ ERP integration. Use our ERP integration software if available for your ERP brand, or develop your own integration solution based on our documented API.  ▶︎ Send documents & announcements to residents. ▶︎ Residents can reserve available laundry facilities online. ▶︎ Residents can send you work orders.
+    unit_count: Up to $count habitation units.
+    collaborator_count: Up to $count collaborators.
     renewal:
-      monthly: Each month, subscription will renew for 1 month.
-      multimonth: Subscription will renew every $months months.
-    you_save: $currency $fee_per_month per month. You save $monthly_savings_percent%.
+      monthly: Each month, subscription will renew for 1 month. # obsolete
+      multimonth: $months-month subscription, extended automatically.
+    you_save: $currency $fee_per_month per month. You save $monthly_savings_percent%. # obsolete
 
 menu:
   -
@@ -153,7 +157,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Comfortably send announcements and documents to your tenants. Choose your the right subscription for your real estate size.
+        Choose the subscription plan that corresponds to your real estate size. You can change your plan any time.
       # plans:
       #   -
       #     title: null
@@ -187,13 +191,6 @@ customers:
     services:
       title: ""
       items:
-        -
-          title: If you are an extra-large property manager
-          icon: ti-help-alt
-          body: >-
-            * You can create several Equa accounts and purchase several Equa subscriptions.
-            * Planned: a web application that is suitable for a very large number of habitable units.
-            * Planned: a safe integration of ERP systems with Equa in order to automate data input.
         -
           title: How our service fee is calculated
           icon: ti-receipt

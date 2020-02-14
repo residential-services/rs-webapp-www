@@ -1,98 +1,202 @@
 ---
-  - - plan: Tungsten 1-month
+  - - plan: Business 1K
+      feature_set: Business
       unit_count: 1000
+      collaborator_count: 10
       fee:
-        per_period: 87
-        per_month: 87
+        per_period: 127
+        per_month: 10
         currency: CHF
-      months: 1
-      monthly_savings_percent: 0
-    - plan: Tungsten 6-month
+      months: 12
+      recommended: true
+    - plan: Enterprise 1K
+      feature_set: Enterprise
       unit_count: 1000
+      collaborator_count: 10
       fee:
-        per_period: 498
-        per_month: 83
-        currency: CHF
-      months: 6
-      monthly_savings_percent: 5
-    - plan: Tungsten 12-month
-      unit_count: 1000
-      fee:
-        per_period: 934
-        per_month: 77
+        per_period: 190
+        per_month: 15
         currency: CHF
       months: 12
-      monthly_savings_percent: 11
-  - - plan: Vanadium 1-month
+      recommended: false
+  - - plan: Business 2K
+      feature_set: Business
       unit_count: 2000
+      collaborator_count: 10
       fee:
-        per_period: 175
-        per_month: 175
+        per_period: 254
+        per_month: 21
         currency: CHF
-      months: 1
-      monthly_savings_percent: 0
-    - plan: Vanadium 6-month
+      months: 12
+      recommended: true
+    - plan: Enterprise 2K
+      feature_set: Enterprise
       unit_count: 2000
+      collaborator_count: 10
       fee:
-        per_period: 997
-        per_month: 166
-        currency: CHF
-      months: 6
-      monthly_savings_percent: 5
-    - plan: Vanadium 12-month
-      unit_count: 2000
-      fee:
-        per_period: 1869
-        per_month: 155
+        per_period: 381
+        per_month: 31
         currency: CHF
       months: 12
-      monthly_savings_percent: 11
-  - - plan: Samarium 1-month
+      recommended: false
+  - - plan: Business 3K
+      feature_set: Business
       unit_count: 3000
+      collaborator_count: 10
       fee:
-        per_period: 262
-        per_month: 262
-        currency: CHF
-      months: 1
-      monthly_savings_percent: 0
-    - plan: Samarium 6-month
-      unit_count: 3000
-      fee:
-        per_period: 1496
-        per_month: 249
-        currency: CHF
-      months: 6
-      monthly_savings_percent: 5
-    - plan: Samarium 12-month
-      unit_count: 3000
-      fee:
-        per_period: 2798
-        per_month: 233
+        per_period: 381
+        per_month: 31
         currency: CHF
       months: 12
-      monthly_savings_percent: 11
-  - - plan: Constantan 1-month
-      unit_count: 4000
+      recommended: true
+    - plan: Enterprise 3K
+      feature_set: Enterprise
+      unit_count: 3000
+      collaborator_count: 10
       fee:
-        per_period: 350
-        per_month: 350
-        currency: CHF
-      months: 1
-      monthly_savings_percent: 0
-    - plan: Constantan 6-month
-      unit_count: 4000
-      fee:
-        per_period: 1995
-        per_month: 332
-        currency: CHF
-      months: 6
-      monthly_savings_percent: 5
-    - plan: Constantan 12-month
-      unit_count: 4000
-      fee:
-        per_period: 3738
-        per_month: 311
+        per_period: 572
+        per_month: 47
         currency: CHF
       months: 12
-      monthly_savings_percent: 11
+      recommended: false
+  - - plan: Business 4K
+      feature_set: Business
+      unit_count: 4000
+      collaborator_count: 10
+      fee:
+        per_period: 508
+        per_month: 42
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 4K
+      feature_set: Enterprise
+      unit_count: 4000
+      collaborator_count: 10
+      fee:
+        per_period: 763
+        per_month: 63
+        currency: CHF
+      months: 12
+      recommended: false
+  - - plan: Business 5K
+      feature_set: Business
+      unit_count: 5000
+      collaborator_count: 10
+      fee:
+        per_period: 635
+        per_month: 52
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 5K
+      feature_set: Enterprise
+      unit_count: 5000
+      collaborator_count: 10
+      fee:
+        per_period: 953
+        per_month: 79
+        currency: CHF
+      months: 12
+      recommended: false
+  - - plan: Business 6K
+      feature_set: Business
+      unit_count: 6000
+      collaborator_count: 10
+      fee:
+        per_period: 763
+        per_month: 63
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 6K
+      feature_set: Enterprise
+      unit_count: 6000
+      collaborator_count: 10
+      fee:
+        per_period: 1144
+        per_month: 95
+        currency: CHF
+      months: 12
+      recommended: false
+  - - plan: Business 7K
+      feature_set: Business
+      unit_count: 7000
+      collaborator_count: 10
+      fee:
+        per_period: 890
+        per_month: 74
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 7K
+      feature_set: Enterprise
+      unit_count: 7000
+      collaborator_count: 10
+      fee:
+        per_period: 1335
+        per_month: 111
+        currency: CHF
+      months: 12
+      recommended: false
+  - - plan: Business 8K
+      feature_set: Business
+      unit_count: 8000
+      collaborator_count: 10
+      fee:
+        per_period: 1017
+        per_month: 84
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 8K
+      feature_set: Enterprise
+      unit_count: 8000
+      collaborator_count: 10
+      fee:
+        per_period: 1526
+        per_month: 127
+        currency: CHF
+      months: 12
+      recommended: false
+  - - plan: Business 9K
+      feature_set: Business
+      unit_count: 9000
+      collaborator_count: 10
+      fee:
+        per_period: 1144
+        per_month: 95
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 9K
+      feature_set: Enterprise
+      unit_count: 9000
+      collaborator_count: 10
+      fee:
+        per_period: 1716
+        per_month: 143
+        currency: CHF
+      months: 12
+      recommended: false
+  - - plan: Business 10K
+      feature_set: Business
+      unit_count: 10000
+      collaborator_count: 10
+      fee:
+        per_period: 1271
+        per_month: 105
+        currency: CHF
+      months: 12
+      recommended: true
+    - plan: Enterprise 10K
+      feature_set: Enterprise
+      unit_count: 10000
+      collaborator_count: 10
+      fee:
+        per_period: 1907
+        per_month: 158
+        currency: CHF
+      months: 12
+      recommended: false
   
