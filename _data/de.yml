@@ -3,8 +3,15 @@ snippets:
   homepage_link: 🇩🇪 Website auf deutsch
   pricing:
     feature_set:
-      Business:   ▶ ︎Senden Sie Dokumente und Ankündigungen an die Bewohner. ▶ Einwohner können verfügbare Wäschemöglichkeiten online reservieren. ▶ ︎Einwohner können Ihnen Arbeitsaufträge senden.
-      Enterprise: ▶︎ ERP-Integration. Verwenden Sie unsere ERP-Integrationssoftware, falls für Ihre ERP-Marke verfügbar, oder entwickeln Sie Ihre eigene Integrationslösung basierend auf unserer dokumentierten API. ▶ ︎ Senden Sie Dokumente und Ankündigungen an die Bewohner. ▶ ︎ Einwohner können verfügbare Wäschemöglichkeiten online reservieren. ▶ ︎ Einwohner können Ihnen Arbeitsaufträge senden.
+      Business:
+        - Senden Sie Dokumente und Ankündigungen an die Bewohner. 
+        - Einwohner können verfügbare Wäschemöglichkeiten online reservieren. 
+        - Einwohner können Ihnen Arbeitsaufträge senden.
+      Enterprise: 
+        - ERP-Integration. Verwenden Sie unsere ERP-Integrationssoftware, falls für Ihre ERP-Marke verfügbar, oder entwickeln Sie Ihre eigene Integrationslösung basierend auf unserer dokumentierten API.
+        - Senden Sie Dokumente und Ankündigungen an die Bewohner.
+        - Einwohner können verfügbare Wäschemöglichkeiten online reservieren.
+        - Einwohner können Ihnen Arbeitsaufträge senden.
     unit_count: Bis zu $count Wohneinheiten.
     collaborator_count: Bis zu $count Mitarbeiter.
     renewal:

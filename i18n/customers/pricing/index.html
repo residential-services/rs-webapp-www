@@ -106,9 +106,11 @@ Template demo at http://mono.flatheme.net/Pages/Prices/Prices-Classic.html
 									<ul>
 										<li style='color: green'>{{ i18n.snippets.pricing.you_save | replace: '$fee_per_month', plan.fee.per_month | replace: '$currency', plan.fee.currency }}</li>
 										<li>{{ i18n.snippets.pricing.renewal.multimonth | replace: '$months', plan.months }}</li>
-										<li>{{ i18n.snippets.pricing.unit_count | replace: '$count', plan.unit_count }}</li>
-										<li>{{ i18n.snippets.pricing.collaborator_count | replace: '$count', plan.collaborator_count }}</li>
-										<li>{{ i18n.snippets.pricing.feature_set[plan.feature_set] }}</li>
+										<li>✅ {{ i18n.snippets.pricing.unit_count | replace: '$count', plan.unit_count }}</li>
+										<li>✅ {{ i18n.snippets.pricing.collaborator_count | replace: '$count', plan.collaborator_count }}</li>
+										{% for feature in i18n.snippets.pricing.feature_set[plan.feature_set] %}
+											<li>✅ {{ feature }}</li>
+										{% endfor %}
 									</ul>
 								</div>
 								{% if plan.action %}

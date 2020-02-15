@@ -3,8 +3,15 @@ snippets:
   homepage_link: 🇬🇧 Website in english
   pricing:
     feature_set:
-      Business:   ▶︎ Send documents & announcements to residents. ▶︎ Residents can reserve available laundry facilities online. ▶︎ Residents can send you work orders.
-      Enterprise: ▶︎ ERP integration. Use our ERP integration software if available for your ERP brand, or develop your own integration solution based on our documented API.  ▶︎ Send documents & announcements to residents. ▶︎ Residents can reserve available laundry facilities online. ▶︎ Residents can send you work orders.
+      Business:
+        - Send documents & announcements to residents.
+        - Residents can reserve available laundry facilities online.
+        - Residents can send you work orders.
+      Enterprise:
+        - ERP integration. Use our ERP integration software if available for your ERP brand, or develop your own integration solution based on our documented API.
+        - Send documents & announcements to residents.
+        - Residents can reserve available laundry facilities online.
+        - Residents can send you work orders.
     unit_count: Up to $count habitation units.
     collaborator_count: Up to $count collaborators.
     renewal:
