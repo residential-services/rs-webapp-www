@@ -4,7 +4,7 @@
       unit_count: 1000
       collaborator_count: 10
       fee:
-        per_period: 75
+        per_period: 83
         per_month: 6
         currency: CHF
       months: 12
@@ -34,8 +34,8 @@
       unit_count: 4000
       collaborator_count: 10
       fee:
-        per_period: 300
-        per_month: 25
+        per_period: 350
+        per_month: 29
         currency: CHF
       months: 12
       recommended: true
@@ -54,8 +54,8 @@
       unit_count: 6000
       collaborator_count: 10
       fee:
-        per_period: 450
-        per_month: 37
+        per_period: 500
+        per_month: 41
         currency: CHF
       months: 12
       recommended: true
@@ -64,8 +64,8 @@
       unit_count: 7000
       collaborator_count: 10
       fee:
-        per_period: 550
-        per_month: 45
+        per_period: 600
+        per_month: 50
         currency: CHF
       months: 12
       recommended: true
@@ -74,8 +74,8 @@
       unit_count: 8000
       collaborator_count: 10
       fee:
-        per_period: 600
-        per_month: 50
+        per_period: 650
+        per_month: 54
         currency: CHF
       months: 12
       recommended: true
@@ -84,8 +84,8 @@
       unit_count: 9000
       collaborator_count: 10
       fee:
-        per_period: 700
-        per_month: 58
+        per_period: 750
+        per_month: 62
         currency: CHF
       months: 12
       recommended: true
@@ -94,8 +94,8 @@
       unit_count: 10000
       collaborator_count: 10
       fee:
-        per_period: 750
-        per_month: 62
+        per_period: 850
+        per_month: 70
         currency: CHF
       months: 12
       recommended: true
