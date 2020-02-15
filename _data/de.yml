@@ -10,7 +10,7 @@ snippets:
     renewal:
       monthly: Das Abo wird jeden Monat um 1 Monat verlängert. # obsolete
       multimonth: Abonnement für $months Monate, automatisch verlängert.
-    you_save: $currency $fee_per_month pro Monat. Sie sparen $monthly_savings_percent%. # obsolete
+    you_save: $currency $fee_per_month pro Monat!
 
 menu:
   -

@@ -10,7 +10,7 @@ snippets:
     renewal:
       monthly: Each month, subscription will renew for 1 month. # obsolete
       multimonth: $months-month subscription, extended automatically.
-    you_save: $currency $fee_per_month per month. You save $monthly_savings_percent%. # obsolete
+    you_save: $currency $fee_per_month per month!
 
 menu:
   -

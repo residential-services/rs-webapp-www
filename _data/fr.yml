@@ -10,7 +10,7 @@ snippets:
     renewal:
       monthly: Abonnement renouvelé chaque mois. # obsolete
       multimonth: Abonnement de 12 mois, prolongé automatiquement.
-    you_save: $currency $fee_per_month par mois. Vous économisez $monthly_savings_percent%. # obsolete
+    you_save: $currency $fee_per_month par mois!
 
 menu:
   -

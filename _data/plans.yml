@@ -4,24 +4,24 @@
       unit_count: 1000
       collaborator_count: 10
       fee:
-        per_period: 127
-        per_month: 10
+        per_period: 75
+        per_month: 6
         currency: CHF
       months: 12
       recommended: true
-    - plan: Enterprise 1K
-      feature_set: Enterprise
-      unit_count: 1000
-      collaborator_count: 10
-      fee:
-        per_period: 200
-        per_month: 16
-        currency: CHF
-      months: 12
-      recommended: false
   - - plan: Business 2K
       feature_set: Business
       unit_count: 2000
+      collaborator_count: 10
+      fee:
+        per_period: 150
+        per_month: 12
+        currency: CHF
+      months: 12
+      recommended: true
+  - - plan: Business 3K
+      feature_set: Business
+      unit_count: 3000
       collaborator_count: 10
       fee:
         per_period: 250
@@ -29,19 +29,19 @@
         currency: CHF
       months: 12
       recommended: true
-    - plan: Enterprise 2K
-      feature_set: Enterprise
-      unit_count: 2000
+  - - plan: Business 4K
+      feature_set: Business
+      unit_count: 4000
       collaborator_count: 10
       fee:
-        per_period: 400
-        per_month: 33
+        per_period: 300
+        per_month: 25
         currency: CHF
       months: 12
-      recommended: false
-  - - plan: Business 3K
+      recommended: true
+  - - plan: Business 5K
       feature_set: Business
-      unit_count: 3000
+      unit_count: 5000
       collaborator_count: 10
       fee:
         per_period: 400
@@ -49,154 +49,54 @@
         currency: CHF
       months: 12
       recommended: true
-    - plan: Enterprise 3K
-      feature_set: Enterprise
-      unit_count: 3000
+  - - plan: Business 6K
+      feature_set: Business
+      unit_count: 6000
+      collaborator_count: 10
+      fee:
+        per_period: 450
+        per_month: 37
+        currency: CHF
+      months: 12
+      recommended: true
+  - - plan: Business 7K
+      feature_set: Business
+      unit_count: 7000
       collaborator_count: 10
       fee:
         per_period: 550
         per_month: 45
         currency: CHF
       months: 12
-      recommended: false
-  - - plan: Business 4K
-      feature_set: Business
-      unit_count: 4000
-      collaborator_count: 10
-      fee:
-        per_period: 500
-        per_month: 41
-        currency: CHF
-      months: 12
       recommended: true
-    - plan: Enterprise 4K
-      feature_set: Enterprise
-      unit_count: 4000
-      collaborator_count: 10
-      fee:
-        per_period: 750
-        per_month: 62
-        currency: CHF
-      months: 12
-      recommended: false
-  - - plan: Business 5K
-      feature_set: Business
-      unit_count: 5000
-      collaborator_count: 10
-      fee:
-        per_period: 650
-        per_month: 54
-        currency: CHF
-      months: 12
-      recommended: true
-    - plan: Enterprise 5K
-      feature_set: Enterprise
-      unit_count: 5000
-      collaborator_count: 10
-      fee:
-        per_period: 950
-        per_month: 79
-        currency: CHF
-      months: 12
-      recommended: false
-  - - plan: Business 6K
-      feature_set: Business
-      unit_count: 6000
-      collaborator_count: 10
-      fee:
-        per_period: 750
-        per_month: 62
-        currency: CHF
-      months: 12
-      recommended: true
-    - plan: Enterprise 6K
-      feature_set: Enterprise
-      unit_count: 6000
-      collaborator_count: 10
-      fee:
-        per_period: 1100
-        per_month: 91
-        currency: CHF
-      months: 12
-      recommended: false
-  - - plan: Business 7K
-      feature_set: Business
-      unit_count: 7000
-      collaborator_count: 10
-      fee:
-        per_period: 900
-        per_month: 75
-        currency: CHF
-      months: 12
-      recommended: true
-    - plan: Enterprise 7K
-      feature_set: Enterprise
-      unit_count: 7000
-      collaborator_count: 10
-      fee:
-        per_period: 1300
-        per_month: 108
-        currency: CHF
-      months: 12
-      recommended: false
   - - plan: Business 8K
       feature_set: Business
       unit_count: 8000
       collaborator_count: 10
       fee:
-        per_period: 1000
-        per_month: 83
+        per_period: 600
+        per_month: 50
         currency: CHF
       months: 12
       recommended: true
-    - plan: Enterprise 8K
-      feature_set: Enterprise
-      unit_count: 8000
-      collaborator_count: 10
-      fee:
-        per_period: 1500
-        per_month: 125
-        currency: CHF
-      months: 12
-      recommended: false
   - - plan: Business 9K
       feature_set: Business
       unit_count: 9000
       collaborator_count: 10
       fee:
-        per_period: 1100
-        per_month: 91
+        per_period: 700
+        per_month: 58
         currency: CHF
       months: 12
       recommended: true
-    - plan: Enterprise 9K
-      feature_set: Enterprise
-      unit_count: 9000
-      collaborator_count: 10
-      fee:
-        per_period: 1700
-        per_month: 141
-        currency: CHF
-      months: 12
-      recommended: false
   - - plan: Business 10K
       feature_set: Business
       unit_count: 10000
       collaborator_count: 10
       fee:
-        per_period: 1300
-        per_month: 108
+        per_period: 750
+        per_month: 62
         currency: CHF
       months: 12
       recommended: true
-    - plan: Enterprise 10K
-      feature_set: Enterprise
-      unit_count: 10000
-      collaborator_count: 10
-      fee:
-        per_period: 1900
-        per_month: 158
-        currency: CHF
-      months: 12
-      recommended: false
   
