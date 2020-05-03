@@ -1,101 +1,11 @@
 ---
-- - plan: Business 2K
-    feature_set: Business
-    unit_count: 2000
-    collaborator_count: 10
+- - plan: Free
+    feature_set: Free
+    unit_count: -1
+    collaborator_count: -1
     fee:
-      per_period: 590
-      per_month: 49
+      per_period: 0
+      per_month: 0
       currency: USD
-    months: 12
-    recommended: false
-  - plan: Enterprise 2K
-    feature_set: Enterprise
-    unit_count: 2000
-    collaborator_count: 10
-    fee:
-      per_period: 750
-      per_month: 62
-      currency: USD
-    months: 12
-    recommended: true
-- - plan: Business 4K
-    feature_set: Business
-    unit_count: 4000
-    collaborator_count: 10
-    fee:
-      per_period: 1200
-      per_month: 100
-      currency: USD
-    months: 12
-    recommended: false
-  - plan: Enterprise 4K
-    feature_set: Enterprise
-    unit_count: 4000
-    collaborator_count: 10
-    fee:
-      per_period: 1500
-      per_month: 125
-      currency: USD
-    months: 12
-    recommended: true
-- - plan: Business 6K
-    feature_set: Business
-    unit_count: 6000
-    collaborator_count: 10
-    fee:
-      per_period: 1700
-      per_month: 141
-      currency: USD
-    months: 12
-    recommended: false
-  - plan: Enterprise 6K
-    feature_set: Enterprise
-    unit_count: 6000
-    collaborator_count: 10
-    fee:
-      per_period: 2200
-      per_month: 183
-      currency: USD
-    months: 12
-    recommended: true
-- - plan: Business 8K
-    feature_set: Business
-    unit_count: 8000
-    collaborator_count: 10
-    fee:
-      per_period: 2300
-      per_month: 191
-      currency: USD
-    months: 12
-    recommended: false
-  - plan: Enterprise 8K
-    feature_set: Enterprise
-    unit_count: 8000
-    collaborator_count: 10
-    fee:
-      per_period: 2900
-      per_month: 241
-      currency: USD
-    months: 12
-    recommended: true
-- - plan: Business 10K
-    feature_set: Business
-    unit_count: 10000
-    collaborator_count: 10
-    fee:
-      per_period: 2900
-      per_month: 241
-      currency: USD
-    months: 12
-    recommended: false
-  - plan: Enterprise 10K
-    feature_set: Enterprise
-    unit_count: 10000
-    collaborator_count: 10
-    fee:
-      per_period: 3600
-      per_month: 300
-      currency: USD
-    months: 12
+    months: -1
     recommended: true

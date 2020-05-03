@@ -1,6 +1,14 @@
 {
   "recommendations": [
-      "Doga-Armangil.web-frontend",
-      "doga-armangil.essentials"
+      // Translation
+      "funkyremi.vscode-google-translate", // Vscode Google Translate
+
+      // Jekyll
+      "ginfuru.ginfuru-vscode-jekyll-syntax", // Jekyll Syntax Support
+      "ginfuru.vscode-jekyll-snippets", // Jekyll Snippets
+      "osteele.jekyll", // Jekyll Problem Matchers
+
+      // Ruby
+      "castwide.solargraph", // Ruby Solargraph
   ]
 }

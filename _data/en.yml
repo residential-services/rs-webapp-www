@@ -3,6 +3,10 @@ snippets:
   homepage_link: 🇬🇧 Website in english
   pricing:
     feature_set:
+      Free:
+        - Send documents & announcements to residents.
+        - Planned - Residents can reserve available laundry facilities online.
+        - Planned - Residents can send you work orders.
       Business:
         - Send documents & announcements to residents.
         - Residents can reserve available laundry facilities online.
@@ -12,8 +16,12 @@ snippets:
         - Send documents & announcements to residents.
         - Residents can reserve available laundry facilities online.
         - Residents can send you work orders.
-    unit_count: Up to $count habitation units.
-    collaborator_count: Up to $count collaborators.
+    unit_count:
+      paid: Up to $count habitation units.
+      free: Unbounded number of habitation units.
+    collaborator_count:
+      paid: Up to $count collaborators.
+      free: Unbounded number of collaborators.
     renewal:
       monthly: Each month, subscription will renew for 1 month. # obsolete
       multimonth: $months-month subscription, extended automatically.
@@ -153,10 +161,10 @@ customers:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  pricing: # inspired by Slack https://slack.com/pricing
+  pricing: 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: The right subscription for your needs
+      title: The free tenant service for your needs
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -164,7 +172,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Choose the subscription plan that corresponds to your real estate size. You can change your plan any time.
+        Our service is free for property management companies and tenants, for any real estate size. If you need further advice or assistance regarding the service, please contact us.
       # plans:
       #   -
       #     title: null
@@ -195,15 +203,15 @@ customers:
       #     #   title: Order now
       #   -
       #     title: null
-    services:
-      title: ""
-      items:
-        -
-          title: How our service fee is calculated
-          icon: ti-receipt
-          body: >-
-            Our service fee is based on the number of habitation units in the buildings you are managing.
-            Only "published" buildings are taken into account for billing. Buildings that you leave in draft mode will not be billed.
+    # services:
+    #   title: ""
+    #   items:
+    #     -
+    #       title: How our service fee is calculated
+    #       icon: ti-receipt
+    #       body: >-
+    #         Our service fee is based on the number of habitation units in the buildings you are managing.
+    #         Only "published" buildings are taken into account for billing. Buildings that you leave in draft mode will not be billed.
 
 product:
   pm:
@@ -322,19 +330,19 @@ product:
           title: Demo
           icon: ti-mobile
           body: >
-            The following demo shows you how to sign into Equa with your mobile phone number, create buildings and building groups, and send announcements and documents.
+            The following demo shows you how to sign into Equa, create buildings and building groups, and send announcements and documents. Please note that in the latest version of the app you will be identified by your email address.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
-        -
-          title: Pricing
-          icon: ti-receipt
-          body: >
-            Pricing per habitable unit.
-          link: /customers/pricing/
-        -
-          title: ERP integration
-          icon: ti-cloud-up
-          body: >
-            ERP integration allows you to automate data entry into Equa and thus increase your comfort. Contact us to set up a tailor-made solution.
+        # -
+        #   title: Pricing
+        #   icon: ti-receipt
+        #   body: >
+        #     Pricing per habitable unit.
+        #   link: /customers/pricing/
+        # -
+        #   title: ERP integration
+        #   icon: ti-cloud-up
+        #   body: >
+        #     ERP integration allows you to automate data entry into Equa and thus increase your comfort. Contact us to set up a tailor-made solution.
         -
           title: Support
           icon: ti-support
@@ -429,7 +437,7 @@ product:
           title: Demo
           icon: ti-mobile
           body: >
-            The following demo shows you how to sign into Equa with your mobile phone number, move into your home, and view announcements and documents pertaining to your home.
+            The following demo shows you how to sign into Equa, move into your home, and view announcements and documents pertaining to your home. Please note that in the latest version of the app you will be identified by your email address.
           outbound_link: https://www.youtube.com/watch?v=BlHUfRcS4uI
         -
           title: Support

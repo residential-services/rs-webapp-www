@@ -3,6 +3,10 @@ snippets:
   homepage_link: 🇩🇪 Website auf deutsch
   pricing:
     feature_set:
+      Free:
+        - Senden Sie Dokumente und Ankündigungen an die Einwohner. 
+        - Geplant - Einwohner können gemeinsame Wäscherei reservieren. 
+        - Geplant - Einwohner können Ihnen Arbeitsaufträge senden.
       Business:
         - Senden Sie Dokumente und Ankündigungen an die Bewohner. 
         - Einwohner können verfügbare Wäschemöglichkeiten online reservieren. 
@@ -12,8 +16,12 @@ snippets:
         - Senden Sie Dokumente und Ankündigungen an die Bewohner.
         - Einwohner können verfügbare Wäschemöglichkeiten online reservieren.
         - Einwohner können Ihnen Arbeitsaufträge senden.
-    unit_count: Bis zu $count Wohneinheiten.
-    collaborator_count: Bis zu $count Mitarbeiter.
+    unit_count:
+      paid: Bis zu $count Wohneinheiten.
+      free: Unbegrenzte Anzahl von Wohneinheiten.
+    collaborator_count:
+      paid: Bis zu $count Mitarbeiter.
+      free: Unbegrenzte Anzahl von Mitarbeitern.
     renewal:
       monthly: Das Abo wird jeden Monat um 1 Monat verlängert. # obsolete
       multimonth: Abonnement für $months Monate, automatisch verlängert.
@@ -134,10 +142,10 @@ customers:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  pricing: # inspired by https://slack.com/pricing 
+  pricing: 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Das richtige Abonnement für Ihre Bedürfnisse
+      title: Der kostenlose Mieterservice für Ihre Bedürfnisse
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -145,7 +153,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Wählen Sie das Abonnement, das Ihrer Immobiliengröße entspricht. Sie können Ihren Plan jederzeit ändern.
+        Unser Service ist für Immobilienverwaltungsunternehmen und Mieter für jede Immobiliengröße kostenlos. Wenn Sie weitere Beratung oder Unterstützung in Bezug auf den Service benötigen, bitte kontaktieren Sie uns.
       # plans:
       #   -
       #     title: null
@@ -175,17 +183,17 @@ customers:
       #     #   title: Bestellen
       #   -
       #     title: null
-    services:
-      title: ""
-      items:
-        -
-          title: Wie Ihre Equa-Rechnung berechnet wird
-          icon: ti-receipt
-          body: >-
-            Unsere Servicegebühr richtet sich nach der Anzahl der Wohneinheiten in den von Ihnen verwalteten Gebäuden.
-            Bei der Abrechnung werden nur "veröffentlichte" Gebäude berücksichtigt. Gebäude, die Sie im Entwurfsmodus
-            belassen, werden nicht in Rechnung gestellt.
-    
+    # services:
+    #   title: ""
+    #   items:
+    #     -
+    #       title: Wie Ihre Equa-Rechnung berechnet wird
+    #       icon: ti-receipt
+    #       body: >-
+    #         Unsere Servicegebühr richtet sich nach der Anzahl der Wohneinheiten in den von Ihnen verwalteten Gebäuden.
+    #         Bei der Abrechnung werden nur "veröffentlichte" Gebäude berücksichtigt. Gebäude, die Sie im Entwurfsmodus
+    #         belassen, werden nicht in Rechnung gestellt.
+
 product:
   pm:
     header:
@@ -290,19 +298,19 @@ product:
           title: Vorführung
           icon: ti-mobile
           body: >
-            Die folgende Vorführung zeigt Ihnen, wie Sie sich mit Ihrer Handynummer bei Equa anmelden, Gebäude und Gebäudegruppen erstellen und Ankündigungen und Dokumente senden.
+            Die folgende Vorführung zeigt Ihnen, wie Sie sich bei Equa anmelden, Gebäude und Gebäudegruppen erstellen und Ankündigungen und Dokumente senden. Wohl gemerkt: in der neuesten Version der App werden Sie mittels Ihrer Email-Adresse identifiziert.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
-        -
-          title: Berechnung
-          icon: ti-receipt
-          body: >
-            Pro-Wohneinheit Berechnung.
-          link: /customers/pricing/
-        -
-          title: ERP-Integration
-          icon: ti-cloud-up
-          body: >
-            Durch die ERP-Integration können Sie die Dateneingabe in Equa automatisieren und damit Ihren Komfort erhöhen. Kontaktieren Sie uns, um eine maßgeschneiderte Lösung zu erstellen.
+        # -
+        #   title: Berechnung
+        #   icon: ti-receipt
+        #   body: >
+        #     Pro-Wohneinheit Berechnung.
+        #   link: /customers/pricing/
+        # -
+        #   title: ERP-Integration
+        #   icon: ti-cloud-up
+        #   body: >
+        #     Durch die ERP-Integration können Sie die Dateneingabe in Equa automatisieren und damit Ihren Komfort erhöhen. Kontaktieren Sie uns, um eine maßgeschneiderte Lösung zu erstellen.
         -
           title: Support
           icon: ti-support
@@ -391,7 +399,7 @@ product:
           title: Vorführung
           icon: ti-mobile
           body: >
-            Die folgende Vorführung zeigt Ihnen, wie Sie mittels Ihrer Mobiltelefonnummer in Equa einloggen, in eine Adresse einziehen und sich Ankündigungen und Dokumente anschauen.
+            Die folgende Vorführung zeigt Ihnen, wie Sie in Equa einloggen, in eine Adresse einziehen und sich Ankündigungen und Dokumente anschauen. Wohl gemerkt: in der neuesten Version der App werden Sie mittels Ihrer Email-Adresse identifiziert.
           outbound_link: https://www.youtube.com/watch?v=BlHUfRcS4uI
         -
           title: Support

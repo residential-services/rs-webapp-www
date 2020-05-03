@@ -3,17 +3,25 @@ snippets:
   homepage_link: 🇫🇷 Site en français
   pricing:
     feature_set:
+      Free:
+        - Envoyer des documents et des annonces aux résidents.
+        - Prévu - Les résidents peuvent réserver la laverie commune.
+        - Prévu - Les résidents peuvent vous envoyer des bons de travail.
       Business:
         - Envoyer des documents et des annonces aux résidents.
         - Les résidents peuvent réserver une laverie disponible en ligne.
         - Les résidents peuvent vous envoyer des bons de travail.
       Enterprise:
         - Intégration ERP. Utilisez notre logiciel d'intégration ERP s'il est disponible pour votre marque ERP, ou développez votre propre solution d'intégration basée sur notre API documentée.
-        - Send documents & announcements to residents.
-        - Residents can reserve available laundry facilities online.
-        - Residents can send you work orders.
-    unit_count: Jusqu'à $count unités habitables.
-    collaborator_count: Jusqu'à $count collaborateurs.
+        - Envoyer des documents et des annonces aux résidents.
+        - Les résidents peuvent réserver une buanderie commune.
+        - Les résidents peuvent vous envoyer des bons de travail.
+    unit_count:
+      paid: Jusqu'à $count unités habitables.
+      free: Nombre illimité d'unités d'habitation.
+    collaborator_count: 
+      paid: Jusqu'à $count collaborateurs.
+      free: Nombre illimité de collaborateurs.
     renewal:
       monthly: Abonnement renouvelé chaque mois. # obsolete
       multimonth: Abonnement de 12 mois, prolongé automatiquement.
@@ -155,10 +163,10 @@ customers:
     #     quote: >
     #       Lorem ipsum  sit amet, consectetuer adipiscing elit. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, 
     #       nascetur ridiculus mus.
-  pricing: # inspired by Slack https://slack.com/pricing
+  pricing: 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: L'abonnement adapté à vos besoins
+      title: Le service gratuit adapté à vos besoins
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -166,7 +174,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Choisissez le plan d'abonnement qui correspond à la taille de votre bien immobilier. Vous pouvez modifier votre abonnement à tout moment.
+        Notre service est gratuit pour toute société de gestion immobilière et ses locataires, quelle que soit la taille du parc immobilier. Si vous avez besoin de conseils ou d'assistance supplémentaires concernant le service, veuillez nous contacter.
       # plans:
       #   -
       #     title: null
@@ -197,14 +205,14 @@ customers:
       #     #   title: Commande
       #   -
       #     title: null
-    services:
-      title: ""
-      items:
-        -
-          title: Calcul du prix du service
-          icon: ti-receipt
-          body: >-
-            Nos frais de service sont basés sur le nombre d'unités d'habitation dans les immeubles que vous gérez. Seuls les immeubles "publiés" sont pris en compte pour la facturation. Les bâtiments que vous laissez en mode brouillon ne seront pas facturés.
+    # services:
+    #   title: ""
+    #   items:
+    #     -
+    #       title: Calcul du prix du service
+    #       icon: ti-receipt
+    #       body: >-
+    #         Nos frais de service sont basés sur le nombre d'unités d'habitation dans les immeubles que vous gérez. Seuls les immeubles "publiés" sont pris en compte pour la facturation. Les bâtiments que vous laissez en mode brouillon ne seront pas facturés.
 product:
   pm:
     header:
@@ -319,20 +327,20 @@ product:
           title: Démonstration
           icon: ti-mobile
           body: >
-            La démonstration suivante vous montre comment vous connecter à Equa avec votre numéro de téléphone mobile, créer des bâtiments et des groupes de bâtiments et envoyer des annonces et des documents.
+            La démonstration suivante vous montre comment vous connecter à Equa, créer des bâtiments et des groupes de bâtiments et envoyer des annonces et des documents. Notez que dans la dernière version de l'application, vous serez identifié par votre adresse e-mail.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
-        -
-          title: Nos tarifs
-          icon: ti-receipt
-          body: >
-            Nos tarifs sont basés sur le nombre d'unités habitables dans vos immeubles.
-          link: /customers/pricing/
-        -
-          title: Integration avec votre ERP
-          icon: ti-cloud-up
-          body: >
-            L'intégration ERP permet de d'automatiser l'entrée de données dans Equa et ainsi d'augmenter votre confort.
-            Contactez-nous pour mettre en place d'une solution sur mesure.
+        # -
+        #   title: Nos tarifs
+        #   icon: ti-receipt
+        #   body: >
+        #     Nos tarifs sont basés sur le nombre d'unités habitables dans vos immeubles.
+        #   link: /customers/pricing/
+        # -
+        #   title: Integration avec votre ERP
+        #   icon: ti-cloud-up
+        #   body: >
+        #     L'intégration ERP permet de d'automatiser l'entrée de données dans Equa et ainsi d'augmenter votre confort.
+        #     Contactez-nous pour mettre en place d'une solution sur mesure.
         -
           title: Aide
           icon: ti-support
@@ -429,7 +437,7 @@ product:
           title: Démonstration
           icon: ti-mobile
           body: >
-            La démonstration suivante vous montre comment vous connecter à Equa avec votre numéro de téléphone mobile, emmémager dans votre domicile, et consulter announces et documents concernant votre chez vous.
+            La démonstration suivante vous montre comment vous connecter à Equa, emmémager dans votre domicile, et consulter announces et documents concernant votre chez vous. Notez que dans la dernière version de l'application, vous serez identifié par votre adresse e-mail.
           outbound_link: https://www.youtube.com/watch?v=BlHUfRcS4uI
         -
           title: Aide
