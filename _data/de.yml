@@ -20,8 +20,8 @@ snippets:
       paid: Bis zu $count Wohneinheiten.
       free: Unbegrenzte Anzahl von Wohneinheiten.
     collaborator_count:
-      paid: Bis zu $count Mitarbeiter.
-      free: Unbegrenzte Anzahl von Mitarbeitern.
+      paid: Bis zu $count Mitarbeiter. (Equa Delta unterstützt derzeit einen Mitarbeiter pro Unternehmen und wird in Zukunft eine Funktion zum Einladen von Mitarbeitern anbieten.)
+      free: Unbegrenzte Anzahl von Mitarbeitern. (Equa Delta unterstützt derzeit einen Mitarbeiter pro Unternehmen und wird in Zukunft eine Funktion zum Einladen von Mitarbeitern anbieten.)
     renewal:
       monthly: Das Abo wird jeden Monat um 1 Monat verlängert. # obsolete
       multimonth: Abonnement für $months Monate, automatisch verlängert.

@@ -20,8 +20,8 @@ snippets:
       paid: Up to $count habitation units.
       free: Unbounded number of habitation units.
     collaborator_count:
-      paid: Up to $count collaborators.
-      free: Unbounded number of collaborators.
+      paid: Up to $count collaborators. (Equa Delta currently supports one collaborator per company, it will offer an "invite collaborators" feature in the future.)
+      free: Unbounded number of collaborators. (Equa Delta currently supports one collaborator per company, it will offer an "invite collaborators" feature in the future.)
     renewal:
       monthly: Each month, subscription will renew for 1 month. # obsolete
       multimonth: $months-month subscription, extended automatically.
