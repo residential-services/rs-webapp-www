@@ -34,9 +34,6 @@ menu:
       -
         title: &1_1_title For property managers
         path: /customers/property-managers/
-      -
-        title: &1_2_title Pricing
-        path: /customers/pricing/
   -
     title: &2_0_title Product features
     items:

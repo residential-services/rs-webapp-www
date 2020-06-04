@@ -34,9 +34,6 @@ menu:
       -
         title: &1_1_title Pour régies immobilières
         path: /customers/property-managers/
-      -
-        title: &1_2_title Nos tarifs
-        path: /customers/pricing/
   -
     title: &2_0_title Produit et fonctionnalités
     items:
