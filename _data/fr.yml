@@ -301,16 +301,21 @@ product:
         #     Si votre système ERP est compatible avec Equa, alors vous pouvez l'intégrer avec Equa 
         #     au moyen d'un connecteur, ce qui peut nécessiter une étape d'installation.
         -
+          title: Nos tarifs
+          icon: ti-receipt
+          body: >
+            Prix ​​abordable avec essai gratuit de 14 jours. Abonnement par entreprise. Les membres de l'entreprise peuvent acheter un abonnement pour l'entreprise. Plans d'abonnement structurés en fonction du nombre de logements gérés.
+        -
           title: Pour iOS
           icon: ti-apple
           body: >
-            Vous pouvez télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
+            Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: Pour Android
           icon: ti-android
           body: >
-            Vous pouvez télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
+            Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
           title: Posters pour vos immeubles
@@ -319,22 +324,16 @@ product:
             Montrez à vos habitants comment télécharger l'appli Equa Phi.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Essai gratuit
+          title: Essayer en interne
           icon: ti-direction
           body: >-
-            Vous pouvez essayer notre service gratuitement avec l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application locataire). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que locataire virtuel pour vérifier l'expérience utilisateur du locataire. 5) Pour passer de l'essai gratuit au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos locataires.
+            Vous pouvez tester gratuitement notre service en interne à l'aide de l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application locataire). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que locataire virtuel pour vérifier l'expérience utilisateur du locataire. 5) Pour passer au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos locataires.
         -
           title: Démonstration
           icon: ti-mobile
           body: >
             La démonstration suivante vous montre comment vous connecter à Equa, créer des bâtiments et des groupes de bâtiments et envoyer des annonces et des documents. Notez que dans la dernière version de l'application, vous serez identifié par votre adresse e-mail.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
-        # -
-        #   title: Nos tarifs
-        #   icon: ti-receipt
-        #   body: >
-        #     Nos tarifs sont basés sur le nombre d'unités habitables dans vos immeubles.
-        #   link: /customers/pricing/
         # -
         #   title: Integration avec votre ERP
         #   icon: ti-cloud-up

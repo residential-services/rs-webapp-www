@@ -304,16 +304,21 @@ product:
         #     that can be integrated with Equa, than you can use a separate connector software which might require
         #     an installation step.
         -
+          title: Pricing
+          icon: ti-receipt
+          body: >
+            Affordable pricing with 14-day free trial. Per-company subscription. Company members can purchase an in-app subscription for the company. Subscription plans structured according to the number of managed habitation units.
+        -
           title: For iOS
           icon: ti-apple
           body: >
-            You can download the "Equa Delta" app from the App Store and start using it right away.
+            Download the "Equa Delta" app from the App Store and start using it right away.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: For Android
           icon: ti-android
           body: >
-            You can download the "Equa Delta" app from Google Play Store and start using it right away.
+            Download the "Equa Delta" app from Google Play Store and start using it right away.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
           title: Posters for your buildings
@@ -322,22 +327,16 @@ product:
             Show your tenants where to download the Equa Phi app.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Free trial
+          title: Test drive
           icon: ti-direction
           body: >-
-            You can try our service for free with the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing them". 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our tenant app). 4) Check into a unit in one of your buildings as a virtual tenant to verify the tenant user experience. 5) To transition from the free trial into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your tenants. 
+            You can test drive our service for free using the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing" them. 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our tenant app). 4) Check into a unit in one of your buildings as a virtual tenant to verify the tenant user experience. 5) To transition into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your tenants. 
         -
           title: Demo
           icon: ti-mobile
           body: >
             The following demo shows you how to sign into Equa, create buildings and building groups, and send announcements and documents. Please note that in the latest version of the app you will be identified by your email address.
           outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
-        # -
-        #   title: Pricing
-        #   icon: ti-receipt
-        #   body: >
-        #     Pricing per habitable unit.
-        #   link: /customers/pricing/
         # -
         #   title: ERP integration
         #   icon: ti-cloud-up
