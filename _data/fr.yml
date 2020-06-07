@@ -298,11 +298,6 @@ product:
         #     Si votre système ERP est compatible avec Equa, alors vous pouvez l'intégrer avec Equa 
         #     au moyen d'un connecteur, ce qui peut nécessiter une étape d'installation.
         -
-          title: Nos tarifs
-          icon: ti-receipt
-          body: >
-            Prix ​​abordable avec essai gratuit de 14 jours. Abonnement par entreprise. Les membres de l'entreprise peuvent acheter un abonnement pour l'entreprise. Plans d'abonnement structurés en fonction du nombre de logements gérés.
-        -
           title: Pour iOS
           icon: ti-apple
           body: >
@@ -320,6 +315,21 @@ product:
           body: >
             Montrez à vos habitants comment télécharger l'appli Equa Phi.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
+          title: Conditions générales de service
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/terms-of-service/
+        -
+          title: Protection des données
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/privacy-policy/
+        -
+          title: Nos tarifs
+          icon: ti-receipt
+          body: >
+            Prix ​​abordable avec essai gratuit de 14 jours. Abonnement par entreprise. Les membres de l'entreprise peuvent acheter un abonnement pour l'entreprise. Plans d'abonnement structurés en fonction du nombre de logements gérés.
         -
           title: Essayer en interne
           icon: ti-direction

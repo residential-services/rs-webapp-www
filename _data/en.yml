@@ -301,11 +301,6 @@ product:
         #     that can be integrated with Equa, than you can use a separate connector software which might require
         #     an installation step.
         -
-          title: Pricing
-          icon: ti-receipt
-          body: >
-            Affordable pricing with 14-day free trial. Per-company subscription. Company members can purchase an in-app subscription for the company. Subscription plans structured according to the number of managed habitation units.
-        -
           title: For iOS
           icon: ti-apple
           body: >
@@ -323,6 +318,21 @@ product:
           body: >
             Show your tenants where to download the Equa Phi app.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
+          title: Terms of service
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/terms-of-service/
+        -
+          title: Privacy policy
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/privacy-policy/
+        -
+          title: Pricing
+          icon: ti-receipt
+          body: >
+            Affordable pricing with 14-day free trial. Per-company subscription. Company members can purchase an in-app subscription for the company. Subscription plans structured according to the number of managed habitation units.
         -
           title: Test drive
           icon: ti-direction
