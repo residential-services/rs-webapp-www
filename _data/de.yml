@@ -269,6 +269,12 @@ product:
         #     benötigt. Wenn Ihr ERP-System mit Equa kompatibel ist, dann können Sie die Integration mittels
         #     eines Verbindung-Software tätigen, die eventuell separat installiert wird.
         -
+          title: Demonstrationsvideo
+          icon: ti-video-clapper
+          body: >
+            Eine Darstellung der Hauptfunktionen der Equa Delta App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
+          outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
+        -
           title: Für iOS
           icon: ti-apple
           body: >
@@ -287,16 +293,6 @@ product:
             Zeigen Sie Ihnen Mietern, wo sie Equa Phi herunterladen können.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Allgemeine Nutzungsbedingungen
-          icon: ti-align-left
-          body: ''
-          link: /product/property-managers/terms-of-service/
-        -
-          title: Datenschutz
-          icon: ti-align-left
-          body: ''
-          link: /product/property-managers/privacy-policy/
-        -
           title: Preispolitik
           icon: ti-receipt
           body: >
@@ -306,17 +302,21 @@ product:
           icon: ti-direction
           body: >-
             Testen Sie unseren Service kostenlos mit der Equa Delta App. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Mieter-App). 4) Melden Sie sich als virtueller Mieter bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Mieters zu überprüfen. 5) Sie schalten zum "Produktion-Mode" um, indem Sie einfach Ihre Gebäude in Equa Delta  "veröffentlichen". Damit wird Equa Ihren Mietern zugänglich.
-        -
-          title: Vorführung
-          icon: ti-mobile
-          body: >
-            Die folgende Vorführung zeigt Ihnen, wie Sie sich bei Equa anmelden, Gebäude und Gebäudegruppen erstellen und Ankündigungen und Dokumente senden. Wohl gemerkt: in der neuesten Version der App werden Sie mittels Ihrer Email-Adresse identifiziert.
-          outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
         # -
         #   title: ERP-Integration
         #   icon: ti-cloud-up
         #   body: >
         #     Durch die ERP-Integration können Sie die Dateneingabe in Equa automatisieren und damit Ihren Komfort erhöhen. Kontaktieren Sie uns, um eine maßgeschneiderte Lösung zu erstellen.
+        -
+          title: Allgemeine Nutzungsbedingungen
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/terms-of-service/
+        -
+          title: Datenschutz
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/privacy-policy/
         -
           title: Support
           icon: ti-support
@@ -390,6 +390,12 @@ product:
         #     GDPR ist eine Verordnung der Europäischen Union, die die Verarbeitung personenbezogener Daten EU-weit regelt. Wir berücksichtigen Ihre Privatsphere.
         #     Zudem haben Sie die Möglichkeit, uns Zusatzinformationen weiterzugeben, damit wir Ihnen ein noch besseres Erlebnis beibringen können.
         -
+          title: Demonstrationsvideo
+          icon: ti-video-clapper
+          body: >
+            Eine Darstellung der Hauptfunktionen der Equa Phi-App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
+          outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
+        -
           title: Für iOS
           icon: ti-apple
           body: >
@@ -401,12 +407,6 @@ product:
           body: >
             Sie können die "Equa Phi"-App vom Google Play Store herunterladen und gleich einsetzen.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.phi
-        -
-          title: Vorführung
-          icon: ti-mobile
-          body: >
-            Die folgende Vorführung zeigt Ihnen, wie Sie in Equa einloggen, in eine Adresse einziehen und sich Ankündigungen und Dokumente anschauen. Wohl gemerkt: in der neuesten Version der App werden Sie mittels Ihrer Email-Adresse identifiziert.
-          outbound_link: https://www.youtube.com/watch?v=BlHUfRcS4uI
         -
           title: Support
           icon: ti-support

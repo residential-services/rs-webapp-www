@@ -301,6 +301,12 @@ product:
         #     that can be integrated with Equa, than you can use a separate connector software which might require
         #     an installation step.
         -
+          title: Demonstration video
+          icon: ti-video-clapper
+          body: >
+            A walkthrough of the main features of the Equa Delta app.
+          outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
+        -
           title: For iOS
           icon: ti-apple
           body: >
@@ -319,16 +325,6 @@ product:
             Show your tenants where to download the Equa Phi app.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Terms of service
-          icon: ti-align-left
-          body: ''
-          link: /product/property-managers/terms-of-service/
-        -
-          title: Privacy policy
-          icon: ti-align-left
-          body: ''
-          link: /product/property-managers/privacy-policy/
-        -
           title: Pricing
           icon: ti-receipt
           body: >
@@ -338,17 +334,21 @@ product:
           icon: ti-direction
           body: >-
             You can test drive our service for free using the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing" them. 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our tenant app). 4) Check into a unit in one of your buildings as a virtual tenant to verify the tenant user experience. 5) To transition into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your tenants. 
-        -
-          title: Demo
-          icon: ti-mobile
-          body: >
-            The following demo shows you how to sign into Equa, create buildings and building groups, and send announcements and documents. Please note that in the latest version of the app you will be identified by your email address.
-          outbound_link: https://www.youtube.com/watch?v=ee7YPZp3hSM
         # -
         #   title: ERP integration
         #   icon: ti-cloud-up
         #   body: >
         #     ERP integration allows you to automate data entry into Equa and thus increase your comfort. Contact us to set up a tailor-made solution.
+        -
+          title: Terms of service
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/terms-of-service/
+        -
+          title: Privacy policy
+          icon: ti-align-left
+          body: ''
+          link: /product/property-managers/privacy-policy/
         -
           title: Support
           icon: ti-support
@@ -428,6 +428,12 @@ product:
         #     In addition, we offer you the latitude of providing Equa with as much additional data about yourself as you wish.
         #     More data translates directly into a better experience for you.
         -
+          title: Demonstration video
+          icon: ti-video-clapper
+          body: >
+            A walkthrough of the main features of the Equa Phi app.
+          outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
+        -
           title: For iOS
           icon: ti-apple
           body: >
@@ -439,12 +445,6 @@ product:
           body: >
             You can download the "Equa Phi" app from Google Play Store and start using it right away.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.phi
-        -
-          title: Demo
-          icon: ti-mobile
-          body: >
-            The following demo shows you how to sign into Equa, move into your home, and view announcements and documents pertaining to your home. Please note that in the latest version of the app you will be identified by your email address.
-          outbound_link: https://www.youtube.com/watch?v=BlHUfRcS4uI
         -
           title: Support
           icon: ti-support
