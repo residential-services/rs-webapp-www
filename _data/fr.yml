@@ -304,7 +304,7 @@ product:
             Présentation pas à pas des principales fonctionnalités de l'application Equa Delta. L'application prend en charge la langue française, bien que cette démo-ci soit en anglais.
           outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
         -
-          title: Pour iOS
+          title: Pour iPhone et iPad
           icon: ti-apple
           body: >
             Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
@@ -434,7 +434,7 @@ product:
             Présentation pas à pas des principales fonctionnalités de l'application Equa Phi. L'application prend en charge la langue française, bien que cette démo-ci soit en anglais.
           outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
         -
-          title: Pour iOS
+          title: Pour iPhone et iPad
           icon: ti-apple
           body: >
             Vous pouvez télécharger l'appli "Equa Phi" depuis le App Store et commencer à l'utiliser de suite.
