@@ -309,12 +309,12 @@ product:
           body: >
             Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
-        # -
-        #   title: Pour Android
-        #   icon: ti-android
-        #   body: >
-        #     Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
-        #   outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
+        -
+          title: Pour Android
+          icon: ti-android
+          body: >
+            Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
+          outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
           title: Posters pour vos immeubles
           icon: ti-pin2

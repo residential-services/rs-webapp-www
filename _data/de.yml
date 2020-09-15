@@ -280,12 +280,12 @@ product:
           body: >
             Sie können die "Equa Delta"-App vom App Store herunterladen und gleich einsetzen.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
-        # -
-        #   title: Für Android
-        #   icon: ti-android
-        #   body: >
-        #     Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
-        #   outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
+        -
+          title: Für Android
+          icon: ti-android
+          body: >
+            Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
+          outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
           title: Plakate für Ihre Gebäude
           icon: ti-pin2
