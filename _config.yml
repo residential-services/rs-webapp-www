@@ -27,7 +27,7 @@ exclude: ["i18n", "README.md", "Rakefile", "Gemfile", "Gemfile.lock", "test"]
 title: Equa World
 email: info@equa.world
 description: >- # >- ignores newlines 
-  Equa World is an online service used by tenants and property managers for communicating.
+  Low-cost resident app solution for property managers.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://equa.world" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb

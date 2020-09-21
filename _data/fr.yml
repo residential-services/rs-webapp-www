@@ -41,7 +41,7 @@ menu:
         title: &2_1_title Application pour régies
         path: /product/property-managers/
       -
-        title: &2_2_title Application pour locataires
+        title: &2_2_title Application pour résidents
         path: /product/tenants/
   -
     title: &3_0_title Entreprise
@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Gestion immobilière facilitée
     title: >
-      La connexion digitale avec vos locataires. 
+      La connexion digitale avec vos résidents. 
   button:
     title: Explorer
     link: /customers/property-managers/
@@ -78,7 +78,7 @@ customers:
   pm:
     header:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
-      title: La connexion digitale avec vos locataires
+      title: La connexion digitale avec vos résidents
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -88,16 +88,16 @@ customers:
         title: Equa vous aide à réduire le coût de la gestion immobilière
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
-          La transition du papier vers le digital pour la communication avec vos locataires
+          La transition du papier vers le digital pour la communication avec vos résidents
           permet une réduction de vos coûts opérationnels.
           Envoyer un simple message avec Equa équivaut à afficher des posters
-          dans chaque immeuble géré, ou d'envoyer plusieurs lettres à destination des locataires.
+          dans chaque immeuble géré, ou d'envoyer plusieurs lettres à destination des résidents.
         link: /product/property-managers/
       -
-        title: Pratique pour vos locataires
+        title: Pratique pour vos résidents
         image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
         body: >
-          Equa facilite également la vie de vos locataires.
+          Equa facilite également la vie de vos résidents.
           L'avènement du téléphone mobile a considérablement changé les attentes des consommateurs.
           La plupart des habitants ont désormais pris l'habitude d'organiser leurs vies sur internet,
           et Equa est un choix naturel pour eux.
@@ -107,7 +107,7 @@ customers:
       #   image: /assets/my/images/360x240/digital2-360x240.jpg
       #   body: >
       #     Avec Equa, vous pouvez saisir vos données une seule fois.
-      #     Equa s'intègre avec votre système ERP, qui nous envoie périodiquement des données anonymisées concernant patrimoine immobilier et locataires.
+      #     Equa s'intègre avec votre système ERP, qui nous envoie périodiquement des données anonymisées concernant patrimoine immobilier et résidents.
     services:
       title: De plus ..
       items:
@@ -115,7 +115,7 @@ customers:
           title: Equa peut complémenter le papier
           icon: ti-printer
           body: >
-            Votre régie et vos fournisseurs peuvent continuer à offrir une interface papier à vos locataires comme auparavant.
+            Votre régie et vos fournisseurs peuvent continuer à offrir une interface papier à vos résidents comme auparavant.
         # Equa peut même vous aider dans ce sens. 
         # Par exemple, nous pouvons périodiquement  envoyer le tableau des réservations des buanderies à vous ou à un de vos fournisseurs pour impréssion.
         # -
@@ -123,13 +123,13 @@ customers:
         #   icon: ti-shield
         #   body: >
         #     Equa est 100% conforme au <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
-        #     Nous protégeons la sphère privée de vos locataires, et avons seulement accès à des données anonymisées.
+        #     Nous protégeons la sphère privée de vos résidents, et avons seulement accès à des données anonymisées.
         # -
-        #   title: Payable par vos locataires
+        #   title: Payable par vos résidents
         #   icon: ti-receipt
         #   body: >
-        #     Etant donnée la largeur de la palette de fonctionnalités que nous offrons aux locataires,
-        #     votre régie peut légitimement transmettre le coût du service Equa aux locataires.
+        #     Etant donnée la largeur de la palette de fonctionnalités que nous offrons aux résidents,
+        #     votre régie peut légitimement transmettre le coût du service Equa aux résidents.
         #   link: /customers/pricing/
         # -
         #   title: Multi-ERP
@@ -139,13 +139,13 @@ customers:
         #     de choisir le logiciel ERP qui vous convient le mieux.
         #     Equa est aussi utilisable sans l'intégrer à un système ERP.
         -
-          title: Fonctionnalités évolutives pour vos locataires
+          title: Fonctionnalités évolutives pour vos résidents
           icon: ti-world
           body: >
-            Le confort des locataires constitue une grande partie de nos préoccupations.
+            Le confort des résidents constitue une grande partie de nos préoccupations.
             De nouvelles fonctionnalités seront ajoutées à Equa selon leurs besoins et requêtes.
             Dans cette optique, nous pouvons envisager la possibilité d'ajouter des fonctions
-            qui sont utiles aux locataires et sont indépendantes des besoins des régies, telle une fonction "shopping".
+            qui sont utiles aux résidents et sont indépendantes des besoins des régies, telle une fonction "shopping".
         -
           title: Système ouvert
           icon: ti-gift
@@ -171,7 +171,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Notre service est gratuit pour toute société de gestion immobilière et ses locataires, quelle que soit la taille du parc immobilier. Si vous avez besoin de conseils ou d'assistance supplémentaires concernant le service, veuillez nous contacter.
+        Notre service est gratuit pour toute société de gestion immobilière et ses résidents, quelle que soit la taille du parc immobilier. Si vous avez besoin de conseils ou d'assistance supplémentaires concernant le service, veuillez nous contacter.
       # plans:
       #   -
       #     title: null
@@ -214,7 +214,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Du confort pour vous et pour vos locataires
+      title: Du confort pour vous et pour vos résidents
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -243,16 +243,16 @@ product:
           # -
           #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
           #   lead: 03.
-          #   title: Recevoir un feedback des locataires
+          #   title: Recevoir un feedback des résidents
           #   description: >-
           #     Les résidents peuvent envoyer des messages aux régies pour plusieurs raisons.
           #     Par exemple, ils peuvent vous informer de réparations à effectuer dans un appartement ou un immeuble.
           -
             image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
             lead: 03.
-            title: Groupes de locataires
+            title: Groupes de résidents
             description: >-
-              Vous pouvez regrouper vos locataires par groupe d'immeubles,
+              Vous pouvez regrouper vos résidents par groupe d'immeubles,
               et ensuite envoyer annonces et documents directement à un groupe par mesure d'efficacité.
             # Equa importe automatiquement vos groupes depuis votre système ERP.
             # Vous pouvez aussi créer des groupes avec Equa.
@@ -266,16 +266,16 @@ product:
       #         Vous pouvez spécifier si un immeuble est équipé d'une buanderie commune.
       #         Equa importe automatiquement de telles indications depuis votre système ERP, 
       #         et vous pouvez aussi ajouter ces informations directement dans Equa.
-      #         Des tableaux de réservation de buanderie sont automatiquement générés par Equa pour vos locataires,
+      #         Des tableaux de réservation de buanderie sont automatiquement générés par Equa pour vos résidents,
       #         qui peuvent modifier leurs heures de réservation. 
-      #         Equa peut automatiquement synchroniser le tableau de réservation avec le calendrier du locataire.
+      #         Equa peut automatiquement synchroniser le tableau de réservation avec le calendrier du résident.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 06.
       #       title: Informations de contact
       #       description: >-
       #         Vous pouvez indiquer des coordonnées d'interlocuteurs parmi votre équipe ou parmi vos fournisseurs.
-      #         Vos locataires peuvent ainsi directement contacter la personne pertinente pour une raison donnée.
+      #         Vos résidents peuvent ainsi directement contacter la personne pertinente pour une raison donnée.
       #         Equa importe automatiquement ces indications depuis votre système ERP, 
       #         et vous pouvez aussi ajouter ces informations directement dans Equa.
 
@@ -288,7 +288,7 @@ product:
         #   icon: ti-shield
         #   body: >
         #     Equa est conforme au <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
-        #     Nous protégeons la vie privée de vos locataires, et opérons uniquement sur des données anonymisées.
+        #     Nous protégeons la vie privée de vos résidents, et opérons uniquement sur des données anonymisées.
         # -
         #   title: Installation
         #   icon: ti-harddrives
@@ -330,7 +330,7 @@ product:
           title: Essayer en interne
           icon: ti-direction
           body: >-
-            Vous pouvez tester gratuitement notre service en interne à l'aide de l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application locataire). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que locataire virtuel pour vérifier l'expérience utilisateur du locataire. 5) Pour passer au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos locataires.
+            Vous pouvez tester gratuitement notre service en interne à l'aide de l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application résident). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que résident virtuel pour vérifier l'expérience utilisateur du résident. 5) Pour passer au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos résidents.
         # -
         #   title: Integration avec votre ERP
         #   icon: ti-cloud-up

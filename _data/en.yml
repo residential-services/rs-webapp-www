@@ -41,7 +41,7 @@ menu:
         title: &2_1_title Property manager application
         path: /product/property-managers/
       -
-        title: &2_2_title Tenant application
+        title: &2_2_title Resident application
         path: /product/tenants/
   -
     title: &3_0_title Company info
@@ -57,19 +57,19 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      Your digital connection with tenants.
+      Your digital connection with residents.
   button:
     title: Explore
     link: /customers/property-managers/
   # carousel:
   #   -
   #     lead: "" #Property management made easy
-  #     title: Your digital connection with tenants
+  #     title: Your digital connection with residents
   #     image: /assets/my/images/1920x1200/AdobeStock_202469234-cropped-1920x1200.jpeg
   #     button:
   #   -
-  #     lead: "" #Tenants' lives made easy
-  #     title: The digital lifestyle for tenants
+  #     lead: "" #Residents' lives made easy
+  #     title: The digital lifestyle for residents
   #     image: /assets/my/images/1920x1200/Fotolia_68740701_XL-modified-1920x1200.jpeg
   #     button:
   #       title: Explore
@@ -78,7 +78,7 @@ customers:
   pm:
     header:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
-      title: Your digital connection with tenants
+      title: Your digital connection with residents
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -88,18 +88,18 @@ customers:
         title: Equa helps you reduce the cost of managing properties
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
-          Transitioning from paper to digital for your communication with tenants
+          Transitioning from paper to digital for your communication with residents
           will help you reduce your operating costs. 
           Sending a single message with Equa is equivalent to putting up many posters
-          in your buildings, or sending many individual letters to tenants.
+          in your buildings, or sending many individual letters to residents.
         link: /product/property-managers/
       -
-        title: Convenient for your tenants
+        title: Convenient for your residents
         image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
         body: >
-          Equa also makes the lives of your tenants easier.
+          Equa also makes the lives of your residents easier.
           The advent of smartphones has changed the consumers' expectations considerably. 
-          Most of your tenants are used to organizing their lives on the internet using smartphones, 
+          Most of your residents are used to organizing their lives on the internet using smartphones, 
           and Equa is a natural fit for them.
         link: /product/tenants/
       # -
@@ -107,7 +107,7 @@ customers:
       #   image: /assets/my/images/360x240/digital2-360x240.jpg
       #   body: >
       #     With Equa, you enter data only once.
-      #     We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and tenant data.
+      #     We integrate with your existing ERP system, and it periodically sends us an anonymized version of your real estate and resident data.
     services:
       title: And more ..
       items:
@@ -115,20 +115,20 @@ customers:
           title: Equa can complement paper
           icon: ti-printer
           body: >
-            You can continue providing a paper-based user interface to your tenants as before if one or more of them asks for it.
+            You can continue providing a paper-based user interface to your residents as before if one or more of them asks for it.
         # We can even lend you a hand, for example by sending laundry timetables to you or a contractor for printing.
         # -
         #   title: GDPR-compliant
         #   icon: ti-shield
         #   body: >
         #     Equa is 100% compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
-        #     We protect your tenants' privacy, and only operate on anonymized habitant data.
+        #     We protect your residents' privacy, and only operate on anonymized habitant data.
         # -
-        #   title: Payable by your tenants
+        #   title: Payable by your residents
         #   icon: ti-receipt
         #   body: >
-        #     Given the breadth of tenant-facing features and our low cost per household, 
-        #     our property manager customers can justifiably forward the cost of Equa to their tenants.
+        #     Given the breadth of resident-facing features and our low cost per household, 
+        #     our property manager customers can justifiably forward the cost of Equa to their residents.
         #   link: /customers/pricing/
         # -
         #   title: Multi-ERP
@@ -138,11 +138,11 @@ customers:
         #     This gives you the freedom to switch to a new Equa-compatible ERP software if you wish.
         #     Equa can also be used stand-alone, without integrating with it with an ERP system.
         -
-          title: Evolving tenant feature set
+          title: Evolving resident feature set
           icon: ti-world
           body: >
-            The needs of tenants in a large sense is a big part of our focus. 
-            Depending on tenant needs and requests, we will add new tenant-facing features.
+            The needs of residents in a large sense is a big part of our focus. 
+            Depending on resident needs and requests, we will add new resident-facing features.
             Some of those will possibly be unrelated to property management, such as a "shopping" feature. 
         -
           title: Open-ended
@@ -161,7 +161,7 @@ customers:
   pricing: 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: The free tenant service for your needs
+      title: The free resident service for your needs
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -169,12 +169,12 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Our service is free for property management companies and tenants, for any real estate size. If you need further advice or assistance regarding the service, please contact us.
+        Our service is free for property management companies and residents, for any real estate size. If you need further advice or assistance regarding the service, please contact us.
       # plans:
       #   -
       #     title: null
       #   -
-      #     title: Equa Tenant Services
+      #     title: Equa Resident Services
       #     price:
       #       amount: "0.18"
       #       before_amount: CHF
@@ -214,7 +214,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: More comfort for you and your tenants
+      title: More comfort for you and your residents
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -228,35 +228,35 @@ product:
             title: Sending announcements
             # TODO add links to the apps
             description: >-
-              With our Equa Delta application, you can send announcements to tenants living in a group of buildings, a building, or all your buildings. 
+              With our Equa Delta application, you can send announcements to residents living in a group of buildings, a building, or all your buildings. 
               Announcements have time information attached to them. 
               An announcement can pertain to an event such as a repair job or a local gathering for example.
-              Tenants can read relevant announcements with the Equa Phi app.
+              Residents can read relevant announcements with the Equa Phi app.
             # , or with 
             # the digital calendars that they are already using in their day-to-day lives.
-            # Equa automatically synchronizes the tenants' Equa account with their digital calendars.
+            # Equa automatically synchronizes the residents' Equa account with their digital calendars.
           -
             image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
             lead: 02.
             title: Sending documents
             description: >-
-              You can send documents to tenants living in a group of buildings, a building, or all your buildings.
+              You can send documents to residents living in a group of buildings, a building, or all your buildings.
               A document can be a lease document or a house rules document for example.
       -
         pair:
         #   -
         #     image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
         #     lead: 03.
-        #     title: Receiving feedback from tenants
+        #     title: Receiving feedback from residents
         #     description: >-
-        #       Tenants can send you messages for different reasons. For example, they can inform you of items that need repairing
+        #       Residents can send you messages for different reasons. For example, they can inform you of items that need repairing
         #       in their unit or building.
           -
             image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
             lead: 03.
-            title: Tenant groups
+            title: Resident groups
             description: >-
-              You can group tenants by sets of buildings.
+              You can group residents by sets of buildings.
               You can then send your announcements or documents directly to a group for efficient messaging. 
             # Equa automatically imports any groups that your may have defined from within your ERP system.
             # You can also create groups with Equa.
@@ -267,18 +267,18 @@ product:
       #       lead: 05.
       #       title: Shared laundry facilities
       #       description: >-
-      #         You can mark buildings that are equipped with laundry facilities that are shared amongst tenants.
+      #         You can mark buildings that are equipped with laundry facilities that are shared amongst residents.
       #         Equa automatically imports any such indication from your ERP system. 
       #         You can also add this information from within Equa.
       #         Equa automatically generates laundry timetables for buildings that are equipped. 
-      #         Tenants can then modify their default reservations if they wish, and they can automatically see their reservations reflected in their 
+      #         Residents can then modify their default reservations if they wish, and they can automatically see their reservations reflected in their 
       #         digital calendars.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 06.
       #       title: Up-to-date contact information.
       #       description: >-
-      #         You can indicate the coordinates of people within your organisation or your suppliers that tenants can contact.
+      #         You can indicate the coordinates of people within your organisation or your suppliers that residents can contact.
       #         Equa automatically imports any such indication from your ERP system. 
       #         You can also add this information from within Equa.
 
@@ -291,7 +291,7 @@ product:
         #   icon: ti-shield
         #   body: >
         #     Equa is compliant with <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a>.
-        #     We protect your tenants' privacy, and only operate on anonymized habitant data.
+        #     We protect your residents' privacy, and only operate on anonymized habitant data.
         # -
         #   title: Installation
         #   icon: ti-harddrives
@@ -322,7 +322,7 @@ product:
           title: Posters for your buildings
           icon: ti-pin2
           body: >
-            Show your tenants where to download the Equa Phi app.
+            Show your residents where to download the Equa Phi app.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
           title: Pricing
@@ -333,7 +333,7 @@ product:
           title: Test drive
           icon: ti-direction
           body: >-
-            You can test drive our service for free using the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing" them. 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our tenant app). 4) Check into a unit in one of your buildings as a virtual tenant to verify the tenant user experience. 5) To transition into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your tenants. 
+            You can test drive our service for free using the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing" them. 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our resident app). 4) Check into a unit in one of your buildings as a virtual resident to verify the resident user experience. 5) To transition into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your residents. 
         # -
         #   title: ERP integration
         #   icon: ti-cloud-up
