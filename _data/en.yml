@@ -85,7 +85,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Equa helps you reduce the cost of managing properties
+        title: Streamline your resident management
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Transitioning from paper to digital for your communication with residents

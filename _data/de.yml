@@ -72,7 +72,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Equa hilft Ihnen, Ihre Verwaltungskosten zu reduzieren
+        title: Optimierte Einwohnerverwaltung
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Der Übergang vom Papier zu einem digitalen Verständigungsvorgang mit Ihren Einwohnern wird Ihre Betriebskosten positiv beinflussen.

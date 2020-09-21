@@ -85,7 +85,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Equa vous aide à réduire le coût de la gestion immobilière
+        title: Gestion des résidents simplifiée
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           La transition du papier vers le digital pour la communication avec vos résidents
