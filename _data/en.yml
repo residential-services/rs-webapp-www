@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      Your digital connection with residents.
+      The resident app that increases your revenue
   button:
     title: Explore
     link: /customers/property-managers/
@@ -85,23 +85,26 @@ customers:
         - *1_1_title
     about:
       -
-        title: Streamline your resident management
-        image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
-        body: > 
-          Transitioning from paper to digital for your communication with residents
-          will help you reduce your operating costs. 
-          Sending a single message with Equa is equivalent to putting up many posters
-          in your buildings, or sending many individual letters to residents.
-        link: /product/property-managers/
-      -
-        title: Convenient for your residents
+        title: Offer more comfort to your residents
         image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
         body: >
-          Equa also makes the lives of your residents easier.
-          The advent of smartphones has changed the consumers' expectations considerably. 
-          Most of your residents are used to organizing their lives on the internet using smartphones, 
-          and Equa is a natural fit for them.
+          Make the lives of your residents easier by offering them the Equa Phi app.
+          Most of your residents are used to organizing their lives on the Internet using smartphones, 
+          and Equa Phi is a natural fit for them. Residents live in buildings, and beyond that, they live in
+          neighborhoods and regions. So in addition to making your residents' stay at home more comfortable,
+          mid-term we also intend to provide residents with access to local B2C businesses, to help them enjoy
+          everything their location has to offer.
         link: /product/tenants/
+      -
+        title: Increase your revenue
+        image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
+        body: > 
+          Simplify your resident relations using the Equa Delta app.
+          Equa Delta helps you communicate with your residents, and 
+          we can provide additional features on demand, such as invoicing and payments.
+          Equa Delta also helps increase your revenue: 10% of our B2C marketplace revenue will be shared
+          amongst property managers, which mid-term should amount to a sum that is greater than our affordable subscription price.
+        link: /product/property-managers/
       # -
       #   title: Single data entry
       #   image: /assets/my/images/360x240/digital2-360x240.jpg

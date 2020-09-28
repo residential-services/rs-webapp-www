@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: &hp_message >
-      Ihre digitale Verbindung zu Einwohnern. 
+      Die Einwohner-App, die Ihre Einnahmen steigert
   button:
     title: Erkunden
     link: /customers/property-managers/
@@ -72,21 +72,26 @@ customers:
         - *1_1_title
     about:
       -
-        title: Optimierte Einwohnerverwaltung
-        image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
-        body: > 
-          Der Übergang vom Papier zu einem digitalen Verständigungsvorgang mit Ihren Einwohnern wird Ihre Betriebskosten positiv beinflussen.
-          Eine einzige Nachricht, die von Ihnen durch Equa zu den Einwohnern entsendet wird, bewirkt der selbe Endeffekt als mehrere Poster die in den Gebäuden aufgehängt werden, oder mehrere Briefe die einzelnen Einwohnern zugeschickt werden. 
-        link: /product/property-managers/
-      -
-        title: Nützlich für Ihre Einwohner
+        title: Bieten Sie Ihren Einwohnern mehr Komfort
         image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
         body: >
-          Durch Equa wird das Leben Ihrer Einwohner ebenfalls vereinfacht.
-          Smartphones haben die Erwartungen der Konsumenten grundlegend geändert.
-          Die Mehrheit der Einwohner sind gewohnt, ihr Alltag mittels Mobilgeräte im Internet zu gestalten.
-          Da sind sie mit Equa gut aufgehoben.
+          Erleichtern Sie Ihren Einwohnern das Leben, indem Sie ihnen die Equa-Phi-App anbieten.
+          Die meisten Ihrer Einwohner sind es gewohnt, ihr Leben im Internet mittels Smartphones zu organisieren,
+          und Equa Phi passt vorzüglich zu diesem Bild. Ihre Einwohner leben in Gebäuden und darüber hinaus in
+          Nachbarschaften und Regionen. Darum beabsichtigen wir 
+          mittelfristig auch, den Einwohnern Zugang zu lokalen B2C-Unternehmen zu verschaffen, 
+          damit sie geniessen können, alles was ihr Standort zu bieten hat.
         link: /product/tenants/
+      -
+        title: Steigern Sie Ihren Umsatz
+        image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
+        body: > 
+          Vereinfachen Sie Ihre Beziehungen zu den Einwohnern mithilfe der Equa-Delta-App.
+          Equa Delta hilft Ihnen bei der Kommunikation mit Ihren Einwohnern.
+          Zudem können wir auf Anfrage zusätzliche Funktionen wie Rechnungsstellung und Zahlungen bereitstellen.
+          Equa Delta hilft auch dabei, Ihren Umsatz zu steigern: 10% unseres B2C-Marktumsatzes werden
+          unter Immobilienverwaltern geteilt. Dieser Betrag sollte mittelfristig höher sein als unser günstiger Abo-Preis.
+        link: /product/property-managers/
       # -
       #   title: Einfache Dateneingabe
       #   image: /assets/my/images/360x240/digital2-360x240.jpg
