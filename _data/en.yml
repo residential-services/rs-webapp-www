@@ -328,15 +328,20 @@ product:
             Show your residents where to download the Equa Phi app.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Pricing
+          title: Baseline subscription
           icon: ti-receipt
           body: >
-            Affordable pricing with 14-day free trial. In-app subscription price: US$ 0.37 / ₤ 0.32 / CA$ 0.54 / AU$ 0.61 / € 0.42 per habitation unit per year. Subscription available for 2000, 4000, 6000, 8000 and 10000 habitation units.
+            Affordable pricing with 14-day free trial. Subscriptions available for 2000, 4000, 6000, 8000 and 10000 habitation units, priced at about US$ 0.37 / ₤ 0.32 / CA$ 0.54 / AU$ 0.61 / € 0.42 per habitation unit per year. Subscriptions can be purchased inside the Equa Delta app. Available worldwide.
         -
-          title: Test drive
-          icon: ti-direction
-          body: >-
-            You can test drive our service for free using the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing" them. 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our resident app). 4) Check into a unit in one of your buildings as a virtual resident to verify the resident user experience. 5) To transition into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your residents. 
+          title: Branded app
+          icon: ti-receipt
+          body: >
+            Offer residents your branded app instead of the standard Equa Phi app (that they can also use); residents will only see buildings that your company is managing. Price: US$ 210.- / ₤ 160.- / CA$ 275.- / AU$ 290.- / € 175.- per month. Available worldwide. Email address for inquiries: support@equa.world.
+        # -
+        #   title: Test drive
+        #   icon: ti-direction
+        #   body: >-
+        #     You can test drive our service for free using the Equa Delta app. 1) Create an account in the app. 2) Add your buildings (free), without "publishing" them. 3) Sign into the Equa Phi app with the same account credentials as Equa Delta (Equa Phi is our resident app). 4) Check into a unit in one of your buildings as a virtual resident to verify the resident user experience. 5) To transition into production mode, simply publish your buildings in Equa Delta in order to make our service accessible to your residents. 
         # -
         #   title: ERP integration
         #   icon: ti-cloud-up

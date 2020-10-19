@@ -323,15 +323,20 @@ product:
             Montrez à vos habitants comment télécharger l'appli Equa Phi.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Nos tarifs
+          title: Abonnement de base
           icon: ti-receipt
           body: >
-            Prix ​​abordable avec essai gratuit de 14 jours. Prix ​​de l'abonnement ("in-app purchase"): 0,42 € / 0,54 CA$ / 0,42 CHF par unité d'habitation et par an. Abonnement disponible pour 2000, 4000, 6000, 8000 et 10000 unités d'habitation.
+            Prix ​​abordable avec essai gratuit de 14 jours. Abonnements disponibles pour 2000, 4000, 6000, 8000 et 10000 unités d'habitation, au prix d'environ 0,42 € / CA$ 0,54 / CHF 0.42 par unité d'habitation par an. Les abonnements peuvent être achetés dans l'application Equa Delta. Disponibilité: monde entier.
         -
-          title: Essayer en interne
-          icon: ti-direction
-          body: >-
-            Vous pouvez tester gratuitement notre service en interne à l'aide de l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application résident). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que résident virtuel pour vérifier l'expérience utilisateur du résident. 5) Pour passer au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos résidents.
+          title: Application avec votre logo et marque
+          icon: ti-receipt
+          body: >
+            Offrez aux résidents votre application de marque au lieu de l'application standard Equa Phi (qu'ils peuvent également utiliser); vos résidents ne verront que les bâtiments gérés par votre entreprise. Prix: 175 € /  CA$ 275.- / CHF 190.- par mois. Disponibilité: monde entier. Adresse e-mail pour tout renseignement: support@equa.world.
+        # -
+        #   title: Essayer en interne
+        #   icon: ti-direction
+        #   body: >-
+        #     Vous pouvez tester gratuitement notre service en interne à l'aide de l'application Equa Delta. 1) Créez un compte dans l'application. 2) Ajoutez vos bâtiments (gratuitement), sans les "publier". 3) Connectez-vous à l'application Equa Phi avec les mêmes informations d'identification de compte que Equa Delta (Equa Phi est notre application résident). 4) Enregistrez-vous dans une unité de l'un de vos bâtiments en tant que résident virtuel pour vérifier l'expérience utilisateur du résident. 5) Pour passer au mode "production", simplement publiez vos immeubles dans Equa Delta afin de rendre notre service accessible à vos résidents.
         # -
         #   title: Integration avec votre ERP
         #   icon: ti-cloud-up

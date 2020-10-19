@@ -298,15 +298,20 @@ product:
             Zeigen Sie Ihnen Einwohnern, wo sie Equa Phi herunterladen können.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Unsere Preise
+          title: Standard-Abo
           icon: ti-receipt
           body: >
-            Erschwingliche Preise. 14-tägige kostenlose Testfahrt. In-App-Abonnement: € 0,42 / CHF 0.42 pro Wohneinheit und Jahr. Abonnements für 2000, 4000, 6000, 8000 und 10000 Wohneinheiten verfügbar.
+            Erschwingliche Preise mit 14-tägigem kostenlosen Testfahrt. Abonnements für 2000, 4000, 6000, 8000 oder 10000 Wohneinheiten zum Preis von ca. € 0,42 / CHF 0.42 pro Wohneinheit und pro Jahr. Die Abonnements sind in der Equa-Delta-App weltweit verfügbar.
         -
-          title: Probefahrt
-          icon: ti-direction
-          body: >-
-            Testen Sie unseren Service kostenlos mit der Equa Delta App. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Einwohner-App). 4) Melden Sie sich als virtueller Einwohner bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Einwohners zu überprüfen. 5) Sie schalten zum "Produktion-Mode" um, indem Sie einfach Ihre Gebäude in Equa Delta  "veröffentlichen". Damit wird Equa Ihren Einwohnern zugänglich.
+          title: Branded-App mit Ihrem Logo und Markenbindung
+          icon: ti-receipt
+          body: >
+            Bieten Sie den Bewohnern Ihre Marken-App anstelle der Equa-Phi-App (die die Bewohner auch anwenden können). Die Bewohner sehen nur Gebäude, die Ihr Unternehmen verwaltet. Preis: € 175 / CHF 190.- pro Monat. Weltweit verfügbar. E-Mail-Adresse für Anfragen: support@equa.world.
+        # -
+        #   title: Probefahrt
+        #   icon: ti-direction
+        #   body: >-
+        #     Testen Sie unseren Service kostenlos mit der Equa Delta App. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Einwohner-App). 4) Melden Sie sich als virtueller Einwohner bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Einwohners zu überprüfen. 5) Sie schalten zum "Produktion-Mode" um, indem Sie einfach Ihre Gebäude in Equa Delta  "veröffentlichen". Damit wird Equa Ihren Einwohnern zugänglich.
         # -
         #   title: ERP-Integration
         #   icon: ti-cloud-up
