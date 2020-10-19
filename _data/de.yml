@@ -56,7 +56,7 @@ homepage:
   image: /assets/my/images/1920x1200/geneva-cityscape-1920x1200.jpg
   text:
     lead: Liegenschaftsverwaltung vereinfacht
-    title: &hp_message >
+    title: >
       Die Einwohner-App, die Ihre Einnahmen steigert
   button:
     title: Erkunden
@@ -65,7 +65,7 @@ customers:
   pm: 
     header:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
-      title: *hp_message
+      title: Ihre digitale Verbindung mit den Einwohnern
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -298,10 +298,10 @@ product:
             Zeigen Sie Ihnen Einwohnern, wo sie Equa Phi herunterladen können.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Preispolitik
+          title: Unsere Preise
           icon: ti-receipt
           body: >
-            Erschwingliche Preise. 14 Tage kostenlos. Abonnement pro Unternehmen. Firmenmitglieder können ein In-App-Abonnement für das Unternehmen erwerben. Abonnementpläne, die nach der Anzahl der verwalteten Wohneinheiten strukturiert sind.
+            Erschwingliche Preise. 14-tägige kostenlose Testfahrt. In-App-Abonnement: € 0,42 / CHF 0.42 pro Wohneinheit und Jahr. Abonnements für 2000, 4000, 6000, 8000 und 10000 Wohneinheiten verfügbar.
         -
           title: Probefahrt
           icon: ti-direction

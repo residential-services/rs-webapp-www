@@ -99,7 +99,7 @@ customers:
         body: > 
           Simplifiez vos relations avec les résidents grâce à l'application Equa Delta.
           Equa Delta vous aide à communiquer avec vos résidents, et
-          nous pouvons fournir des fonctionnalités supplémentaires à la demande, telles que facturation et paiements.
+          nous pouvons fournir des fonctionnalités supplémentaires sur demande, telles que facturation et paiements.
           Equa Delta contribue également à augmenter vos revenus: 10% des revenus de notre marché B2C seront partagés
           parmi les gestionnaires immobiliers, ce qui à moyen terme devrait représenter une somme supérieure à notre prix d'abonnement abordable.
         link: /product/property-managers/
@@ -326,7 +326,7 @@ product:
           title: Nos tarifs
           icon: ti-receipt
           body: >
-            Prix ​​abordable avec essai gratuit de 14 jours. Abonnement par entreprise. Les membres de l'entreprise peuvent acheter un abonnement pour l'entreprise. Plans d'abonnement structurés en fonction du nombre de logements gérés.
+            Prix ​​abordable avec essai gratuit de 14 jours. Prix ​​de l'abonnement ("in-app purchase"): 0,42 € / 0,54 CA$ / 0,42 CHF par unité d'habitation et par an. Abonnement disponible pour 2000, 4000, 6000, 8000 et 10000 unités d'habitation.
         -
           title: Essayer en interne
           icon: ti-direction
