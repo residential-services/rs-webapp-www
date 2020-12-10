@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Die Einwohner-App, die Ihre Einnahmen steigert
+      Die kostengünstige und hochwertige Bewohner-App-Lösung
   button:
     title: Erkunden
     link: /customers/property-managers/
@@ -72,26 +72,25 @@ customers:
         - *1_1_title
     about:
       -
-        title: Bieten Sie Ihren Einwohnern mehr Komfort
-        image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
-        body: >
-          Erleichtern Sie Ihren Einwohnern das Leben, indem Sie ihnen die Equa-Phi-App anbieten.
-          Die meisten Ihrer Einwohner sind es gewohnt, ihr Leben im Internet mittels Smartphones zu organisieren,
-          und Equa Phi passt vorzüglich zu diesem Bild. Ihre Einwohner leben in Gebäuden und darüber hinaus in
-          Nachbarschaften und Regionen. Darum beabsichtigen wir 
-          mittelfristig auch, den Einwohnern Zugang zu lokalen B2C-Unternehmen zu verschaffen, 
-          damit sie geniessen können, alles was ihr Standort zu bieten hat.
-        link: /product/tenants/
-      -
-        title: Steigern Sie Ihren Umsatz
+        title: Optimaler Wert zu einem erschwinglichen Preis
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
-          Vereinfachen Sie Ihre Beziehungen zu den Einwohnern mithilfe der Equa-Delta-App.
-          Equa Delta hilft Ihnen bei der Kommunikation mit Ihren Einwohnern.
-          Zudem können wir auf Anfrage zusätzliche Funktionen wie Rechnungsstellung und Zahlungen bereitstellen.
-          Equa Delta hilft auch dabei, Ihren Umsatz zu steigern: 10% unseres B2C-Marktumsatzes werden
-          unter Immobilienverwaltern geteilt. Dieser Betrag sollte mittelfristig höher sein als unser günstiger Abo-Preis.
+          Vereinfachen Sie die Verwaltung der Bewohnerbeziehungen mithilfe der Equa-Delta-App.
+          Equa Delta ergänzt oder ersetzt Ihre bestehenden Kommunikationskanäle mit den Bewohnern.
+          Zu den typischen Aufgaben der Verwaltung der Bewohnerbeziehungen gehören das Entenden von Dokumenten und Ankündigungen an die Bewohner, das Empfangen von Arbeitsaufträgen, und das Einziehen von Mietzahlungen.
+          Informationen zu den derzeit in Equa Delta verfügbaren Funktionen finden Sie im App Store oder Play Store.
         link: /product/property-managers/
+      -
+        title: Bieten Sie Ihren Bewohnern mehr Komfort
+        image: /assets/my/images/360x240/04_aussen_umgebung_rendering-360x240.jpg
+        body: >
+          Erleichtern Sie Ihren Bewohnern das Leben, indem Sie ihnen die Equa Phi-App anbieten.
+          Die meisten Ihrer Bewohner sind es gewohnt, ihr Leben im Internet mittels Smartphones zu organisieren.
+          und da passt Equa Phi natürlich zu ihnen. Wir planen, Funktionen in Equa Phi aufzunehmen, die darüber hinausgehen
+          Resident Relations, und das sind dennoch nützlich für die Bewohner.
+          Beispiele: die Reservierung von gemeinsamen Einrichtungen wie Waschküchen, Community-Funktionen wie Pinnwänden und der einfache Zugang zu lokalen Verbraucherunternehmen.
+          Informationen zu den derzeit in Equa Phi verfügbaren Funktionen finden Sie im App Store oder Play Store.
+        link: /product/tenants/
       # -
       #   title: Einfache Dateneingabe
       #   image: /assets/my/images/360x240/digital2-360x240.jpg
