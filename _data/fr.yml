@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Gestion immobilière facilitée
     title: >
-      La solution d'application mobile pour résidants, à bas prix et de haute qualité
+      L'appli mobile pour résidents qui augmente vos revenus
   button:
     title: Explorer
     link: /customers/property-managers/
@@ -85,12 +85,14 @@ customers:
         - *1_1_title
     about:
       -
-        title: Rapport qualité/prix optimal
+        title: Augmentez vos revenus
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Simplifiez la gestion des relations avec vos résidents en utilisant l'application mobile Equa Delta.
           Equa Delta complète ou remplace vos canaux de communication existants avec vos résidents.
           Parmi les tâches typiques que nous soutenons, on peut citer l'envoi de documents et d'annonces aux résidents, la réception des bons de travail et la perception du loyer.
+          Equa Delta peut également contribue à augmenter vos revenus: 10% des revenus de notre future marché B2C seront partagés
+          parmi les gestionnaires immobiliers, ce qui à moyen terme peut représenter une somme supérieure à notre prix d'abonnement abordable.
           Vous pouvez en savoir plus sur les fonctionnalités actuellement disponibles dans Equa Delta en vous rendant sur l'App Store ou le Play Store.
         link: /product/property-managers/
       -

@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Die kostengünstige und hochwertige Bewohner-App-Lösung
+      Die Einwohner-App, die Ihre Einnahmen steigert
   button:
     title: Erkunden
     link: /customers/property-managers/
@@ -72,12 +72,14 @@ customers:
         - *1_1_title
     about:
       -
-        title: Optimaler Wert zu einem erschwinglichen Preis
+        title: Steigern Sie Ihren Umsatz
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Vereinfachen Sie die Verwaltung der Bewohnerbeziehungen mithilfe der Equa-Delta-App.
           Equa Delta ergänzt oder ersetzt Ihre bestehenden Kommunikationskanäle mit den Bewohnern.
           Zu den typischen Aufgaben der Verwaltung der Bewohnerbeziehungen gehören das Entenden von Dokumenten und Ankündigungen an die Bewohner, das Empfangen von Arbeitsaufträgen, und das Einziehen von Mietzahlungen.
+          Equa Delta hilft auch dabei, Ihren Umsatz zu steigern: 10% unseres künftigen B2C-Marktumsatzes wird
+          unter Immobilienverwaltern geteilt. Dieser Betrag könnte mittelfristig höher sein als unser günstiger Abo-Preis.
           Informationen zu den derzeit in Equa Delta verfügbaren Funktionen finden Sie im App Store oder Play Store.
         link: /product/property-managers/
       -

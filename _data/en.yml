@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      The low-cost and high quality resident app solution
+      The resident app that increases your revenue
   button:
     title: Explore
     link: /customers/property-managers/
@@ -85,12 +85,14 @@ customers:
         - *1_1_title
     about:
       -
-        title: Optimal value at an affordable price
+        title: Increase your revenue
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Simplify the management of resident relations by using the Equa Delta app.
           Equa Delta complements or replaces your existing communication channels with residents.
           Typical resident relations management tasks include sending documents and announcements to residents, receiving work orders, and collecting rent.
+          Equa Delta can also help increase your revenue: 10% of our future B2C marketplace revenue will be shared
+          amongst property managers, which mid-term could amount to a sum that is greater than our affordable subscription price.
           You can read about the features currently available in Equa Delta by heading over to App Store or Play Store.
         link: /product/property-managers/
       -
