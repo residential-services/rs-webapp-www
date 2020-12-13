@@ -4,18 +4,18 @@ snippets:
   pricing:
     feature_set:
       Free:
-        - Senden Sie Dokumente und Ankündigungen an die Einwohner. 
-        - Geplant - Einwohner können gemeinsame Wäscherei reservieren. 
-        - Geplant - Einwohner können Ihnen Arbeitsaufträge senden.
+        - Senden Sie Dokumente und Ankündigungen an die Bewohner. 
+        - Geplant - Bewohner können gemeinsame Wäscherei reservieren. 
+        - Geplant - Bewohner können Ihnen Arbeitsaufträge senden.
       Business:
         - Senden Sie Dokumente und Ankündigungen an die Bewohner. 
-        - Einwohner können verfügbare Wäschemöglichkeiten online reservieren. 
-        - Einwohner können Ihnen Arbeitsaufträge senden.
+        - Bewohner können verfügbare Wäschemöglichkeiten online reservieren. 
+        - Bewohner können Ihnen Arbeitsaufträge senden.
       Enterprise: 
         - ERP-Integration. Verwenden Sie unsere ERP-Integrationssoftware, falls für Ihre ERP-Marke verfügbar, oder entwickeln Sie Ihre eigene Integrationslösung basierend auf unserer dokumentierten API.
         - Senden Sie Dokumente und Ankündigungen an die Bewohner.
-        - Einwohner können verfügbare Wäschemöglichkeiten online reservieren.
-        - Einwohner können Ihnen Arbeitsaufträge senden.
+        - Bewohner können verfügbare Wäschemöglichkeiten online reservieren.
+        - Bewohner können Ihnen Arbeitsaufträge senden.
     unit_count:
       paid: Bis zu $count Wohneinheiten.
       free: Unbegrenzte Anzahl von Wohneinheiten.
@@ -41,7 +41,7 @@ menu:
         title: &2_1_title Anwendung für Liegenschaftsverwalter
         path: /product/property-managers/
       -
-        title: &2_2_title Anwendung für Einwohner
+        title: &2_2_title Anwendung für Bewohner
         path: /product/tenants/
   -
     title: &3_0_title Unternehmen
@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Die Einwohner-App, die Ihre Einnahmen steigert
+      Die Bewohner-App, die Ihre Einnahmen steigern kann
   button:
     title: Erkunden
     link: /customers/property-managers/
@@ -65,20 +65,20 @@ customers:
   pm: 
     header:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
-      title: Ihre digitale Verbindung mit den Einwohnern
+      title: Ihre digitale Verbindung mit den Bewohnern
       breadcrumbs:
         - Equa
         - *1_0_title
         - *1_1_title
     about:
       -
-        title: Steigern Sie Ihren Umsatz
+        title: Kostengünstige Verwaltung der Bewohnerbeziehungen
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Vereinfachen Sie die Verwaltung der Bewohnerbeziehungen mithilfe der Equa-Delta-App.
           Equa Delta ergänzt oder ersetzt Ihre bestehenden Kommunikationskanäle mit den Bewohnern.
           Zu den typischen Aufgaben der Verwaltung der Bewohnerbeziehungen gehören das Entenden von Dokumenten und Ankündigungen an die Bewohner, das Empfangen von Arbeitsaufträgen, und das Einziehen von Mietzahlungen.
-          Equa Delta hilft auch dabei, Ihren Umsatz zu steigern: 10% unseres künftigen B2C-Marktumsatzes wird
+          Equa Delta kann Ihnen auch dabei helfen, Ihren Umsatz zu steigern: 10% unseres künftigen B2C-Marktumsatzes wird
           unter Immobilienverwaltern geteilt. Dieser Betrag könnte mittelfristig höher sein als unser günstiger Abo-Preis.
           Informationen zu den derzeit in Equa Delta verfügbaren Funktionen finden Sie im App Store oder Play Store.
         link: /product/property-managers/
@@ -97,7 +97,7 @@ customers:
       #   title: Einfache Dateneingabe
       #   image: /assets/my/images/360x240/digital2-360x240.jpg
       #   body: >
-      #     Mit Equa werden Daten nur einmal eingegeben. Ihr ERP-System wird mit Equa eingebunden, so dass eine regelmässige Entsendung von Ihren Liegenschafts- und Einwohnerdaten automatisch erfolgt.
+      #     Mit Equa werden Daten nur einmal eingegeben. Ihr ERP-System wird mit Equa eingebunden, so dass eine regelmässige Entsendung von Ihren Liegenschafts- und Bewohnerdaten automatisch erfolgt.
       #     Selbstverständlich werden alle Daten  im Voraus anonymisiert. 
     services:
       title: ""
@@ -106,7 +106,7 @@ customers:
           title: Equa kann Papier ergänzen
           icon: ti-printer
           body: >
-            Ihr Unternehmen kann nach wie vor den Einwohnern eine Papier-basierte Benutzerschnittstelle anbieten, wenn ein oder mehrere Einwohner sie einer digitalen Schnittstelle vorziehen.
+            Ihr Unternehmen kann nach wie vor den Bewohnern eine Papier-basierte Benutzerschnittstelle anbieten, wenn ein oder mehrere Bewohner sie einer digitalen Schnittstelle vorziehen.
           # Wir können Ihnen sogar dabei helfen, zum Beispiel indem wir Ihnen oder einem Ihren Lieferanten den Stundenplan der gemeinsamen Waschräume zuschicken, damit sie gedruckt und in den Gebäuden aufgehängt werden.
         # -
         #   title: Equa erfüllt die GDPR-Anforderungen
@@ -114,10 +114,10 @@ customers:
         #   body: >
         #     Equa ist dem <a href='https://en.wikipedia.org/wiki/General_Data_Protection_Regulation' target='_blank'>GDPR</a> 100% angepasst.
         # -
-        #   title: Equa kannt von Einwohnern bezahlt werden
+        #   title: Equa kannt von Bewohnern bezahlt werden
         #   icon: ti-receipt
         #   body: >
-        #     Die umfangreiche Funktionalität die wir den Einwohnern anbieten und unsere geringe Preise rechtfertigen, daß unser Online-Dienst letztendlich von den Einwohnern bezahlt wird, selbst wenn unsere eigentliche Kunden die Liegenschaftsverwalter sind.
+        #     Die umfangreiche Funktionalität die wir den Bewohnern anbieten und unsere geringe Preise rechtfertigen, daß unser Online-Dienst letztendlich von den Bewohnern bezahlt wird, selbst wenn unsere eigentliche Kunden die Liegenschaftsverwalter sind.
         #   link: /customers/pricing/
         # -
         #   title: Multi-ERP
@@ -125,11 +125,11 @@ customers:
         #   body: >
         #     Equa ist unabhängig von den einzelnen ERP-Anbietern, so dass Sie das eine oder das andere Equa-kompatible ERP-System im Betrieb einsetzen können. Equa funktionniert auch ohne ERP.
         -
-          title: Immer neue Einwohnerfunktionen
+          title: Immer neue Bewohnerfunktionen
           icon: ti-world
           body: >
-            Wir sind aufmerksam auf die Bedürfnisse Ihrer Einwohner im weitesten Sinne.
-            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen hinzugefügt. Einige dieser Functionen werden möglicherweise nur die Einwohner dienen, unabhängig von den Liegenschaftsverwaltern,
+            Wir sind aufmerksam auf die Bedürfnisse Ihrer Bewohner im weitesten Sinne.
+            Je nach Bedürfnissen und Anforderungen werden Equa im Laufe der Zeit neue Funktionen hinzugefügt. Einige dieser Functionen werden möglicherweise nur die Bewohner dienen, unabhängig von den Liegenschaftsverwaltern,
             wie eine Shoppingfunktion zum Beispiel.
         -
           title: Ständig in Bewegung
@@ -148,7 +148,7 @@ customers:
   pricing: 
     header:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
-      title: Der kostenlose Einwohnerservice für Ihre Bedürfnisse
+      title: Der kostenlose Bewohnerservice für Ihre Bedürfnisse
       breadcrumbs:
         - Equa
         - *1_0_title
@@ -156,7 +156,7 @@ customers:
     pricing:
       title: Equa Property Manager
       description: >-
-        Unser Service ist für Immobilienverwaltungsunternehmen und Einwohner für jede Immobiliengröße kostenlos. Wenn Sie weitere Beratung oder Unterstützung in Bezug auf den Service benötigen, bitte kontaktieren Sie uns.
+        Unser Service ist für Immobilienverwaltungsunternehmen und Bewohner für jede Immobiliengröße kostenlos. Wenn Sie weitere Beratung oder Unterstützung in Bezug auf den Service benötigen, bitte kontaktieren Sie uns.
       # plans:
       #   -
       #     title: null
@@ -201,7 +201,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Mehr Komfort für Sie und Ihre Einwohner
+      title: Mehr Komfort für Sie und Ihre Bewohner
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -214,30 +214,30 @@ product:
             lead: 01.
             title: Entsendung von Event-Ankündigungen
             description: >-
-              Mit der Anwendung Equa Delta können Sie Event-Ankündigungen an den Einwohnern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude entsenden. 
+              Mit der Anwendung Equa Delta können Sie Event-Ankündigungen an den Bewohnern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude entsenden. 
               Sie beziehen sich auf zeitbegrenzte Events wie zum Beispiel eine Reparatur.
-              Einwohner können dann relevante Events mittels der Anwendung Equa Phi zur Kenntnis nehmen.
+              Bewohner können dann relevante Events mittels der Anwendung Equa Phi zur Kenntnis nehmen.
           -
             image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
             lead: 02.
             title: Entsendung von Dokumenten
             description: >-
-              Dokumente können an den Einwohnern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude gesendet werden. 
+              Dokumente können an den Bewohnern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude gesendet werden. 
               Ein Dokument kann zum Beispiel Hausregeln oder einen Mietvertrag enthalten.
       -
         pair:
           # -
           #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
           #   lead: 03.
-          #   title: Feedback von Einwohnern
+          #   title: Feedback von Bewohnern
           #   description: >-
-          #     Einwohner können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
+          #     Bewohner können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
           -
             image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
             lead: 03.
-            title: Einwohnergruppen
+            title: Bewohnergruppen
             description: >-
-              Sie können Einwohnergruppen erstellen und dann mit ihnen effizient kommunizieren.
+              Sie können Bewohnergruppen erstellen und dann mit ihnen effizient kommunizieren.
             # Equa importiert die in Ihrem ERP-System enthaltenen Gruppierungdaten automatisch. Gruppen können auch innerhalb von Equa erstellt werden.
       # -
       #   pair:
@@ -247,16 +247,16 @@ product:
       #       title: Gemeiname Waschräume
       #       description: >-
       #         Sie können Equa darauf hinweisen, ob bestimmte Gebäuden mit Waschräumen ausgestattet sind, die
-      #         für Einwohner zur Verfügung stehen.
+      #         für Bewohner zur Verfügung stehen.
       #         Equa importiert die in Ihrem ERP-System enthaltenen Waschraumdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
-      #         Equa erzeugt Waschraumreservierungdaten automatisch für jeden einzelnen Einwohner. Reservierungen können zu jeder Zeit von den Einwohnern auch geändert werden. 
-      #         Einwohner können dann ihre Reservierungen mittels des Equa-Apps oder einer Kalenderanwendung zur Kenntnis nehmen, da Einwohnerkonten mit gängigen Kalendardiensten synchronisiert werden können.
+      #         Equa erzeugt Waschraumreservierungdaten automatisch für jeden einzelnen Bewohner. Reservierungen können zu jeder Zeit von den Bewohnern auch geändert werden. 
+      #         Bewohner können dann ihre Reservierungen mittels des Equa-Apps oder einer Kalenderanwendung zur Kenntnis nehmen, da Bewohnerkonten mit gängigen Kalendardiensten synchronisiert werden können.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 06.
       #       title: Aktuelle Kontaktdaten
       #       description: >-
-      #         Sie können Equa darauf hinweisen, welche Personen für Einwohner zur Verfügung stehen.
+      #         Sie können Equa darauf hinweisen, welche Personen für Bewohner zur Verfügung stehen.
       #         Equa importiert die in Ihrem ERP-System enthaltenen Kontaktdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
     services:
       title: ""
@@ -296,7 +296,7 @@ product:
           title: Plakate für Ihre Gebäude
           icon: ti-pin2
           body: >
-            Zeigen Sie Ihnen Einwohnern, wo sie Equa Phi herunterladen können.
+            Zeigen Sie Ihnen Bewohnern, wo sie Equa Phi herunterladen können.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
           title: Standard-Abo
@@ -312,7 +312,7 @@ product:
         #   title: Probefahrt
         #   icon: ti-direction
         #   body: >-
-        #     Testen Sie unseren Service kostenlos mit der Equa Delta App. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Einwohner-App). 4) Melden Sie sich als virtueller Einwohner bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Einwohners zu überprüfen. 5) Sie schalten zum "Produktion-Mode" um, indem Sie einfach Ihre Gebäude in Equa Delta  "veröffentlichen". Damit wird Equa Ihren Einwohnern zugänglich.
+        #     Testen Sie unseren Service kostenlos mit der Equa Delta App. 1) Erstellen Sie ein Konto in der App. 2) Fügen Sie Ihre Gebäude hinzu (kostenlos), ohne sie zu "veröffentlichen". 3) Melden Sie sich bei der Equa Phi-App mit den gleichen Zugangsdaten wie bei Equa Delta an (Equa Phi ist unsere Bewohner-App). 4) Melden Sie sich als virtueller Bewohner bei einer Einheit in einem Ihrer Gebäude an, um die Nutzererfahrung des Bewohners zu überprüfen. 5) Sie schalten zum "Produktion-Mode" um, indem Sie einfach Ihre Gebäude in Equa Delta  "veröffentlichen". Damit wird Equa Ihren Bewohnern zugänglich.
         # -
         #   title: ERP-Integration
         #   icon: ti-cloud-up

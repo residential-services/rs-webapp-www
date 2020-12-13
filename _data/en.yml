@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      The resident app that increases your revenue
+      The resident app that can increase your revenue
   button:
     title: Explore
     link: /customers/property-managers/
@@ -85,7 +85,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Increase your revenue
+        title: Affordable resident relations management
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Simplify the management of resident relations by using the Equa Delta app.
