@@ -235,7 +235,7 @@ product:
             lead: 02.
             title: Réception des bons de travail
             description: >-
-              Recevez les bons de travail de vos résidents. Suivez votre progression en définissant l'état du bon de travail et ajoutez une note textuelle.
+              Recevez les bons de travail de vos résidents. Suivez votre progression en définissant le statut du bon de travail et ajoutez une note textuelle. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par e-mail. 
       # -
       #   pair:
       #     # -

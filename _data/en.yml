@@ -238,7 +238,7 @@ product:
             lead: 02.
             title: Receiving work orders
             description: >-
-              Receive work orders from your residents. Track progress by setting the work order status, and append a text note.
+              Receive work orders from your residents. Track progress by setting the work order status, and appending a text note. For more information regarding a request, simply copy the sender's email address and start an email conversation.
       # -
       #   pair:
       #   #   -
