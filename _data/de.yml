@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Die Bewohner-App, die Ihre Einnahmen steigern kann
+      Die kostengünstige und hochwertige Bewohner-App-Lösung für Hausverwalter
   button:
     title: Erkunden
     link: /customers/property-managers/
@@ -77,9 +77,7 @@ customers:
         body: > 
           Vereinfachen Sie die Verwaltung der Bewohnerbeziehungen mithilfe der Equa-Delta-App.
           Equa Delta ergänzt oder ersetzt Ihre bestehenden Kommunikationskanäle mit den Bewohnern.
-          Zu den typischen Aufgaben der Verwaltung der Bewohnerbeziehungen gehören das Entenden von Dokumenten und Ankündigungen an die Bewohner, das Empfangen von Arbeitsaufträgen, und das Einziehen von Mietzahlungen.
-          Equa Delta kann Ihnen auch dabei helfen, Ihren Umsatz zu steigern: 10% unseres künftigen B2C-Marktumsatzes wird
-          unter Immobilienverwaltern geteilt. Dieser Betrag könnte mittelfristig höher sein als unser günstiger Abo-Preis.
+          Zu den typischen Aufgaben der Verwaltung der Bewohnerbeziehungen gehören das Entsenden von Dokumenten und Ankündigungen an die Bewohner, und das Empfangen von Arbeitsaufträgen.
           Informationen zu den derzeit in Equa Delta verfügbaren Funktionen finden Sie im App Store oder Play Store.
         link: /product/property-managers/
       -
@@ -212,33 +210,33 @@ product:
           -
             image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
             lead: 01.
-            title: Entsendung von Event-Ankündigungen
+            title: Dokumente und Ankündigungen senden
             description: >-
-              Mit der Anwendung Equa Delta können Sie Event-Ankündigungen an den Bewohnern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude entsenden. 
-              Sie beziehen sich auf zeitbegrenzte Events wie zum Beispiel eine Reparatur.
-              Bewohner können dann relevante Events mittels der Anwendung Equa Phi zur Kenntnis nehmen.
+              Mit unserer Equa Delta-Anwendung können Sie Dokumente und Ankündigungen an Bewohner einer Gruppe von Gebäuden, eines Gebäudes oder aller Ihrer Gebäude senden.
+              Ein Dokument kann beispielsweise ein Leasingdokument oder ein Hausordnungsdokument sein.
+              Den Ankündigungen ist ein Ablaufdatum verbunden; es könnte sich auf ein Ereignis wie einen Reparaturjob oder eine lokale Versammlung beziehen.
+              Bewohner können ihre Dokumente und Ankündigungen mit der Equa Phi App lesen.
           -
             image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
             lead: 02.
-            title: Entsendung von Dokumenten
+            title: Arbeitsaufträge erhalten
             description: >-
-              Dokumente können an den Bewohnern einer Gruppe von Gebäuden, einer bestimmten Gebäude oder aller Ihrer Gebäude gesendet werden. 
-              Ein Dokument kann zum Beispiel Hausregeln oder einen Mietvertrag enthalten.
-      -
-        pair:
-          # -
-          #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
-          #   lead: 03.
-          #   title: Feedback von Bewohnern
-          #   description: >-
-          #     Bewohner können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
-          -
-            image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-            lead: 03.
-            title: Bewohnergruppen
-            description: >-
-              Sie können Bewohnergruppen erstellen und dann mit ihnen effizient kommunizieren.
-            # Equa importiert die in Ihrem ERP-System enthaltenen Gruppierungdaten automatisch. Gruppen können auch innerhalb von Equa erstellt werden.
+              Erhalten Sie Arbeitsaufträge von Ihren Bewohnern. Verfolgen Sie den Fortschritt, indem Sie den Arbeitsauftragsstatus festlegen und eine Textnotiz anhängen.
+      # -
+      #   pair:
+      #     # -
+      #     #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
+      #     #   lead: 03.
+      #     #   title: Feedback von Bewohnern
+      #     #   description: >-
+      #     #     Bewohner können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
+      #     -
+      #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
+      #       lead: 03.
+      #       title: Bewohnergruppen
+      #       description: >-
+      #         Sie können Bewohnergruppen erstellen und dann mit ihnen effizient kommunizieren.
+      #       # Equa importiert die in Ihrem ERP-System enthaltenen Gruppierungdaten automatisch. Gruppen können auch innerhalb von Equa erstellt werden.
       # -
       #   pair:
       #     -
@@ -274,12 +272,12 @@ product:
         #     Die Equa-Anwendung für Liegenschaftsverwalter ist eine Web-Anwendung, die keine Installation
         #     benötigt. Wenn Ihr ERP-System mit Equa kompatibel ist, dann können Sie die Integration mittels
         #     eines Verbindung-Software tätigen, die eventuell separat installiert wird.
-        -
-          title: Demonstrationsvideo
-          icon: ti-video-clapper
-          body: >
-            Eine Darstellung der Hauptfunktionen der Equa Delta App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
-          outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
+        # -
+        #   title: Demonstrationsvideo
+        #   icon: ti-video-clapper
+        #   body: >
+        #     Eine Darstellung der Hauptfunktionen der Equa Delta App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
+        #   outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
         -
           title: Für iPhone und iPad
           icon: ti-apple
@@ -400,12 +398,12 @@ product:
         #     Equa ist 100% konform <a href='https://de.wikipedia.org/wiki/Datenschutz-Grundverordnung' target='_blank'>GDPR</a> gegenüber.
         #     GDPR ist eine Verordnung der Europäischen Union, die die Verarbeitung personenbezogener Daten EU-weit regelt. Wir berücksichtigen Ihre Privatsphere.
         #     Zudem haben Sie die Möglichkeit, uns Zusatzinformationen weiterzugeben, damit wir Ihnen ein noch besseres Erlebnis beibringen können.
-        -
-          title: Demonstrationsvideo
-          icon: ti-video-clapper
-          body: >
-            Eine Darstellung der Hauptfunktionen der Equa Phi-App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
-          outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
+        # -
+        #   title: Demonstrationsvideo
+        #   icon: ti-video-clapper
+        #   body: >
+        #     Eine Darstellung der Hauptfunktionen der Equa Phi-App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
+        #   outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
         -
           title: Für iPhone und iPad
           icon: ti-apple

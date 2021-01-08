@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Gestion immobilière facilitée
     title: >
-      L'appli mobile pour résidents qui peut augmenter vos revenus
+      La solution d'appli mobile pour résidents à bas coût et de haute qualité
   button:
     title: Explorer
     link: /customers/property-managers/
@@ -91,8 +91,6 @@ customers:
           Simplifiez la gestion des relations avec vos résidents en utilisant l'application mobile Equa Delta.
           Equa Delta complète ou remplace vos canaux de communication existants avec vos résidents.
           Parmi les tâches typiques dans cette catégorie, on peut citer l'envoi de documents et d'annonces aux résidents et la réception des demandes de service.
-          Equa Delta peut également contribuer à augmenter vos revenus: 10% des revenus de notre future marché B2C seront partagés
-          parmi les gestionnaires immobiliers, ce qui à moyen terme peut représenter une somme supérieure à notre prix d'abonnement abordable, du moins.
           Vous pouvez en savoir plus sur les fonctionnalités actuellement disponibles dans Equa Delta en vous rendant sur l'App Store ou le Play Store.
         link: /product/property-managers/
       -
@@ -228,37 +226,34 @@ product:
           -
             image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
             lead: 01.
-            title: Envoi d'annonces
+            title: Envoi de documents et annonces
             description: >-
-              Avec l'application Equa Delta, vous pouvez envoyer des annonces aux habitants d'une unité d'habitation, d'un immeuble ou d'un groupe d'immeubles.
-              Une annonce peut concerner un événement tel qu'une réparation dans un immeuble, et a une période de validité.
-              Le résident peut à son tour prendre connaissance des annonces pertinentes avec l'application Equa Phi.
-            # Equa peut automatiquement synchroniser le compte  d'un résident avec son calendrier.
+              Avec notre application Equa Delta, vous pouvez envoyer des documents et des annonces aux résidents vivant dans un groupe de bâtiments, un bâtiment ou tous vos bâtiments.
+              Un document peut être un document de bail ou un document de règles internes par exemple. Les annonces ont une date d'expiration qui leur est attachée et peuvent concerner un événement tel qu'un travail de réparation ou un rassemblement local par exemple. Les résidents peuvent lire leurs documents et annonces avec l'application Equa Phi.
           -
             image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
             lead: 02.
-            title: Envoi de documents
+            title: Réception des bons de travail
             description: >-
-              Vous pouvez envoyer des documents aux habitants d'un immeuble, d'un groupe d'immeubles ou de tous vos immeubles.
-              Réglements d'immeuble et contrats de bails sont des exemples de documents.
-      -
-        pair:
-          # -
-          #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
-          #   lead: 03.
-          #   title: Recevoir un feedback des résidents
-          #   description: >-
-          #     Les résidents peuvent envoyer des messages aux régies pour plusieurs raisons.
-          #     Par exemple, ils peuvent vous informer de réparations à effectuer dans un appartement ou un immeuble.
-          -
-            image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-            lead: 03.
-            title: Groupes de résidents
-            description: >-
-              Vous pouvez regrouper vos résidents par groupe d'immeubles,
-              et ensuite envoyer annonces et documents directement à un groupe par mesure d'efficacité.
-            # Equa importe automatiquement vos groupes depuis votre système ERP.
-            # Vous pouvez aussi créer des groupes avec Equa.
+              Recevez les bons de travail de vos résidents. Suivez votre progression en définissant l'état du bon de travail et ajoutez une note textuelle.
+      # -
+      #   pair:
+      #     # -
+      #     #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
+      #     #   lead: 03.
+      #     #   title: Recevoir un feedback des résidents
+      #     #   description: >-
+      #     #     Les résidents peuvent envoyer des messages aux régies pour plusieurs raisons.
+      #     #     Par exemple, ils peuvent vous informer de réparations à effectuer dans un appartement ou un immeuble.
+      #     -
+      #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
+      #       lead: 03.
+      #       title: Groupes de résidents
+      #       description: >-
+      #         Vous pouvez regrouper vos résidents par groupe d'immeubles,
+      #         et ensuite envoyer annonces et documents directement à un groupe par mesure d'efficacité.
+      #       # Equa importe automatiquement vos groupes depuis votre système ERP.
+      #       # Vous pouvez aussi créer des groupes avec Equa.
       # -
       #   pair:
       #     -
@@ -300,12 +295,12 @@ product:
         #     et indépendamment de tout autre logiciel.
         #     Si votre système ERP est compatible avec Equa, alors vous pouvez l'intégrer avec Equa 
         #     au moyen d'un connecteur, ce qui peut nécessiter une étape d'installation.
-        -
-          title: Vidéo de démonstration
-          icon: ti-video-clapper
-          body: >
-            Présentation pas à pas des principales fonctionnalités de l'application Equa Delta. L'application prend en charge la langue française, bien que cette démo-ci soit en anglais.
-          outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
+        # -
+        #   title: Vidéo de démonstration
+        #   icon: ti-video-clapper
+        #   body: >
+        #     Présentation pas à pas des principales fonctionnalités de l'application Equa Delta. L'application prend en charge la langue française, bien que cette démo-ci soit en anglais.
+        #   outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
         -
           title: Pour iPhone et iPad
           icon: ti-apple
@@ -435,12 +430,12 @@ product:
         #     qui est un texte de l'Union européenne réglementant la protection des données à caractère personnel.
         #     Par défaut, Equa n'opère que sur des données anonymes,
         #     tout en donnant à chaque utilisateur la liberté de  fournir des données supplémentaires qui nous aideront à améliorer la qualité du service que nous vous proposons.
-        -
-          title: Vidéo de démonstration
-          icon: ti-video-clapper
-          body: >
-            Présentation pas à pas des principales fonctionnalités de l'application Equa Phi. L'application prend en charge la langue française, bien que cette démo-ci soit en anglais.
-          outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
+        # -
+        #   title: Vidéo de démonstration
+        #   icon: ti-video-clapper
+        #   body: >
+        #     Présentation pas à pas des principales fonctionnalités de l'application Equa Phi. L'application prend en charge la langue française, bien que cette démo-ci soit en anglais.
+        #   outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
         -
           title: Pour iPhone et iPad
           icon: ti-apple

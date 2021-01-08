@@ -16,7 +16,12 @@ SITE_LANGUAGES = YAML.load(Pathname.new('_data/languages.yml').read).collect {|l
 
 CLEAN.include *SITE_LANGUAGES, *Dir.entries(INTERNATIONALISED_SITE).collect{|f|(File.ftype("#{INTERNATIONALISED_SITE}/#{f}") == "directory" and f != '.' and f != '..')?f:nil}.compact
 
-task default: :build
+task default: :help
+
+desc 'Helper'
+task :help do
+    sh 'rake -T'
+end
 
 # Build *************************************************
 desc 'Build the static website'

@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      The resident app that can increase your revenue
+      The low-cost and high quality resident app solution for property managers
   button:
     title: Explore
     link: /customers/property-managers/
@@ -90,9 +90,7 @@ customers:
         body: > 
           Simplify the management of resident relations by using the Equa Delta app.
           Equa Delta complements or replaces your existing communication channels with residents.
-          Typical resident relations management tasks include sending documents and announcements to residents, receiving work orders, and collecting rent.
-          Equa Delta can also help increase your revenue: 10% of our future B2C marketplace revenue will be shared
-          amongst property managers, which mid-term could amount to a sum that is greater than our affordable subscription price.
+          Typical resident relations management tasks include sending documents and announcements to residents, and receiving work orders.
           You can read about the features currently available in Equa Delta by heading over to App Store or Play Store.
         link: /product/property-managers/
       -
@@ -229,41 +227,36 @@ product:
           -
             image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
             lead: 01.
-            title: Sending announcements
-            # TODO add links to the apps
+            title: Sending documents and announcements
             description: >-
-              With our Equa Delta application, you can send announcements to residents living in a group of buildings, a building, or all your buildings. 
-              Announcements have time information attached to them. 
-              An announcement can pertain to an event such as a repair job or a local gathering for example.
-              Residents can read relevant announcements with the Equa Phi app.
-            # , or with 
-            # the digital calendars that they are already using in their day-to-day lives.
-            # Equa automatically synchronizes the residents' Equa account with their digital calendars.
+              With our Equa Delta application, you can send documents and announcements to residents living in a group of buildings, a building, or all your buildings. 
+              A document can be a lease document or a house rules document for example.
+              Announcements have an expiration date attached to them, and can pertain to an event such as a repair job or a local gathering for example.
+              Residents can read their documents and announcements with the Equa Phi app.
           -
             image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
             lead: 02.
-            title: Sending documents
+            title: Receiving work orders
             description: >-
-              You can send documents to residents living in a group of buildings, a building, or all your buildings.
-              A document can be a lease document or a house rules document for example.
-      -
-        pair:
-        #   -
-        #     image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
-        #     lead: 03.
-        #     title: Receiving feedback from residents
-        #     description: >-
-        #       Residents can send you messages for different reasons. For example, they can inform you of items that need repairing
-        #       in their unit or building.
-          -
-            image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-            lead: 03.
-            title: Resident groups
-            description: >-
-              You can group residents by sets of buildings.
-              You can then send your announcements or documents directly to a group for efficient messaging. 
-            # Equa automatically imports any groups that your may have defined from within your ERP system.
-            # You can also create groups with Equa.
+              Receive work orders from your residents. Track progress by setting the work order status, and append a text note.
+      # -
+      #   pair:
+      #   #   -
+      #   #     image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
+      #   #     lead: 03.
+      #   #     title: Receiving feedback from residents
+      #   #     description: >-
+      #   #       Residents can send you messages for different reasons. For example, they can inform you of items that need repairing
+      #   #       in their unit or building.
+      #     -
+      #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
+      #       lead: 03.
+      #       title: Resident groups
+      #       description: >-
+      #         You can group residents by sets of buildings.
+      #         You can then send your announcements or documents directly to a group for efficient messaging. 
+      #       # Equa automatically imports any groups that your may have defined from within your ERP system.
+      #       # You can also create groups with Equa.
       # -
       #   pair:
       #     -
@@ -304,12 +297,12 @@ product:
         #     This application can be used stand-alone. If your company is using a real estate ERP system
         #     that can be integrated with Equa, than you can use a separate connector software which might require
         #     an installation step.
-        -
-          title: Demonstration video
-          icon: ti-video-clapper
-          body: >
-            A walkthrough of the main features of the Equa Delta app.
-          outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
+        # -
+        #   title: Demonstration video
+        #   icon: ti-video-clapper
+        #   body: >
+        #     A walkthrough of the main features of the Equa Delta app.
+        #   outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
         -
           title: For iPhone and iPad
           icon: ti-apple
@@ -436,12 +429,12 @@ product:
         #     We protect your privacy, and only operate on anonymized data by default.
         #     In addition, we offer you the latitude of providing Equa with as much additional data about yourself as you wish.
         #     More data translates directly into a better experience for you.
-        -
-          title: Demonstration video
-          icon: ti-video-clapper
-          body: >
-            A walkthrough of the main features of the Equa Phi app.
-          outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
+        # -
+        #   title: Demonstration video
+        #   icon: ti-video-clapper
+        #   body: >
+        #     A walkthrough of the main features of the Equa Phi app.
+        #   outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
         -
           title: For iPhone and iPad
           icon: ti-apple
