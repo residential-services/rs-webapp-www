@@ -208,7 +208,7 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
             lead: 01.
             title: Dokumente und Ankündigungen senden
             description: >-
@@ -217,11 +217,19 @@ product:
               Den Ankündigungen ist ein Ablaufdatum verbunden; es könnte sich auf ein Ereignis wie einen Reparaturjob oder eine lokale Versammlung beziehen.
               Bewohner können ihre Dokumente und Ankündigungen mit der Equa Phi App lesen.
           -
-            image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
             lead: 02.
             title: Arbeitsaufträge erhalten
             description: >-
               Erhalten Sie Arbeitsaufträge von Ihren Bewohnern. Verfolgen Sie die Behandlung, indem Sie den Arbeitsauftragsstatus festlegen und eine Textnotiz anhängen. Um weitere Informationen zu einer Anfrage zu erhalten, kopieren Sie einfach die E-Mail-Adresse des Absenders und starten Sie eine E-Mail-Konversation.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            lead: 03.
+            title: Die gemeinsamen Wäschereien verwalten
+            description: >-
+              Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie die gemeinsamen Wäschereien Ihrer Gebäuden eingeben. Wählen Sie für jede Wäscherei einen Reservierungskalender aus vordefinierten Vorlagen. Diese Funktion in dem Fall geeignet, wenn alle Ihre Bewohner Equa Phi oder Ihre Marken-App verwenden können, um Reservierungen vorzunehmen.
       # -
       #   pair:
       #     # -
@@ -352,34 +360,30 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-login-screen-550x367.png
+            image: /assets/my/images/550x367/equa-phi-messages-550x367.png
             lead: 01.
-            title: Event-Ankündigungen
+            title: Dokumente und Ankündigungen erhalten
             description: >-
-              Sie werden mitunter Event-Ankündigungen erhalten, die Ihnen vom Unternehmen gesendet wird, das Ihr Wohnhaus verwaltet. 
-              Die Gültigkeit von Event-Ankündigungen ist zeitbeschränkt, wie zum Beispiel einer Reparaturverabredung.
-              Sie können relevante Events mittels der Anwendung Equa Phi zur Kenntnis nehmen.
+              Erhalten Sie Dokumente bezüglich Ihrer Wohnung oder Ihrem Gebäude. Erhalten Sie Ankündigungen mit einem Ablaufdatum.
             # , da Ihr Konto mit gängigen Kalendardiensten synchronisiert werden kann.
             # Derzeit unterstützen wir
             # <a href='https://calendar.google.com/' target='_blank'>Google Calendar</a>,
             # <a href='https://calendar.yahoo.com/' target='_blank'>Yahoo Calendar</a>,
             # und Kalendardienste die eine <a href='https://de.wikipedia.org/wiki/CalDAV' target='_blank'>CalDAV</a>-Schnittstelle vorweisen.
           -
-            image: /assets/my/images/550x367/Fotolia_107692785_XL-550x367.jpg
+            image: /assets/my/images/550x367/equa-phi-laundry-reservations-550x367.png
             lead: 02.
-            title: Dokumente
+            title: Wäschereireservierungen
             description: >-
-              Es kann sein, dass bisweilen der Liegenschaftsverwalter Ihnen Dokumente schickt, wie zum Beispiel die Hausregeln oder Ihren Mietvertrag. Die können sie mittels der Anwendung Equa Phi lesen.
-      # -
-      #   pair:
-      #     -
-      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-      #       lead: 03.
-      #       title: Waschraumreservierungen
-      #       description: >-
-      #         Wenn das Wohnhaus mit einem gemeinsamen Waschraum ausgestattet ist, 
-      #         erzeugt Equa automatisch Waschraumreservierungsdaten für Sie. Reservierungen können zu jeder Zeit von Ihnen geändert werden. 
-      #         Sie können  im Equa-App oder in einem Kalenderanwendung nachsehen, wann die nächste Reservierung erfolgt, da Ihr Konto mit gängigen Kalendardiensten synchronisiert werden kann.
+              Zeitfenster reservieren zum Benutzen der gemeinsamen Wäscherei Ihres Gebäudes. Ihre Reservierungen für die nächsten Tage anzeigen.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-phi-work-orders-550x367.png
+            lead: 03.
+            title: Arbeitsaufträge
+            description: >-
+              Senden Sie Arbeitsaufträge an Ihren Hausverwalter. Verfolgen Sie den Status Ihres Arbeitsauftrags. Wenn Ihr Hausverwalter weitere Informationen zu Ihrer Anfrage benötigt, kann er/sie optional ein E-Mail-Gespräch mit Ihnen initiieren.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 04.

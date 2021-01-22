@@ -224,27 +224,26 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/nonstandard-size/Ecosystemshutterstock_592866023-790x400.jpg
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
             lead: 01.
             title: Envoi de documents et annonces
             description: >-
               Avec notre application Equa Delta, vous pouvez envoyer des documents et des annonces aux résidents vivant dans un groupe de bâtiments, un bâtiment ou tous vos bâtiments.
               Un document peut être un document de bail ou un document de règles internes par exemple. Les annonces ont une date d'expiration qui leur est attachée et peuvent concerner un événement tel qu'un travail de réparation ou un rassemblement local par exemple. Les résidents peuvent lire leurs documents et annonces avec l'application Equa Phi.
           -
-            image: /assets/my/images/550x367/shutterstock_133257185-550x367.jpg
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
             lead: 02.
-            title: Réception des bons de travail
+            title: Réception de bons de travail
             description: >-
-              Recevez les bons de travail de vos résidents. Suivez votre progression en définissant le statut du bon de travail et ajoutez une note textuelle. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par e-mail. 
-      # -
-      #   pair:
-      #     # -
-      #     #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
-      #     #   lead: 03.
-      #     #   title: Recevoir un feedback des résidents
-      #     #   description: >-
-      #     #     Les résidents peuvent envoyer des messages aux régies pour plusieurs raisons.
-      #     #     Par exemple, ils peuvent vous informer de réparations à effectuer dans un appartement ou un immeuble.
+              Recevez des bons de travail de vos résidents. Suivez votre progression en définissant le statut du bon de travail et ajoutez une note textuelle. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par e-mail. 
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            lead: 03.
+            title: Gestion des buanderies communes
+            description: >-
+              Activez la fonction de réservation pour vos résidents en indiquant la présence de buanderies communes dans vos immeubles. Pour chaque immeuble, choisissez un calendrier de réservation parmi des modèles prédéfinis. Cette fonction convient aux cas où tous vos résidents peuvent utiliser Equa Phi ou votre application de marque pour faire des réservations.
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -376,40 +375,26 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-login-screen-550x367.png
+            image: /assets/my/images/550x367/equa-phi-messages-550x367.png
             lead: 01.
-            title: Recevoir des annonces
+            title: Recevez des documents et annonces
             description: >-
-              La régie qui est responsable de l'immeuble que vous habitez peut vous envoyer des annonces qui vous concernent.
-              Une annonce a une période validité et peut par exemple se référer à une réparation dans l'immeuble ou
+              Votre gestionnaire immobilier peut vous envoyer des documents et annonces qui vous concernent. Un document peut par exemple contenir le réglement d'immeuble ou le contrat de location. Une annonce a une période validité et peut par exemple se référer à une réparation dans l'immeuble ou
               dans votre appartement.
-              Vous pouvez lire les annonces qui vous concernent directement dans l'application Equa Phi.
-            # ,
-            # et également dans votre calendrier digital si vous nous autorisez à le mettre à jour.
-            # Equa est compatible avec
-            # <a href='https://calendar.google.com/' target='_blank'>Google Calendar</a>,
-            # <a href='https://calendar.yahoo.com/' target='_blank'>Yahoo Calendar</a>,
-            # et tout service de calendrier qui est conforme au standard
-            # <a href='https://en.wikipedia.org/wiki/CalDAV' target='_blank'>CalDAV</a>.
           -
-            image: /assets/my/images/550x367/Fotolia_107692785_XL-550x367.jpg
+            image: /assets/my/images/550x367/equa-phi-laundry-reservations-550x367.png
             lead: 02.
-            title: Recevoir des documents
+            title: Réserver la buanderie commune
             description: >-
-              Votre régie peut vous envoyer des documents qui vous concernent.
-              Un document peut par exemple contenir le réglement d'immeuble ou le contrat de location.
-      # -
-      #   pair:
-      #     -
-      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-      #       lead: 03.
-      #       title: Réservation de la buanderie 
-      #       description: >-
-      #         Equa réserve automatiquement pour vous des cases horaires à la buanderie commune si votre immeuble 
-      #         en possède une. 
-      #         Vous pouvez consulter et modifier vos réservations avec l'application Equa, et
-      #         également utiliser votre calendrier pour prendre connaissance de vos réservations
-      #         si vous nous autorisez à le mettre à jour.
+              Réservez vos heures dans la buanderie commune de votre immeuble. Affichez vos réservations pour les prochains jours.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-phi-work-orders-550x367.png
+            lead: 03.
+            title: Envoyer des bons de travail
+            description: >-
+              Envoyez des bons de travail à votre gestionnaire immobilier. Suivez l'état de votre bon de travail. Si votre gestionnaire immobilier a besoin de plus d'informations sur votre demande, il/elle peut éventuellement engager une conversation par e-mail avec vous.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 04.
