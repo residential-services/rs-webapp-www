@@ -229,7 +229,7 @@ product:
             lead: 03.
             title: Die gemeinsamen Wäschereien verwalten
             description: >-
-              Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie die gemeinsamen Wäschereien Ihrer Gebäuden eingeben. Wählen Sie für jede Wäscherei einen Reservierungskalender aus vordefinierten Vorlagen. Diese Funktion in dem Fall geeignet, wenn alle Ihre Bewohner Equa Phi oder Ihre Marken-App verwenden können, um Reservierungen vorzunehmen.
+              Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie die gemeinsamen Wäschereien Ihrer Gebäuden eingeben. Geben Sie für jede Einrichtung die Anzahl der reservierbaren Maschinen an und wählen Sie einen Reservierungskalender aus vordefinierten Vorlagen aus. Wenn mehrere Maschinen vorhanden sind, kennzeichnen Sie sie physisch ab "1".
       # -
       #   pair:
       #     # -
@@ -299,11 +299,23 @@ product:
             Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
-          title: Plakate für Ihre Gebäude
+          title: Plakat für Ihre Gebäude
           icon: ti-pin2
           body: >
-            Zeigen Sie Ihnen Bewohnern, wo sie Equa Phi herunterladen können.
+            Bringen Sie dieses Plakat in Ihren Gebäuden an, um den Bewohnern zu zeigen, wo sie die Equa Phi-App herunterladen können.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
+          title: Plakat für gemeinsame Wäschereien
+          icon: ti-pin2
+          body: >
+            Stellen Sie dieses Plakat in gemeinsamen Waschräumen auf, wenn alle Bewohner Smartphones oder Tablets benötigen.
+          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
+        -
+          title: Plakatvariante für gemeinsame Wäschereien
+          icon: ti-pin2
+          body: >
+            Bringen Sie dieses Plakat in gemeinsamen Waschräumen an, wenn nicht alle Bewohner Smartphones oder Tablets benötigen.
+          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Standard-Abo
           icon: ti-receipt

@@ -246,7 +246,7 @@ product:
             lead: 03.
             title: Manage your buildings' laundry facilities
             description: >-
-              Activate the time slot reservation function for your residents by indicating the presence of common laundry facilities in your buildings. For each facility, choose a reservation calendar from predefined templates. Enable this function if all your residents can use Equa Phi or your branded app to make reservations.
+              Activate the time slot reservation function for your residents by indicating the presence of common laundry facilities in your buildings. For each facility, indicate the number of reservable machines and choose a reservation calendar from predefined templates. If there are several machines, tag them physically starting from "1".
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -315,21 +315,33 @@ product:
             Download the "Equa Delta" app from Google Play Store and start using it right away.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
-          title: Posters for your buildings
+          title: Poster for your buildings
           icon: ti-pin2
           body: >
-            Show your residents where to download the Equa Phi app.
+            Put this poster up inside your buildings to show your residents where to download the Equa Phi app.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
+          title: Poster for your shared laundry facilities
+          icon: ti-pin2
+          body: >
+            Put this poster up in shared laundry rooms if all residents are required to have smart phones or tablets.
+          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
+        -
+          title: Poster variant for your shared laundry facilities
+          icon: ti-pin2
+          body: >
+            Put this poster up in shared laundry rooms if all residents aren't required to have smart phones or tablets.
+          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Baseline subscription
           icon: ti-receipt
           body: >
             Affordable pricing with 14-day free trial. Subscriptions available for 2000, 4000, 6000, 8000 and 10000 habitation units, priced at about US$ 0.37 / ₤ 0.32 / CA$ 0.54 / AU$ 0.61 / € 0.42 per habitation unit per year. Subscriptions can be purchased inside the Equa Delta app. Available worldwide.
-        -
-          title: Branded app
-          icon: ti-receipt
-          body: >
-            Offer residents your branded app instead of the standard Equa Phi app (that they can also use); residents will only see buildings that your company is managing. Price: US$ 210.- / ₤ 160.- / CA$ 275.- / AU$ 290.- / € 175.- per month. Available worldwide. Email address for inquiries: support@equa.world.
+        # -
+        #   title: Branded app
+        #   icon: ti-receipt
+        #   body: >
+        #     Offer residents your branded app instead of the standard Equa Phi app (that they can also use); residents will only see buildings that your company is managing. Price: US$ 210.- / ₤ 160.- / CA$ 275.- / AU$ 290.- / € 175.- per month. Available worldwide. Email address for inquiries: support@equa.world.
         # -
         #   title: Test drive
         #   icon: ti-direction
