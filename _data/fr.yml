@@ -243,7 +243,7 @@ product:
             lead: 03.
             title: Gestion des buanderies communes
             description: >-
-              Activez la fonction de réservation pour vos résidents en indiquant la présence de buanderies communes dans vos immeubles. Pour chaque immeuble, choisissez un calendrier de réservation parmi des modèles prédéfinis. Cette fonction convient aux cas où tous vos résidents peuvent utiliser Equa Phi ou votre application de marque pour faire des réservations.
+              Activez la fonction de réservation pour vos résidents en indiquant la présence de buanderies communes dans vos immeubles. Pour chaque immeuble, indiquez le nombre de machines réservables et choisissez un calendrier de réservation parmi des modèles prédéfinis. S'il y a plusieurs machines, étiquetez-les physiquement en commençant par "1".
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -313,21 +313,33 @@ product:
             Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         -
-          title: Posters pour vos immeubles
+          title: Affiche pour vos immeubles
           icon: ti-pin2
           body: >
-            Montrez à vos habitants comment télécharger l'appli Equa Phi.
+            Placez cette affiche à l'intérieur de vos bâtiments pour montrer à vos résidents où télécharger l'application Equa Phi.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+        -
+          title: Affiche pour votre buanderie commune
+          icon: ti-pin2
+          body: >
+            Placez cette affiche dans les buanderies communes si les résidents sont tenus d'avoir un smartphone ou une tablette.
+          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
+        -
+          title: Variante d'affiche pour votre buanderie commune
+          icon: ti-pin2
+          body: >
+            Placez cette affiche dans les buanderies communes si les résidents ne sont pas tenus d'avoir un smartphone ou une tablette.
+          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Abonnement de base
           icon: ti-receipt
           body: >
             Prix ​​abordable avec essai gratuit de 14 jours. Abonnements disponibles pour 2000, 4000, 6000, 8000 et 10000 unités d'habitation, au prix d'environ 0,42 € / CA$ 0,54 / CHF 0.42 par unité d'habitation par an. Les abonnements peuvent être achetés dans l'application Equa Delta. Disponibilité: monde entier.
-        -
-          title: Application avec votre logo et marque
-          icon: ti-receipt
-          body: >
-            Offrez aux résidents votre application de marque au lieu de l'application standard Equa Phi (qu'ils peuvent également utiliser); vos résidents ne verront que les bâtiments gérés par votre entreprise. Prix: 175 € /  CA$ 275.- / CHF 190.- par mois. Disponibilité: monde entier. Adresse e-mail pour tout renseignement: support@equa.world.
+        # -
+        #   title: Application avec votre logo et marque
+        #   icon: ti-receipt
+        #   body: >
+        #     Offrez aux résidents votre application de marque au lieu de l'application standard Equa Phi (qu'ils peuvent également utiliser); vos résidents ne verront que les bâtiments gérés par votre entreprise. Prix: 175 € /  CA$ 275.- / CHF 190.- par mois. Disponibilité: monde entier. Adresse e-mail pour tout renseignement: support@equa.world.
         # -
         #   title: Essayer en interne
         #   icon: ti-direction
