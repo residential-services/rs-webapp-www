@@ -319,16 +319,16 @@ product:
             Placez cette affiche à l'intérieur de vos bâtiments pour montrer à vos résidents où télécharger l'application Equa Phi.
           outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Affiche pour votre buanderie commune
+          title: Affiche pour buanderies communes
           icon: ti-pin2
           body: >
-            Placez cette affiche dans les buanderies communes si les résidents sont tenus d'avoir un smartphone ou une tablette.
+            Affiche recommandée pour buanderies communes.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
         -
-          title: Variante d'affiche pour votre buanderie commune
+          title: Variante d'affiche pour buanderies communes
           icon: ti-pin2
           body: >
-            Placez cette affiche dans les buanderies communes si les résidents ne sont pas tenus d'avoir un smartphone ou une tablette.
+            Affiche alternative pour buanderies communes. À utiliser seulement si des résidents veulent utiliser les buanderies aussi sans smartphone ou tablette. Dans ce cas il est recommandé d'ajouter manuellement les cases horaires sur l'affiche.
           outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Abonnement de base
