@@ -333,10 +333,10 @@ product:
             Alternative poster for common laundry rooms. To be used only if residents wish to use the laundry rooms also without a smartphone or tablet. In this case, it is recommended to manually add the time slots on the poster.
           outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
-          title: Baseline subscription
+          title: Subscription
           icon: ti-receipt
           body: >
-            Affordable pricing with 14-day free trial. Subscriptions available for 2000, 4000, 6000, 8000 and 10000 habitation units, priced at about US$ 0.37 / ₤ 0.32 / CA$ 0.54 / AU$ 0.61 / € 0.42 per habitation unit per year. Subscriptions can be purchased inside the Equa Delta app. Available worldwide.
+            Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
         # -
         #   title: Branded app
         #   icon: ti-receipt

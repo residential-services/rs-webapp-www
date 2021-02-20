@@ -331,10 +331,10 @@ product:
             Affiche alternative pour buanderies communes. À utiliser seulement si des résidents veulent utiliser les buanderies aussi sans smartphone ou tablette. Dans ce cas il est recommandé d'ajouter manuellement les cases horaires sur l'affiche.
           outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
-          title: Abonnement de base
+          title: Abonnement
           icon: ti-receipt
           body: >
-            Prix ​​abordable avec essai gratuit de 14 jours. Abonnements disponibles pour 2000, 4000, 6000, 8000 et 10000 unités d'habitation, au prix d'environ 0,42 € / CA$ 0,54 / CHF 0.42 par unité d'habitation par an. Les abonnements peuvent être achetés dans l'application Equa Delta. Disponibilité: monde entier.
+            Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
         # -
         #   title: Application avec votre logo et marque
         #   icon: ti-receipt
