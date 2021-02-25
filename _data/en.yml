@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      The low-cost and high quality resident app solution for property managers
+      The resident app solution for property managers. Low-cost and high quality.
   button:
     title: Explore
     link: /customers/property-managers/
@@ -247,6 +247,12 @@ product:
             title: Manage your buildings' laundry facilities
             description: >-
               Activate the time slot reservation function for your residents by indicating the presence of common laundry facilities in your buildings. For each facility, indicate the number of reservable machines and choose a reservation calendar from predefined templates. If there are several machines, tag them physically starting from "1".
+          -
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead: 04.
+            title: Simple resident onboarding
+            description: >-
+              Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Ask residents to create an Equa World account on the Equa Phi app prior to signing the contract, and show them their QR-code on your mobile device using the Equa Delta app. (2) Send residents their QR-code in digital or paper form after signing the contract by first saving the QR-code to a file; this is suitable for your existing residents. For both options, you can choose a secret key to make the onboarding process more secure.
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -314,17 +320,23 @@ product:
           body: >
             Download the "Equa Delta" app from Google Play Store and start using it right away.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
+        # -
+        #   title: Poster for your buildings
+        #   icon: ti-pin2
+        #   body: >
+        #     Put this poster up inside your buildings to show your residents where to download the Equa Phi app.
+        #   outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Poster for your buildings
-          icon: ti-pin2
+          title: Manual or batch data upload
+          icon: ti-cloud-up
           body: >
-            Put this poster up inside your buildings to show your residents where to download the Equa Phi app.
-          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+            Equa Delta allows you to add data both manually and by uploading batch files. Follow the link below to see CSV file examples for claiming buildings or adding resident stay information. Note that resident stay files must have names that contain an address that is recognized by Google Maps.
+          outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Poster for shared laundry facilities
           icon: ti-pin2
           body: >
-            Recommended poster for shared laundry rooms.
+            The recommended poster for shared laundry rooms.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
         -
           title: Poster variant for shared laundry facilities
@@ -409,6 +421,12 @@ product:
             title: Send work orders
             description: >-
               Send work orders to your property manager. Follow the status of your work order. If your property manager needs more information about your request, he/she may optionally initiate an email conversation with you.
+          -
+            image: /assets/my/images/550x367/equa-phi-moving-in-550x367.png
+            lead: 04.
+            title: Simple move-in process
+            description: >-
+              To use the Equa Phi app, simply create an account and scan your QR code. Optionally type in the secret code that you were attributed.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 04.
@@ -448,6 +466,11 @@ product:
           body: >
             You can download the "Equa Phi" app from Google Play Store and start using it right away.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.phi
+        -
+          title: How to scan your QR code
+          icon: ti-camera
+          body: >
+            You have several options: (1) If your real estate agent or property manager presents you with your QR code on his/her mobile device, then simply scan that screen using Equa Phi. (2) If you have received your QR code in paper form, then scan it using your app. (3) If the QR code is in digital form, then if you have a second mobile device or computer, then scan that second screen. Otherwise, you can photocopy your mobile device screen and then scan the photocopy, or send your QR code to a co-resident and scan his/her screen.
         -
           title: Support
           icon: ti-support

@@ -244,6 +244,12 @@ product:
             title: Gestion des buanderies communes
             description: >-
               Activez la fonction de réservation pour vos résidents en indiquant la présence de buanderies communes dans vos immeubles. Pour chaque immeuble, indiquez le nombre de machines réservables et choisissez un calendrier de réservation parmi des modèles prédéfinis. S'il y a plusieurs machines, étiquetez-les physiquement en commençant par "1".
+          -
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead: 04.
+            title: Intégration simple des résidents
+            description: >-
+              Les résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Demander aux résidents de créer un compte Equa World sur l'appli Equa Phi avant de signer le contrat, et leur montrer leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier après la signature du contrat en sauvegardant d'abord le code QR dans un fichier; ceci convient parfaitement pour intégrer vos résidents existants. Pour les deux options, vous pouvez choisir une clé secrète afin de rendre le processus d'intégration plus sécurisé.
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -312,12 +318,18 @@ product:
           body: >
             Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
+        # -
+        #   title: Affiche pour vos immeubles
+        #   icon: ti-pin2
+        #   body: >
+        #     Placez cette affiche à l'intérieur de vos bâtiments pour montrer à vos résidents où télécharger l'application Equa Phi.
+        #   outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Affiche pour vos immeubles
-          icon: ti-pin2
+          title: Ajout de données manuel ou par téléchargement
+          icon: ti-cloud-up
           body: >
-            Placez cette affiche à l'intérieur de vos bâtiments pour montrer à vos résidents où télécharger l'application Equa Phi.
-          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+            Equa Delta vous permet d'ajouter des données à la fois manuellement et en téléchargeant des fichiers batch. Suivez le lien ci-dessous afin de voir des exemples de fichiers CSV pour réclamer des bâtiments ou ajouter des informations de séjour. Notez que les fichiers de séjour doivent avoir des noms contenant une adresse reconnue par Google Maps.
+          outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Affiche pour buanderies communes
           icon: ti-pin2
@@ -407,6 +419,12 @@ product:
             title: Envoyer des bons de travail
             description: >-
               Envoyez des bons de travail à votre gestionnaire immobilier. Suivez l'état de votre bon de travail. Si votre gestionnaire immobilier a besoin de plus d'informations sur votre demande, il/elle peut éventuellement engager une conversation par e-mail avec vous.
+          -
+            image: /assets/my/images/550x367/equa-phi-moving-in-550x367.png
+            lead: 04.
+            title: Simple à utiliser
+            description: >-
+              Pour utiliser Equa Phi, simplement créer un compte et scanner votre code QR. Optionnellement, entrez le code secret qui vous a été attribué.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 04.
@@ -445,6 +463,11 @@ product:
           body: >
             Vous pouvez télécharger l'appli "Equa Phi" depuis le Google Play Store et commencer à l'utiliser de suite.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.phi
+        -
+          title: Comment scanner votre QR code
+          icon: ti-camera
+          body: >
+            Vous avez plusieurs options: (1) Si votre agent ou votre gestionnaire immobilier vous présente votre code QR sur son appareil mobile, scannez simplement cet écran à l'aide d'Equa Phi. (2) Si vous avez reçu votre code QR sous forme papier, scannez-le à l'aide de votre application. (3) Si le code QR est sous forme numérique, si vous avez un deuxième appareil mobile ou ordinateur, scannez ce deuxième écran. Sinon, vous pouvez photocopier l'écran de votre appareil mobile puis scanner la photocopie, ou envoyer votre code QR à un co-résident et scanner son écran.
         -
           title: Aide
           icon: ti-support

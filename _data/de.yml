@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Die kostengünstige und hochwertige Bewohner-App-Lösung für Hausverwalter
+      Die Bewohner-App-Lösung für Hausverwalter. Kostengünstig und hochwertig.
   button:
     title: Erkunden
     link: /customers/property-managers/
@@ -230,6 +230,12 @@ product:
             title: Die gemeinsamen Wäschereien verwalten
             description: >-
               Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie die gemeinsamen Wäschereien Ihrer Gebäuden eingeben. Geben Sie für jede Einrichtung die Anzahl der reservierbaren Maschinen an und wählen Sie einen Reservierungskalender aus vordefinierten Vorlagen aus. Wenn mehrere Maschinen vorhanden sind, kennzeichnen Sie sie physisch ab "1".
+          -
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead: 04.
+            title: Einfaches Bewohner-Onboarding
+            description: >-
+              Die Bewohner müssen nur einen QR-Code scannen, den Sie ihnen vorlegen, um die Equa Phi-App für ihr Zuhause zu verwenden. Sie haben zwei Möglichkeiten: (1) Bitten Sie die Bewohner, vor Vertragsunterzeichnung ein Equa World-Konto in der Equa Phi-App zu erstellen, und zeigen Sie ihnen mit Ihrer Equa Delta-App ihren QR-Code an. (2) Senden Sie den Bewohnern nach Unterzeichnung des Vertrags ihren QR-Code in digitaler oder Papierform, indem Sie den QR-Code zunächst in einer Datei speichern. Dies ist für Ihre bestehenden Bewohner bestens geeignet. Für beide Optionen können Sie einen geheimen Schlüssel auswählen, um den Onboarding-Vorgang sicherer zu gestalten.
       # -
       #   pair:
       #     # -
@@ -298,12 +304,18 @@ product:
           body: >
             Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
+        # -
+        #   title: Plakat für Ihre Gebäude
+        #   icon: ti-pin2
+        #   body: >
+        #     Bringen Sie dieses Plakat in Ihren Gebäuden an, um den Bewohnern zu zeigen, wo sie die Equa Phi-App herunterladen können.
+        #   outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
         -
-          title: Plakat für Ihre Gebäude
-          icon: ti-pin2
+          title: Manuell Daten hinzufügen oder Datei hochladen
+          icon: ti-cloud-up
           body: >
-            Bringen Sie dieses Plakat in Ihren Gebäuden an, um den Bewohnern zu zeigen, wo sie die Equa Phi-App herunterladen können.
-          outbound_link: https://drive.google.com/open?id=1gmFRNVWQEvbiclfI6jrpukwD8ch6Z3xt
+            Mit Equa Delta können Sie Daten hinzufügen, sowohl manuell als auch durch Dateihochladung. Folgen Sie dem Link unten, um Beispiele von CSV-Dateien zum Beanspruchen der Gebäude oder zum Hinzufügen von Aufenthaltsinformationen anzuzeigen. Merken Sie, dass Aufenthaltsdateien Namen haben sollen, die eine Adresse enthalten, die von Google Maps erkennt wird.
+          outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Plakat für gemeinsame Wäschereien
           icon: ti-pin2
@@ -396,6 +408,12 @@ product:
             title: Arbeitsaufträge
             description: >-
               Senden Sie Arbeitsaufträge an Ihren Hausverwalter. Verfolgen Sie den Status Ihres Arbeitsauftrags. Wenn Ihr Hausverwalter weitere Informationen zu Ihrer Anfrage benötigt, kann er/sie optional ein E-Mail-Gespräch mit Ihnen initiieren.
+          -
+            image: /assets/my/images/550x367/equa-phi-moving-in-550x367.png
+            lead: 04.
+            title: Einfacher Einzugsvorgang
+            description: >-
+              Um die Equa Phi-App zu benutzen, einfach ein Konto erstellen und Ihren QR-Code scannen. Gegebenenfalls das Ihnen zugeteilte Geheimschlüssel eingeben.
       #     -
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 04.
@@ -432,6 +450,11 @@ product:
           body: >
             Sie können die "Equa Phi"-App vom Google Play Store herunterladen und gleich einsetzen.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.phi
+        -
+          title: Wie man einen QR-Code scannt
+          icon: ti-camera
+          body: >
+            Sie haben mehrere Möglichkeiten: (1) Wenn Ihr Immobilienmakler oder -verwalter Ihnen Ihren QR-Code auf seinem Mobilgerät vorlegt, scannen Sie diesen Bildschirm einfach mittels Equa Phi. (2) Wenn Sie Ihren QR-Code in Papierform erhalten haben, scannen Sie ihn mit Ihrer App. (3) Wenn der QR-Code in digitaler Form vorliegt und Sie ein zweites mobiles Gerät oder einen Computer haben, scannen Sie diesen zweiten Bildschirm. Andernfalls können Sie den Bildschirm Ihres Mobilgeräts fotokopieren und dann die Fotokopie scannen oder Ihren QR-Code an einen Mitbewohner senden und dessen Bildschirm scannen.
         -
           title: Support
           icon: ti-support
