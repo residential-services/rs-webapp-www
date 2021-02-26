@@ -60,7 +60,7 @@ homepage:
       The resident app solution for property managers. Low-cost and high quality.
   button:
     title: Explore
-    link: /customers/property-managers/
+    link: /product/property-managers/
   # carousel:
   #   -
   #     lead: "" #Property management made easy
@@ -252,7 +252,7 @@ product:
             lead: 04.
             title: Simple resident onboarding
             description: >-
-              Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Ask residents to create an Equa World account on the Equa Phi app prior to signing the contract, and show them their QR-code on your mobile device using the Equa Delta app. (2) Send residents their QR-code in digital or paper form after signing the contract by first saving the QR-code to a file; this is suitable for your existing residents. For both options, you can choose a secret key to make the onboarding process more secure.
+              Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Show residents their QR-code on your mobile device using the Equa Delta app; this is convenient if you see the resident in person. (2) Send residents their QR-code in digital or paper form by first saving the QR-code to a file; this is suitable for your existing residents for example. For both options, you can choose a secret text which you will communicate to the resident to make the onboarding process more secure.
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -349,6 +349,12 @@ product:
           icon: ti-receipt
           body: >
             Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
+        -
+          title: The resident app
+          icon: ti-mobile
+          body: >
+            Residents have their own app named Equa Phi which they will use in their daily lives.
+          link: /product/tenants/
         # -
         #   title: Branded app
         #   icon: ti-receipt

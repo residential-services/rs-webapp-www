@@ -60,7 +60,7 @@ homepage:
       La solution d'appli mobile pour résidents à bas coût et de haute qualité
   button:
     title: Explorer
-    link: /customers/property-managers/
+    link: /product/property-managers/
   # carousel:
   #   -
   #     lead: "" #Property management made easy
@@ -249,7 +249,7 @@ product:
             lead: 04.
             title: Intégration simple des résidents
             description: >-
-              Les résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Demander aux résidents de créer un compte Equa World sur l'appli Equa Phi avant de signer le contrat, et leur montrer leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier après la signature du contrat en sauvegardant d'abord le code QR dans un fichier; ceci convient parfaitement pour intégrer vos résidents existants. Pour les deux options, vous pouvez choisir une clé secrète afin de rendre le processus d'intégration plus sécurisé.
+              Vos résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Montrer aux résidents leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta; cela est pratique si vous voyez le résident en personne. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier, en enregistrant d'abord le code QR dans un fichier; cela convient par exemple pour vos résidents existants. Pour les deux options, vous pouvez choisir un texte secret que vous transmettrez au résident pour rendre le processus d'intégration plus sécurisé.
       #     -
       #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
       #       lead: 03.
@@ -347,6 +347,12 @@ product:
           icon: ti-receipt
           body: >
             Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
+        -
+          title: L'appli pour résidents
+          icon: ti-mobile
+          body: >
+            Vos résidents auront leur propre appli Equa Phi qu'ils utiliseront dans leur vie quotidienne.
+          link: /product/tenants/
         # -
         #   title: Application avec votre logo et marque
         #   icon: ti-receipt
