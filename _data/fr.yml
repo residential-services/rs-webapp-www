@@ -334,14 +334,14 @@ product:
           title: Affiche pour buanderies communes
           icon: ti-pin2
           body: >
-            Affiche recommandée pour buanderies communes.
-          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
+            À afficher si vos résidents sont autorisés à utiliser les buanderies communes aussi sans faire de réservation. Dans ce cas il est recommandé d'ajouter manuellement les cases horaires sur l'affiche.
+          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Variante d'affiche pour buanderies communes
           icon: ti-pin2
           body: >
-            Affiche alternative pour buanderies communes. À utiliser seulement si des résidents veulent utiliser les buanderies aussi sans smartphone ou tablette. Dans ce cas il est recommandé d'ajouter manuellement les cases horaires sur l'affiche.
-          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
+            À afficher si vos résidents doivent réserver les buanderies communes avant de pouvoir les utiliser.
+          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
         -
           title: Abonnement
           icon: ti-receipt

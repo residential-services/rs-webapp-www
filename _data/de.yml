@@ -320,14 +320,14 @@ product:
           title: Plakat für gemeinsame Wäschereien
           icon: ti-pin2
           body: >
-            Empfohlenes Poster für gemeinsame Waschräume.
-          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
+            Zu verwenden, wenn die Bewohner die gemeinsame Waschräume auch ohne Buchung nutzen können sollen. In diesem Fall wird empfohlen, die Zeitfenster manuell auf dem Poster hinzuzufügen.
+          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Plakatvariante für gemeinsame Wäschereien
           icon: ti-pin2
           body: >
-            Alternatives Poster für gemeinsame Waschräume. Nur zu verwenden, wenn die Bewohner die Waschräume auch ohne Smartphone oder Tablet nutzen möchten. In diesem Fall wird empfohlen, die Zeitfenster manuell auf dem Poster hinzuzufügen.
-          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
+            Zu verwenden, wenn Bewohner, die gemeinsame Waschräume nutzen, sie vorher buchen sollen.
+          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
         -
           title: Standard-Abo
           icon: ti-receipt

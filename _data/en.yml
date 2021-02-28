@@ -336,14 +336,14 @@ product:
           title: Poster for shared laundry facilities
           icon: ti-pin2
           body: >
-            The recommended poster for shared laundry rooms.
-          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
+            To be put up if residents are allowed to use common laundry rooms also without making a reservation beforehand. In this case, it is recommended to manually add the time slots on the poster.
+          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
         -
           title: Poster variant for shared laundry facilities
           icon: ti-pin2
           body: >
-            Alternative poster for common laundry rooms. To be used only if residents wish to use the laundry rooms also without a smartphone or tablet. In this case, it is recommended to manually add the time slots on the poster.
-          outbound_link: https://drive.google.com/file/d/1wt4av1SJskDOBJKgXaPbWlBV0A9LdVVs/view?usp=sharing
+            To be put up if residents must make a reservation beforehand in order to use common laundry rooms.
+          outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
         -
           title: Subscription
           icon: ti-receipt

@@ -25,7 +25,7 @@ end
 
 # Build *************************************************
 desc 'Build the static website'
-task build: [:clean, *SITE_LANGUAGES] do # run dependencies in parallel
+task b: [:clean, *SITE_LANGUAGES] do # run dependencies in parallel
     build_redirection_pages_to_localise INTERNATIONALISED_SITE 
 	sh "bundle exec jekyll build --source . --destination '#{DESTINATION_DIRECTORY}' --verbose" 	
 end
