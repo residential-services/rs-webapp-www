@@ -293,6 +293,12 @@ product:
         #     Eine Darstellung der Hauptfunktionen der Equa Delta App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
         #   outbound_link: https://drive.google.com/file/d/1wwIGAdmrRuwFUe8ySfhm6Dat-Ux0aYgh/view?usp=sharing
         -
+          title: Vorführung
+          icon: ti-video-clapper
+          body: >
+            Es ist so einfach, "Equa Delta" einzusetzen.
+          outbound_link: https://www.youtube.com/watch?v=JZ26XNCDipo&list=PLfogdehkSVd-tIEIVg09NBjItaJrL0u9j&index=1
+        -
           title: Für iPhone und iPad
           icon: ti-apple
           body: >
@@ -444,6 +450,12 @@ product:
         #   body: >
         #     Eine Darstellung der Hauptfunktionen der Equa Phi-App. Die App unterstützt die deutsche Sprache, obwohl diese Demo auf Englisch ist.
         #   outbound_link: https://drive.google.com/file/d/1hHdTZOnb21dGyPgZ3hN9kFzz0gWLwhK7/view?usp=sharing
+        -
+          title: Demonstration
+          icon: ti-video-clapper
+          body: >
+            Es ist so einfach, "Equa Phi" einzusetzen.
+          outbound_link: https://www.youtube.com/watch?v=W3tF7oi49XQ&list=PLfogdehkSVd-tIEIVg09NBjItaJrL0u9j&index=2
         -
           title: Für iPhone und iPad
           icon: ti-apple
