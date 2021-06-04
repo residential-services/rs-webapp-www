@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      World-exclusive! First mass-market resident app. Lowest price. High quality. Easiest to put into production.
+      The FREE & high quality tenant management software for the residential and student housing sectors
   button:
     title: Explore
     link: /product/property-managers/
@@ -85,7 +85,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Affordable resident relations management
+        title: Increase your resident management efficiency
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Simplify the management of resident relations by using the Equa Delta app.
@@ -350,11 +350,11 @@ product:
           body: >
             To be put up if residents must make a reservation beforehand in order to use common laundry rooms.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
-        -
-          title: Subscription
-          icon: ti-receipt
-          body: >
-            Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
+        # -
+        #   title: Subscription
+        #   icon: ti-receipt
+        #   body: >
+        #     Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
         -
           title: The resident app
           icon: ti-mobile

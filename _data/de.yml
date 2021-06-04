@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Weltneuheit! Erste massentaugliche Bewohner-App. Kostengünstigste Lösung. Hohe Qualität. Einfachste Inbetriebnahme.
+      Die KOSTENLOSE & hochwertige Bewohnerverwaltungssoftware für Privat- und Studentenwohnungen
   button:
     title: Erkunden
     link: /product/property-managers/
@@ -72,7 +72,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Kostengünstige Verwaltung der Bewohnerbeziehungen
+        title: Optimieren Sie die Verwaltung der Bewohner
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Vereinfachen Sie die Verwaltung der Bewohnerbeziehungen mithilfe der Equa-Delta-App.
@@ -334,11 +334,11 @@ product:
           body: >
             Zu verwenden, wenn Bewohner, die gemeinsame Waschräume nutzen, sie vorher buchen sollen.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
-        -
-          title: Standard-Abo
-          icon: ti-receipt
-          body: >
-            Abonnements für 1000, 2000, 3000, 4000, 6000 und 8000 Wohneinheiten zum Preis von ca. 0,09 € pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
+        # -
+        #   title: Standard-Abo
+        #   icon: ti-receipt
+        #   body: >
+        #     Abonnements für 1000, 2000, 3000, 4000, 6000 und 8000 Wohneinheiten zum Preis von ca. 0,09 € pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
         -
           title: Die Bewohner-App
           icon: ti-mobile

@@ -57,7 +57,7 @@ homepage:
   text:
     lead: Gestion immobilière facilitée
     title: >
-      Exclusivité mondiale! Première appli mobile grand public pour résidents. Solution la moins chère et la plus facile à mettre en service. Haute qualité.
+      Le logiciel GRATUIT de haute qualité pour la gestion des habitants dans les immeubles résidentiels et estudiantins
   button:
     title: Explorer
     link: /product/property-managers/
@@ -85,7 +85,7 @@ customers:
         - *1_1_title
     about:
       -
-        title: Gestion des relations locataires à coût abordable
+        title: Optimisez la gestion des habitants
         image: /assets/my/images/360x240/gbaf030518-33-1-360x240.jpg
         body: > 
           Simplifiez la gestion des relations avec vos résidents en utilisant l'application mobile Equa Delta.
@@ -348,11 +348,11 @@ product:
           body: >
             À afficher si vos résidents doivent réserver les buanderies communes avant de pouvoir les utiliser.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
-        -
-          title: Abonnement
-          icon: ti-receipt
-          body: >
-            Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
+        # -
+        #   title: Abonnement
+        #   icon: ti-receipt
+        #   body: >
+        #     Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
         -
           title: L'appli pour résidents
           icon: ti-mobile
