@@ -316,13 +316,15 @@ product:
           title: Pour iPhone et iPad
           icon: ti-apple
           body: >
-            Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
+            Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite. 
+            L'utilisation d'Equa Delta pour iOS est GRATUITE.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: Pour Android
           icon: ti-android
           body: >
             Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
+            L'utilisation d'Equa Delta pour Android est GRATUITE.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         # -
         #   title: Affiche pour vos immeubles
@@ -335,6 +337,7 @@ product:
           icon: ti-cloud-up
           body: >
             Equa Delta vous permet d'ajouter des données à la fois manuellement et en téléchargeant des fichiers batch. Suivez le lien ci-dessous afin de voir des exemples de fichiers CSV pour réclamer des bâtiments ou ajouter des informations de séjour. Notez que les fichiers de séjour doivent avoir des noms contenant une adresse reconnue par Google Maps.
+            Si vous souhaitez une intégration automatisée à base de API avec votre système ERP, nous pouvons vous en fournir une au prix de 49 € / 42 ₤ / 59 US$ par mois pour un nombre illimité de succursales, dans la mesure de nos possibilités; veuillez nous contacter à support@equa.world.
           outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Affiche pour buanderies communes
@@ -354,10 +357,11 @@ product:
         #   body: >
         #     Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
         -
-          title: L'appli pour résidents
+          title: L'appli pour résidents - Equa Phi ou une appli avec votre marque
           icon: ti-mobile
           body: >
-            Vos résidents auront leur propre appli Equa Phi qu'ils utiliseront dans leur vie quotidienne.
+            Les résidents ont leur propre appli nommée Equa Phi qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne.
+            Si vous souhaitez offrir aux résidents votre propre appli de marque avec votre logo et votre thème visuel, nous pouvons vous en fournir une au prix de 49 € / 42 ₤ / 59 US$ par mois pour un nombre illimité de succursales; veuillez nous contacter à support@equa.world.
           link: /product/tenants/
         # -
         #   title: Application avec votre logo et marque

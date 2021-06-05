@@ -318,13 +318,13 @@ product:
           title: For iPhone and iPad
           icon: ti-apple
           body: >
-            Download the "Equa Delta" app from the App Store and start using it right away.
+            Download the "Equa Delta" app from the App Store and start using it right away. Equa Delta for iOS is FREE to use.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: For Android
           icon: ti-android
           body: >
-            Download the "Equa Delta" app from Google Play Store and start using it right away.
+            Download the "Equa Delta" app from Google Play Store and start using it right away. Equa Delta for Android is FREE to use.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         # -
         #   title: Poster for your buildings
@@ -336,7 +336,8 @@ product:
           title: Manual or batch data upload
           icon: ti-cloud-up
           body: >
-            Equa Delta allows you to add data both manually and by uploading batch files. Follow the link below to see CSV file examples for claiming buildings or adding resident stay information. Note that resident stay files must have names that contain an address that is recognized by Google Maps.
+            Equa Delta allows you to add data both manually and by uploading batch files. Follow the link below to see CSV file examples for claiming buildings or adding resident stay information. Note that resident stay files must have names that contain an address that is recognized by Google Maps. 
+            If you would like an automated API-based integration with your ERP system, we can provide you with one at a price point of 49 € / 42 ₤ / 59 US$ per month for an unlimited number of branch offices to the extent of our capability; please contact us at support@equa.world.
           outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Poster for shared laundry facilities
@@ -356,10 +357,11 @@ product:
         #   body: >
         #     Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
         -
-          title: The resident app
+          title: The resident app - Equa Phi or your branded app
           icon: ti-mobile
           body: >
-            Residents have their own app named Equa Phi which they will use in their daily lives.
+            Residents have their own app named Equa Phi which they can use for FREE in their daily lives.
+            If you wish to offer residents your own branded app with your logo and visual theme, we can provide you with one at a price point of 49 € / 42 ₤ / 59 US$ per month for an unlimited number of branch offices; please contact us at support@equa.world.
           link: /product/tenants/
         # -
         #   title: Branded app

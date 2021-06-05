@@ -302,13 +302,13 @@ product:
           title: Für iPhone und iPad
           icon: ti-apple
           body: >
-            Sie können die "Equa Delta"-App vom App Store herunterladen und gleich einsetzen.
+            Sie können die "Equa Delta"-App vom App Store herunterladen und gleich einsetzen. Die Nutzung von Equa Delta für iOS ist KOSTENLOS.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: Für Android
           icon: ti-android
           body: >
-            Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
+            Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen. Die Nutzung von Equa Delta für Android ist KOSTENLOS.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         # -
         #   title: Plakat für Ihre Gebäude
@@ -321,6 +321,7 @@ product:
           icon: ti-cloud-up
           body: >
             Mit Equa Delta können Sie Daten hinzufügen, sowohl manuell als auch durch Dateihochladung. Folgen Sie dem Link unten, um Beispiele von CSV-Dateien zum Beanspruchen der Gebäude oder zum Hinzufügen von Aufenthaltsinformationen anzuzeigen. Merken Sie, dass Aufenthaltsdateien Namen haben sollen, die eine Adresse enthalten, die von Google Maps erkennt wird.
+            Wenn Sie eine automatisierte API-basierte Integration mit Ihrem ERP-System wünschen, können wir Ihnen diese zum Preis von 49 € / 42 ₤ / 59 US$ pro Monat für eine unbegrenzte Anzahl von Filialen zur Verfügung stellen, sofern es uns möglich ist; bitte kontaktieren Sie uns unter support@equa.world.
           outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Plakat für gemeinsame Wäschereien
@@ -340,10 +341,11 @@ product:
         #   body: >
         #     Abonnements für 1000, 2000, 3000, 4000, 6000 und 8000 Wohneinheiten zum Preis von ca. 0,09 € pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
         -
-          title: Die Bewohner-App
+          title: Die Bewohner-App - Equa Phi oder Ihre Marken-App
           icon: ti-mobile
           body: >
-            Bewohner haben ihre eigene App, genannt Equa Phi, die sie in ihrem täglichen Leben verwenden werden.
+            Die Bewohner haben ihre eigene App namens Equa Phi, die sie in ihrem täglichen Leben GRATIS verwenden können.
+            Wenn Sie den Bewohnern Ihre eigene Marken-App mit Ihrem Logo und visuellem Thema anbieten möchten, können wir Ihnen eine solche App zum Preis von 49 € / 42 ₤ / 59 US$ pro Monat für eine unbegrenzte Anzahl von Filialen anbieten; bitte kontaktieren Sie uns unter support@equa.world.
           link: /product/tenants/
         # -
         #   title: Branded-App mit Ihrem Logo und Markenbindung
