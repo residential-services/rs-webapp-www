@@ -27,6 +27,22 @@ snippets:
       multimonth: Abonnement de 12 mois, prolongé automatiquement.
     you_save: $currency $fee_per_month par mois!
 
+landing_pages:
+  delta:
+    stripe_connect_onboarding:
+      return_page:
+        title: Succès! - Equa Delta Stripe Onboarding
+        header: Félicitations, l'intégration de Stripe a réussi!
+        description:
+          - Les loyers perçus via l'application Equa Phi seront versés sur le compte bancaire lié à votre nouveau compte Stripe.
+        close: Fermer la fenêtre du navigateur pour retourner à l'application Equa Delta.
+      refresh_page:
+        title: Réessayer - Equa Delta Stripe Onboarding
+        header: Veuillez réessayer.
+        description:
+          - La fonction de perception des loyers de l'application Equa Phi ne sera activée qu'une fois que vous aurez terminé avec succès le processus d'intégration de Stripe.
+        close: Fermer la fenêtre du navigateur pour retourner à l'application Equa Delta.
+
 menu:
   -
     title: &1_0_title Avantages client

@@ -27,6 +27,22 @@ snippets:
       multimonth: $months-month subscription, extended automatically.
     you_save: $currency $fee_per_month per month!
 
+landing_pages:
+  delta:
+    stripe_connect_onboarding:
+      return_page:
+        title: Success! - Equa Delta Stripe Onboarding
+        header: Congratulations, Stripe onboarding was successful! 
+        description: 
+          - Rent collected through Equa World will go into a bank account that is tied to your new Stripe account.
+        close: Close the browser window to return to the Equa Delta app.
+      refresh_page:
+        title: Try again - Equa Delta Stripe Onboarding
+        header: Please try again. 
+        description:
+          - Equa World's rent collection feature will only be enabled after you have successfully completed the Stripe onboarding process.
+        close: Close the browser window to return to the Equa Delta app.
+
 menu:
   -
     title: &1_0_title Customer advantages

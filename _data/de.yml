@@ -27,6 +27,22 @@ snippets:
       multimonth: Abonnement für $months Monate, automatisch verlängert.
     you_save: $currency $fee_per_month pro Monat!
 
+landing_pages:
+  delta:
+    stripe_connect_onboarding:
+      return_page:
+        title: Gelungen! - Equa Delta Stripe Onboarding
+        header: Gratulation, der Stripe-Onboarding-Vorgang war erfolgreich! 
+        description:
+          - Die über Equa World eingezogene Miete wird auf ein Bankkonto gehen, das mit Ihrem neuen Stripe-Konto verknüpft ist.
+        close: Browserfenster schließen, um zur Equa Delta-App zurückzukehren.
+      refresh_page:
+        title: Erneut versuchen - Equa Delta Stripe Onboarding
+        header: Bitte versuche es erneut.
+        description:
+          - Equa Worlds Mieteinzugsfunktion wird erst dann aktiviert, wenn Sie den Stripe-Onboarding-Vorgang erfolgreich abgeschlossen haben.
+        close: Browserfenster schließen, um zur Equa Delta-App zurückzukehren.
+
 menu:
   -
     title: &1_0_title Kundenvorteile
