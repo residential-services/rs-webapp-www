@@ -32,15 +32,15 @@ landing_pages:
     stripe_connect_onboarding:
       return_page:
         title: Success! - Equa Delta Stripe Onboarding
-        header: Congratulations, Stripe onboarding was successful! 
+        header: The Stripe integration was successful
         description: 
-          - Rent collected through Equa World will go into a bank account that is tied to your new Stripe account.
+          - Congratulations, you can now start collecting rent through Equa World! Don't forget to add your bank account information to your new Stripe account.
         close: Close the browser window to return to the Equa Delta app.
       refresh_page:
         title: Try again - Equa Delta Stripe Onboarding
-        header: Please try again. 
+        header: Please try again
         description:
-          - Equa World's rent collection feature will only be enabled after you have successfully completed the Stripe onboarding process.
+          - Before you can now start collecting rent through Equa World, you have to complete the Stripe integration process.
         close: Close the browser window to return to the Equa Delta app.
 
 menu:

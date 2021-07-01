@@ -32,15 +32,15 @@ landing_pages:
     stripe_connect_onboarding:
       return_page:
         title: Gelungen! - Equa Delta Stripe Onboarding
-        header: Gratulation, der Stripe-Onboarding-Vorgang war erfolgreich! 
+        header: Die Stripe-Verknüpfung war erfolgreich 
         description:
-          - Die über Equa World eingezogene Miete wird auf ein Bankkonto gehen, das mit Ihrem neuen Stripe-Konto verknüpft ist.
+          - Herzlichen Glückwunsch, Sie können jetzt damit beginnen, Miete über Equa World einzuziehen! Vergessen Sie nicht, Ihrem neuen Stripe-Konto Ihre Bankkontoinformationen hinzuzufügen.
         close: Browserfenster schließen, um zur Equa Delta-App zurückzukehren.
       refresh_page:
         title: Erneut versuchen - Equa Delta Stripe Onboarding
-        header: Bitte versuche es erneut.
+        header: Erneut versuchen
         description:
-          - Equa Worlds Mieteinzugsfunktion wird erst dann aktiviert, wenn Sie den Stripe-Onboarding-Vorgang erfolgreich abgeschlossen haben.
+          - Bevor Sie jetzt mit dem Einziehen von Mieten über Equa World beginnen können, müssen Sie den Stripe-Verknüpfungsvorgang abschließen.
         close: Browserfenster schließen, um zur Equa Delta-App zurückzukehren.
 
 menu:

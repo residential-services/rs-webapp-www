@@ -1,0 +1,140 @@
+/*-------------------Bootstrap break points-------------------*/
+/*----------------------------- xs ---------------------------*/
+@font-face {
+  font-family: "Avenir Next";
+  src: url("/assets/fonts/my/Avenir-Next.eot");
+}
+body {
+  font-family: "Avenir Next", sans-serif;
+  height     : 100%;
+}
+img {
+	margin: 0 1em;
+}
+main {
+  padding   : 10px;
+  margin    : auto;
+  text-align: center;
+}
+main > img {
+  height: 55px;
+  width : 55px;
+}
+main > h1 {
+  padding-top: 20px;
+  font-size  : 1.4em;
+}
+body > footer {
+  position  : absolute;
+  width     : 100%;
+  max-width : 100%;
+  overflow-x: hidden;
+  margin    : auto;
+  bottom    : 10px;
+  text-align: center;
+  font-style: italic;
+}
+
+/*----------------------------- sm ---------------------------*/
+@media only screen and (min-width: 768px) {
+  img {
+    margin: 0 1.2em;
+  }
+  main {
+    padding   : 30px;
+  }
+  main > h1 {
+    padding-top: 30px;
+  }
+      /* body > footer {
+    bottom: 10px;
+  } */
+    /* body {
+		padding: 10px 0;
+		background-image: url(/assets/image/sm/quai_du_mont-blanc.jpg);
+	}
+
+	.jumbotron {
+		height: 300px;
+	} */
+}
+
+/*----------------------------- md ---------------------------*/
+
+@media only screen and (min-width: 992px) {
+  img {
+    margin: 0 1.5em;
+  }
+  main {
+    padding   : 50px;
+  }
+  main > img {
+    height: 99px;
+    width : 99px;
+  }
+  main > h1 {
+    padding-top: 40px;
+  }
+  body > footer {
+    bottom    : 20px;
+  }
+      /* body > footer {
+    bottom: 15px;
+  } */
+	/* body {
+		padding: 25px 0;
+		background-image: url(/assets/image/md/quai_du_mont-blanc.jpg);
+	}
+
+	.jumbotron {
+		height: 400px;
+	}
+	main {
+		min-height: 30em !important;
+	}
+
+	.container > footer {
+		display: block;
+	}
+
+	#my-sidebar,
+	#my-sidebar a {
+		color: #428bca;
+		background-color: white;
+	} */
+}
+
+/*----------------------------- lg ---------------------------*/
+@media only screen and (min-width: 1200px) {
+  img {
+    margin: 0 20em;
+  }
+  main {
+    padding   : 70px;
+  }
+  main > h1 {
+    padding-top: 50px;
+  }
+  main > img {
+    height: 99px;
+    width : 99px;
+  }
+  body > footer {
+    bottom    : 20px;
+  }
+    /* body > footer {
+    bottom: 20px;
+  } */
+	/* body {
+		padding: 40px 0;
+		background-image: url(/assets/image/lg/quai_du_mont-blanc.jpg);
+	}
+
+	.jumbotron {
+		height: 500px;
+	}
+	main {
+		min-height: 35em !important;
+	} */
+}
+
