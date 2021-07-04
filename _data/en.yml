@@ -34,13 +34,13 @@ landing_pages:
         title: Success! - Equa Delta Stripe Onboarding
         header: The Stripe integration was successful
         description: 
-          - Congratulations, you can now start collecting rent through Equa World! Don't forget to add your bank account information to your new Stripe account.
+          - Congratulations, your company can now start collecting rent through Equa World! Please make sure to add the relevant bank account information to your new Stripe account.
         close: Close the browser window to return to the Equa Delta app.
       refresh_page:
         title: Try again - Equa Delta Stripe Onboarding
         header: Please try again
         description:
-          - Before you can now start collecting rent through Equa World, you have to complete the Stripe integration process.
+          - Before you can start collecting rent through Equa World, you have to complete the Stripe integration process.
         close: Close the browser window to return to the Equa Delta app.
 
 menu:
@@ -183,7 +183,7 @@ customers:
       breadcrumbs:
         - Equa
         - *1_0_title
-        - *1_2_title
+        # - *1_2_title
     pricing:
       title: Equa Property Manager
       description: >-
@@ -241,65 +241,42 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
             lead: 01.
+            title: Collect rent automatically
+            description: >-
+              Collect rent with minimal effort by simply entering your bank account number and the rent amounts. ▶ Manage rent payments in your Stripe dashboard. ▶︎ Allow household members to split rent, and to change their share of the rent whenever they like. ▶︎ Allow paying residents to change their source bank account without having to notify you. ▶︎ Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. ▶︎ Change the bank account you are using for collecting rent whenever you like, without having to notify your residents. ▶︎ Automated rent collection is enabled in these countries using SEPA Direct Debit payments: Austria, Belgium, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Portugal, Slovakia, Slovenia, Spain.
+          -
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            lead: 02.
             title: Send documents and announcements to residents
             description: >-
-              With our Equa Delta application, you can send documents and announcements to residents living in a group of buildings, a building, or all your buildings. 
+              With our Equa Delta application, you can send documents and announcements to residents living in a particular unit, a building, a group of buildings, or all your buildings. 
               A document can be a lease document or a house rules document for example.
               Announcements have an expiration date attached to them, and can pertain to an event such as a repair job or a local gathering for example.
               Residents can read their documents and announcements with the Equa Phi app.
-          -
-            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 02.
-            title: Receive work orders from residents
-            description: >-
-              Receive work orders from your residents. Track progress by setting the work order status, and appending a text note. For more information regarding a request, simply copy the sender's email address and start an email conversation.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
             lead: 03.
+            title: Receive work orders from residents
+            description: >-
+              Receive work orders from your residents. Track progress by setting the work order status, and appending a text note. For more information regarding a request, simply copy the sender's email address and start an email conversation.
+          -
+            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            lead: 04.
             title: Manage your buildings' laundry facilities
             description: >-
               Activate the time slot reservation function for your residents by indicating the presence of common laundry facilities in your buildings. For each facility, indicate the number of reservable machines and choose a reservation calendar from predefined templates. If there are several machines, tag them physically starting from "1".
+      -
+        pair:
           -
             image: /assets/my/images/550x367/equa-delta-stays-550x367.png
-            lead: 04.
+            lead: 05.
             title: Simple resident onboarding
             description: >-
               Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Show residents their QR-code on your mobile device using the Equa Delta app; this is convenient if you see the resident in person. (2) Send residents their QR-code in digital or paper form by first saving the QR-code to a file; this is suitable for your existing residents for example. For both options, you can choose a secret text which you will communicate to the resident to make the onboarding process more secure.
-      #     -
-      #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-      #       lead: 03.
-      #       title: Resident groups
-      #       description: >-
-      #         You can group residents by sets of buildings.
-      #         You can then send your announcements or documents directly to a group for efficient messaging. 
-      #       # Equa automatically imports any groups that your may have defined from within your ERP system.
-      #       # You can also create groups with Equa.
-      # -
-      #   pair:
-      #     -
-      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-      #       lead: 05.
-      #       title: Shared laundry facilities
-      #       description: >-
-      #         You can mark buildings that are equipped with laundry facilities that are shared amongst residents.
-      #         Equa automatically imports any such indication from your ERP system. 
-      #         You can also add this information from within Equa.
-      #         Equa automatically generates laundry timetables for buildings that are equipped. 
-      #         Residents can then modify their default reservations if they wish, and they can automatically see their reservations reflected in their 
-      #         digital calendars.
-      #     -
-      #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
-      #       lead: 06.
-      #       title: Up-to-date contact information.
-      #       description: >-
-      #         You can indicate the coordinates of people within your organisation or your suppliers that residents can contact.
-      #         Equa automatically imports any such indication from your ERP system. 
-      #         You can also add this information from within Equa.
-
     services:
       title: ""
       items:
@@ -353,7 +330,6 @@ product:
           icon: ti-cloud-up
           body: >
             Equa Delta allows you to add data both manually and by uploading batch files. Follow the link below to see CSV file examples for claiming buildings or adding resident stay information. Note that resident stay files must have names that contain an address that is recognized by Google Maps. 
-            If you would like an automated API-based integration with your ERP system, we can provide you with one at a price point of 49 € / 42 ₤ / 59 US$ per month for an unlimited number of branch offices to the extent of our capability; please contact us at support@equa.world.
           outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Poster for shared laundry facilities
@@ -367,17 +343,27 @@ product:
           body: >
             To be put up if residents must make a reservation beforehand in order to use common laundry rooms.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
-        # -
-        #   title: Subscription
-        #   icon: ti-receipt
-        #   body: >
-        #     Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
         -
-          title: The resident app - Equa Phi or your branded app
+          title: Subscription
+          icon: ti-receipt
+          body: >
+            Subscriptions available for 1000, 2000, 3000, 4000, 6000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
+        -
+          title: SEPA rent collection fee
+          icon: ti-receipt
+          body: >
+            Equa World's fee is 0.8%. Additionally, Stripe's fee is typically €0.35 or 0.8% + €0.25 capped at €5.00.
+        -
+          title: The resident app - Equa Phi
           icon: ti-mobile
           body: >
             Residents have their own app named Equa Phi which they can use for FREE in their daily lives.
-            If you wish to offer residents your own branded app with your logo and visual theme, we can provide you with one at a price point of 49 € / 42 ₤ / 59 US$ per month for an unlimited number of branch offices; please contact us at support@equa.world.
+        # -
+        #   title: The resident app - Equa Phi or your branded app
+        #   icon: ti-mobile
+        #   body: >
+        #     Residents have their own app named Equa Phi which they can use for FREE in their daily lives.
+        #     If you wish to offer residents your own branded app with your logo and visual theme, we can provide you with one at a price point of 49 € / 42 ₤ / 59 US$ per month for an unlimited number of branch offices; please contact us at support@equa.world.
           link: /product/tenants/
         # -
         #   title: Branded app

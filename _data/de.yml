@@ -34,11 +34,11 @@ landing_pages:
         title: Gelungen! - Equa Delta Stripe Onboarding
         header: Die Stripe-Verknüpfung war erfolgreich 
         description:
-          - Herzlichen Glückwunsch, Sie können jetzt damit beginnen, Miete über Equa World einzuziehen! Vergessen Sie nicht, Ihrem neuen Stripe-Konto Ihre Bankkontoinformationen hinzuzufügen.
+          - Herzlichen Glückwunsch, Ihr Unternehmen kann jetzt damit beginnen, Miete über Equa World einzuziehen! Vergessen Sie nicht, Ihrem neuen Stripe-Konto die relevanten Bankkontoinformationen hinzuzufügen.
         close: Browserfenster schließen, um zur Equa Delta-App zurückzukehren.
       refresh_page:
         title: Erneut versuchen - Equa Delta Stripe Onboarding
-        header: Erneut versuchen
+        header: Bitte erneut versuchen
         description:
           - Bevor Sie jetzt mit dem Einziehen von Mieten über Equa World beginnen können, müssen Sie den Stripe-Verknüpfungsvorgang abschließen.
         close: Browserfenster schließen, um zur Equa Delta-App zurückzukehren.
@@ -166,7 +166,7 @@ customers:
       breadcrumbs:
         - Equa
         - *1_0_title
-        - *1_2_title
+        # - *1_2_title
     pricing:
       title: Equa Property Manager
       description: >-
@@ -224,31 +224,39 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
             lead: 01.
+            title: Miete automatisch einziehen
+            description: >-
+              Sammeln Sie Miete mit minimalem Aufwand, indem Sie einfach Ihren Bankkontonummer und die Mietbeträge eingeben. ▶ Verwalten Sie Mietzahlungen in Ihrem Stripe-Dashboard. ▶︎ Erlauben Sie den Haushaltsmitgliedern, die Miete zu teilen und ihren Anteil an der Miete jederzeit zu ändern. ▶︎ Erlauben Sie zahlenden Einwohnern, ihr Quellbankkonto zu ändern, ohne Sie benachrichtigen zu müssen. ▶︎ Erlauben Sie zahlenden Einwohnern, zu Equa Phi-Zahlungen zu wechseln, auch wenn sie andere Zahlungsmethoden eingerichtet haben. ▶︎ Ändern Sie das Bankkonto, das Sie für das Einziehen der Miete verwenden, wann immer Sie möchten, ohne Ihre Bewohner zu benachrichtigen. ▶︎ Der automatische Mieteinzug ist in diesen Ländern mittels SEPA-Lastschriftverfahren aktiviert: Österreich, Belgien, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Portugal, Slowakei, Slowenien , Spanien.
+          -
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            lead: 02.
             title: Dokumente und Ankündigungen senden
             description: >-
-              Mit unserer Equa Delta-Anwendung können Sie Dokumente und Ankündigungen an Bewohner einer Gruppe von Gebäuden, eines Gebäudes oder aller Ihrer Gebäude senden.
+              Mit unserer Equa Delta-Anwendung können Sie Dokumente und Ankündigungen an Bewohner einer bestimmten Wohneinheit, eines Gebäudes, einer Gruppe von Gebäuden oder aller Ihrer Gebäude senden.
               Ein Dokument kann beispielsweise ein Leasingdokument oder ein Hausordnungsdokument sein.
               Den Ankündigungen ist ein Ablaufdatum verbunden; es könnte sich auf ein Ereignis wie einen Reparaturjob oder eine lokale Versammlung beziehen.
               Bewohner können ihre Dokumente und Ankündigungen mit der Equa Phi App lesen.
-          -
-            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 02.
-            title: Arbeitsaufträge erhalten
-            description: >-
-              Erhalten Sie Arbeitsaufträge von Ihren Bewohnern. Verfolgen Sie die Behandlung, indem Sie den Arbeitsauftragsstatus festlegen und eine Textnotiz anhängen. Um weitere Informationen zu einer Anfrage zu erhalten, kopieren Sie einfach die E-Mail-Adresse des Absenders und starten Sie eine E-Mail-Konversation.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
             lead: 03.
+            title: Arbeitsaufträge erhalten
+            description: >-
+              Erhalten Sie Arbeitsaufträge von Ihren Bewohnern. Verfolgen Sie die Behandlung, indem Sie den Arbeitsauftragsstatus festlegen und eine Textnotiz anhängen. Um weitere Informationen zu einer Anfrage zu erhalten, kopieren Sie einfach die E-Mail-Adresse des Absenders und starten Sie eine E-Mail-Konversation.
+          -
+            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            lead: 04.
             title: Die gemeinsamen Wäschereien verwalten
             description: >-
               Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie die gemeinsamen Wäschereien Ihrer Gebäuden eingeben. Geben Sie für jede Einrichtung die Anzahl der reservierbaren Maschinen an und wählen Sie einen Reservierungskalender aus vordefinierten Vorlagen aus. Wenn mehrere Maschinen vorhanden sind, kennzeichnen Sie sie physisch ab "1".
+      -
+        pair:
           -
             image: /assets/my/images/550x367/equa-delta-stays-550x367.png
-            lead: 04.
+            lead: 05.
             title: Einfaches Bewohner-Onboarding
             description: >-
               Die Bewohner müssen nur einen QR-Code scannen, den Sie ihnen vorlegen, um die Equa Phi-App für ihr Zuhause zu verwenden. Sie haben zwei Möglichkeiten: (1) Zeigen Sie den Bewohnern ihren QR-Code auf Ihrem Mobilgerät mittels der Equa Delta-App. Dies ist praktisch, wenn Sie den Bewohner persönlich sehen. (2) Senden Sie den Bewohnern ihren QR-Code in digitaler oder Papierform, indem Sie zuerst den QR-Code in einer Datei speichern. Dies ist zum Beispiel für Ihre bestehenden Bewohner geeignet. Für beide Optionen können Sie einen geheimen Text auswählen, um den Onboarding-Prozess sicherer zu gestalten.
@@ -337,7 +345,6 @@ product:
           icon: ti-cloud-up
           body: >
             Mit Equa Delta können Sie Daten hinzufügen, sowohl manuell als auch durch Dateihochladung. Folgen Sie dem Link unten, um Beispiele von CSV-Dateien zum Beanspruchen der Gebäude oder zum Hinzufügen von Aufenthaltsinformationen anzuzeigen. Merken Sie, dass Aufenthaltsdateien Namen haben sollen, die eine Adresse enthalten, die von Google Maps erkennt wird.
-            Wenn Sie eine automatisierte API-basierte Integration mit Ihrem ERP-System wünschen, können wir Ihnen diese zum Preis von 49 € / 42 ₤ / 59 US$ pro Monat für eine unbegrenzte Anzahl von Filialen zur Verfügung stellen, sofern es uns möglich ist; bitte kontaktieren Sie uns unter support@equa.world.
           outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Plakat für gemeinsame Wäschereien
@@ -351,18 +358,29 @@ product:
           body: >
             Zu verwenden, wenn Bewohner, die gemeinsame Waschräume nutzen, sie vorher buchen sollen.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
-        # -
-        #   title: Standard-Abo
-        #   icon: ti-receipt
-        #   body: >
-        #     Abonnements für 1000, 2000, 3000, 4000, 6000 und 8000 Wohneinheiten zum Preis von ca. 0,09 € pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
         -
-          title: Die Bewohner-App - Equa Phi oder Ihre Marken-App
+          title: Standard-Abo
+          icon: ti-receipt
+          body: >
+            Abonnements für 1000, 2000, 3000, 4000, 6000 und 8000 Wohneinheiten zum Preis von ca. 0,09 € pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
+        -
+          title: SEPA-Mieteinzugsgebühr
+          icon: ti-receipt
+          body: >
+            Die Gebühr von Equa World beträgt 0,8%. Darüber hinaus beträgt die Gebühr von Stripe in der Regel 0,35 € oder 0,8% + 0,25 €, begrenzt auf 5,00 €.
+        -
+          title: Die Bewohner-App - Equa Phi
           icon: ti-mobile
           body: >
             Die Bewohner haben ihre eigene App namens Equa Phi, die sie in ihrem täglichen Leben GRATIS verwenden können.
-            Wenn Sie den Bewohnern Ihre eigene Marken-App mit Ihrem Logo und visuellem Thema anbieten möchten, können wir Ihnen eine solche App zum Preis von 49 € / 42 ₤ / 59 US$ pro Monat für eine unbegrenzte Anzahl von Filialen anbieten; bitte kontaktieren Sie uns unter support@equa.world.
           link: /product/tenants/
+        # -
+        #   title: Die Bewohner-App - Equa Phi oder Ihre Marken-App
+        #   icon: ti-mobile
+        #   body: >
+        #     Die Bewohner haben ihre eigene App namens Equa Phi, die sie in ihrem täglichen Leben GRATIS verwenden können.
+        #     Wenn Sie den Bewohnern Ihre eigene Marken-App mit Ihrem Logo und visuellem Thema anbieten möchten, können wir Ihnen eine solche App zum Preis von 49 € / 42 ₤ / 59 US$ pro Monat für eine unbegrenzte Anzahl von Filialen anbieten; bitte kontaktieren Sie uns unter support@equa.world.
+        #   link: /product/tenants/
         # -
         #   title: Branded-App mit Ihrem Logo und Markenbindung
         #   icon: ti-receipt

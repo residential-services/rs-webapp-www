@@ -34,7 +34,7 @@ landing_pages:
         title: Succès! - Equa Delta Stripe Onboarding
         header: Stripe intégré avec succès
         description:
-          - Félicitations, vous pouvez maintenant commencer à percevoir les loyers via Equa World! N'oubliez pas d'ajouter vos informations de compte bancaire à votre nouveau compte Stripe.
+          - Félicitations, votre entreprise peut maintenant commencer à percevoir les loyers via Equa World! N'oubliez pas d'ajouter les informations de compte bancaire appropriées à votre nouveau compte Stripe.
         close: Fermer la fenêtre du navigateur pour retourner à l'application Equa Delta.
       refresh_page:
         title: Réessayer - Equa Delta Stripe Onboarding
@@ -184,7 +184,7 @@ customers:
       breadcrumbs:
         - Equa
         - *1_0_title
-        - *1_2_title
+        # - *1_2_title
     pricing:
       title: Equa Property Manager
       description: >-
@@ -240,64 +240,40 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
             lead: 01.
+            title: Prélèvement automatique du loyer
+            description: >-
+              Percevez le loyer avec un effort minimal en entrant simplement votre numéro de compte bancaire et les montants des loyers. ▶︎ Gérez les paiements de loyer dans votre tableau de bord Stripe. ▶︎ Permettez aux membres des ménages de partager le loyer et de modifier leur part du loyer quand ils le souhaitent. ▶︎ Permettez aux résidents payants de modifier leur compte bancaire source sans avoir à vous en informer. ▶︎ Permettez aux résidents payants de passer aux paiements Equa Phi même s'ils ont mis en place d'autres moyens de paiement. ▶︎ Changez le compte bancaire que vous utilisez pour percevoir les loyers quand vous le souhaitez, sans avoir à en informer vos résidents. ▶︎ La perception automatisée des loyers est activée dans ces pays à l'aide des paiements par prélèvement SEPA : Allemagne, Autriche, Belgique, Chypre, Estonie, Finlande, France, Grèce, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Portugal, Slovaquie, Slovénie , Espagne.
+          -
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            lead: 02.
             title: Envoi de documents et annonces
             description: >-
-              Avec notre application Equa Delta, vous pouvez envoyer des documents et des annonces aux résidents vivant dans un groupe de bâtiments, un bâtiment ou tous vos bâtiments.
+              Avec notre application Equa Delta, vous pouvez envoyer des documents et des annonces aux résidents vivant dans une unité particulière, un bâtiment, un groupe de bâtiments, ou tous vos bâtiments.
               Un document peut être un document de bail ou un document de règles internes par exemple. Les annonces ont une date d'expiration qui leur est attachée et peuvent concerner un événement tel qu'un travail de réparation ou un rassemblement local par exemple. Les résidents peuvent lire leurs documents et annonces avec l'application Equa Phi.
-          -
-            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 02.
-            title: Réception de bons de travail
-            description: >-
-              Recevez des bons de travail de vos résidents. Suivez votre progression en définissant le statut du bon de travail et ajoutez une note textuelle. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par e-mail. 
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
             lead: 03.
+            title: Réception de bons de travail
+            description: >-
+              Recevez des bons de travail de vos résidents. Suivez votre progression en définissant le statut du bon de travail et ajoutez une note textuelle. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par e-mail. 
+          -
+            image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
+            lead: 04.
             title: Gestion des buanderies communes
             description: >-
               Activez la fonction de réservation pour vos résidents en indiquant la présence de buanderies communes dans vos immeubles. Pour chaque immeuble, indiquez le nombre de machines réservables et choisissez un calendrier de réservation parmi des modèles prédéfinis. S'il y a plusieurs machines, étiquetez-les physiquement en commençant par "1".
+      -
+        pair:
           -
             image: /assets/my/images/550x367/equa-delta-stays-550x367.png
-            lead: 04.
+            lead: 05.
             title: Intégration simple des résidents
             description: >-
               Vos résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Montrer aux résidents leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta; cela est pratique si vous voyez le résident en personne. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier, en enregistrant d'abord le code QR dans un fichier; cela convient par exemple pour vos résidents existants. Pour les deux options, vous pouvez choisir un texte secret que vous transmettrez au résident pour rendre le processus d'intégration plus sécurisé.
-      #     -
-      #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-      #       lead: 03.
-      #       title: Groupes de résidents
-      #       description: >-
-      #         Vous pouvez regrouper vos résidents par groupe d'immeubles,
-      #         et ensuite envoyer annonces et documents directement à un groupe par mesure d'efficacité.
-      #       # Equa importe automatiquement vos groupes depuis votre système ERP.
-      #       # Vous pouvez aussi créer des groupes avec Equa.
-      # -
-      #   pair:
-      #     -
-      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-      #       lead: 05.
-      #       title: Buanderies communes
-      #       description: >-
-      #         Vous pouvez spécifier si un immeuble est équipé d'une buanderie commune.
-      #         Equa importe automatiquement de telles indications depuis votre système ERP, 
-      #         et vous pouvez aussi ajouter ces informations directement dans Equa.
-      #         Des tableaux de réservation de buanderie sont automatiquement générés par Equa pour vos résidents,
-      #         qui peuvent modifier leurs heures de réservation. 
-      #         Equa peut automatiquement synchroniser le tableau de réservation avec le calendrier du résident.
-      #     -
-      #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
-      #       lead: 06.
-      #       title: Informations de contact
-      #       description: >-
-      #         Vous pouvez indiquer des coordonnées d'interlocuteurs parmi votre équipe ou parmi vos fournisseurs.
-      #         Vos résidents peuvent ainsi directement contacter la personne pertinente pour une raison donnée.
-      #         Equa importe automatiquement ces indications depuis votre système ERP, 
-      #         et vous pouvez aussi ajouter ces informations directement dans Equa.
-
     services:
       title: ""
       items:
@@ -353,7 +329,6 @@ product:
           icon: ti-cloud-up
           body: >
             Equa Delta vous permet d'ajouter des données à la fois manuellement et en téléchargeant des fichiers batch. Suivez le lien ci-dessous afin de voir des exemples de fichiers CSV pour réclamer des bâtiments ou ajouter des informations de séjour. Notez que les fichiers de séjour doivent avoir des noms contenant une adresse reconnue par Google Maps.
-            Si vous souhaitez une intégration automatisée à base de API avec votre système ERP, nous pouvons vous en fournir une au prix de 49 € / 42 ₤ / 59 US$ par mois pour un nombre illimité de succursales, dans la mesure de nos possibilités; veuillez nous contacter à support@equa.world.
           outbound_link: https://drive.google.com/drive/folders/1r_cDQiuOHjdp8y8P1a3JPDbOiXwtSOyh?usp=sharing
         -
           title: Affiche pour buanderies communes
@@ -367,18 +342,29 @@ product:
           body: >
             À afficher si vos résidents doivent réserver les buanderies communes avant de pouvoir les utiliser.
           outbound_link: https://drive.google.com/file/d/1hnjYofxzmhDaajx0trNUq-K1Fep-EB1U/view?usp=sharing
-        # -
-        #   title: Abonnement
-        #   icon: ti-receipt
-        #   body: >
-        #     Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
         -
-          title: L'appli pour résidents - Equa Phi ou une appli avec votre marque
+          title: Abonnement
+          icon: ti-receipt
+          body: >
+            Abonnements disponibles pour 1000, 2000, 3000, 4000, 6000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
+        -
+          title: Commission pour le prélèvement du loyer SEPA
+          icon: ti-receipt
+          body: >
+            La commission de Equa World est de 0.8%, à quoi s'ajoute la commission de Stripe, qui se monte typiquement à €0.35 ou 0.8% + €0.25 limité à €5.00.
+        -
+          title: L'appli pour résidents
           icon: ti-mobile
           body: >
             Les résidents ont leur propre appli nommée Equa Phi qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne.
-            Si vous souhaitez offrir aux résidents votre propre appli de marque avec votre logo et votre thème visuel, nous pouvons vous en fournir une au prix de 49 € / 42 ₤ / 59 US$ par mois pour un nombre illimité de succursales; veuillez nous contacter à support@equa.world.
           link: /product/tenants/
+        # -
+        #   title: L'appli pour résidents - Equa Phi ou une appli avec votre marque
+        #   icon: ti-mobile
+        #   body: >
+        #     Les résidents ont leur propre appli nommée Equa Phi qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne.
+        #     Si vous souhaitez offrir aux résidents votre propre appli de marque avec votre logo et votre thème visuel, nous pouvons vous en fournir une au prix de 49 € / 42 ₤ / 59 US$ par mois pour un nombre illimité de succursales; veuillez nous contacter à support@equa.world.
+        #   link: /product/tenants/
         # -
         #   title: Application avec votre logo et marque
         #   icon: ti-receipt
