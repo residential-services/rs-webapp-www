@@ -308,15 +308,13 @@ product:
           title: Pour iPhone et iPad
           icon: ti-apple
           body: >
-            Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite. 
-            L'utilisation d'Equa Delta pour iOS est GRATUITE.
+            Télécharger l'appli "Equa Delta" depuis le App Store et commencer à l'utiliser de suite.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: Pour Android
           icon: ti-android
           body: >
             Télécharger l'appli "Equa Delta" depuis le Google Play Store et commencer à l'utiliser de suite.
-            L'utilisation d'Equa Delta pour Android est GRATUITE.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         # -
         #   title: Affiche pour vos immeubles

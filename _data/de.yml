@@ -326,13 +326,13 @@ product:
           title: Für iPhone und iPad
           icon: ti-apple
           body: >
-            Sie können die "Equa Delta"-App vom App Store herunterladen und gleich einsetzen. Die Nutzung von Equa Delta für iOS ist KOSTENLOS.
+            Sie können die "Equa Delta"-App vom App Store herunterladen und gleich einsetzen.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: Für Android
           icon: ti-android
           body: >
-            Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen. Die Nutzung von Equa Delta für Android ist KOSTENLOS.
+            Sie können die "Equa Delta"-App vom Google Play Store herunterladen und gleich einsetzen.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         # -
         #   title: Plakat für Ihre Gebäude

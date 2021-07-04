@@ -311,13 +311,13 @@ product:
           title: For iPhone and iPad
           icon: ti-apple
           body: >
-            Download the "Equa Delta" app from the App Store and start using it right away. Equa Delta for iOS is FREE to use.
+            Download the "Equa Delta" app from the App Store and start using it right away.
           outbound_link: https://apps.apple.com/app/equa-delta/id1491882065
         -
           title: For Android
           icon: ti-android
           body: >
-            Download the "Equa Delta" app from Google Play Store and start using it right away. Equa Delta for Android is FREE to use.
+            Download the "Equa Delta" app from Google Play Store and start using it right away.
           outbound_link: https://play.google.com/store/apps/details?id=world.equa.delta
         # -
         #   title: Poster for your buildings
