@@ -232,7 +232,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: More comfort for you and your residents
+      title: Reduce your property management costs through efficient processes
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -352,7 +352,7 @@ product:
           title: SEPA rent collection fee
           icon: ti-receipt
           body: >
-            Equa World's fee is 0.8%. Additionally, Stripe's fee is typically €0.35 or 0.8% + €0.25 capped at €5.00.
+            ▶ Rent collection fee in Germany, Austria, Belgium, Luxembourg, Netherlands: Equa World's fee is 0.1%. Additionally, Stripe's fee is €0.35 per transaction. ▶ Rent collection fee in Cyprus, Estonia, Finland, France, Greece, Ireland, Italy, Latvia, Lithuania, Malta, Portugal, Slovakia, Slovenia, Spain: Equa World's fee is 0.1%. Additionally, Stripe's fee per transaction is 0.8% + €0.25 capped at €5.00.
         -
           title: The resident app - Equa Phi
           icon: ti-mobile

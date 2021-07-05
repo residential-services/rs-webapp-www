@@ -215,7 +215,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Mehr Komfort für Sie und Ihre Bewohner
+      title: Senken Sie Ihre Immobilienverwaltungskosten durch effiziente Prozesse
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -367,7 +367,7 @@ product:
           title: SEPA-Mieteinzugsgebühr
           icon: ti-receipt
           body: >
-            Die Gebühr von Equa World beträgt 0,8%. Darüber hinaus beträgt die Gebühr von Stripe in der Regel 0,35 € oder 0,8% + 0,25 €, begrenzt auf 5,00 €.
+            ▶ Mieteinzugsgebühr in Deutschland, Österreich, Belgien, Luxemburg, Niederlande: Die Gebühr von Equa World beträgt 0,1%. Darüber hinaus beträgt die Gebühr von Stripe 0,35 € pro Transaktion. ▶ Mieteinzugsgebühr in Zypern, Estland, Finnland, Frankreich, Griechenland, Irland, Italien, Lettland, Litauen, Malta, Portugal, Slowakei, Slowenien, Spanien: Die Gebühr von Equa World beträgt 0,1%. Darüber hinaus beträgt die Gebühr von Stripe pro Transaktion 0,8% + 0,25 €, begrenzt auf 5,00 €.
         -
           title: Die Bewohner-App - Equa Phi
           icon: ti-mobile

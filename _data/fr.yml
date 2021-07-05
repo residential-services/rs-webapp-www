@@ -231,7 +231,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Du confort pour vous et pour vos résidents
+      title: Senken Sie Ihre Immobilienverwaltungskosten durch effiziente Prozesse
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -349,7 +349,7 @@ product:
           title: Commission pour le prélèvement du loyer SEPA
           icon: ti-receipt
           body: >
-            La commission de Equa World est de 0.8%, à quoi s'ajoute la commission de Stripe, qui se monte typiquement à €0.35 ou 0.8% + €0.25 limité à €5.00.
+            ▶ Frais de perception des loyers en Allemagne, Autriche, Belgique, Luxembourg, Pays-Bas : les frais d'Equa World sont de 0,1%. De plus, les frais de Stripe sont de 0,35 € par transaction. ▶ Frais de perception des loyers à Chypre, Estonie, Finlande, France, Grèce, Irlande, Italie, Lettonie, Lituanie, Malte, Portugal, Slovaquie, Slovénie, Espagne : les frais d'Equa World sont de 0,1%. De plus, les frais de Stripe par transaction sont de 0,8% + 0,25 € plafonnés à 5,00 €.
         -
           title: L'appli pour résidents
           icon: ti-mobile
