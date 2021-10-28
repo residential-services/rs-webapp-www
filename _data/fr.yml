@@ -231,7 +231,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Senken Sie Ihre Immobilienverwaltungskosten durch effiziente Prozesse
+      title: Gestion efficace des relations avec les résidents
       breadcrumbs:
         - Equa
         - *2_0_title
