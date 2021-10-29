@@ -257,9 +257,15 @@ product:
           -
             image: /assets/my/images/550x367/equa-delta-stays-550x367.png
             lead: 05.
-            title: Einfaches Bewohner-Onboarding
+            title: Einfache Einbindung neuer Bewohner
             description: >-
-              Die Bewohner müssen nur einen QR-Code scannen, den Sie ihnen vorlegen, um die Equa Phi-App für ihr Zuhause zu verwenden. Sie haben zwei Möglichkeiten: (1) Zeigen Sie den Bewohnern ihren QR-Code auf Ihrem Mobilgerät mittels der Equa Delta-App. Dies ist praktisch, wenn Sie den Bewohner persönlich sehen. (2) Senden Sie den Bewohnern ihren QR-Code in digitaler oder Papierform, indem Sie zuerst den QR-Code in einer Datei speichern. Dies ist zum Beispiel für Ihre bestehenden Bewohner geeignet. Für beide Optionen können Sie einen geheimen Text auswählen, um den Onboarding-Prozess sicherer zu gestalten.
+              Die Bewohner müssen nur einen QR-Code scannen, den Sie ihnen vorlegen, um die Equa Phi-App für ihr Zuhause zu verwenden. Sie haben zwei Möglichkeiten: (1) Zeigen Sie den Bewohnern ihren QR-Code auf Ihrem Mobilgerät mittels der Equa Delta-App. Dies ist praktisch, wenn Sie den Bewohner persönlich sehen, z.B. während der Unterzeichnung des Vertrags. (2) Senden Sie den Bewohnern ihren QR-Code in digitaler oder Papierform, indem Sie zuerst den QR-Code in einer Datei speichern. Für beide Optionen können Sie einen geheimen Text auswählen, um den Onboarding-Prozess sicherer zu gestalten. Sie können diese Methode auch für Ihre bestehenden Bewohner verwenden, obwohl dies viel Arbeit Ihrerseits bedeuten würde.
+          -
+            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
+            lead: 06.
+            title: Einfache Einbindung bestehender Bewohner
+            description: >-
+              Wir empfehlen Ihnen, für Ihre bestehenden Bewohner ein posterbasiertes Einbindung-Methode zu verwenden. Bringen Sie einfach Poster in Ihren Gebäuden an und lassen Sie Ihren Bewohner den QR-Code scannen, den das Poster enthält. Sie müssen uns vorher unter support@equa.world kontaktieren, damit wir für jedes Ihrer Gebäude maßgeschneiderte Poster erstellen können, die Sie dann ausdrucken und in verwalteten Gebäuden aufhängen. Beachten Sie, dass Sie diese Methode auch für neue Bewohner verwenden können. In diesem Fall müssen die Bewohner auf ihr Einzugsdatum warten.
       # -
       #   pair:
       #     # -

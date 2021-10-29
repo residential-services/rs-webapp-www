@@ -274,9 +274,15 @@ product:
           -
             image: /assets/my/images/550x367/equa-delta-stays-550x367.png
             lead: 05.
-            title: Simple resident onboarding
+            title: Simple onboarding of new residents
             description: >-
-              Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Show residents their QR-code on your mobile device using the Equa Delta app; this is convenient if you see the resident in person. (2) Send residents their QR-code in digital or paper form by first saving the QR-code to a file; this is suitable for your existing residents for example. For both options, you can choose a secret text which you will communicate to the resident to make the onboarding process more secure.
+              Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Show residents their QR-code on your mobile device using the Equa Delta app; this is convenient if you see the resident in person, for example when signing a contract. (2) Send residents their QR-code in digital or paper form by first saving the QR-code to a file. For both options, you can choose a secret text which you will communicate to the resident to make the onboarding process more secure. Note that you can also use this onboarding method for your existing residents, although this would involve a lot of work on your part.
+          -
+            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
+            lead: 06.
+            title: Simple onboarding of existing residents
+            description: >-
+              We recommend that you use poster-based onboarding for your existing residents. Just put up posters in your buildings and have your resident scan the QR-code the poster contains. You will need to contact us at support@equa.world so that we can create custom-made posters for each of your buildings, which you would then print out and put up in managed buildings. Note that you can also use this onboarding method for new residents; in this case they will just have to wait for their move-in date before onboarding.
     services:
       title: ""
       items:

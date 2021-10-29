@@ -1,0 +1,34 @@
+{
+	"files": [
+		{
+			"path": "_data/fr.yml",
+			"bookmarks": [
+				{
+					"line": 233,
+					"column": 8,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "_data/en.yml",
+			"bookmarks": [
+				{
+					"line": 234,
+					"column": 78,
+					"label": ""
+				}
+			]
+		},
+		{
+			"path": "_data/de.yml",
+			"bookmarks": [
+				{
+					"line": 217,
+					"column": 34,
+					"label": ""
+				}
+			]
+		}
+	]
+}

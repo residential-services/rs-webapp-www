@@ -271,9 +271,15 @@ product:
           -
             image: /assets/my/images/550x367/equa-delta-stays-550x367.png
             lead: 05.
-            title: Intégration simple des résidents
+            title: Intégration simple des nouveaux résidents
             description: >-
-              Vos résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Montrer aux résidents leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta; cela est pratique si vous voyez le résident en personne. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier, en enregistrant d'abord le code QR dans un fichier; cela convient par exemple pour vos résidents existants. Pour les deux options, vous pouvez choisir un texte secret que vous transmettrez au résident pour rendre le processus d'intégration plus sécurisé.
+              Vos résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Montrer aux résidents leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta; cela est pratique si vous voyez le résident en personne, par exemple lors de la signature du contrat. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier, en enregistrant d'abord le code QR dans un fichier. Pour les deux options, vous pouvez choisir un texte secret que vous transmettrez au résident pour rendre le processus d'intégration plus sécurisé. Notez que vous pouvez également utiliser cette méthode d'intégration pour vos résidents existants, bien que cela impliquerait beaucoup de travail de votre part.
+          -
+            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
+            lead: 06.
+            title: Intégration simple des résidents actuels
+            description: >-
+              Nous vous recommandons d'utiliser l'intégration par affiche pour vos résidents existants. Placez simplement des affiches dans vos bâtiments. Vos résidents n'auront plus qu'à scanner le code QR contenu dans l'affiche. Vous devrez nous contacter à support@equa.world afin que nous puissions créer des affiches sur mesure pour chacun de vos bâtiments, affiches que vous imprimerez et mettrez ensuite dans les bâtiments gérés. Notez que vous pouvez également utiliser cette méthode pour vos nouveaux résidents; dans ce cas, ils attendront leur date d'emménagement.
     services:
       title: ""
       items:
