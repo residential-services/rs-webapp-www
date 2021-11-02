@@ -375,18 +375,12 @@ product:
           body: >
             ▶ Mieteinzugsgebühr in Deutschland, Österreich, Belgien, Luxemburg, Niederlande: Die Gebühr von Equa World beträgt 0,1%. Darüber hinaus beträgt die Gebühr von Stripe 0,35 € pro Transaktion. ▶ Mieteinzugsgebühr in Zypern, Estland, Finnland, Frankreich, Griechenland, Irland, Italien, Lettland, Litauen, Malta, Portugal, Slowakei, Slowenien, Spanien: Die Gebühr von Equa World beträgt 0,1%. Darüber hinaus beträgt die Gebühr von Stripe pro Transaktion 0,8% + 0,25 €, begrenzt auf 5,00 €.
         -
-          title: Die Bewohner-App - Equa Phi
+          title: Die Bewohner-Erlebnis-App
           icon: ti-mobile
           body: >
-            Die Bewohner haben ihre eigene App namens Equa Phi, die sie in ihrem täglichen Leben GRATIS verwenden können.
+            Die Bewohner haben ihre eigene App, die sie KOSTENLOS in ihrem täglichen Leben nutzen können. Die Standard-App, die wir Bewohnern anbieten, ist Equa Phi. Darüber hinaus können Sie Bewohnern, die von einer oder mehreren Ihrer Filialen betreut werden, Ihre eigene Marken-App anbieten. Marken-Apps kosten 82 € pro Monat; bitte kontaktieren Sie uns unter support@equa.world.
           link: /product/tenants/
-        # -
-        #   title: Die Bewohner-App - Equa Phi oder Ihre Marken-App
-        #   icon: ti-mobile
-        #   body: >
-        #     Die Bewohner haben ihre eigene App namens Equa Phi, die sie in ihrem täglichen Leben GRATIS verwenden können.
-        #     Wenn Sie den Bewohnern Ihre eigene Marken-App mit Ihrem Logo und visuellem Thema anbieten möchten, können wir Ihnen eine solche App zum Preis von 49 € / 42 ₤ / 59 US$ pro Monat für eine unbegrenzte Anzahl von Filialen anbieten; bitte kontaktieren Sie uns unter support@equa.world.
-        #   link: /product/tenants/
+
         # -
         #   title: Branded-App mit Ihrem Logo und Markenbindung
         #   icon: ti-receipt

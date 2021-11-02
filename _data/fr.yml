@@ -357,18 +357,12 @@ product:
           body: >
             ▶ Frais de perception des loyers en Allemagne, Autriche, Belgique, Luxembourg, Pays-Bas : les frais d'Equa World sont de 0,1%. De plus, les frais de Stripe sont de 0,35 € par transaction. ▶ Frais de perception des loyers à Chypre, Estonie, Finlande, France, Grèce, Irlande, Italie, Lettonie, Lituanie, Malte, Portugal, Slovaquie, Slovénie, Espagne : les frais d'Equa World sont de 0,1%. De plus, les frais de Stripe par transaction sont de 0,8% + 0,25 € plafonnés à 5,00 €.
         -
-          title: L'appli pour résidents
+          title: Une appli pour vos résidents
           icon: ti-mobile
           body: >
-            Les résidents ont leur propre appli nommée Equa Phi qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne.
+            Vos résidents ont leur propre application qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne. L'application par défaut que nous proposons aux résidents est Equa Phi. De plus, vous pouvez proposer votre propre application de marque aux résidents desservis par une ou plusieurs de vos succursales. Les applications de marque sont au prix de 82 € par mois; veuillez nous contacter à support@equa.world.
           link: /product/tenants/
-        # -
-        #   title: L'appli pour résidents - Equa Phi ou une appli avec votre marque
-        #   icon: ti-mobile
-        #   body: >
-        #     Les résidents ont leur propre appli nommée Equa Phi qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne.
-        #     Si vous souhaitez offrir aux résidents votre propre appli de marque avec votre logo et votre thème visuel, nous pouvons vous en fournir une au prix de 49 € / 42 ₤ / 59 US$ par mois pour un nombre illimité de succursales; veuillez nous contacter à support@equa.world.
-        #   link: /product/tenants/
+
         # -
         #   title: Application avec votre logo et marque
         #   icon: ti-receipt
