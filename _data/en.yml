@@ -251,7 +251,7 @@ product:
             lead: 02. Property management
             title: Manage the stays of residents
             description: >-
-              Add a stay to a building by specifying the unit identifier, the move-in date, and the name of the resident who signed the rental or sale contract. Add notes to individual stays. Terminate a stay by setting its move-out date. Optionally specify a rent amount for automated rent collection. Easy resident onboarding: simply put up posters in managed buildings, and have your residents scan a QR code. Our poster template is personalised with your header image and contact information, and each building receives a different poster based on this template.
+              Add a stay to a building by specifying the unit identifier, the move-in date, and the name of the resident who signed the rental or sale contract. Add notes to individual stays. Terminate a stay by setting its move-out date. Optionally specify a rent amount for automated rent collection.
       -
         pair:
           -
@@ -259,11 +259,11 @@ product:
             lead: 03. Property management
             title: Collect rent automatically
             description: >-
-              Collect rent with minimal effort by simply entering your bank account number and the rent amounts. Manage rent payments in your Stripe dashboard. Allow household members to split rent, and to change their share of the rent whenever they like. Allow paying residents to change their source bank account without having to notify you. Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. Change the bank account you are using for collecting rent without having to notify your residents. Most Euro-Zone countries are supported using SEPA Direct Debit payments.
+              Collect rent efficiently by simply entering your bank account number and the rent amounts. Manage rent payments in your dashboard on Stripe.com. Allow household members to split rent, and to change their share of the rent whenever they like. Allow paying residents to change their source bank account getting you involved. Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. Change the bank account you are using for collecting rent without having to notify your residents. Most Euro-Zone countries are supported using SEPA Direct Debit payments.
           -
             image: /assets/my/images/550x367/equa-delta-csv-upload-550x367.png
             lead: 04. Property management
-            title: Integrate with other accounting and real estate software
+            title: Integrate Equa World with other accounting and real estate software
             description: >-
               When using the rent collection feature, integrate Equa World with your accounting software through Stripe’s reporting capabilities. Send to Equa World your existing real estate data about buildings and stays by uploading CSV files in the Equa Delta app. Create these CSV files by exporting from sources such as Microsoft Excel, Apple Numbers, Google Sheets, Airtable, or by programmatically querying the databases of other real estate software you are using.
       -

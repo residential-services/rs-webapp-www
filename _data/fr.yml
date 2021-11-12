@@ -231,7 +231,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Gestion efficace des relations avec les résidents
+      title: À utiliser seul ou en complément à un autre logiciel de gestion immobilière
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -240,46 +240,76 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
-            lead: 01.
-            title: Prélèvement automatique du loyer
+            image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
+            lead: 01. Gestion immobilière
+            title: Gérez votre inventaire immobilier
             description: >-
-              Percevez le loyer avec un effort minimal en entrant simplement votre numéro de compte bancaire et les montants des loyers. ▶︎ Gérez les paiements de loyer dans votre tableau de bord Stripe. ▶︎ Permettez aux membres des ménages de partager le loyer et de modifier leur part du loyer quand ils le souhaitent. ▶︎ Permettez aux résidents payants de modifier leur compte bancaire source sans avoir à vous en informer. ▶︎ Permettez aux résidents payants de passer aux paiements Equa Phi même s'ils ont mis en place d'autres moyens de paiement. ▶︎ Changez le compte bancaire que vous utilisez pour percevoir les loyers quand vous le souhaitez, sans avoir à en informer vos résidents. ▶︎ La perception automatisée des loyers est activée dans ces pays à l'aide des paiements par prélèvement SEPA : Allemagne, Autriche, Belgique, Chypre, Estonie, Finlande, France, Grèce, Irlande, Italie, Lettonie, Lituanie, Luxembourg, Malte, Pays-Bas, Portugal, Slovaquie, Slovénie , Espagne.
+              Ajoutez des bâtiments gérés à votre inventaire. Les adresses sont vérifiées via Google Maps. Attachez des notes aux bâtiments. Indiquez la présence de commodités dans les bâtiments, telles qu'une buanderie commune. Indiquer la présence de buanderies dans vos bâtiments active automatiquement la fonction de réservation pour vos résidents. Indiquez le nombre de machines à laver dans chaque buanderie, et choisissez un calendrier de réservation à partir de modèles prédéfinis.
           -
-            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
-            lead: 02.
-            title: Envoi de documents et annonces
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead: 02. Gestion immobilière
+            title: Gérez les séjours des résidents
             description: >-
-              Avec notre application Equa Delta, vous pouvez envoyer des documents et des annonces aux résidents vivant dans une unité particulière, un bâtiment, un groupe de bâtiments, ou tous vos bâtiments.
-              Un document peut être un document de bail ou un document de règles internes par exemple. Les annonces ont une date d'expiration qui leur est attachée et peuvent concerner un événement tel qu'un travail de réparation ou un rassemblement local par exemple. Les résidents peuvent lire leurs documents et annonces avec l'application Equa Phi.
+              Ajoutez un séjour à un bâtiment en spécifiant l'identifiant de l'unité, la date d'emménagement et le nom du résident qui a signé le contrat de location ou vente. Ajoutez des notes aux séjours. Terminez un séjour en fixant la date de déménagement. En option: spécifiez le montant du loyer pour la collecte automatisée de loyers.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 03.
-            title: Réception de bons de travail
+            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
+            lead: 03. Gestion immobilière
+            title: Encaissez le loyer automatiquement
             description: >-
-              Recevez des bons de travail de vos résidents. Suivez votre progression en définissant le statut du bon de travail et ajoutez une note textuelle. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par e-mail. 
+              Encaissez le loyer avec efficacement en entrant simplement votre numéro de compte bancaire et les montants des loyers. Gérez les paiements de loyer dans votre tableau de bord sur Stripe.com. Autorisez les membres du ménage à partager le loyer et changer leur part du loyer quand ils le souhaitent. Permettez aux résidents-payeurs de modifier leur compte bancaire source sans vous impliquer. Permettez aux résidents-payeurs de passer aux paiements par Equa Phi, même s'ils ont mis en place d'autres méthodes de paiement. Modifiez le compte bancaire que vous utilisez pour la collecte des loyers sans avoir à notifier à vos résidents. Les paiements par débit Direct SEPA sont disponibles dans la plupart des pays de la zone euro.
+          -
+            image: /assets/my/images/550x367/equa-delta-csv-upload-550x367.png
+            lead: 04. Gestion immobilière
+            title: Intégrez Equa World avec d'autres logiciels immobiliers et de comptabilité
+            description: >-
+              Lorsque vous utilisez la fonction de collecte de loyer, intégrez Equa World avec votre logiciel de comptabilité via les capacités de reporting de Stripe.com. Envoyez à Equa World vos données immobilières existantes sur les bâtiments et les séjours en téléchargeant des fichiers CSV dans l'application Equa Delta. Créez ces fichiers CSV en exportant à partir de sources telles que Microsoft Excel, Apple Numbers, Google Sheets, AirTable ou en interrogeant par programme les bases de données d'autres logiciels immobiliers que vous utilisez.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-roles-550x367.png
+            lead: 05. Gestion immobilière
+            title: Organisez votre équipe
+            description: >-
+              Chaque membre de votre équipe de gestion immobilière peut se spécialiser dans un ou plusieurs rôles différents pour une division de travail efficace. La personne qui établit votre société au sein d'Equa World se voit attribuer le rôle de «directeur». Les directeurs ont un accès complet à toutes les fonctions Equa World, et ils peuvent ajouter d'autres personnes à l'équipe, que ce soit dans un rôle "directeur" ou au moins un rôle parmi "agent", "responsable relations résidents", "responsable inventaire", "éditeur" ou "responsables ressources humaines". Une explication complète de chaque rôle est fournie dans l'application Equa Delta.
           -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
-            lead: 04.
-            title: Gestion des buanderies communes
+            lead: 06. Expérience du résident
+            title: Gérer les buanderies de vos bâtiments
             description: >-
-              Activez la fonction de réservation pour vos résidents en indiquant la présence de buanderies communes dans vos immeubles. Pour chaque immeuble, indiquez le nombre de machines réservables et choisissez un calendrier de réservation parmi des modèles prédéfinis. S'il y a plusieurs machines, étiquetez-les physiquement en commençant par "1".
+              Activez la fonction de réservation de créneaux horaires pour vos résidents en indiquant la présence buanderies communes dans vos bâtiments. Pour chaque buanderie, indiquez le nombre de machines réservables et choisissez un calendrier de réservation à partir de modèles prédéfinis. S'il y a plusieurs machines, étiquetez-les physiquement à partir de "1".
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
-            lead: 05.
-            title: Intégration simple des nouveaux résidents
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            lead: 07. Expérience du résident
+            title: Envoyez des documents et annonces aux résidents
             description: >-
-              Vos résidents scannent simplement un QR-code que vous leur présentez afin de pouvoir utiliser l'appli Equa Phi pour leur chez eux. Vous avez deux options: (1) Montrer aux résidents leur code QR sur votre appareil mobile à l'aide de l'appli Equa Delta; cela est pratique si vous voyez le résident en personne, par exemple lors de la signature du contrat. (2) Envoyer aux résidents leur code QR sous forme numérique ou papier, en enregistrant d'abord le code QR dans un fichier. Pour les deux options, vous pouvez choisir un texte secret que vous transmettrez au résident pour rendre le processus d'intégration plus sécurisé. Notez que vous pouvez également utiliser cette méthode d'intégration pour vos résidents existants, bien que cela impliquerait beaucoup de travail de votre part.
+              Avec l'appli Equa Delta, vous pouvez envoyer des documents et annonces aux résidents vivant dans une unité en particulier, dans un bâtiment, un groupe de bâtiments ou tous vos bâtiments.
+              Un document peut être un contrat de location ou un règlement d'immeuble par exemple.
+              Les annonces ont une date d'expiration et peuvent se rapporter à un événement tel que des travaux de réparation ou une fête locale par exemple.
+              Les résidents peuvent lire leurs documents et annonces avec l'application Equa Phi.
+          -
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
+            lead: 08. Expérience du résident
+            title: Recevez des bons de travail des résidents
+            description: >-
+              Recevez des bons de travail de vos résidents. Actualisez l'état d'avancement des travaux en spécifiant le statut du bon de travail et en ajoutant une note de texte. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par courrier électronique.
+      -
+        pair:
           -
             image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
-            lead: 06.
-            title: Intégration simple des résidents actuels
+            lead: 09. Expérience du résident
+            title: Intégrez efficacement les résidents existants
             description: >-
-              Nous vous recommandons d'utiliser l'intégration par affiche pour vos résidents existants. Placez simplement des affiches dans vos bâtiments. Vos résidents n'auront plus qu'à scanner le code QR contenu dans l'affiche. Vous devrez nous contacter à support@equa.world afin que nous puissions créer des affiches sur mesure pour chacun de vos bâtiments, affiches que vous imprimerez et mettrez ensuite dans les bâtiments gérés. Notez que vous pouvez également utiliser cette méthode pour vos nouveaux résidents; dans ce cas, ils attendront leur date d'emménagement.
+              Nous vous recommandons d'utiliser une intégration par affiches pour vos résidents existants. Il suffit pour ceci d'afficher des posters dans vos bâtiments. Vos résidents vont scanner le code QR que l'affiche contient. Veuillez nous contacter à support@equa.world afin que nous puissions créer des affiches personnalisées pour chacun de vos bâtiments, que vous imprimerez et afficherez dans vos bâtiments gérés.Notez que vous pouvez également utiliser cette méthode d'embarquement pour les nouveaux résidents. Dans ce cas, ils devront simplement attendre leur date d'emménagement.
+          -
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
+            lead: 10. Expérience du résident
+            title: Intégrez vos nouveaux résidents
+            description: >-
+              Nous vous recommandons d'utiliser une intégration par affiches, mais au cas où vous souhaiteriez intégrer un résident avant qu'il ait emménagé, vous avez deux options: (1) Montrer au résident son QR-Code dans l'appli Equa Delta si vous le rencontrez en personne, par exemple lors de la signature d'un contrat. (2) Envoyer au résident son code QR sous forme numérique ou papier en sauvegardant d'abord le code dans un fichier. Pour les deux options, vous pouvez choisir un texte secret que vous communiquerez au résident pour rendre le processus d'intégration plus sûr.
     services:
       title: ""
       items:
@@ -350,7 +380,7 @@ product:
           title: Abonnement
           icon: ti-receipt
           body: >
-            Abonnements disponibles pour 1000, 2000, 3000, 4000 et 8000 unités d'habitation, au prix d'environ 0,09 € par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
+            Abonnements disponibles pour 1000, 2000, 3000, 4000 et 8000 unités d'habitation, au prix d'environ 0.07 € / 0.06 ₤ / 0.08 US$ par unité d'habitation et par mois. Les abonnements peuvent être achetés dans l'application Equa Delta dans la devise de votre choix. Disponible dans le monde entier. Essai gratuit de 14 jours.
         -
           title: Commission pour le prélèvement du loyer SEPA
           icon: ti-receipt

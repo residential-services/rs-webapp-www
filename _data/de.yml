@@ -215,7 +215,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Senken Sie Ihre Immobilienverwaltungskosten durch effiziente Prozesse
+      title: Eigenständig verwenden, oder in Zusammenhang mit anderer Immobilienverwaltungssoftware
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -224,82 +224,76 @@ product:
       -
         pair:
           -
+            image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
+            lead: 01. Bewirtschaftung
+            title: Immobilienbestand verwalten
+            description: >-
+              Fügen Sie Ihrem Inventar verwaltete Gebäude hinzu. Adressen werden über Google Maps überprüft. Anmerkungen an Gebäude anhängen. Die Anwesenheit von Annehmlichkeiten in Gebäuden angeben, z. B. gemeinsame Wäschereien. Die Angabe der Anwesenheit von Wäschemöglichkeiten in Ihren Gebäuden aktiviert automatisch die Buchungsfunktion für Ihre Bewohner. Stellen Sie für jede Wäschereieinrichtung die Zahl der Waschmaschinen ein und wählen Sie einen Buchungskalender aus vordefinierten Vorlagen.
+          -
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead: 02. Bewirtschaftung
+            title: Die Aufenthalte der Bewohner verwalten
+            description: >-
+              Fügen Sie einen Aufenthalt einem Gebäude hinzu, indem Sie die Einheitskennung angeben, und auch das Einzugsdatum und den Namen des Bewohners, der den Miet- oder Verkaufsvertrag unterzeichnet hat. Fügen Sie den einzelnen Aufenthalten Notizen hinzu. Beenden Sie einen Aufenthalt, indem Sie das Auszugsdatum einstellen. Geben Sie optional einen Mietbetrag für die automatisierte Mietsammlung an.
+      -
+        pair:
+          -
             image: /assets/my/images/550x367/equa-delta-rent-550x367.png
-            lead: 01.
+            lead: 03. Bewirtschaftung
             title: Miete automatisch einziehen
             description: >-
-              Sammeln Sie Miete mit minimalem Aufwand, indem Sie einfach Ihren Bankkontonummer und die Mietbeträge eingeben. ▶ Verwalten Sie Mietzahlungen in Ihrem Stripe-Dashboard. ▶︎ Erlauben Sie den Haushaltsmitgliedern, die Miete zu teilen und ihren Anteil an der Miete jederzeit zu ändern. ▶︎ Erlauben Sie zahlenden Einwohnern, ihr Quellbankkonto zu ändern, ohne Sie benachrichtigen zu müssen. ▶︎ Erlauben Sie zahlenden Einwohnern, zu Equa Phi-Zahlungen zu wechseln, auch wenn sie andere Zahlungsmethoden eingerichtet haben. ▶︎ Ändern Sie das Bankkonto, das Sie für das Einziehen der Miete verwenden, wann immer Sie möchten, ohne Ihre Bewohner zu benachrichtigen. ▶︎ Der automatische Mieteinzug ist in diesen Ländern mittels SEPA-Lastschriftverfahren aktiviert: Österreich, Belgien, Zypern, Estland, Finnland, Frankreich, Deutschland, Griechenland, Irland, Italien, Lettland, Litauen, Luxemburg, Malta, Niederlande, Portugal, Slowakei, Slowenien , Spanien.
+              Sammeln Sie Miete mit minimalem Aufwand, indem Sie einfach Ihre Bankkontonummer und die Mietbeträge eingeben. Verwalten Sie Mietzahlungen in Ihrem Dashboard auf Stripe.com. Ermöglichen Sie den Haushaltsmitgliedern, die Miete aufzuteilen, und ihren Anteil an der Miete zu ändern, wann sie möchten. Ermöglichen Sie den Einwohnern, ihr Quellbankkonto zu ändern, ohne Sie hineinzuziehen. Erlauben Sie den Einwohnern, zu Equa Phi-Zahlungen zu wechseln, auch wenn sie andere Zahlungsmethoden eingerichtet haben. Ändern Sie das Bankkonto, das Sie zum Sammeln von Mieten verwenden, ohne Ihre Bewohner benachrichtigen zu müssen. Die meisten Länder der Eurozone werden durch SEPA-Lastschriftzahlungen unterstützt.
           -
-            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
-            lead: 02.
-            title: Dokumente und Ankündigungen senden
+            image: /assets/my/images/550x367/equa-delta-csv-upload-550x367.png
+            lead: 04. Bewirtschaftung
+            title: Integrieren Sie Equa World mit anderen Buchhaltungs- und Immobiliensoftware
             description: >-
-              Mit unserer Equa Delta-Anwendung können Sie Dokumente und Ankündigungen an Bewohner einer bestimmten Wohneinheit, eines Gebäudes, einer Gruppe von Gebäuden oder aller Ihrer Gebäude senden.
-              Ein Dokument kann beispielsweise ein Leasingdokument oder ein Hausordnungsdokument sein.
-              Den Ankündigungen ist ein Ablaufdatum verbunden; es könnte sich auf ein Ereignis wie einen Reparaturjob oder eine lokale Versammlung beziehen.
-              Bewohner können ihre Dokumente und Ankündigungen mit der Equa Phi App lesen.
+              Wenn Sie die Mietersammlungsfunktion verwenden, integrieren Sie Equa World mit Ihrer Buchhaltungssoftware durch die Berichtsmöglichkeiten von Stripe.com. Wenn sie andere Immobiliensoftware benutzen, senden Sie an Equa World Ihre vorhandenen Immobiliendaten über Gebäude und Aufenthalte, indem Sie CSV-Dateien in die Equa Delta-App hochladen. Erstellen Sie diese CSV-Dateien, indem Sie aus Quellen, z. B. Microsoft Excel, Apple Numbers, Google Sheets, Airtable, oder durch programmgesteuerte Abfragen der Datenbanken anderer Immobiliensoftware exportieren.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 03.
-            title: Arbeitsaufträge erhalten
+            image: /assets/my/images/550x367/equa-delta-roles-550x367.png
+            lead: 05. Bewirtschaftung
+            title: Organisieren Sie Ihr Team
             description: >-
-              Erhalten Sie Arbeitsaufträge von Ihren Bewohnern. Verfolgen Sie die Behandlung, indem Sie den Arbeitsauftragsstatus festlegen und eine Textnotiz anhängen. Um weitere Informationen zu einer Anfrage zu erhalten, kopieren Sie einfach die E-Mail-Adresse des Absenders und starten Sie eine E-Mail-Konversation.
+              Jedes Mitglied des Property Management-Teams kann auf eine oder mehrere verschiedene Rollen für eine effiziente Arbeitsteilung spezialisiert werden. Die Person, die behauptet, dass das Property Management Company in Equa World die "Leiter"-Rolle zugewiesen wird. Leiter haben vollen Zugang zu allen Equa World-Funktionen, und sie können andere Personen an das Team hinzufügen, sei es in einer "Leiter"-Rolle oder mindestens einem von "Agenten"-, "Verwalter der Bewohnerbeziehungen"-, "Bestandsverwalter"-, "Editor"- oder "Personalleiter"-Rollen. Die vollständige Erläuterung jeder Rolle ist in der Equa Delta-App bereitgestellt.
           -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
-            lead: 04.
-            title: Die gemeinsamen Wäschereien verwalten
+            lead: 06. Bewohnererlebnis
+            title: Gemeinsame Wäschereien verwalten
             description: >-
-              Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie die gemeinsamen Wäschereien Ihrer Gebäuden eingeben. Geben Sie für jede Einrichtung die Anzahl der reservierbaren Maschinen an und wählen Sie einen Reservierungskalender aus vordefinierten Vorlagen aus. Wenn mehrere Maschinen vorhanden sind, kennzeichnen Sie sie physisch ab "1".
+              Aktivieren Sie die Zeitfenster-Reservierungsfunktion für Ihre Bewohner, indem Sie vorhandene gemeinsame Wäschereien angeben. Geben Sie für jede Einrichtung die Anzahl der reservierbaren Maschinen an und wählen Sie einen Reservierungskalender aus vordefinierten Vorlagen aus. Wenn es mehrere Maschinen gibt, kennzeichnen Sie sie physisch von "1" aufwärts.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
-            lead: 05.
-            title: Einfache Einbindung neuer Bewohner
+            image: /assets/my/images/550x367/equa-delta-messages-550x367.png
+            lead: 07. Bewohnererlebnis
+            title: Senden Sie Dokumente und Ankündigungen an die Bewohner
             description: >-
-              Die Bewohner müssen nur einen QR-Code scannen, den Sie ihnen vorlegen, um die Equa Phi-App für ihr Zuhause zu verwenden. Sie haben zwei Möglichkeiten: (1) Zeigen Sie den Bewohnern ihren QR-Code auf Ihrem Mobilgerät mittels der Equa Delta-App. Dies ist praktisch, wenn Sie den Bewohner persönlich sehen, z.B. während der Unterzeichnung des Vertrags. (2) Senden Sie den Bewohnern ihren QR-Code in digitaler oder Papierform, indem Sie zuerst den QR-Code in einer Datei speichern. Für beide Optionen können Sie einen geheimen Text auswählen, um den Onboarding-Prozess sicherer zu gestalten. Sie können diese Methode auch für Ihre bestehenden Bewohner verwenden, obwohl dies viel Arbeit Ihrerseits bedeuten würde.
+              Mit die Equa-Delta-Anwendung können Sie Dokumente und Ankündigungen an die Bewohner senden, die in einer bestimmten Wohneinheit, einem Gebäude, einer Gruppe von Gebäuden oder allen Ihren Gebäuden sich aufhalten.
+              Ein Dokument kann beispielsweise ein Mietvertrag oder ein Hausordnungsdokument sein.
+              Ankündigungen haben ein Verfallsdatum, und können sich auf ein zeitbegrenztes Ereignis wie beispielsweise eine Reparatur oder eine lokale Versammlung beziehen.
+              Die Bewohner können ihre Dokumente und Ankündigungen mit der Equa Phi-App lesen.
+          -
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
+            lead: 08. Bewohnererlebnis
+            title: Erhalten Sie Arbeitsaufträge von den Bewohnern
+            description: >-
+              Erhalten Sie Arbeitsaufträge von Ihren Bewohnern, und verfolgen Sie deren Fortschritt, indem Sie den Arbeitsauftragsstatus einstellen und einen Textanmerkung anhängen. Um nach weiteren Informationen zu einem Auftrag zu fordern, kopieren Sie einfach die E-Mail-Adresse des Absenders und senden Sie ein E-Mail.
+      -
+        pair:
           -
             image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
-            lead: 06.
-            title: Einfache Einbindung bestehender Bewohner
+            lead: 09. Bewohnererlebnis
+            title: Bestehende Bewohner effizient einbinden
             description: >-
-              Wir empfehlen Ihnen, für Ihre bestehenden Bewohner ein posterbasiertes Einbindung-Methode zu verwenden. Bringen Sie einfach Poster in Ihren Gebäuden an und lassen Sie Ihren Bewohner den QR-Code scannen, den das Poster enthält. Sie müssen uns vorher unter support@equa.world kontaktieren, damit wir für jedes Ihrer Gebäude maßgeschneiderte Poster erstellen können, die Sie dann ausdrucken und in verwalteten Gebäuden aufhängen. Beachten Sie, dass Sie diese Methode auch für neue Bewohner verwenden können. In diesem Fall müssen die Bewohner auf ihr Einzugsdatum warten.
-      # -
-      #   pair:
-      #     # -
-      #     #   image: /assets/my/images/nonstandard-size/Cell-Phone-Health-Risks-1024x682.jpg
-      #     #   lead: 03.
-      #     #   title: Feedback von Bewohnern
-      #     #   description: >-
-      #     #     Bewohner können Ihnen aus verschiedenen Gründen Feedback schicken, beispielsweise um einen mangelhaften Gerät anzumelden.
-      #     -
-      #       image: /assets/my/images/nonstandard-size/2018-06-08building-768x512.jpg
-      #       lead: 03.
-      #       title: Bewohnergruppen
-      #       description: >-
-      #         Sie können Bewohnergruppen erstellen und dann mit ihnen effizient kommunizieren.
-      #       # Equa importiert die in Ihrem ERP-System enthaltenen Gruppierungdaten automatisch. Gruppen können auch innerhalb von Equa erstellt werden.
-      # -
-      #   pair:
-      #     -
-      #       image: /assets/my/images/550x367/tumbleweed-laundry-550x367.jpg
-      #       lead: 05.
-      #       title: Gemeiname Waschräume
-      #       description: >-
-      #         Sie können Equa darauf hinweisen, ob bestimmte Gebäuden mit Waschräumen ausgestattet sind, die
-      #         für Bewohner zur Verfügung stehen.
-      #         Equa importiert die in Ihrem ERP-System enthaltenen Waschraumdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
-      #         Equa erzeugt Waschraumreservierungdaten automatisch für jeden einzelnen Bewohner. Reservierungen können zu jeder Zeit von den Bewohnern auch geändert werden. 
-      #         Bewohner können dann ihre Reservierungen mittels des Equa-Apps oder einer Kalenderanwendung zur Kenntnis nehmen, da Bewohnerkonten mit gängigen Kalendardiensten synchronisiert werden können.
-      #     -
-      #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
-      #       lead: 06.
-      #       title: Aktuelle Kontaktdaten
-      #       description: >-
-      #         Sie können Equa darauf hinweisen, welche Personen für Bewohner zur Verfügung stehen.
-      #         Equa importiert die in Ihrem ERP-System enthaltenen Kontaktdaten automatisch. Diese Daten können auch innerhalb von Equa erstellt werden. 
+              Wir empfehlen, dass Sie unsere Poster-basierte Einbindungsmethode für Ihre bestehenden Einwohner verwenden. Legen Sie einfach Poster in Ihren Gebäuden auf und lassen Sie Bewohner den QR-Code scannen, der das Poster enthält. Senden Sie eine E-Mail an support@equa.world, damit wir für jedes Ihrer Gebäude maßgeschneiderte Poster erstellen können, die Sie dann ausdrucken und in verwalteten Gebäuden aufstellen werden. Beachten Sie, dass Sie diese Einbindungsmethode auch für neue Bewohner verwenden können; in diesem Fall müssen Bewohner auf ihr Einzug warten.
+          -
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
+            lead: 10. Bewohnererlebnis
+            title: Neue Bewohner einbinden
+            description: >-
+              Wir empfehlen, dass Sie die Poster-basierte Einbindungsmethode verwenden, aber falls Sie einen Bewohner vor dem Einziehen einbinden möchten, haben Sie zwei Möglichkeiten: (1) Anwohner ihren QR-Code auf Ihrem Handy mit der Equa Delta-App anzeigen; dies ist praktisch, wenn sie dem Bewohner persönlich begegnen, zum Beispiel bei der Unterzeichnung des Vertrags. (2) Den Bewohnern ihren QR-Code in digitaler oder Papierform senden, indem Sie den QR-Code zuerst in einer Datei speichern. Für beide Optionen können Sie einen geheimen Text auswählen, den Sie dem Bewohner mitteilen, um die Einbindungsvorgang sicherer zu machen.
     services:
       title: ""
       items:
@@ -368,7 +362,7 @@ product:
           title: Standard-Abo
           icon: ti-receipt
           body: >
-            Abonnements für 1000, 2000, 3000, 4000 und 8000 Wohneinheiten zum Preis von ca. 0,09 € pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
+            Abonnements für 1000, 2000, 3000, 4000 und 8000 Wohneinheiten zum Preis von ca. 0.07 € / 0.06 ₤ / 0.08 US$ pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
         -
           title: SEPA-Mieteinzugsgebühr
           icon: ti-receipt
