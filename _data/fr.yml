@@ -73,7 +73,7 @@ homepage:
   text:
     lead: Gestion immobilière facilitée
     title: >
-      Logiciel de gestion des résidents, pour logements résidentiels et estudiantins. Bas prix et haute qualité.
+      Logiciel de gestion des résidents et des immeubles résidentiels. Bas prix et haute qualité.
   button:
     title: Explorer
     link: /product/property-managers/
@@ -269,7 +269,7 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
             lead: 05.
             title: Intégration simple des nouveaux résidents
             description: >-

@@ -73,7 +73,7 @@ homepage:
   text:
     lead: Property management made easy
     title: >
-      Resident experience software for the residential and student housing sectors. Low-cost & high quality.
+      Resident experience and property management software for residential real estate. Low-cost & high quality.
   button:
     title: Explore
     link: /product/property-managers/
@@ -232,7 +232,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Reduce your property management costs through efficient processes
+      title: Use standalone, or use as a resident experience solution alongside other property management software
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -241,14 +241,42 @@ product:
       -
         pair:
           -
+            image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
+            lead: 01. Property management
+            title: Manage real estate inventory
+            description: >-
+              Add owned or managed buildings to your inventory. Addresses are verified through Google Maps. Attach notes to buildings. Indicate the presence of amenities in buildings, such as shared laundry facilities. Indicating the presence of laundry facilities in your buildings automatically activates the booking function for your residents. For each laundry facility, set the number washing machines and choose a booking calendar from predefined templates.
+          -
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead: 02. Property management
+            title: Manage the stays of residents
+            description: >-
+              Add a stay to a building by specifying the unit identifier, the move-in date, and the name of the resident who signed the rental or sale contract. Add notes to individual stays. Terminate a stay by setting its move-out date. Optionally specify a rent amount for automated rent collection. Easy resident onboarding: simply put up posters in managed buildings, and have your residents scan a QR code. Our poster template is personalised with your header image and contact information, and each building receives a different poster based on this template.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-roles-550x367.png
+            lead: 03. Property management
+            title: Organize your team
+            description: >-
+              Each member of the property management team can specialise in one or more different roles for an efficient division of labor. The person who claims the property management company within Equa World is assigned the "chief" role. Chiefs has full access to all Equa World functions. Chiefs can add other people to the team, be it in a "chief" role, or at least one of "agent", "resident relations manager", "inventory manager", "editor", "HR manager" roles. Full explanation of each role is provided in the Equa Delta app.
+          -
             image: /assets/my/images/550x367/equa-delta-rent-550x367.png
-            lead: 01.
+            lead: 04. Property management
             title: Collect rent automatically
             description: >-
-              Collect rent with minimal effort by simply entering your bank account number and the rent amounts. ▶ Manage rent payments in your Stripe dashboard. ▶︎ Allow household members to split rent, and to change their share of the rent whenever they like. ▶︎ Allow paying residents to change their source bank account without having to notify you. ▶︎ Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. ▶︎ Change the bank account you are using for collecting rent whenever you like, without having to notify your residents. ▶︎ Automated rent collection is enabled in these countries using SEPA Direct Debit payments: Austria, Belgium, Cyprus, Estonia, Finland, France, Germany, Greece, Ireland, Italy, Latvia, Lithuania, Luxembourg, Malta, Netherlands, Portugal, Slovakia, Slovenia, Spain.
+              Collect rent with minimal effort by simply entering your bank account number and the rent amounts. Manage rent payments in your Stripe dashboard. Allow household members to split rent, and to change their share of the rent whenever they like. Allow paying residents to change their source bank account without having to notify you. Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. Change the bank account you are using for collecting rent without having to notify your residents. Most Euro-Zone countries are supported using SEPA Direct Debit payments.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-csv-upload-550x367.png
+            lead: 05. Property management
+            title: Integrate with other accounting and real estate software
+            description: >-
+              When using the rent collection feature, integrate Equa World with your accounting software through Stripe’s reporting capabilities. Send to Equa World your existing real estate data about buildings and stays by uploading CSV files in the Equa Delta app. Create these CSV files by exporting from sources such as Microsoft Excel, Apple Numbers, Google Sheets, Airtable, or by programmatically querying the databases of other real estate software you are using.
           -
             image: /assets/my/images/550x367/equa-delta-messages-550x367.png
-            lead: 02.
+            lead: 06. Resident experience
             title: Send documents and announcements to residents
             description: >-
               With our Equa Delta application, you can send documents and announcements to residents living in a particular unit, a building, a group of buildings, or all your buildings. 
@@ -259,27 +287,27 @@ product:
         pair:
           -
             image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 03.
+            lead: 07. Resident experience
             title: Receive work orders from residents
             description: >-
               Receive work orders from your residents. Track progress by setting the work order status, and appending a text note. For more information regarding a request, simply copy the sender's email address and start an email conversation.
           -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
-            lead: 04.
+            lead: 08. Resident experience
             title: Manage your buildings' laundry facilities
             description: >-
               Activate the time slot reservation function for your residents by indicating the presence of common laundry facilities in your buildings. For each facility, indicate the number of reservable machines and choose a reservation calendar from predefined templates. If there are several machines, tag them physically starting from "1".
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
-            lead: 05.
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
+            lead: 09. Resident experience
             title: Simple onboarding of new residents
             description: >-
               Residents only have to scan a QR-code you present them in order to use the Equa Phi app for their home. You have two options: (1) Show residents their QR-code on your mobile device using the Equa Delta app; this is convenient if you see the resident in person, for example when signing a contract. (2) Send residents their QR-code in digital or paper form by first saving the QR-code to a file. For both options, you can choose a secret text which you will communicate to the resident to make the onboarding process more secure. Note that you can also use this onboarding method for your existing residents, although this would involve a lot of work on your part.
           -
             image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
-            lead: 06.
+            lead: 10. Resident experience
             title: Simple onboarding of existing residents
             description: >-
               We recommend that you use poster-based onboarding for your existing residents. Just put up posters in your buildings and have your resident scan the QR-code the poster contains. You will need to contact us at support@equa.world so that we can create custom-made posters for each of your buildings, which you would then print out and put up in managed buildings. Note that you can also use this onboarding method for new residents; in this case they will just have to wait for their move-in date before onboarding.
@@ -353,7 +381,7 @@ product:
           title: Subscription
           icon: ti-receipt
           body: >
-            Subscriptions available for 1000, 2000, 3000, 4000 and 8000 habitation units, priced at about US$ 0.08 per habitation unit per month. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
+            Subscriptions available for 1000, 2000, 3000, 4000 and 8000 habitation units, priced at about 0.07 € / 0.06 ₤ / 0.08 US$ per habitation unit per month. One subscription per branch office recommended. Cumulating several subscriptions is possible; please contact us at support@equa.world. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Available worldwide. 14-day free trial. 
         -
           title: SEPA rent collection fee
           icon: ti-receipt

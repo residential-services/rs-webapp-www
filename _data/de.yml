@@ -73,7 +73,7 @@ homepage:
   text:
     lead: Liegenschaftsverwaltung vereinfacht
     title: >
-      Bewohnererlebnissoftware für Privat- und Studentenwohnungen. Kostengünstig & hochwertig.
+      Bewohnererlebnis- und Immobilienbewirtschaftungs-Software für Wohnhäuser. Kostengünstig und hochwertig.
   button:
     title: Erkunden
     link: /product/property-managers/
@@ -255,7 +255,7 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
             lead: 05.
             title: Einfache Einbindung neuer Bewohner
             description: >-
