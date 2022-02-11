@@ -77,6 +77,9 @@ homepage:
   button:
     title: Explore
     link: /product/property-managers/
+  splash:
+    - Anti-COVID Compliant
+    - Remote Work Support
   # carousel:
   #   -
   #     lead: "" #Property management made easy
@@ -232,7 +235,7 @@ product:
   pm:
     header:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
-      title: Use standalone, or use as a resident experience solution alongside other property management software
+      title: Resident experience solution. Use standalone or alongside other property management software.
       breadcrumbs:
         - Equa
         - *2_0_title
@@ -241,76 +244,90 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
-            lead: 01. Property management
-            title: Manage real estate inventory
+            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
+            lead:
+            title: Anti-COVID compliant
             description: >-
-              Add owned or managed buildings to your inventory. Addresses are verified through Google Maps. Attach notes to buildings. Indicate the presence of amenities in buildings, such as shared laundry facilities. Indicating the presence of laundry facilities in your buildings automatically activates the booking function for your residents. For each laundry facility, set the number washing machines and choose a booking calendar from predefined templates.
+              Equa World helps enforce social distancing within the buildings you are managing. Residents can read documents & announcements and book common laundry facilities without being physically present in the entrance hallway or the laundry room; this results in less frequent encounters between residents and less chance of a COVID contagion.
           -
-            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
-            lead: 02. Property management
-            title: Manage the stays of residents
+            image: /assets/my/images/550x367/remote-work-550x367.jpg
+            lead:
+            title: Enables remote work
             description: >-
-              Add a stay to a building by specifying the unit identifier, the move-in date, and the name of the resident who signed the rental or sale contract. Add notes to individual stays. Terminate a stay by setting its move-out date. Optionally specify a rent amount for automated rent collection.
+              With Equa World, your staff members can manage communications with residents without having to be physically present in the company premises.
       -
         pair:
-          -
-            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
-            lead: 03. Property management
-            title: Collect rent automatically
-            description: >-
-              Collect rent efficiently by simply entering your bank account number and the rent amounts. Manage rent payments in your dashboard on Stripe.com. Allow household members to split rent, and to change their share of the rent whenever they like. Allow paying residents to change their source bank account getting you involved. Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. Change the bank account you are using for collecting rent without having to notify your residents. Most Euro-Zone countries are supported using SEPA Direct Debit payments.
-          -
-            image: /assets/my/images/550x367/equa-delta-csv-upload-550x367.png
-            lead: 04. Property management
-            title: Integrate Equa World with other accounting and real estate software
-            description: >-
-              When using the rent collection feature, integrate Equa World with your accounting software through Stripe’s reporting capabilities. Send to Equa World your existing real estate data about buildings and stays by uploading CSV files in the Equa Delta app. Create these CSV files by exporting from sources such as Microsoft Excel, Apple Numbers, Google Sheets, Airtable, or by programmatically querying the databases of other real estate software you are using.
-      -
-        pair:
-          -
-            image: /assets/my/images/550x367/equa-delta-roles-550x367.png
-            lead: 05. Property management
-            title: Organize your team
-            description: >-
-              Each member of the property management team can specialise in one or more different roles for an efficient division of labor. The person who claims the property management company within Equa World is assigned the "chief" role. Chiefs has full access to all Equa World functions, and they can add other people to the team, be it in a "chief" role, or at least one of "agent", "resident relations manager", "inventory manager", "editor" or "HR manager" roles. Full explanation of each role is provided in the Equa Delta app.
           -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
-            lead: 06. Resident experience
-            title: Manage your buildings' laundry facilities
+            lead:
+            title: Enable laundry facility reservations
             description: >-
-              Activate the time slot reservation function for your residents by indicating the presence of common laundry facilities in your buildings. For each facility, indicate the number of reservable machines and choose a reservation calendar from predefined templates. If there are several machines, tag them physically starting from "1".
-      -
-        pair:
+              Allow your residents to book shared laundry facilities from their smartphone. For each facility, indicate the number of reservable machines and choose a reservation calendar from predefined templates. If there are several machines, tag them physically starting from "1". Equa World ensures that the reservation quotas are respected.
           -
             image: /assets/my/images/550x367/equa-delta-messages-550x367.png
-            lead: 07. Resident experience
+            lead:
             title: Send documents and announcements to residents
             description: >-
               With our Equa Delta application, you can send documents and announcements to residents living in a particular unit, a building, a group of buildings, or all your buildings. 
               A document can be a lease document or a house rules document for example.
               Announcements have an expiration date attached to them, and can pertain to an event such as a repair job or a local gathering for example.
-              Residents can read their documents and announcements with the Equa Phi app.
-          -
-            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
-            lead: 08. Resident experience
-            title: Receive work orders from residents
-            description: >-
-              Receive work orders from your residents. Track progress by setting the work order status, and appending a text note. For more information regarding a request, simply copy the sender's email address and start an email conversation.
+              Residents can read their documents and announcements within the Equa Phi app wherever they are.
       -
         pair:
           -
+            image: /assets/my/images/550x367/equa-delta-work-orders-550x367.png
+            lead:
+            title: Receive work orders from residents
+            description: >-
+              Receive work orders from your residents. Track progress by setting the work order status, and appending a text note. For more information regarding a request, simply copy the sender's email address and start an email conversation.
+          -
             image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
-            lead: 09. Resident experience
+            lead:
             title: Efficiently integrate existing residents 
             description: >-
               We recommend that you use poster-based on-boarding for your existing residents. Just put up posters in your buildings and have your resident scan the QR-code the poster contains. You will need to contact us at support@equa.world so that we can create custom-made posters for each of your buildings, which you would then print out and put up in managed buildings. Note that you can also use this on-boarding method for new residents; in this case they will just have to wait for their move-in date before on-boarding.
+      -
+        pair:
           -
             image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
-            lead: 10. Resident experience
+            lead:
             title: Integrate new residents
             description: >-
               We recommend that you use poster-based on-boarding, but in case there is a reason you wish to on-board a resident before they have moved in, you have two options: (1) Show residents their QR-code on your mobile device using the Equa Delta app; this is convenient if you are meeting the resident in person, for example when signing a contract. (2) Send residents their QR-code in digital or paper form by first saving the QR-code to a file. For both options, you can choose a secret text which you will communicate to the resident to make the on-boarding process more secure.
+          -
+            image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
+            lead:
+            title: Manage real estate inventory
+            description: >-
+              Add owned or managed buildings to your inventory. Addresses are verified through Google Maps. Attach notes to buildings. Indicate the presence of amenities in buildings, such as shared laundry facilities. Indicating the presence of laundry facilities in your buildings automatically activates the booking function for your residents. For each laundry facility, set the number washing machines and choose a booking calendar from predefined templates.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-stays-550x367.png
+            lead:
+            title: Manage the stays of residents
+            description: >-
+              Add a stay to a building by specifying the unit identifier, the move-in date, and the name of the resident who signed the rental or sale contract. Add notes to individual stays. Terminate a stay by setting its move-out date. Optionally specify a rent amount for automated rent collection.
+          -
+            image: /assets/my/images/550x367/equa-delta-rent-550x367.png
+            lead:
+            title: Collect rent automatically
+            description: >-
+              Collect rent efficiently within the Euro-Zone by simply entering your bank account number and the rent amounts. Manage rent payments in your dashboard on Stripe.com. Allow household members to split rent, and to change their share of the rent whenever they like. Allow paying residents to change their source bank account getting you involved. Allow paying residents to switch to Equa Phi payments even if they have set up other payment methods. Change the bank account you are using for collecting rent without having to notify your residents. Most Euro-Zone countries are supported using SEPA Direct Debit payments.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-delta-csv-upload-550x367.png
+            lead:
+            title: Integrate Equa World with other accounting and real estate software
+            description: >-
+              When using the rent collection feature, integrate Equa World with your accounting software through Stripe’s reporting capabilities. Send to Equa World your existing real estate data about buildings and stays by uploading CSV files in the Equa Delta app. Create these CSV files by exporting from sources such as Microsoft Excel, Apple Numbers, Google Sheets, Airtable, or by programmatically querying the databases of other real estate software you are using.
+          -
+            image: /assets/my/images/550x367/equa-delta-roles-550x367.png
+            lead:
+            title: Organize your team
+            description: >-
+              Each member of the property management team can specialise in one or more roles for an efficient division of labor. The person who claims the property management company within Equa World is assigned the "chief" role. Chiefs has full access to all Equa World functions, and they can add other people to the team, be it in a "chief" role, or at least one of "agent", "resident relations manager", "inventory manager", "editor" or "HR manager" roles. Full explanation of each role is provided in the Equa Delta app.
     services:
       title: ""
       items:
@@ -450,33 +467,42 @@ product:
         pair:
           -
             image: /assets/my/images/550x367/equa-phi-messages-550x367.png
-            lead: 01.
+            lead:
             title: Receive documents and announcements
             description: >-
               The company that manages the building you live in can send you documents, and also announcements that have that have an expiration attached to them. 
               A document can be a lease document or a house rules document for example, and
-              an announcement can pertain to an event such as a repair job or a local gathering.
+              an announcement can pertain to an event such as a repair job or a local gathering. Even when on vacation, you have the assurance of being informed of the events concerning your building and your home.
           -
             image: /assets/my/images/550x367/equa-phi-laundry-reservations-550x367.png
-            lead: 02.
+            lead:
             title: Book your building's common laundry facilities
             description: >-
               Reserve time slots for common laundry facilities. View the list of upcoming reservations.
+              Equa Phi ensures that household quotas are respected. Nevertheless, time slots that are not yet reserved remain reservable up to 24 hours in advance, even if the household's quota is exceeded.
       -
         pair:
           -
             image: /assets/my/images/550x367/equa-phi-work-orders-550x367.png
-            lead: 03.
+            lead:
             title: Send work orders
             description: >-
               Send work orders to your property manager. Follow the status of your work order. If your property manager needs more information about your request, he/she may optionally initiate an email conversation with you.
           -
-            image: /assets/my/images/550x367/equa-phi-moving-in-550x367.png
-            lead: 04.
-            title: Simple move-in process
+            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
+            lead: 
+            title: Move in by scanning a poster
             description: >-
-              To use the Equa Phi app, simply create an account and scan your QR code. Optionally type in the secret code that you were attributed.
-      #     -
+              If your property manager has put up a poster in your building inviting you use the Equa Phi app,
+              then simply follow the instructions. 
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/equa-phi-moving-in-550x367.png
+            lead: 
+            title: Move in by scanning your personal QR code
+            description: >-
+              If your property manager has given you access to your personal QR code, then simply: 1️⃣ Create a user account in the Equa Phi app, 2️⃣ scan your QR code using Equa Phi, and 3️⃣ optionally enter your secret code.
       #       image: /assets/my/images/nonstandard-size/fotolia-98088325-subscription-monthly-m-512x341.jpg
       #       lead: 04.
       #       title: Up-to-date contact information.
