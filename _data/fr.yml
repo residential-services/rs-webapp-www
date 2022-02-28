@@ -243,20 +243,6 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
-            lead:
-            title: Conforme aux mesures anti-COVID
-            description: >-
-              Equa World aide à préserver la distanciation sociale dans les bâtiments que vous gérez. Les résidents peuvent lire documents et annonces, et réserver les buanderies communes sans devoir être physiquement présents dans le hall d'entrée ou la buanderie; ainsi les rencontres entre résidents deviennent moins fréquentes, ce qui contribue à diminuer le risque d'une contagion de COVID entre résidents.
-          -
-            image: /assets/my/images/550x367/remote-work-550x367.jpg
-            lead:
-            title: Soutient le travail à distance
-            description: >-
-              Avec Equa World, vos collaborateurs peuvent gérer la communications avec les résidents sans devoir être physiquement présents dans les locaux de votre société.
-      -
-        pair:
-          -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
             lead:
             title: Autorisez la réservation à distance des buanderies communes
@@ -327,6 +313,20 @@ product:
             title: Organisez votre équipe
             description: >-
               Chaque membre de votre équipe de gestion immobilière peut se spécialiser dans un ou plusieurs rôles différents pour une division de travail efficace. La personne qui établit votre société au sein d'Equa World se voit attribuer le rôle de «directeur». Les directeurs ont un accès complet à toutes les fonctions Equa World, et ils peuvent ajouter d'autres personnes à l'équipe, que ce soit dans un rôle "directeur" ou au moins un rôle parmi "agent", "responsable relations résidents", "responsable inventaire", "éditeur" ou "responsable ressources humaines". Une explication complète de chaque rôle est fournie dans l'application Equa Delta.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
+            lead:
+            title: Conforme aux mesures anti-COVID
+            description: >-
+              Equa World aide à préserver la distanciation sociale dans les bâtiments que vous gérez. Les résidents peuvent lire documents et annonces, et réserver les buanderies communes sans devoir être physiquement présents dans le hall d'entrée ou la buanderie; ainsi les rencontres entre résidents deviennent moins fréquentes, ce qui contribue à diminuer le risque d'une contagion de COVID entre résidents.
+          -
+            image: /assets/my/images/550x367/remote-work-550x367.jpg
+            lead:
+            title: Soutient le travail à distance
+            description: >-
+              Avec Equa World, vos collaborateurs peuvent gérer la communications avec les résidents sans devoir être physiquement présents dans les locaux de votre société.
     services:
       title: ""
       items:

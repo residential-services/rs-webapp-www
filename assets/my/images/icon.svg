@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" width="1024" height="1024" viewBox="0 0 1003 266.1" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Fabric.js 2.4.6, edited with Boxy SVG</desc>
+
+  <g transform="matrix(0.171154, 0, 0, -0.171587, 130.232147, 125.379356)" style="">
+    <!-- font family name is MacOS font name, change it for the web when copy & pasting -->
+    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(202,160,54); fill-rule: nonzero; opacity: 1;" paint-order="stroke" d="M 496.23 -519.198 L 529.7 -519.198 L 529.7 519.2 L -529.703 519.2 L -529.703 203.01 C -409.988 294.2 51.27 610.39 282.57 262.86 C 282.57 262.86 13.87 578.52 -529.703 200.68 L -529.703 116.68 C -382.31 225.45 74.93 518.7 308.8 167.29 C 308.8 167.29 31.39 493.1 -529.703 113.14 L -529.703 25.44 C -359.36 147.66 98.39 424.35 336.39 66.7 C 336.39 66.7 49.86 403.27 -529.703 20.76 L -529.703 -70.89 C -338.85 62.54 122.28 326.2 365.47 -39.16 C 365.47 -39.16 69.3 308.77 -529.703 -76.77 L -529.703 -172.63 C -319.85 -29.34 146.83 223.84 396.05 -150.62 C 396.05 -150.62 89.73 209.11 -529.703 -179.72 L -529.703 -279.96 C -301.65 -127.77 172.26 116.68 428.25 -267.96 C 428.25 -267.96 111.28 104.47 -529.703 -288.27 L -529.703 -393.194 C -283.92 -232.7 198.71 4.34 462.15 -391.452 C 462.15 -391.452 133.92 -5.96 -529.703 -402.89 L -529.703 -512.589 C -266.9 -344.53 224.43 -114.48 496.23 -519.198" stroke-linecap="round"/>
+
+    <text style="fill: rgb(201, 162, 51); font-family: &quot;ITC Edwardian Script Com&quot;; font-size: 123px; white-space: pre;" transform="matrix(8.70858, 0, 0, -9.024717, -2317.558105, 2353.253662)" x="319.986" y="295.074">Equa World</text>
+  </g>
+</svg>

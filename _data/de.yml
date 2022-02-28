@@ -227,20 +227,6 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
-            lead:
-            title: Anti-COVID-konform
-            description: >-
-              Equa World hilft dabei, die soziale Distanzierung zu bewahren in den Gebäuden die Sie verwalten. Die Bewohner können Dokumente und Ankündigungen lesen und gemeinsame Wäschereien buchen, ohne sich im Eingangsflur oder in den Waschraum befinden zu müssen; dies führt zu selteneren Begegnungen zwischen den Bewohnern, was die COVID-Ansteckungsrisiko vermindert.
-          -
-            image: /assets/my/images/550x367/remote-work-550x367.jpg
-            lead:
-            title: Unterstützt die Fernarbeit
-            description: >-
-              Mit Equa World können Ihre Mitarbeiter die Kommunikation mit den Bewohnern steuern, ohne physisch im Büro anwesend sein zu müssen.
-      -
-        pair:
-          -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
             lead:
             title: Buchungen von gemeinsamen Wäschereien aktivieren
@@ -311,6 +297,20 @@ product:
             title: Organisieren Sie Ihr Team
             description: >-
               Jedes Mitglied des Property Management-Teams kann auf eine oder mehrere verschiedene Rollen für eine effiziente Arbeitsteilung spezialisiert werden. Die Person, die behauptet, dass das Property Management Company in Equa World die "Leiter"-Rolle zugewiesen wird. Leiter haben vollen Zugang zu allen Equa World-Funktionen, und sie können andere Personen an das Team hinzufügen, sei es in einer "Leiter"-Rolle oder mindestens einem von "Agenten"-, "Verwalter der Bewohnerbeziehungen"-, "Bestandsverwalter"-, "Editor"- oder "Personalleiter"-Rollen. Die vollständige Erläuterung jeder Rolle ist in der Equa Delta-App bereitgestellt.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
+            lead:
+            title: Anti-COVID-konform
+            description: >-
+              Equa World hilft dabei, die soziale Distanzierung zu bewahren in den Gebäuden die Sie verwalten. Die Bewohner können Dokumente und Ankündigungen lesen und gemeinsame Wäschereien buchen, ohne sich im Eingangsflur oder in den Waschraum befinden zu müssen; dies führt zu selteneren Begegnungen zwischen den Bewohnern, was die COVID-Ansteckungsrisiko vermindert.
+          -
+            image: /assets/my/images/550x367/remote-work-550x367.jpg
+            lead:
+            title: Unterstützt die Fernarbeit
+            description: >-
+              Mit Equa World können Ihre Mitarbeiter die Kommunikation mit den Bewohnern steuern, ohne physisch im Büro anwesend sein zu müssen.
     services:
       title: ""
       items:

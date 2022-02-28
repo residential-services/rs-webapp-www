@@ -244,20 +244,6 @@ product:
       -
         pair:
           -
-            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
-            lead:
-            title: Anti-COVID compliant
-            description: >-
-              Equa World helps enforce social distancing within the buildings you are managing. Residents can read documents & announcements and book common laundry facilities without being physically present in the entrance hallway or the laundry room; this results in less frequent encounters between residents and less chance of a COVID contagion.
-          -
-            image: /assets/my/images/550x367/remote-work-550x367.jpg
-            lead:
-            title: Enables remote work
-            description: >-
-              With Equa World, your staff members can manage communications with residents without having to be physically present in the company premises.
-      -
-        pair:
-          -
             image: /assets/my/images/550x367/equa-delta-laundry-reservations-550x367.png
             lead:
             title: Enable laundry facility reservations
@@ -328,6 +314,20 @@ product:
             title: Organize your team
             description: >-
               Each member of the property management team can specialise in one or more roles for an efficient division of labor. The person who claims the property management company within Equa World is assigned the "chief" role. Chiefs has full access to all Equa World functions, and they can add other people to the team, be it in a "chief" role, or at least one of "agent", "resident relations manager", "inventory manager", "editor" or "HR manager" roles. Full explanation of each role is provided in the Equa Delta app.
+      -
+        pair:
+          -
+            image: /assets/my/images/550x367/anti-covid-550x367.jpeg
+            lead:
+            title: Anti-COVID compliant
+            description: >-
+              Equa World helps enforce social distancing within the buildings you are managing. Residents can read documents & announcements and book common laundry facilities without being physically present in the entrance hallway or the laundry room; this results in less frequent encounters between residents and less chance of a COVID contagion.
+          -
+            image: /assets/my/images/550x367/remote-work-550x367.jpg
+            lead:
+            title: Enables remote work
+            description: >-
+              With Equa World, your staff members can manage communications with residents without having to be physically present in the company premises.
     services:
       title: ""
       items:
