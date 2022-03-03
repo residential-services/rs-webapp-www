@@ -258,6 +258,8 @@ product:
               A document can be a lease document or a house rules document for example.
               Announcements have an expiration date attached to them, and can pertain to an event such as a repair job or a local gathering for example.
               Residents can read their documents and announcements within the Equa Phi app wherever they are.
+              When sending confidential documents to residents, we recommend the PDF format and an online storage service such as Google Drive.
+              For non-confidential documents, an online blog site such as paper.wf is perfect (to add images to your articles, use a service such as imgbb.com or https://dopiaza.org/tools/datauri/index.php).
       -
         pair:
           -

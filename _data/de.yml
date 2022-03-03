@@ -79,7 +79,7 @@ homepage:
     link: /product/property-managers/
   splash:
     - Konform Anti-COVID
-    - Unterstützt Fernarbeit
+    - Unterstützt die Fernarbeit
 customers:
   pm: 
     header:
@@ -241,6 +241,8 @@ product:
               Ein Dokument kann beispielsweise ein Mietvertrag oder ein Hausordnungsdokument sein.
               Ankündigungen haben ein Verfallsdatum, und können sich auf ein zeitbegrenztes Ereignis wie beispielsweise eine Reparatur oder eine lokale Versammlung beziehen.
               Die Bewohner können ihre Dokumente und Ankündigungen mit der Equa Phi-App lesen, wo immer sie sich befinden.
+              Für das Versenden von vertraulichen Dokumenten an Bewohner empfehlen wir dem Immobilienbewirtschafter das PDF-Format und Google Drive oder einen ähnlichen Online-Speicher.
+              Für nicht-vertrauliche Dokumente ist ein Blog z.B. auf paper.wf perfekt geeignet (um Bilder zu Ihren Artikeln hinzuzufügen, verwenden Sie einen Dienst wie imgbb.com oder https://dopiaza.org/tools/datauri/index.php).
       -
         pair:
           -

@@ -257,6 +257,8 @@ product:
               Un document peut être un contrat de location ou un règlement d'immeuble par exemple.
               Les annonces ont une date d'expiration et peuvent se rapporter à un événement tel que des travaux de réparation ou une fête locale par exemple.
               Les résidents peuvent lire leurs documents et annonces avec l'application Equa Phi.
+              Pour les documents confidentiels que les gérants envoient aux habitants, nous recommandons le format PDF et un service de stockage tel que Google Drive.
+              Pour des documents non confidentiels, un blog sur un site tel que paper.wf convient parfaitement (pour ajouter des images à vos articles, faites appel à un service tel que imgbb.com ou https://dopiaza.org/tools/datauri/index.php).
       -
         pair:
           -
