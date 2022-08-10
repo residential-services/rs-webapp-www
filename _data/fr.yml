@@ -99,7 +99,7 @@ customers:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
       title: La connexion digitale avec vos résidents
       breadcrumbs:
-        - Equa
+        - Equa World
         - *1_0_title
         - *1_1_title
     about:
@@ -185,7 +185,7 @@ customers:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
       title: Le service gratuit adapté à vos besoins
       breadcrumbs:
-        - Equa
+        - Equa World
         - *1_0_title
         # - *1_2_title
     pricing:
@@ -236,7 +236,7 @@ product:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Logiciel de gestion des résidents. À utiliser en autonome ou en combinaison avec d'autres logiciels de gestion immobilière.
       breadcrumbs:
-        - Equa
+        - Equa World
         - *2_0_title
         - *2_1_title
     tiles:
@@ -399,7 +399,7 @@ product:
           title: Abonnement
           icon: ti-receipt
           body: >
-            Abonnements disponibles pour 1000, 2000, 3000, 4000 et 8000 unités d'habitation, au prix d'environ 0.07 € / 0.08 US$ par unité d'habitation et par mois. À acheter dans l'application Equa Delta dans la devise de votre choix. Désabonnement par simple annulation jusqu'à 24h avant la date de renouvellement. Disponible dans le monde entier. Essai gratuit de 14 jours.
+            Abonnements disponibles pour 1000, 2000, 3000, 4000 et 8000 unités d'habitation, au prix d'environ 0.07 € / 0.08 US$ par unité d'habitation et par mois. Un abonnement par succursale requis. À acheter dans l'application Equa Delta dans la devise de votre choix. Désabonnement par simple annulation jusqu'à 24h avant la date de renouvellement. Disponible dans le monde entier. Essai gratuit de 14 jours.
         -
           title: Commission pour le prélèvement du loyer SEPA
           icon: ti-receipt
@@ -457,7 +457,7 @@ product:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: L'avantage du digital à la maison #et au-delà
       breadcrumbs:
-        - Equa
+        - Equa World
         - *2_0_title
         - *2_2_title
     tiles:
@@ -566,21 +566,20 @@ company:
   about:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_80032341-cropped-1920x1200.jpg
-      title: Le monde est High-Tech
+      title: Entreprise
       breadcrumbs:
-        - Equa
+        - Equa World
         - *3_0_title
         - *3_1_title
     team:
       title: >-
-        Nous proposons des produits de haute qualité pour des entreprises et des particuliers au moyen des technologies de pointe.
+        Armangil Software est une société individuelle qui crée des logiciels pour le secteur immobilier.
       description: >-
-        L'immobilier vit actuellement une période de transformation accélérée grace au mouvement proptech qui apporte toute une nouvelle génération d'entreprises technologiques dans le secteur.
-        Dans ce contexte, nous avons fait notre devoir de développer des produits et services B2B et B2C de masse et de haute qualité.
+        Armangil Software (immatriculation suisse: CHE-268.664.734) a été fondée en 2016 par Doğa Armangil, ingénieur logiciel diplômé EPFL.
       members:
         -
           name: Doğa Armangil
-          role: Directeur général, directeur technique
+          role: Directeur général
           image: /assets/my/images/270x270/1IMG_9898-cropped-270x270.jpg
           linkedin: https://www.linkedin.com/in/dogaarmangil/
         # -
@@ -593,7 +592,7 @@ company:
       image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
       title: Contact
       breadcrumbs:
-        - Equa
+        - Equa World
         - *3_0_title
         - *3_2_title
     email:
@@ -604,6 +603,8 @@ company:
       title: Adresse
     linkedin:
       title: LinkedIn
+    zoom:
+      title: Appel vidéo Zoom
     facebook:
       title: Facebook
     action:

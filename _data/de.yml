@@ -86,7 +86,7 @@ customers:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
       title: Ihre digitale Verbindung mit den Bewohnern
       breadcrumbs:
-        - Equa
+        - Equa World
         - *1_0_title
         - *1_1_title
     about:
@@ -167,7 +167,7 @@ customers:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
       title: Der kostenlose Bewohnerservice für Ihre Bedürfnisse
       breadcrumbs:
-        - Equa
+        - Equa World
         - *1_0_title
         # - *1_2_title
     pricing:
@@ -220,7 +220,7 @@ product:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Mietererlebnis-Software. Eigenständig verwenden, oder in Zusammenhang mit anderer Immobilienverwaltungssoftware.
       breadcrumbs:
-        - Equa
+        - Equa World
         - *2_0_title
         - *2_1_title
     tiles:
@@ -381,7 +381,7 @@ product:
           title: Standard-Abo
           icon: ti-receipt
           body: >
-            Abonnements für 1000, 2000, 3000, 4000 und 8000 Wohneinheiten zum Preis von ca. 0.07 € / 0.08 US$ pro Wohneinheit und Monat. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Abonnements können bis 24 Stunden vor Erneuerung storniert werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
+            Abonnements für 1000, 2000, 3000, 4000 und 8000 Wohneinheiten zum Preis von ca. 0.07 € / 0.08 US$ pro Wohneinheit und Monat. Ein Abonnement pro Zweigstelle erforderlich. Abonnements können in der Equa-Delta-App in der von Ihnen gewählten Währung erworben werden. Abonnements können bis 24 Stunden vor Erneuerung storniert werden. Weltweit verfügbar. 14 Tage kostenlos probieren.
         -
           title: SEPA-Mieteinzugsgebühr
           icon: ti-receipt
@@ -438,7 +438,7 @@ product:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: Digital Lifestyle zuhause #und außerhalb
       breadcrumbs:
-        - Equa
+        - Equa World
         - *2_0_title
         - *2_2_title
     tiles:
@@ -536,26 +536,25 @@ product:
           title: Support
           icon: ti-support
           body: >
-            Wir stehen Ihnen gerne zu Verfügung.
+            Wir stehen Ihnen gerne zur Verfügung.
           link: /company/contact/
 company:
   about:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_80032341-cropped-1920x1200.jpg
-      title: Die Welt ist Hi-Tech
+      title: Unternehmen
       breadcrumbs:
-        - Equa
+        - Equa World
         - *3_0_title
         - *3_1_title
     team:
-      title: Mittels modernsten Technologien bieten wir hochqualitative Produkte geschäftlichen und privaten Kunden an.
+      title: Armangil Software ist ein Einzelunternehmen, und ist in der Immobilienbranche tätig.
       description: >-
-        Heutzutage ist die Immobilienbranche völlig in Aufruhr. Die aktuelle Welle von Proptech Startups ist dabei, die Branche schleunigst auf dem neuesten technologischen Stand zu bringen.
-        In dieser Umgebung haben wir es zu unserer Aufgabe gemacht, hochwertige und massentaugliche B2B und B2C Produkte und Dienste zu entwickeln.
+        Armangil Software (Schweizer Registrierung: CHE-268.664.734) wurde 2016 von Doğa Armangil, einem EPFL-Software-Ingenieur, gegründet.
       members:
         -
           name: Doğa Armangil
-          role: Geschäftsführer, Technischer Direktor
+          role: Geschäftsführer
           image: /assets/my/images/270x270/1IMG_9898-cropped-270x270.jpg
           linkedin: https://www.linkedin.com/in/dogaarmangil/
         # -
@@ -568,7 +567,7 @@ company:
       image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
       title: Kontakt
       breadcrumbs:
-        - Equa
+        - Equa World
         - *3_0_title
         - *3_2_title
     email:
@@ -579,6 +578,8 @@ company:
       title: Adresse
     linkedin:
       title: LinkedIn
+    zoom:
+      title: Zoom-Videoanruf
     facebook:
       title: Facebook
     action:

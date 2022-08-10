@@ -26,13 +26,32 @@ end
 
 # Build *************************************************
 desc 'Build the static website'
-task build: [:clean, :robots, *SITE_LANGUAGES] do # run dependencies in parallel
+task build: [:clean, *SITE_LANGUAGES] do # run dependencies in parallel
     build_redirection_pages_to_localise INTERNATIONALISED_SITE 
-	sh "bundle exec jekyll build --source . --destination '#{DESTINATION_DIRECTORY}' --verbose" 	
+	sh "bundle exec jekyll build --source . --destination '#{DESTINATION_DIRECTORY}' --verbose"
+    build_robots_files
 end
 
-desc 'Build robots.txt and sitemap.xml'
-task :robots do 
+# desc 'Build robots.txt and sitemap.xml'
+# task :robots do 
+
+# end
+
+# Duplicate the primary language files for all secondary languages
+SITE_LANGUAGES.each do |lang|
+    file lang => INTERNATIONALISED_SITE do |t|
+        cp_r "#{t.source}/", t.name
+    end
+end
+
+
+# Test *************************************************
+desc 'Start the local test server'
+task :serve do
+	sh 'bundle exec jekyll serve --livereload'
+end
+
+def build_robots_files 
     sitemap_filename = "sitemap.xml"
 
     # write robots.txt
@@ -63,20 +82,6 @@ task :robots do
 "
 
     Pathname.new("#{DESTINATION_DIRECTORY}/#{sitemap_filename}").write sitemap
-end
-
-# Duplicate the primary language files for all secondary languages
-SITE_LANGUAGES.each do |lang|
-    file lang => INTERNATIONALISED_SITE do |t|
-        cp_r "#{t.source}/", t.name
-    end
-end
-
-
-# Test *************************************************
-desc 'Start the local test server'
-task :serve do
-	sh 'bundle exec jekyll serve --livereload'
 end
 
 

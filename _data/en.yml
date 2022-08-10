@@ -99,7 +99,7 @@ customers:
       image: /assets/my/images/1920x1200/cityscape-architecture-building-new-york-city-wallpaper-1920x1200.jpg
       title: Your digital connection with residents
       breadcrumbs:
-        - Equa
+        - Equa World
         - *1_0_title
         - *1_1_title
     about:
@@ -184,7 +184,7 @@ customers:
       image: /assets/my/images/1920x1200/2018_06_29_01_28_00_5-revised-1920x1200.jpg
       title: The free resident service for your needs
       breadcrumbs:
-        - Equa
+        - Equa World
         - *1_0_title
         # - *1_2_title
     pricing:
@@ -237,7 +237,7 @@ product:
       image: /assets/my/images/nonstandard-size/La_Defense_Business_District_Paris628374288-1600x1200.jpg
       title: Resident experience solution. Use standalone or alongside other property management software.
       breadcrumbs:
-        - Equa
+        - Equa World
         - *2_0_title
         - *2_1_title
     tiles:
@@ -400,7 +400,7 @@ product:
           title: Subscription
           icon: ti-receipt
           body: >
-            Subscriptions available for 1000, 2000, 3000, 4000 and 8000 habitation units, priced at about 0.07 € / 0.06 ₤ / 0.08 US$ per habitation unit per month. One subscription per branch office recommended. Cumulating several subscriptions is possible; please contact us at support@equa.world. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Unsubscribe simply by cancelling your subscription up to 24 hours before the renewal date. Available worldwide. 14-day free trial. 
+            Subscriptions available for 1000, 2000, 3000, 4000 and 8000 habitation units, priced at about 0.07 € / 0.06 ₤ / 0.08 US$ per habitation unit per month. One subscription per branch office required. Subscriptions can be purchased inside the Equa Delta app in your chosen currency. Unsubscribe simply by cancelling your subscription up to 24 hours before the renewal date. Available worldwide. 14-day free trial. 
         -
           title: SEPA rent collection fee
           icon: ti-receipt
@@ -461,7 +461,7 @@ product:
       image: /assets/my/images/1920x1200/AdobeStock_163432157-modified-1920x1200.jpeg
       title: Digital lifestyle at home #and beyond
       breadcrumbs:
-        - Equa
+        - Equa World
         - *2_0_title
         - *2_2_title
     tiles:
@@ -572,22 +572,19 @@ company:
   about:
     header:
       image: /assets/my/images/1920x1200/AdobeStock_80032341-cropped-1920x1200.jpg
-      title: The World is High-Tech
+      title: Company
       breadcrumbs:
-        - Equa
+        - Equa World
         - *3_0_title
         - *3_1_title
     team:
-      title: Using state-of-the-art technologies, we offer high quality products to business and private customers.
+      title: Armangil Software is a sole-proprietor software company. We are active in the real estate sector.
       description: >-
-        Real estate is in turmoil nowadays.
-        Unless you were hiding under a rock, you have probably heard of the proptech movement that is 
-        bringing about a whole new generation of technology startups to the sector.
-        In this environment, we have made it our job to develop high-quality and mass-market B2B and B2C products and services.
+        Armangil Software (Swiss registration: CHE-268.664.734) was founded in 2016 by Doğa Armangil, who is an EPFL software engineer.
       members:
         -
           name: Doğa Armangil
-          role: Managing director, technical director
+          role: Executive director
           image: /assets/my/images/270x270/1IMG_9898-cropped-270x270.jpg
           linkedin: https://www.linkedin.com/in/dogaarmangil/
         # -
@@ -600,7 +597,7 @@ company:
       image: /assets/my/images/1920x1200/AdobeStock_94673457-cropped-1920x1200.jpeg
       title: Contact
       breadcrumbs:
-        - Equa
+        - Equa World
         - *3_0_title
         - *3_2_title
     email:
@@ -611,6 +608,8 @@ company:
       title: Address
     linkedin:
       title: LinkedIn
+    zoom:
+      title: Zoom video call
     facebook:
       title: Facebook
     action:
