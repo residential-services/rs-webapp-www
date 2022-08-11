@@ -406,17 +406,18 @@ product:
           icon: ti-receipt
           body: >
             ▶ Rent collection fee in Germany, Austria, Belgium, Luxembourg, Netherlands: Equa World's fee is 0.1%. Additionally, Stripe's fee is €0.35 per transaction. ▶ Rent collection fee in Cyprus, Estonia, Finland, France, Greece, Ireland, Italy, Latvia, Lithuania, Malta, Portugal, Slovakia, Slovenia, Spain: Equa World's fee is 0.1%. Additionally, Stripe's fee per transaction is 0.8% + €0.25 capped at €5.00.
-        # -
-        #   title: The resident experience app
-        #   icon: ti-mobile
-        #   body: >
-        #     Residents have their own app named Equa Phi which they can use for FREE in their daily lives.
         -
           title: The resident experience app
           icon: ti-mobile
           body: >
-            Residents have their own app which they can use for FREE in their daily lives. The default app we offer residents is Equa Phi. In addition, you can offer your own branded app to residents who are being served by one or more of your branch offices. Branded apps are priced at 82 € / 69 ₤ / 95 US$ per month; please contact us at support@equa.world.
+            Residents have their own app named Equa Phi which they can use for FREE in order to make their daily lives easier.
           link: /product/tenants/
+        # -
+        #   title: The resident experience app
+        #   icon: ti-mobile
+        #   body: >
+        #     Residents have their own app which they can use for FREE in their daily lives. The default app we offer residents is Equa Phi. In addition, you can offer your own branded app to residents who are being served by one or more of your branch offices. Branded apps are priced at 82 € / 69 ₤ / 95 US$ per month; please contact us at support@equa.world.
+        #   link: /product/tenants/
         # -
         #   title: Branded app
         #   icon: ti-receipt

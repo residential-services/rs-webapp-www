@@ -409,8 +409,14 @@ product:
           title: Une appli pour vos résidents
           icon: ti-mobile
           body: >
-            Vos résidents ont leur propre application qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne. L'application par défaut que nous proposons aux résidents est Equa Phi. De plus, vous pouvez proposer votre propre application de marque aux résidents desservis par une ou plusieurs de vos succursales. Les applications de marque sont au prix de 82 € par mois; veuillez nous contacter à support@equa.world.
+            Vos résidents ont leur propre application, qui s'appelle Equa Phi. Ils peuvent l'utiliser GRATUITEMENT pur faciliter leur vie quotidienne. 
           link: /product/tenants/
+        # -
+        #   title: Une appli pour vos résidents
+        #   icon: ti-mobile
+        #   body: >
+        #     Vos résidents ont leur propre application qu'ils peuvent utiliser GRATUITEMENT dans leur vie quotidienne. L'application par défaut que nous proposons aux résidents est Equa Phi. De plus, vous pouvez proposer votre propre application de marque aux résidents desservis par une ou plusieurs de vos succursales. Les applications de marque sont au prix de 82 € par mois; veuillez nous contacter à support@equa.world.
+        #   link: /product/tenants/
 
         # -
         #   title: Application avec votre logo et marque

@@ -391,8 +391,14 @@ product:
           title: Die Bewohner-Erlebnis-App
           icon: ti-mobile
           body: >
-            Die Bewohner haben ihre eigene App, die sie KOSTENLOS in ihrem täglichen Leben nutzen können. Die Standard-App, die wir Bewohnern anbieten, ist Equa Phi. Darüber hinaus können Sie Bewohnern, die von einer oder mehreren Ihrer Filialen betreut werden, Ihre eigene Marken-App anbieten. Marken-Apps kosten 82 € pro Monat; bitte kontaktieren Sie uns unter support@equa.world.
+            Die Bewohner haben ihre eigene App genannt Equa Phi, die sie KOSTENLOS nutzen können, um ihr tägliches Leben zu vereinfachen.
           link: /product/tenants/
+        # -
+        #   title: Die Bewohner-Erlebnis-App
+        #   icon: ti-mobile
+        #   body: >
+        #     Die Bewohner haben ihre eigene App, die sie KOSTENLOS in ihrem täglichen Leben nutzen können. Die Standard-App, die wir Bewohnern anbieten, ist Equa Phi. Darüber hinaus können Sie Bewohnern, die von einer oder mehreren Ihrer Filialen betreut werden, Ihre eigene Marken-App anbieten. Marken-Apps kosten 82 € pro Monat; bitte kontaktieren Sie uns unter support@equa.world.
+        #   link: /product/tenants/
 
         # -
         #   title: Branded-App mit Ihrem Logo und Markenbindung
