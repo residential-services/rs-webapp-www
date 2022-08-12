@@ -268,19 +268,19 @@ product:
             description: >-
               Recevez des bons de travail de vos résidents. Actualisez l'état d'avancement des travaux en spécifiant le statut du bon de travail et en ajoutant une note de texte. Pour plus d'informations concernant une demande, copiez simplement l'adresse e-mail de l'expéditeur et démarrez une conversation par courrier électronique.
           -
-            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
             lead:
-            title: Intégrez efficacement les résidents existants
+            title: Intégrez vos résidents individuellement
             description: >-
-              Nous vous recommandons d'utiliser une intégration par affiches pour vos résidents existants. Il suffit pour ceci d'afficher des posters dans vos bâtiments. Vos résidents vont scanner le code QR que l'affiche contient. Veuillez nous contacter à support@equa.world afin que nous puissions créer des affiches personnalisées pour chacun de vos bâtiments, que vous imprimerez et afficherez dans vos bâtiments gérés. Notez que vous pouvez également utiliser cette méthode d'embarquement pour les nouveaux résidents. Dans ce cas, ils devront simplement attendre leur date d'emménagement.
+              Pour l'intégration individuelle des résidents, vous avez deux options: (1) Montrer au résident son QR-Code dans l'appli Equa Delta si vous le rencontrez en personne, par exemple lors de la signature d'un contrat. (2) Envoyer au résident son code QR sous forme numérique ou papier en sauvegardant d'abord le code dans un fichier. Pour les deux options, vous pouvez choisir un texte secret que vous communiquerez au résident pour rendre le processus d'intégration plus sûr.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
+            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
             lead:
-            title: Intégrez vos nouveaux résidents
+            title: Intégrez vos résidents au moyen d'affiches
             description: >-
-              Nous vous recommandons d'utiliser une intégration par affiches, mais au cas où vous souhaiteriez intégrer un résident avant qu'il ait emménagé, vous avez deux options: (1) Montrer au résident son QR-Code dans l'appli Equa Delta si vous le rencontrez en personne, par exemple lors de la signature d'un contrat. (2) Envoyer au résident son code QR sous forme numérique ou papier en sauvegardant d'abord le code dans un fichier. Pour les deux options, vous pouvez choisir un texte secret que vous communiquerez au résident pour rendre le processus d'intégration plus sûr.
+              Alternativement à l'intégration individuelle des résidents, vous pouvez procéder à une intégration par affiches. Il vous suffit pour ceci d'afficher des posters dans vos bâtiments. Des posters dont vos résidents vont scanner le code QR. Veuillez auparavant nous contacter à l'adresse support@equa.world afin que nous puissions créer des affiches personnalisées pour chacun de vos bâtiments. Des affiches qu'ensuite vous imprimerez et afficherez dans vos bâtiments.
           -
             image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
             lead:

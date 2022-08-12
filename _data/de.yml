@@ -252,19 +252,19 @@ product:
             description: >-
               Erhalten Sie Arbeitsaufträge von Ihren Bewohnern, und verfolgen Sie deren Fortschritt, indem Sie den Arbeitsauftragsstatus einstellen und einen Textanmerkung anhängen. Um nach weiteren Informationen zu einem Auftrag zu fordern, kopieren Sie einfach die E-Mail-Adresse des Absenders und senden Sie ein E-Mail.
           -
-            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
+            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
             lead:
-            title: Bestehende Bewohner effizient einbinden
+            title: Die Bewohner individuell einbinden
             description: >-
-              Wir empfehlen, dass Sie unsere Poster-basierte Einbindungsmethode für Ihre bestehenden Einwohner verwenden. Legen Sie einfach Poster in Ihren Gebäuden auf und lassen Sie Bewohner den QR-Code scannen, der das Poster enthält. Senden Sie eine E-Mail an support@equa.world, damit wir für jedes Ihrer Gebäude maßgeschneiderte Poster erstellen können, die Sie dann ausdrucken und in verwalteten Gebäuden aufstellen werden. Beachten Sie, dass Sie diese Einbindungsmethode auch für neue Bewohner verwenden können; in diesem Fall müssen Bewohner auf ihr Einzug warten.
+              Um die Bewohner individuell einzubinden haben Sie zwei Möglichkeiten: (1) Den Bewohnern ihre QR-Codes auf Ihrem Handy mittels der Equa-Delta-App anzeigen; dies ist praktisch, wenn sie dem Familienhaupt persönlich begegnen, zum Beispiel während der Unterzeichnung des Mietevertrags. (2) Den Bewohnern ihren QR-Code in digitaler oder Papierform senden, indem Sie den QR-Code zuerst in einer Datei speichern, und gegebenenfalls drucken. Für beide Optionen können Sie einen geheimen Text auswählen, den Sie dem Bewohner dann mitteilen, um den Einbindungsvorgang sicherer zu machen.
       -
         pair:
           -
-            image: /assets/my/images/550x367/equa-delta-onboarding-550x367.png
+            image: /assets/my/images/550x367/equa-phi-poster-scanning-550x367.png
             lead:
-            title: Neue Bewohner einbinden
+            title: Die Bewohner mittels plakatierter Posters einbinden
             description: >-
-              Wir empfehlen, dass Sie die Poster-basierte Einbindungsmethode verwenden, aber falls Sie einen Bewohner vor dem Einziehen einbinden möchten, haben Sie zwei Möglichkeiten: (1) Anwohner ihren QR-Code auf Ihrem Handy mit der Equa Delta-App anzeigen; dies ist praktisch, wenn sie dem Bewohner persönlich begegnen, zum Beispiel bei der Unterzeichnung des Vertrags. (2) Den Bewohnern ihren QR-Code in digitaler oder Papierform senden, indem Sie den QR-Code zuerst in einer Datei speichern. Für beide Optionen können Sie einen geheimen Text auswählen, den Sie dem Bewohner mitteilen, um die Einbindungsvorgang sicherer zu machen.
+              Als Alternative zum individuellen Einbindungsvorgang können Sie Poster einsetzen. Legen Sie dafür einfach die von uns gefertigten Poster in Ihren Gebäuden auf und lassen Sie die Bewohner den QR-Code scannen, der das Poster anzeigt. Senden Sie vorher eine E-Mail an support@equa.world, damit wir für jedes Ihrer Gebäude maßgeschneiderte Poster erstellen können, die Sie dann ausdrucken und in verwalteten Gebäuden aufstellen werden.
           -
             image: /assets/my/images/550x367/equa-delta-buildings-550x367.png
             lead:
