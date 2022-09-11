@@ -11,21 +11,20 @@
 # map: https://www.google.ch/maps/place/Avenue+de+Vaudagne+31,+1217+Meyrin/@46.2336606,6.0740508,17z/data=!3m1!4b1!4m5!3m4!1s0x478c630c6a9b500d:0x822d59f9717977ab!8m2!3d46.2336606!4d6.0762395
 ##endregion
 
-name:       Armangil Software
-company_id: CHE-268.664.734
-linkedin:   https://www.linkedin.com/company/armangil-software/
-zoom:       https://calendly.com/equa-world/30-minute-zoom-video-meeting
-# facebook:   https://www.facebook.com/equa.world 
-website:    https://equa.world
-email:      info@equa.world
-phone:      +41 76 681 2196
-#region address
-address:
-  - Armangil Software,
-  - Avenue de Vaudagne 31,
-  - CH-1217 Meyrin, Switzerland
-map: https://www.google.ch/maps/place/Avenue+de+Vaudagne+31,+1217+Meyrin/@46.2336606,6.0740508,17z/data=!3m1!4b1!4m5!3m4!1s0x478c630c6a9b500d:0x822d59f9717977ab!8m2!3d46.2336606!4d6.0762395
-#endregion
+  name          : Armangil Software
+  company_id    : CHE-268.664.734
+  linkedin      : https://www.linkedin.com/company/armangil-software/
+  # zoom          : https://calendly.com/equa-world/30-minute-zoom-video-meeting
+  whatsapp      : https://calendly.com/equa-world/30-minute-audio-call
+  website       : https://equa.world
+  email         : info@equa.world
+  phone         : +41 76 681 2196
+  # facebook      : https://www.facebook.com/equa.world 
+  address:
+    - Armangil Software,
+    - Avenue de Vaudagne 31,
+    - CH-1217 Meyrin, Switzerland
+  map: https://www.google.ch/maps/place/Avenue+de+Vaudagne+31,+1217+Meyrin/@46.2336606,6.0740508,17z/data=!3m1!4b1!4m5!3m4!1s0x478c630c6a9b500d:0x822d59f9717977ab!8m2!3d46.2336606!4d6.0762395
 
 app:
   tenants:

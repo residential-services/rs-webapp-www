@@ -609,6 +609,8 @@ company:
       title: Address
     linkedin:
       title: LinkedIn
+    whatsapp:
+      title: Phone or WhatsApp
     zoom:
       title: Zoom video call
     facebook:

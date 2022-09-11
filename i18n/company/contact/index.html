@@ -49,6 +49,15 @@ WARNING: Spamming risk if I put raw email addresses and phone numbers here.
 						</p>
 					</div> 
 					<!-- Icon text box 1 -->
+					{% if site.data.company.whatsapp %}
+						<div class="col-12 col-sm-6 col-md-3 icon-3xl">
+							<i class="ti ti-calendar text-dark margin-bottom-20"></i>
+							<h6 class="heading-uppercase no-margin">{{ c.whatsapp.title }}</h6>
+							<p>
+								<a href="{{ site.data.company.whatsapp }}" target='_blank'><i class="ti ti-link text-dark margin-bottom-20"></i></a>
+							</p>
+						</div>
+					{% endif %}
 					{% if site.data.company.zoom %}
 						<div class="col-12 col-sm-6 col-md-3 icon-3xl">
 							<i class="ti ti-calendar text-dark margin-bottom-20"></i>

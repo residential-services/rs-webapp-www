@@ -584,6 +584,8 @@ company:
       title: Adresse
     linkedin:
       title: LinkedIn
+    whatsapp:
+      title: Telefon oder WhatsApp
     zoom:
       title: Zoom-Videoanruf
     facebook:
